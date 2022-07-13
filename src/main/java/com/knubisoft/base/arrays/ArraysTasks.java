@@ -241,23 +241,24 @@ public interface ArraysTasks {
     /**
      * Given an integer array, return true if any value appears at least twice in the array, and return false
      * if every element is distinct.
-     *
+     * <p>
      * Example 1:
-     *
-     *     input: [1,1,1,3,3,4,3,2,4,2]
-     *     output: true
-     *
+     * <p>
+     * input: [1,1,1,3,3,4,3,2,4,2]
+     * output: true
+     * <p>
      * Example 2:
-     *
-     *     input: [1,2,3,4]
-     *     output: false
-     *
+     * <p>
+     * input: [1,2,3,4]
+     * output: false
+     * <p>
      * Example 2:
-     *
-     *     input: [10,2,1,45,67,32,11,109,209,2,1,10]
-     *     output: true
+     * <p>
+     * input: [10,2,1,45,67,32,11,109,209,2,1,10]
+     * output: true
      *
      * @param array Array with integers.
+     * @return
      */
     boolean containsDuplicate(int[] array);
 
