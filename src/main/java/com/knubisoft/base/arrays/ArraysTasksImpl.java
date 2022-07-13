@@ -1,6 +1,7 @@
 package com.knubisoft.base.arrays;
 
 import org.apache.commons.lang3.ArrayUtils;
+
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
@@ -17,7 +18,7 @@ public class ArraysTasksImpl implements ArraysTasks {
     public int[] mergeArrays(int[] array1, int[] array2) {
         int a1 = array1.length;
         int b1 = array2.length;
-        int [] mergedArray = new int [a1 + b1];
+        int[] mergedArray = new int[a1 + b1];
         System.arraycopy(array1, 0, mergedArray, 0, a1);
         System.arraycopy(array2, 0, mergedArray, a1, b1);
         System.out.println(Arrays.toString(mergedArray));
@@ -41,51 +42,47 @@ public class ArraysTasksImpl implements ArraysTasks {
     public int findLongestIncreasingContinuesSubsequence(int[] array) {
         int count = 0;
         int result = 0;
-            for (int i = 0; i < array.length; i++) {
-                if (i == 0) {
+        for (int i = 0; i < array.length; i++) {
+            if (i == 0) {
+                count++;
+            } else {
+                if (array[i] > array[i - 1]) {
                     count++;
                 } else {
-                    if (array[i] > array[i - 1]) {
-                        count++;
-                    } else {
-                        result = Math.max(result, count);
-                        count = 1;
-                    }
+                    result = Math.max(result, count);
+                    count = 1;
                 }
             }
+        }
         return Math.max(result, count);
     }
 
     @Override
     public int sumOfAllUniqueElements(int[] array) {
-        /*if(array.length>2) {
+
+        int sum;
+        if (array.length > 2) {
             Arrays.sort(array);
-            int sum = array[0];
-            for (int i = 1; i < array.length-1; i++) {
-                if (array[i] != array[i+1]) {
-                    sum += array[i];
+            sum = array[0];
+            for (int i = 0; i < array.length - 1; i++) {
+                if (array[i] != array[i + 1]) {
+                    sum += array[i + 1];
                 }
             }
-            return sum;
+        } else if (array.length > 1) {
+            sum = array[0] + array[1];
         } else
-            return array[0];*/
-
-        HashSet<Integer> hashSet = new HashSet<>();
-        int sum = 0;
-        for (int j : array) {
-            if (!hashSet.contains(j)) {
-                sum += j;
-                hashSet.add(j);
-            }
-        }
-
-        /*Set<Integer> hashSet = new HashSet<>();
-        int sum =0;
-        for (int each: array) {
-            hashSet.add(each);
-            sum += each;
-        }*/
+            sum = 0;
         return sum;
+        //        HashSet<Integer> hashSet = new HashSet<>();
+//        int sum = 0;
+//        for (int j : array) {
+//            if (!hashSet.contains(j)) {
+//                sum += j;
+//                hashSet.add(j);
+//            }
+//        }
+//        return sum;
     }
 
     @Override
@@ -125,11 +122,11 @@ public class ArraysTasksImpl implements ArraysTasks {
         /* sort the array of strings */
         Arrays.sort(words);
         /* find the minimum length from first and last string */
-        int end = Math.min(words[0].length(), words[size-1].length());
+        int end = Math.min(words[0].length(), words[size - 1].length());
         /* find the common prefix between the first and
            last string */
         int i = 0;
-        while (i < end && words[0].charAt(i) == words[size-1].charAt(i) )
+        while (i < end && words[0].charAt(i) == words[size - 1].charAt(i))
             i++;
         return words[0].substring(0, i);
     }
@@ -137,8 +134,8 @@ public class ArraysTasksImpl implements ArraysTasks {
     @Override
     public int missingNumber(int[] array) {
         // formula - sumTotal= n*(n+1)/2
-        int n=array.length;
-        int sum=n*(n+1)/2;
+        int n = array.length;
+        int sum = n * (n + 1) / 2;
         for (int j : array) sum -= j;
         return sum;
     }
