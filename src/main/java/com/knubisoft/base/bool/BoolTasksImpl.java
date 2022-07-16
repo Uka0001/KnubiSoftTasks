@@ -33,7 +33,7 @@ public class BoolTasksImpl implements BoolTasks {
 
     @Override
     public boolean andFunction(int digit, String string) {
-        if (string == null) /*&& string.equals(" ") && string.equals(""))*/ {
+        if (string == null) {
             return false;
         } else if (string.isEmpty()) {
             return false;
@@ -54,7 +54,7 @@ public class BoolTasksImpl implements BoolTasks {
 
     @Override
     public boolean orFunction(int digit, String string) {
-        if (string == null || string.equals(" ") || string.equals("")) {
+        if (string == null || string.isEmpty() /*string.equals(" ") || string.equals("")*/) {
             return false;
         } else {
             try{
@@ -71,21 +71,40 @@ public class BoolTasksImpl implements BoolTasks {
 
     @Override
     public boolean andComplexFunction(int generatedFirstDigit, double generatedSecondDigit, int range) {
-        return false;
+        return generatedFirstDigit == generatedSecondDigit;
     }
 
     @Override
     public boolean orComplexFunction(int generatedFirstDigit, double generatedSecondDigit, int generatedThirdDigit, int range) {
-        return false;
+        return generatedFirstDigit == generatedSecondDigit || generatedFirstDigit == generatedThirdDigit || generatedThirdDigit== generatedSecondDigit;
     }
 
     @Override
     public boolean isSameSizeArray(Object[] firstArray, Object... secondArray) {
-        return false;
+        if (firstArray == null || secondArray == null){
+            return false;
+        } else if (firstArray.length == secondArray.length) {
+            return true;
+        } else
+            return false;
     }
 
     @Override
     public boolean isSameCharactersCount(String username, String name, int maxLength) {
-        return false;
+        if (username == null || name == null || username.isEmpty() || name.isEmpty() || maxLength == 0) {
+            return false;
+        } else {
+            int count = 0;
+            for (int i = 0; i < username.length(); i++) {
+                if (username.charAt(i) != ' ')
+                    count++;
+            }
+            int count1 = 0;
+            for (int i = 0; i < name.length(); i++) {
+                if (name.charAt(i) != ' ')
+                    count1++;
+            }
+            return count == count1;
+        }
     }
 }
