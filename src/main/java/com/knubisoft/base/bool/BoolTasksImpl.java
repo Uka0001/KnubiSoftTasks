@@ -33,6 +33,27 @@ public class BoolTasksImpl implements BoolTasks {
 
     @Override
     public boolean andFunction(int digit, String string) {
+        if (string == null) /*&& string.equals(" ") && string.equals(""))*/ {
+            return false;
+        } else if (string.isEmpty()) {
+            return false;
+        }else {
+            try{
+                if(digit == Integer.parseInt(string)){
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+            catch (NumberFormatException ex){
+                ex.printStackTrace();
+            }
+        }
+        return false;
+    }
+
+    @Override
+    public boolean orFunction(int digit, String string) {
         if (string == null || string.equals(" ") || string.equals("")) {
             return false;
         } else {
@@ -45,12 +66,6 @@ public class BoolTasksImpl implements BoolTasks {
                 ex.printStackTrace();
             }
         }
-        return false;
-    }
-
-    @Override
-    public boolean orFunction(int digit, String string) {
-
         return false;
     }
 
