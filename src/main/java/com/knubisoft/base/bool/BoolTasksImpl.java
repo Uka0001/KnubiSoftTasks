@@ -4,31 +4,53 @@ public class BoolTasksImpl implements BoolTasks {
 
     @Override
     public Boolean isTrueAutobox(boolean value) {
-        return null;
-    }
-
-    @Override
-    public Boolean isFalseAutobox(boolean value) {
-        return null;
-    }
-
-    @Override
-    public boolean isTrueUnbox(Boolean value) {
+        if (value)
+            return true;
         return false;
     }
 
     @Override
+    public Boolean isFalseAutobox(boolean value) {
+        if (!value)
+            return false;
+        return true;
+    }
+
+    @Override
+    public boolean isTrueUnbox(Boolean value) {
+        if (value.booleanValue()){
+            value = true;
+        }
+        return value;
+    }
+
+    @Override
     public Boolean isFalseUnbox(boolean value) {
-        return null;
+        if (!Boolean.getBoolean(String.valueOf(value))){
+        }
+        return value;
     }
 
     @Override
     public boolean andFunction(int digit, String string) {
+        if (string == null || string.equals(" ") || string.equals("")) {
+            return false;
+        } else {
+            try{
+                if(digit == Integer.parseInt(string)){
+                    return true;
+                }
+            }
+            catch (NumberFormatException ex){
+                ex.printStackTrace();
+            }
+        }
         return false;
     }
 
     @Override
     public boolean orFunction(int digit, String string) {
+
         return false;
     }
 
