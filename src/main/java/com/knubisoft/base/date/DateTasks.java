@@ -1,5 +1,7 @@
 package com.knubisoft.base.date;
 
+import java.text.ParseException;
+
 public interface DateTasks {
 
     /**
@@ -28,7 +30,7 @@ public interface DateTasks {
      * @param date Random date in string format.
      * @return Number of month.
      */
-    int getMonthFromDate(String date);
+    int getMonthFromDate(String date) throws ParseException;
 
     /**
      * Given 3 input strings containing different random dates in the format [year-month-day hours:minutes:seconds],

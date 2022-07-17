@@ -3,9 +3,7 @@ package com.knubisoft.base.date;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.GregorianCalendar;
+import java.util.*;
 
 public class DateTasksImpl implements DateTasks {
 
@@ -27,12 +25,36 @@ public class DateTasksImpl implements DateTasks {
 
     @Override
     public int getMonthFromDate(String date) {
-        return -1;
+        SimpleDateFormat dateFormat = new SimpleDateFormat("E, dd MMM yyyy", Locale.ENGLISH);
+        int month;
+        Date parseDate = null;
+        try {
+            parseDate = dateFormat.parse(date);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(parseDate);
+        month = calendar.get(Calendar.MONTH);
+        return month+1;
     }
 
     @Override
     public String findBiggestDate(String date1, String date2, String date3) {
-        return null;
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        Date parseDate1 = null;
+        Date parseDate2 = null;
+        Date parseDate3 = null;
+        try {
+            parseDate1 = dateFormat.parse(date1);
+            parseDate2 = dateFormat.parse(date2);
+            parseDate3 = dateFormat.parse(date3);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        Date biggest = Collections.max(Arrays.asList(parseDate1, parseDate2, parseDate3));
+        String strDate = dateFormat.format(biggest);
+        return strDate;
     }
 
     @Override

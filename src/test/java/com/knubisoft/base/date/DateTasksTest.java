@@ -2,6 +2,8 @@ package com.knubisoft.base.date;
 
 import org.junit.jupiter.api.Test;
 
+import java.text.ParseException;
+
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -20,7 +22,7 @@ class DateTasksTest {
     }
 
     @Test
-    void getMonthFromDate() {
+    void getMonthFromDate() throws ParseException {
         assertEquals(11, dateTasks.getMonthFromDate("Mon, 26 Nov 2018"));
         assertEquals(5, dateTasks.getMonthFromDate("Tue, 06 May 1980"));
         assertEquals(1, dateTasks.getMonthFromDate("Wed, 03 Jan 2018"));
@@ -31,7 +33,7 @@ class DateTasksTest {
     }
 
     @Test
-    void findBiggestDate() {
+    void findBiggestDate() throws ParseException {
         assertEquals("2022-05-17 18:42:51",
                 dateTasks.findBiggestDate("2015-01-22 10:15:55", "2022-05-17 18:42:51", "2022-02-19 18:42:51"));
         assertEquals("2022-05-17 18:42:53",
