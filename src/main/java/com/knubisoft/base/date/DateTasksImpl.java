@@ -1,9 +1,11 @@
 package com.knubisoft.base.date;
 
+import java.sql.Time;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 
@@ -74,7 +76,10 @@ public class DateTasksImpl implements DateTasks {
 
     @Override
     public String sumTimes(String time1, String time2) {
-        return null;
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
+        String sum = LocalTime.parse(time1).plusSeconds(LocalTime.parse(time2)
+                .toSecondOfDay()).format(formatter);
+        return sum;
     }
 
     @Override
