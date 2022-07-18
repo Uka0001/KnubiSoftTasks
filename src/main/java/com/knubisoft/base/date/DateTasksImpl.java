@@ -2,8 +2,13 @@ package com.knubisoft.base.date;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.*;
+
+import static java.time.temporal.TemporalAdjusters.firstDayOfMonth;
+import static java.time.temporal.TemporalAdjusters.lastDayOfMonth;
 
 public class DateTasksImpl implements DateTasks {
 
@@ -59,7 +64,12 @@ public class DateTasksImpl implements DateTasks {
 
     @Override
     public String getLastDayOfTheMonth(String date) {
-        return null;
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        formatter = formatter.withLocale(Locale.ENGLISH );
+        LocalDate date1 = LocalDate.parse(date, formatter);
+        LocalDate start = date1.with(firstDayOfMonth());
+        LocalDate end = date1.with(lastDayOfMonth());
+        return end.toString();
     }
 
     @Override

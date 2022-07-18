@@ -50,8 +50,10 @@ public interface DateTasks {
     String findBiggestDate(String date1, String date2, String date3);
 
     /**
-     * Given an input string containing random date in [year-month-day] format, your task is to parse the input
-     * string to the object for working with date and time, and return the last day of the month in same string format
+     * Given an input string containing random date in
+     * [year-month-day] format, your task is to parse the input
+     * string to the object for working with date and time,
+     * and return the last day of the month in same string format
      * as input string.
      *
      * Example:
