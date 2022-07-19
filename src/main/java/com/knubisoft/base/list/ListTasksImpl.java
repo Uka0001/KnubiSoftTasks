@@ -23,12 +23,15 @@ public class ListTasksImpl implements ListTasks {
             }
             return elements;
         } catch (NullPointerException e){
-            throw new IllegalArgumentException();
+            throw new IllegalArgumentException("IllegalArgumentException");
+        } catch (IndexOutOfBoundsException e){
+            throw new IllegalArgumentException("IllegalArgumentException");
         }
     }
 
     @Override
     public ArrayList<String> addElementsByIndexes(ArrayList<String> elements, int[] indexes) {
+
         return null;
     }
 
