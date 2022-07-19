@@ -7,7 +7,11 @@ import java.util.List;
 public class ListTasksImpl implements ListTasks {
     @Override
     public List<String> addElements(String... elements) {
-        return null;
+        List<String> newElements = new ArrayList<>();
+        for (int i = 0; i<elements.length; i++){
+            newElements.add(elements[i]);
+        }
+        return newElements;
     }
 
     @Override
