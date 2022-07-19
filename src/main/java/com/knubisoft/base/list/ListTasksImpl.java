@@ -22,27 +22,44 @@ public class ListTasksImpl implements ListTasks {
                 elements.add(elements.get(index));
             }
             return elements;
-        } catch (NullPointerException e){
-            throw new IllegalArgumentException("IllegalArgumentException");
-        } catch (IndexOutOfBoundsException e){
+        } catch (NullPointerException | IndexOutOfBoundsException e){
             throw new IllegalArgumentException("IllegalArgumentException");
         }
     }
 
     @Override
     public ArrayList<String> addElementsByIndexes(ArrayList<String> elements, int[] indexes) {
-
-        return null;
+        try {
+            for (int index : indexes) {
+                elements.add(index, elements.get(index));
+            }
+            return elements;
+        } catch (NullPointerException | IndexOutOfBoundsException e){
+            throw new IllegalArgumentException("IllegalArgumentException");
+        }
     }
 
     @Override
     public LinkedList<String> setElementsByIndexes(LinkedList<String> elements, int[] indexes) {
-        return null;
+        try {
+            for (int index : indexes) {
+                elements.set(index, elements.get(index));
+            }
+            return elements;
+        } catch (NullPointerException | IndexOutOfBoundsException e){
+            throw new IllegalArgumentException("IllegalArgumentException");
+        }
     }
 
     @Override
     public int getListSize(List<String> list) {
-        return -1;
+        if (list == null){
+            return 0;
+        } else if (list.isEmpty()){
+            return 0;
+        } else {
+            return list.size();
+        }
     }
 
     @Override
