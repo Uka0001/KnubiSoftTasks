@@ -3,12 +3,13 @@ package com.knubisoft.base.date;
 import java.sql.Time;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
+import java.time.*;
 import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
+import java.time.temporal.TemporalAdjusters;
 import java.util.*;
 
+import static java.time.temporal.ChronoUnit.DAYS;
 import static java.time.temporal.TemporalAdjusters.firstDayOfMonth;
 import static java.time.temporal.TemporalAdjusters.lastDayOfMonth;
 
@@ -84,21 +85,40 @@ public class DateTasksImpl implements DateTasks {
 
     @Override
     public String getDateAfter2Weeks(String date) {
-        return null;
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        formatter = formatter.withLocale(Locale.ENGLISH );
+        LocalDate date1 = LocalDate.parse(date, formatter);
+        return date1.plusWeeks(2).toString();
     }
 
     @Override
     public long getNumberOfDaysBetweenTwoDates(String date1, String date2) {
-        return -1;
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        formatter = formatter.withLocale(Locale.ENGLISH );
+        LocalDate dateStart = LocalDate.parse(date1, formatter);
+        LocalDate dateFinish = LocalDate.parse(date2, formatter);
+        long daysBetween = DAYS.between(dateStart, dateFinish);
+        return daysBetween;
     }
 
     @Override
     public String[] getTheNextAndPreviousFriday(String date) {
-        return null;
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        formatter = formatter.withLocale(Locale.ENGLISH );
+        LocalDate dateStart = LocalDate.parse(date, formatter);
+        LocalDate fridayNext = dateStart.with(TemporalAdjusters.next(DayOfWeek.FRIDAY));
+        LocalDate fridayPrevious = dateStart.with(TemporalAdjusters.previous(DayOfWeek.FRIDAY));
+        String [] arr = {fridayPrevious.toString(), fridayNext.toString()};
+        return arr;
     }
 
     @Override
     public int getNumberOfMonthsRemainingInTheYear(String date) {
-        return -1;
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        formatter = formatter.withLocale(Locale.ENGLISH );
+        LocalDate dateStart = LocalDate.parse(date, formatter);
+        LocalDate lastDayOfYear = dateStart.with(TemporalAdjusters.lastDayOfYear());
+        Period period = dateStart.until(lastDayOfYear);
+        return period.getMonths();
     }
 }
