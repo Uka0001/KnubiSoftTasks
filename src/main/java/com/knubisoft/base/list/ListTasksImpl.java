@@ -1,6 +1,7 @@
 package com.knubisoft.base.list;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -8,7 +9,7 @@ public class ListTasksImpl implements ListTasks {
     @Override
     public List<String> addElements(String... elements) {
         List<String> newElements = new ArrayList<>();
-        for (int i = 0; i<elements.length; i++){
+        for (int i = 0; i < elements.length; i++) {
             newElements.add(elements[i]);
         }
         return newElements;
@@ -16,7 +17,14 @@ public class ListTasksImpl implements ListTasks {
 
     @Override
     public List<String> getElementsByIndexes(List<String> elements, int[] indexes) {
-        return null;
+        try {
+            for (int index : indexes) {
+                elements.add(elements.get(index));
+            }
+            return elements;
+        } catch (NullPointerException e){
+            throw new IllegalArgumentException();
+        }
     }
 
     @Override
