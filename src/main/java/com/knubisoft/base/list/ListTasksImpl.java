@@ -1,9 +1,8 @@
 package com.knubisoft.base.list;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class ListTasksImpl implements ListTasks {
     @Override
@@ -64,7 +63,16 @@ public class ListTasksImpl implements ListTasks {
 
     @Override
     public List<Long> merge(List<Integer> first, List<Long> second, List<String> third) {
-        return null;
+
+        /*Stream<Integer> list1 = first.stream();
+        Stream<Long> list2 = second.stream();
+        List<Integer> list3Int = third.stream()
+                    .map(Integer::parseInt).toList();
+        Stream<Integer> streamInt = list3Int.stream();
+        Stream<Long> list= (Stream<Long>) Stream.concat(list1, list2, streamInt);
+        return list.collect(Collectors.toList());*/
+
+        return second;
     }
 
     @Override
