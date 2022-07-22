@@ -1,0 +1,97 @@
+
+3src/main/java/com/knubisoft/base/queue/car/Car.javaÕ
+ com.knubisoft.base.queue.car.CarCLASS=
+3src/main/java/com/knubisoft/base/queue/car/Car.java ("'
+packagecom.knubisoft.base.queue.car"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"a
+declarationStringL<mark class="modifier">public </mark><mark class="modifier">class </mark>Car"
+accesspublic*Car2å
+>com.knubisoft.base.queue.car.Car.Car(java.lang.String, double)DECLARATION=
+3src/main/java/com/knubisoft/base/queue/car/Car.java (2y
++com.knubisoft.base.queue.car.Car.getBrand()DECLARATION=
+3src/main/java/com/knubisoft/base/queue/car/Car.java (2y
++com.knubisoft.base.queue.car.Car.getPrice()DECLARATION=
+3src/main/java/com/knubisoft/base/queue/car/Car.java (2~
+0com.knubisoft.base.queue.car.Car?brand@4.25:4.30DECLARATION=
+3src/main/java/com/knubisoft/base/queue/car/Car.java (2~
+0com.knubisoft.base.queue.car.Car?price@5.25:5.30DECLARATION=
+3src/main/java/com/knubisoft/base/queue/car/Car.java (à
+
+>com.knubisoft.base.queue.car.Car.Car(java.lang.String, double)CONSTRUCTOR=
+3src/main/java/com/knubisoft/base/queue/car/Car.java ("–
+declarationString∫<mark class="modifier">public </mark><mark class="method">Car</mark>(String brand<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">double</mark> price)*Car2ã
+Dcom.knubisoft.base.queue.car.Car.Car(java.lang.String, double)!brandCALL=
+3src/main/java/com/knubisoft/base/queue/car/Car.java (2ã
+Dcom.knubisoft.base.queue.car.Car.Car(java.lang.String, double)!priceCALL=
+3src/main/java/com/knubisoft/base/queue/car/Car.java	 	(2w
+0com.knubisoft.base.queue.car.Car?brand@4.25:4.30CALL=
+3src/main/java/com/knubisoft/base/queue/car/Car.java (2w
+0com.knubisoft.base.queue.car.Car?price@5.25:5.30CALL=
+3src/main/java/com/knubisoft/base/queue/car/Car.java	 	(2ê
+Dcom.knubisoft.base.queue.car.Car.Car(java.lang.String, double)!brand	PARAMETER=
+3src/main/java/com/knubisoft/base/queue/car/Car.java (2ê
+Dcom.knubisoft.base.queue.car.Car.Car(java.lang.String, double)!price	PARAMETER=
+3src/main/java/com/knubisoft/base/queue/car/Car.java$ ()2n
+ com.knubisoft.base.queue.car.CarRETURN_TYPE=
+3src/main/java/com/knubisoft/base/queue/car/Car.java (µ
+Dcom.knubisoft.base.queue.car.Car.Car(java.lang.String, double)!brand	PARAMETER=
+3src/main/java/com/knubisoft/base/queue/car/Car.java ("
+typeString"
+isFinalfalse"!
+declarationStringString brand*brand2W
+java.lang.StringTYPE=
+3src/main/java/com/knubisoft/base/queue/car/Car.java (…
+Dcom.knubisoft.base.queue.car.Car.Car(java.lang.String, double)!price	PARAMETER=
+3src/main/java/com/knubisoft/base/queue/car/Car.java$ ()"
+typedouble"
+isFinalfalse"?
+declarationString*<mark class="modifier">double</mark> price*price2M
+doubleTYPE=
+3src/main/java/com/knubisoft/base/queue/car/Car.java (#ú
++com.knubisoft.base.queue.car.Car.getBrand()METHOD=
+3src/main/java/com/knubisoft/base/queue/car/Car.java ("
+isFinalfalse"g
+declarationStringR<mark class="modifier">public </mark>String <mark class="method">getBrand</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getBrand2w
+0com.knubisoft.base.queue.car.Car?brand@4.25:4.30CALL=
+3src/main/java/com/knubisoft/base/queue/car/Car.java (2^
+java.lang.StringRETURN_TYPE=
+3src/main/java/com/knubisoft/base/queue/car/Car.java (±
++com.knubisoft.base.queue.car.Car.getPrice()METHOD=
+3src/main/java/com/knubisoft/base/queue/car/Car.java ("
+isFinalfalse"Ö
+declarationStringp<mark class="modifier">public </mark><mark class="modifier">double</mark> <mark class="method">getPrice</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typedouble*getPrice2w
+0com.knubisoft.base.queue.car.Car?price@5.25:5.30CALL=
+3src/main/java/com/knubisoft/base/queue/car/Car.java (2T
+doubleRETURN_TYPE=
+3src/main/java/com/knubisoft/base/queue/car/Car.java (Æ
+0com.knubisoft.base.queue.car.Car?brand@4.25:4.30VALUE=
+3src/main/java/com/knubisoft/base/queue/car/Car.java ("
+isFinaltrue"
+typeString"å
+declarationStringw<mark class="modifier">private </mark><mark class="modifier">final </mark>String <mark class="class-field">brand</mark>"
+isStaticfalse"
+accessprivate*brand2W
+java.lang.StringTYPE=
+3src/main/java/com/knubisoft/base/queue/car/Car.java (√
+0com.knubisoft.base.queue.car.Car?price@5.25:5.30VALUE=
+3src/main/java/com/knubisoft/base/queue/car/Car.java ("
+isFinaltrue"
+typedouble"´
+declarationStringï<mark class="modifier">private </mark><mark class="modifier">final </mark><mark class="modifier">double</mark> <mark class="class-field">price</mark>"
+isStaticfalse"
+accessprivate*price2M
+doubleTYPE=
+3src/main/java/com/knubisoft/base/queue/car/Car.java (

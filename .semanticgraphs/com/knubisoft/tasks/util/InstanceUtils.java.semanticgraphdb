@@ -1,0 +1,132 @@
+
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java¯
+&com.knubisoft.tasks.util.InstanceUtilsCLASSC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java ("#
+packagecom.knubisoft.tasks.util"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"k
+declarationStringV<mark class="modifier">public </mark><mark class="modifier">class </mark>InstanceUtils"
+accesspublic*InstanceUtils2ë
+=com.knubisoft.tasks.util.InstanceUtils.of(java.lang.Class<T>)DECLARATIONC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java (…
+=com.knubisoft.tasks.util.InstanceUtils.of(java.lang.Class<T>)METHODC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java ("
+isFinalfalse"ñ
+declarationStringÄ<mark class="modifier">public </mark><mark class="modifier">static </mark>T <mark class="method">of</mark>(Class&lt;T&gt; clazz)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"	
+typeT*of2d
+java.util.Set.isEmpty()CALLC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java (2f
+java.util.Iterator.next()CALLC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.javaH (L2e
+java.util.Set.iterator()CALLC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java= (E2j
+java.lang.Class.newInstance()CALLC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java( (32l
+java.lang.Class.getSimpleName()CALLC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.javaU (b2ä
+=java.lang.RuntimeException.RuntimeException(java.lang.String)CALLC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java (&2ä
+=java.lang.RuntimeException.RuntimeException(java.lang.String)CALLC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java (&2†
+Scom.knubisoft.tasks.util.InstanceUtils.of(java.lang.Class<T>)?reflections@9.20:9.31CALLC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java
+- 
+(82ê
+Ccom.knubisoft.tasks.util.InstanceUtils.of(java.lang.Class<T>)!clazzCALLC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java
+G 
+(L2°
+Tcom.knubisoft.tasks.util.InstanceUtils.of(java.lang.Class<T>)?subTypesOf@10.32:10.42CALLC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java (2ê
+Ccom.knubisoft.tasks.util.InstanceUtils.of(java.lang.Class<T>)!clazzCALLC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.javaS (X2°
+Tcom.knubisoft.tasks.util.InstanceUtils.of(java.lang.Class<T>)?subTypesOf@10.32:10.42CALLC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java2 (<2´
+^com.knubisoft.tasks.util.InstanceUtils.of(java.lang.Class<T>)?targetImplementation@16.27:16.47CALLC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java ('2´
+^com.knubisoft.tasks.util.InstanceUtils.of(java.lang.Class<T>)?targetImplementation@16.27:16.47CALLC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java@ (T2ï
+Ccom.knubisoft.tasks.util.InstanceUtils.of(java.lang.Class<T>)!clazz	PARAMETERC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java$ ()2ß
+Scom.knubisoft.tasks.util.InstanceUtils.of(java.lang.Class<T>)?reflections@9.20:9.31DECLARATIONC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java	 	(2®
+Tcom.knubisoft.tasks.util.InstanceUtils.of(java.lang.Class<T>)?subTypesOf@10.32:10.42DECLARATIONC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java
+  
+(*2≤
+^com.knubisoft.tasks.util.InstanceUtils.of(java.lang.Class<T>)?targetImplementation@16.27:16.47DECLARATIONC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java (/2ü
+Kcom.knubisoft.tasks.util.InstanceUtils.of(java.lang.Class<T>)?e@19.65:19.66DECLARATIONC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.javaA (B2U
+TRETURN_TYPEC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java (2ñ
+?com.knubisoft.tasks.util.InstanceUtils.of(java.lang.Class<T>).TTYPE_PARAMETERC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java (‘
+Scom.knubisoft.tasks.util.InstanceUtils.of(java.lang.Class<T>)?reflections@9.20:9.31VARIABLEC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java	 	("
+typeReflections"
+isFinalfalse"è
+declarationStringz<mark class="modifier"> </mark>Reflections <mark class="class-field">reflections</mark> = new Reflections("com.knubisoft")*reflections2h
+org.reflections.ReflectionsTYPEC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java	 	(˚
+Tcom.knubisoft.tasks.util.InstanceUtils.of(java.lang.Class<T>)?subTypesOf@10.32:10.42VARIABLEC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java
+  
+(*"
+typeSet<Class<? extends T>>"
+isFinalfalse"õ
+declarationStringÖ<mark class="modifier"> </mark>Set<Class<? extends T>> <mark class="class-field">subTypesOf</mark> = reflections.getSubTypesOf(clazz)*
+subTypesOf2Z
+java.util.SetTYPEC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java
+ 
+(2e
+java.lang.ClassTYPE_ARGUMENTC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java
+ 
+(2†
+Scom.knubisoft.tasks.util.InstanceUtils.of(java.lang.Class<T>)?reflections@9.20:9.31CALLC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java
+- 
+(82ê
+Ccom.knubisoft.tasks.util.InstanceUtils.of(java.lang.Class<T>)!clazzCALLC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java
+G 
+(L„
+^com.knubisoft.tasks.util.InstanceUtils.of(java.lang.Class<T>)?targetImplementation@16.27:16.47VARIABLEC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java (/"
+typeClass<? extends T>"
+isFinalfalse"ú
+declarationStringÜ<mark class="modifier"> </mark>Class<? extends T> <mark class="class-field">targetImplementation</mark> = subTypesOf.iterator().next()*targetImplementation2\
+java.lang.ClassTYPEC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java (2f
+java.util.Iterator.next()CALLC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.javaH (L2e
+java.util.Set.iterator()CALLC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java= (E2°
+Tcom.knubisoft.tasks.util.InstanceUtils.of(java.lang.Class<T>)?subTypesOf@10.32:10.42CALLC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java2 (<ˇ
+Ccom.knubisoft.tasks.util.InstanceUtils.of(java.lang.Class<T>)!clazz	PARAMETERC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java$ ()"
+typeClass<T>"
+isFinalfalse"G
+declarationString2Class<<mark class="type-parameter">T</mark>> clazz*clazz2\
+java.lang.ClassTYPEC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java ( 2ï
+?com.knubisoft.tasks.util.InstanceUtils.of(java.lang.Class<T>).TTYPE_ARGUMENTC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java! ("≈
+Kcom.knubisoft.tasks.util.InstanceUtils.of(java.lang.Class<T>)?e@19.65:19.66VARIABLEC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.javaA (B"7
+type/InstantiationException | IllegalAccessException"
+isFinalfalse"F
+declarationString1InstantiationException | IllegalAccessException e*e2ê
+Cjava.lang.InstantiationException | java.lang.IllegalAccessExceptionTYPEC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java (@ô
+?com.knubisoft.tasks.util.InstanceUtils.of(java.lang.Class<T>).TTYPE_PARAMETERC
+9src/test/java/com/knubisoft/tasks/util/InstanceUtils.java (*T

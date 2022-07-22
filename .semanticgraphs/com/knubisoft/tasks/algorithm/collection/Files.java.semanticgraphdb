@@ -1,0 +1,240 @@
+
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaµ
+.com.knubisoft.tasks.algorithm.collection.FilesTRAITK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.java ("3
+package(com.knubisoft.tasks.algorithm.collection"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"g
+declarationStringR<mark class="modifier">public </mark><mark class="modifier">interface </mark>Files"
+accesspublic*Files2¥
+Xcom.knubisoft.tasks.algorithm.collection.Files.contentEquals(java.io.File, java.io.File)DECLARATIONK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.java! !(2ø
+ccom.knubisoft.tasks.algorithm.collection.Files.copyDirectoryToDirectory(java.io.File, java.io.File)DECLARATIONK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.java:	 :(!2ª
+_com.knubisoft.tasks.algorithm.collection.Files.toString(java.net.URL, java.nio.charset.Charset)DECLARATIONK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaE E(2¬
+fcom.knubisoft.tasks.algorithm.collection.Files.toString(java.io.InputStream, java.nio.charset.Charset)DECLARATIONK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaV V(2§
+Hcom.knubisoft.tasks.algorithm.collection.Files.toByteArray(java.net.URL)DECLARATIONK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javab b(2®
+Jcom.knubisoft.tasks.algorithm.collection.Files.normalize(java.lang.String)DECLARATIONM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaé é(2æ
+`com.knubisoft.tasks.algorithm.collection.Files.readLines(java.io.File, java.nio.charset.Charset)DECLARATIONM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaù ù(2´
+Mcom.knubisoft.tasks.algorithm.collection.Files.isEmptyDirectory(java.io.File)DECLARATIONM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.java© ©(µ
+Xcom.knubisoft.tasks.algorithm.collection.Files.contentEquals(java.io.File, java.io.File)METHODK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.java! !("
+isFinalfalse"≥
+declarationStringù<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">contentEquals</mark>(final File file1<mark class="modifier"><mark class="modifier">,</mark></mark> final File file2)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IOException"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*contentEquals2∏
+^com.knubisoft.tasks.algorithm.collection.Files.contentEquals(java.io.File, java.io.File)!file1	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.java!% !(*2∏
+^com.knubisoft.tasks.algorithm.collection.Files.contentEquals(java.io.File, java.io.File)!file2	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.java!7 !(<2c
+booleanRETURN_TYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.java! !(‚
+^com.knubisoft.tasks.algorithm.collection.Files.contentEquals(java.io.File, java.io.File)!file1	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.java!% !(*"
+typeFile"
+isFinaltrue"
+declarationString
+File file1*file12a
+java.io.FileTYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.java!  !($‚
+^com.knubisoft.tasks.algorithm.collection.Files.contentEquals(java.io.File, java.io.File)!file2	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.java!7 !(<"
+typeFile"
+isFinaltrue"
+declarationString
+File file2*file22a
+java.io.FileTYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.java!2 !(6˝
+ccom.knubisoft.tasks.algorithm.collection.Files.copyDirectoryToDirectory(java.io.File, java.io.File)METHODK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.java:	 :(!"
+isFinalfalse"»
+declarationString≤<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">copyDirectoryToDirectory</mark>(final File sourceDir<mark class="modifier"><mark class="modifier">,</mark></mark> final File destinationDir)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IOException"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*copyDirectoryToDirectory2«
+mcom.knubisoft.tasks.algorithm.collection.Files.copyDirectoryToDirectory(java.io.File, java.io.File)!sourceDir	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.java:- :(62Ã
+rcom.knubisoft.tasks.algorithm.collection.Files.copyDirectoryToDirectory(java.io.File, java.io.File)!destinationDir	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.java:C :(Q2`
+voidRETURN_TYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.java: :(˘
+mcom.knubisoft.tasks.algorithm.collection.Files.copyDirectoryToDirectory(java.io.File, java.io.File)!sourceDir	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.java:- :(6"
+typeFile"
+isFinaltrue"#
+declarationStringFile sourceDir*	sourceDir2a
+java.io.FileTYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.java:( :(,à
+rcom.knubisoft.tasks.algorithm.collection.Files.copyDirectoryToDirectory(java.io.File, java.io.File)!destinationDir	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.java:C :(Q"
+typeFile"
+isFinaltrue"(
+declarationStringFile destinationDir*destinationDir2a
+java.io.FileTYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.java:> :(B≠
+_com.knubisoft.tasks.algorithm.collection.Files.toString(java.net.URL, java.nio.charset.Charset)METHODK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaE E("
+isFinalfalse"í
+declarationString¸<mark class="modifier"> </mark>String <mark class="method">toString</mark>(final URL url<mark class="modifier"><mark class="modifier">,</mark></mark> final Charset encoding)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IOException"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*toString2Ω
+ccom.knubisoft.tasks.algorithm.collection.Files.toString(java.net.URL, java.nio.charset.Charset)!url	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaE E(!2¬
+hcom.knubisoft.tasks.algorithm.collection.Files.toString(java.net.URL, java.nio.charset.Charset)!encoding	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaE1 E(92l
+java.lang.StringRETURN_TYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaE E(
+·
+ccom.knubisoft.tasks.algorithm.collection.Files.toString(java.net.URL, java.nio.charset.Charset)!url	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaE E(!"
+typeURL"
+isFinaltrue"
+declarationStringURL url*url2a
+java.net.URLTYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaE E(Ñ
+hcom.knubisoft.tasks.algorithm.collection.Files.toString(java.net.URL, java.nio.charset.Charset)!encoding	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaE1 E(9"
+typeCharset"
+isFinaltrue"%
+declarationStringCharset encoding*encoding2m
+java.nio.charset.CharsetTYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaE) E(0Ã
+fcom.knubisoft.tasks.algorithm.collection.Files.toString(java.io.InputStream, java.nio.charset.Charset)METHODK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaV V("
+isFinalfalse"õ
+declarationStringÖ<mark class="modifier"> </mark>String <mark class="method">toString</mark>(final InputStream input<mark class="modifier"><mark class="modifier">,</mark></mark> final Charset charset)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IOException"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*toString2∆
+lcom.knubisoft.tasks.algorithm.collection.Files.toString(java.io.InputStream, java.nio.charset.Charset)!input	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaV& V(+2»
+ncom.knubisoft.tasks.algorithm.collection.Files.toString(java.io.InputStream, java.nio.charset.Charset)!charset	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaV; V(B2l
+java.lang.StringRETURN_TYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaV V(
+Ö
+lcom.knubisoft.tasks.algorithm.collection.Files.toString(java.io.InputStream, java.nio.charset.Charset)!input	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaV& V(+"
+typeInputStream"
+isFinaltrue"&
+declarationStringInputStream input*input2h
+java.io.InputStreamTYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaV V(%à
+ncom.knubisoft.tasks.algorithm.collection.Files.toString(java.io.InputStream, java.nio.charset.Charset)!charset	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaV; V(B"
+typeCharset"
+isFinaltrue"$
+declarationStringCharset charset*charset2m
+java.nio.charset.CharsetTYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaV3 V(:‚
+Hcom.knubisoft.tasks.algorithm.collection.Files.toByteArray(java.net.URL)METHODK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javab b("
+isFinalfalse"¡
+declarationString´<mark class="modifier"> </mark>byte[] <mark class="method">toByteArray</mark>(final URL url)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IOException"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typebyte[]*toByteArray2¶
+Lcom.knubisoft.tasks.algorithm.collection.Files.toByteArray(java.net.URL)!url	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javab! b($2b
+byte[]RETURN_TYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javab b(
+ 
+Lcom.knubisoft.tasks.algorithm.collection.Files.toByteArray(java.net.URL)!url	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javab! b($"
+typeURL"
+isFinaltrue"
+declarationStringURL url*url2a
+java.net.URLTYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javab b( Æ
+Jcom.knubisoft.tasks.algorithm.collection.Files.normalize(java.lang.String)METHODM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaé é("
+isFinalfalse"w
+declarationStringb<mark class="modifier"> </mark>String <mark class="method">normalize</mark>(final String fileName)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*	normalize2Ø
+Scom.knubisoft.tasks.algorithm.collection.Files.normalize(java.lang.String)!fileName	PARAMETERM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaé" é(*2n
+java.lang.StringRETURN_TYPEM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaé é(
+È
+Scom.knubisoft.tasks.algorithm.collection.Files.normalize(java.lang.String)!fileName	PARAMETERM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaé" é(*"
+typeString"
+isFinaltrue"$
+declarationStringString fileName*fileName2g
+java.lang.StringTYPEM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaé é(!ƒ	
+`com.knubisoft.tasks.algorithm.collection.Files.readLines(java.io.File, java.nio.charset.Charset)METHODM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaù ù("
+isFinalfalse"†
+declarationStringä<mark class="modifier"> </mark>List&lt;String&gt; <mark class="method">readLines</mark>(final File file<mark class="modifier"><mark class="modifier">,</mark></mark> final Charset charset)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IOException"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeList<String>*	readLines2¡
+ecom.knubisoft.tasks.algorithm.collection.Files.readLines(java.io.File, java.nio.charset.Charset)!file	PARAMETERM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaù& ù(*2ƒ
+hcom.knubisoft.tasks.algorithm.collection.Files.readLines(java.io.File, java.nio.charset.Charset)!charset	PARAMETERM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaù: ù(A2l
+java.util.ListRETURN_TYPEM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaù ù(2w
+java.lang.StringRETURN_TYPE_ARGUMENTM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaù	 ù(Î
+ecom.knubisoft.tasks.algorithm.collection.Files.readLines(java.io.File, java.nio.charset.Charset)!file	PARAMETERM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaù& ù(*"
+typeFile"
+isFinaltrue"
+declarationString	File file*file2c
+java.io.FileTYPEM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaù! ù(%Ü
+hcom.knubisoft.tasks.algorithm.collection.Files.readLines(java.io.File, java.nio.charset.Charset)!charset	PARAMETERM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaù: ù(A"
+typeCharset"
+isFinaltrue"$
+declarationStringCharset charset*charset2o
+java.nio.charset.CharsetTYPEM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.javaù2 ù(9€
+Mcom.knubisoft.tasks.algorithm.collection.Files.isEmptyDirectory(java.io.File)METHODM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.java© ©("
+isFinalfalse"ù
+declarationStringá<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isEmptyDirectory</mark>(final File directory)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isEmptyDirectory2≥
+Wcom.knubisoft.tasks.algorithm.collection.Files.isEmptyDirectory(java.io.File)!directory	PARAMETERM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.java©( ©(12e
+booleanRETURN_TYPEM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.java© ©(Á
+Wcom.knubisoft.tasks.algorithm.collection.Files.isEmptyDirectory(java.io.File)!directory	PARAMETERM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.java©( ©(1"
+typeFile"
+isFinaltrue"#
+declarationStringFile directory*	directory2c
+java.io.FileTYPEM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Files.java©# ©('

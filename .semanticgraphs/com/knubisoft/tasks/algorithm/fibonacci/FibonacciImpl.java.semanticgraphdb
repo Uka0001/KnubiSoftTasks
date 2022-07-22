@@ -1,0 +1,37 @@
+
+Hsrc/main/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImpl.javañ
+5com.knubisoft.tasks.algorithm.fibonacci.FibonacciImplCLASSR
+Hsrc/main/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImpl.java ("2
+package'com.knubisoft.tasks.algorithm.fibonacci"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¢
+declarationStringå<mark class="modifier">public </mark><mark class="modifier">class </mark>FibonacciImpl<mark class="modifier"><br>implements </mark>Fibonacci"
+accesspublic*FibonacciImpl2∏
+Ucom.knubisoft.tasks.algorithm.fibonacci.FibonacciImpl.generateNFibonacciSequence(int)DECLARATIONR
+Hsrc/main/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImpl.java ()2è
+1com.knubisoft.tasks.algorithm.fibonacci.FibonacciEXTENDR
+Hsrc/main/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImpl.java& (/Ë
+Ucom.knubisoft.tasks.algorithm.fibonacci.FibonacciImpl.generateNFibonacciSequence(int)METHODR
+Hsrc/main/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImpl.java ()"
+isFinalfalse"Ê
+declarationString–<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">generateNFibonacciSequence</mark>(<mark class="modifier">int</mark> n)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*generateNFibonacciSequence2±
+Qcom.knubisoft.tasks.algorithm.fibonacci.Fibonacci.generateNFibonacciSequence(int)OVERRIDER
+Hsrc/main/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImpl.java ()2∏
+Wcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImpl.generateNFibonacciSequence(int)!n	PARAMETERR
+Hsrc/main/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImpl.java. (/2f
+intRETURN_TYPER
+Hsrc/main/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImpl.java (ı
+Wcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImpl.generateNFibonacciSequence(int)!n	PARAMETERR
+Hsrc/main/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImpl.java. (/"
+typeint"
+isFinalfalse"8
+declarationString#<mark class="modifier">int</mark> n*n2_
+intTYPER
+Hsrc/main/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImpl.java* (-

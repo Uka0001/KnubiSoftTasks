@@ -1,0 +1,186 @@
+
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.javaÙ
+'com.knubisoft.tasks.algorithm.ModelRootCLASSD
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java	 	("(
+packagecom.knubisoft.tasks.algorithm"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"g
+declarationStringR<mark class="modifier">public </mark><mark class="modifier">class </mark>ModelRoot"
+accesspublic*	ModelRoot2é
+9com.knubisoft.tasks.algorithm.ModelRoot?items@11.22:11.27DECLARATIOND
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java (Æ
+9com.knubisoft.tasks.algorithm.ModelRoot?items@11.22:11.27VARIABLED
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java ("
+isFinalfalse"
+type
+List<Item>"k
+declarationStringV<mark class="modifier">public </mark>List<Item> <mark class="class-field">items</mark>"
+isStaticfalse"
+accesspublic*items2\
+java.util.ListTYPED
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java (2É
+,com.knubisoft.tasks.algorithm.ModelRoot.ItemTYPE_ARGUMENTD
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java (ö
+.com.knubisoft.tasks.algorithm.ModelRoot.BatterCLASSD
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java ("2
+package'com.knubisoft.tasks.algorithm.ModelRoot"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"d
+declarationStringO<mark class="modifier">public </mark><mark class="modifier">class </mark>Batter"
+accesspublic*Batter2í
+=com.knubisoft.tasks.algorithm.ModelRoot.Batter?id@14.22:14.24DECLARATIOND
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java (2î
+?com.knubisoft.tasks.algorithm.ModelRoot.Batter?type@15.22:15.26DECLARATIOND
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java (†
+=com.knubisoft.tasks.algorithm.ModelRoot.Batter?id@14.22:14.24VARIABLED
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java ("
+isFinalfalse"
+typeString"d
+declarationStringO<mark class="modifier">public </mark>String <mark class="class-field">id</mark>"
+isStaticfalse"
+accesspublic*id2^
+java.lang.StringTYPED
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java (¶
+?com.knubisoft.tasks.algorithm.ModelRoot.Batter?type@15.22:15.26VARIABLED
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java ("
+isFinalfalse"
+typeString"f
+declarationStringQ<mark class="modifier">public </mark>String <mark class="class-field">type</mark>"
+isStaticfalse"
+accesspublic*type2^
+java.lang.StringTYPED
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java (È	
+,com.knubisoft.tasks.algorithm.ModelRoot.ItemCLASSD
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java ("2
+package'com.knubisoft.tasks.algorithm.ModelRoot"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"b
+declarationStringM<mark class="modifier">public </mark><mark class="modifier">class </mark>Item"
+accesspublic*Item2ê
+;com.knubisoft.tasks.algorithm.ModelRoot.Item?id@19.19:19.21DECLARATIOND
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java (2í
+=com.knubisoft.tasks.algorithm.ModelRoot.Item?type@20.22:20.26DECLARATIOND
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java (2í
+=com.knubisoft.tasks.algorithm.ModelRoot.Item?name@21.22:21.26DECLARATIOND
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java (2ë
+<com.knubisoft.tasks.algorithm.ModelRoot.Item?ppu@22.22:22.25DECLARATIOND
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java (2ï
+@com.knubisoft.tasks.algorithm.ModelRoot.Item?batters@23.23:23.30DECLARATIOND
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java (2ï
+@com.knubisoft.tasks.algorithm.ModelRoot.Item?topping@24.29:24.36DECLARATIOND
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java ($©
+;com.knubisoft.tasks.algorithm.ModelRoot.Item?id@19.19:19.21VARIABLED
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java ("
+isFinalfalse"
+typeint"
+declarationStringj<mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="class-field">id</mark>"
+isStaticfalse"
+accesspublic*id2Q
+intTYPED
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java (§
+=com.knubisoft.tasks.algorithm.ModelRoot.Item?type@20.22:20.26VARIABLED
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java ("
+isFinalfalse"
+typeString"f
+declarationStringQ<mark class="modifier">public </mark>String <mark class="class-field">type</mark>"
+isStaticfalse"
+accesspublic*type2^
+java.lang.StringTYPED
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java (§
+=com.knubisoft.tasks.algorithm.ModelRoot.Item?name@21.22:21.26VARIABLED
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java ("
+isFinalfalse"
+typeString"f
+declarationStringQ<mark class="modifier">public </mark>String <mark class="class-field">name</mark>"
+isStaticfalse"
+accesspublic*name2^
+java.lang.StringTYPED
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java (∂
+<com.knubisoft.tasks.algorithm.ModelRoot.Item?ppu@22.22:22.25VARIABLED
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java ("
+isFinalfalse"
+typedouble"É
+declarationStringn<mark class="modifier">public </mark><mark class="modifier">double</mark> <mark class="class-field">ppu</mark>"
+isStaticfalse"
+accesspublic*ppu2T
+doubleTYPED
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java (Œ
+@com.knubisoft.tasks.algorithm.ModelRoot.Item?batters@23.23:23.30VARIABLED
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java ("
+isFinalfalse"
+typeBatters"j
+declarationStringU<mark class="modifier">public </mark>Batters <mark class="class-field">batters</mark>"
+isStaticfalse"
+accesspublic*batters2}
+/com.knubisoft.tasks.algorithm.ModelRoot.BattersTYPED
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java (¬
+@com.knubisoft.tasks.algorithm.ModelRoot.Item?topping@24.29:24.36VARIABLED
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java ($"
+isFinalfalse"
+typeList<Topping>"p
+declarationString[<mark class="modifier">public </mark>List<Topping> <mark class="class-field">topping</mark>"
+isStaticfalse"
+accesspublic*topping2\
+java.util.ListTYPED
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java (2Ü
+/com.knubisoft.tasks.algorithm.ModelRoot.ToppingTYPE_ARGUMENTD
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java (ã
+/com.knubisoft.tasks.algorithm.ModelRoot.BattersCLASSD
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java ("2
+package'com.knubisoft.tasks.algorithm.ModelRoot"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"e
+declarationStringP<mark class="modifier">public </mark><mark class="modifier">class </mark>Batters"
+accesspublic*Batters2ó
+Bcom.knubisoft.tasks.algorithm.ModelRoot.Batters?batter@28.28:28.34DECLARATIOND
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java ("ø
+Bcom.knubisoft.tasks.algorithm.ModelRoot.Batters?batter@28.28:28.34VARIABLED
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java (""
+isFinalfalse"
+typeList<Batter>"n
+declarationStringY<mark class="modifier">public </mark>List<Batter> <mark class="class-field">batter</mark>"
+isStaticfalse"
+accesspublic*batter2\
+java.util.ListTYPED
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java (2Ö
+.com.knubisoft.tasks.algorithm.ModelRoot.BatterTYPE_ARGUMENTD
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java (ü
+/com.knubisoft.tasks.algorithm.ModelRoot.ToppingCLASSD
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java ("2
+package'com.knubisoft.tasks.algorithm.ModelRoot"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"e
+declarationStringP<mark class="modifier">public </mark><mark class="modifier">class </mark>Topping"
+accesspublic*Topping2ì
+>com.knubisoft.tasks.algorithm.ModelRoot.Topping?id@32.22:32.24DECLARATIOND
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java   (2ï
+@com.knubisoft.tasks.algorithm.ModelRoot.Topping?type@33.22:33.26DECLARATIOND
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java! !(°
+>com.knubisoft.tasks.algorithm.ModelRoot.Topping?id@32.22:32.24VARIABLED
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java   ("
+isFinalfalse"
+typeString"d
+declarationStringO<mark class="modifier">public </mark>String <mark class="class-field">id</mark>"
+isStaticfalse"
+accesspublic*id2^
+java.lang.StringTYPED
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java   (ß
+@com.knubisoft.tasks.algorithm.ModelRoot.Topping?type@33.22:33.26VARIABLED
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java! !("
+isFinalfalse"
+typeString"f
+declarationStringQ<mark class="modifier">public </mark>String <mark class="class-field">type</mark>"
+isStaticfalse"
+accesspublic*type2^
+java.lang.StringTYPED
+:src/main/java/com/knubisoft/tasks/algorithm/ModelRoot.java! !(

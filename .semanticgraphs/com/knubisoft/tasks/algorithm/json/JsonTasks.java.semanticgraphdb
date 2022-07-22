@@ -1,0 +1,109 @@
+
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.javaô
+,com.knubisoft.tasks.algorithm.json.JsonTasksTRAITI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java ("-
+package"com.knubisoft.tasks.algorithm.json"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"k
+declarationStringV<mark class="modifier">public </mark><mark class="modifier">interface </mark>JsonTasks"
+accesspublic*	JsonTasks2¢
+Hcom.knubisoft.tasks.algorithm.json.JsonTasks.parseJson(java.lang.String)DECLARATIONI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java	 	(2¢
+Hcom.knubisoft.tasks.algorithm.json.JsonTasks.getAllIds(java.lang.String)DECLARATIONI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java (2Ø
+Ucom.knubisoft.tasks.algorithm.json.JsonTasks.getNameWithIdMoreThan1(java.lang.String)DECLARATIONI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java ('2§
+Jcom.knubisoft.tasks.algorithm.json.JsonTasks.getAllItems(java.lang.String)DECLARATIONI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java ()Æ
+Hcom.knubisoft.tasks.algorithm.json.JsonTasks.parseJson(java.lang.String)METHODI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java	 	("
+isFinalfalse"p
+declarationString[<mark class="modifier"> </mark>ModelRoot <mark class="method">parseJson</mark>(String json)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+type	ModelRoot*	parseJson2•
+Mcom.knubisoft.tasks.algorithm.json.JsonTasks.parseJson(java.lang.String)!json	PARAMETERI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java	 	(#2Å
+'com.knubisoft.tasks.algorithm.ModelRootRETURN_TYPEI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java	 	(‘
+Mcom.knubisoft.tasks.algorithm.json.JsonTasks.parseJson(java.lang.String)!json	PARAMETERI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java	 	(#"
+typeString"
+isFinalfalse" 
+declarationStringString json*json2c
+java.lang.StringTYPEI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java	 	(ò
+Hcom.knubisoft.tasks.algorithm.json.JsonTasks.getAllIds(java.lang.String)METHODI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java ("
+isFinalfalse"z
+declarationStringe<mark class="modifier"> </mark>List&lt;Integer&gt; <mark class="method">getAllIds</mark>(String json)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeList<Integer>*	getAllIds2•
+Mcom.knubisoft.tasks.algorithm.json.JsonTasks.getAllIds(java.lang.String)!json	PARAMETERI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java# ('2h
+java.util.ListRETURN_TYPEI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java (2t
+java.lang.IntegerRETURN_TYPE_ARGUMENTI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java	 (‘
+Mcom.knubisoft.tasks.algorithm.json.JsonTasks.getAllIds(java.lang.String)!json	PARAMETERI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java# ('"
+typeString"
+isFinalfalse" 
+declarationStringString json*json2c
+java.lang.StringTYPEI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java (" 
+Ucom.knubisoft.tasks.algorithm.json.JsonTasks.getNameWithIdMoreThan1(java.lang.String)METHODI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java ('"
+isFinalfalse"Ü
+declarationStringq<mark class="modifier"> </mark>List&lt;String&gt; <mark class="method">getNameWithIdMoreThan1</mark>(String json)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeList<String>*getNameWithIdMoreThan12≤
+Zcom.knubisoft.tasks.algorithm.json.JsonTasks.getNameWithIdMoreThan1(java.lang.String)!json	PARAMETERI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java/ (32h
+java.util.ListRETURN_TYPEI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java (2s
+java.lang.StringRETURN_TYPE_ARGUMENTI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java	 (·
+Zcom.knubisoft.tasks.algorithm.json.JsonTasks.getNameWithIdMoreThan1(java.lang.String)!json	PARAMETERI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java/ (3"
+typeString"
+isFinalfalse" 
+declarationStringString json*json2c
+java.lang.StringTYPEI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java( (.·
+Jcom.knubisoft.tasks.algorithm.json.JsonTasks.getAllItems(java.lang.String)METHODI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java ()"
+isFinalfalse" 
+declarationString¥<mark class="modifier"> </mark>List&lt;Map&lt;String<mark class="modifier"><mark class="modifier">,</mark></mark>String&gt;&gt; <mark class="method">getAllItems</mark>(String json)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"!
+typeList<Map<String, String>>*getAllItems2ß
+Ocom.knubisoft.tasks.algorithm.json.JsonTasks.getAllItems(java.lang.String)!json	PARAMETERI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java1 (52h
+java.util.ListRETURN_TYPEI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java (2p
+java.util.MapRETURN_TYPE_ARGUMENTI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java	 (2s
+java.lang.StringRETURN_TYPE_ARGUMENTI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java (2s
+java.lang.StringRETURN_TYPE_ARGUMENTI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java (÷
+Ocom.knubisoft.tasks.algorithm.json.JsonTasks.getAllItems(java.lang.String)!json	PARAMETERI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java1 (5"
+typeString"
+isFinalfalse" 
+declarationStringString json*json2c
+java.lang.StringTYPEI
+?src/main/java/com/knubisoft/tasks/algorithm/json/JsonTasks.java* (0

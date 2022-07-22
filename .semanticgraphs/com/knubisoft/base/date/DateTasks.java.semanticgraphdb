@@ -1,0 +1,250 @@
+
+4src/main/java/com/knubisoft/base/date/DateTasks.javaá
+!com.knubisoft.base.date.DateTasksTRAIT>
+4src/main/java/com/knubisoft/base/date/DateTasks.java (""
+packagecom.knubisoft.base.date"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"k
+declarationStringV<mark class="modifier">public </mark><mark class="modifier">interface </mark>DateTasks"
+accesspublic*	DateTasks2ä
+;com.knubisoft.base.date.DateTasks.add1Day(java.lang.String)DECLARATION>
+4src/main/java/com/knubisoft/base/date/DateTasks.java (2ì
+Dcom.knubisoft.base.date.DateTasks.getMonthFromDate(java.lang.String)DECLARATION>
+4src/main/java/com/knubisoft/base/date/DateTasks.java   (2∂
+gcom.knubisoft.base.date.DateTasks.findBiggestDate(java.lang.String, java.lang.String, java.lang.String)DECLARATION>
+4src/main/java/com/knubisoft/base/date/DateTasks.java1 1(2ó
+Hcom.knubisoft.base.date.DateTasks.getLastDayOfTheMonth(java.lang.String)DECLARATION>
+4src/main/java/com/knubisoft/base/date/DateTasks.javaB B(2ù
+Ncom.knubisoft.base.date.DateTasks.sumTimes(java.lang.String, java.lang.String)DECLARATION>
+4src/main/java/com/knubisoft/base/date/DateTasks.javaW W(2ï
+Fcom.knubisoft.base.date.DateTasks.getDateAfter2Weeks(java.lang.String)DECLARATION>
+4src/main/java/com/knubisoft/base/date/DateTasks.javae e(2≥
+dcom.knubisoft.base.date.DateTasks.getNumberOfDaysBetweenTwoDates(java.lang.String, java.lang.String)DECLARATION>
+4src/main/java/com/knubisoft/base/date/DateTasks.java~	 ~('2†
+Ocom.knubisoft.base.date.DateTasks.getTheNextAndPreviousFriday(java.lang.String)DECLARATION@
+4src/main/java/com/knubisoft/base/date/DateTasks.javaö ö((2®
+Wcom.knubisoft.base.date.DateTasks.getNumberOfMonthsRemainingInTheYear(java.lang.String)DECLARATION@
+4src/main/java/com/knubisoft/base/date/DateTasks.java≠ ≠(+—
+;com.knubisoft.base.date.DateTasks.add1Day(java.lang.String)METHOD>
+4src/main/java/com/knubisoft/base/date/DateTasks.java ("
+isFinalfalse"k
+declarationStringV<mark class="modifier"> </mark>String <mark class="method">add1Day</mark>(String date)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*add1Day2ç
+@com.knubisoft.base.date.DateTasks.add1Day(java.lang.String)!date	PARAMETER>
+4src/main/java/com/knubisoft/base/date/DateTasks.java (2_
+java.lang.StringRETURN_TYPE>
+4src/main/java/com/knubisoft/base/date/DateTasks.java (
+±
+@com.knubisoft.base.date.DateTasks.add1Day(java.lang.String)!date	PARAMETER>
+4src/main/java/com/knubisoft/base/date/DateTasks.java ("
+typeString"
+isFinalfalse" 
+declarationStringString date*date2X
+java.lang.StringTYPE>
+4src/main/java/com/knubisoft/base/date/DateTasks.java (‘
+Dcom.knubisoft.base.date.DateTasks.getMonthFromDate(java.lang.String)METHOD>
+4src/main/java/com/knubisoft/base/date/DateTasks.java   ("
+isFinalfalse"‚
+declarationStringÃ<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">getMonthFromDate</mark>(String date)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>ParseException"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*getMonthFromDate2ñ
+Icom.knubisoft.base.date.DateTasks.getMonthFromDate(java.lang.String)!date	PARAMETER>
+4src/main/java/com/knubisoft/base/date/DateTasks.java    ($2R
+intRETURN_TYPE>
+4src/main/java/com/knubisoft/base/date/DateTasks.java   (∫
+Icom.knubisoft.base.date.DateTasks.getMonthFromDate(java.lang.String)!date	PARAMETER>
+4src/main/java/com/knubisoft/base/date/DateTasks.java    ($"
+typeString"
+isFinalfalse" 
+declarationStringString date*date2X
+java.lang.StringTYPE>
+4src/main/java/com/knubisoft/base/date/DateTasks.java   (À	
+gcom.knubisoft.base.date.DateTasks.findBiggestDate(java.lang.String, java.lang.String, java.lang.String)METHOD>
+4src/main/java/com/knubisoft/base/date/DateTasks.java1 1("
+isFinalfalse"â
+declarationStringÛ<mark class="modifier"> </mark>String <mark class="method">findBiggestDate</mark>(String date1<mark class="modifier"><mark class="modifier">,</mark></mark> String date2<mark class="modifier"><mark class="modifier">,</mark></mark> String date3)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*findBiggestDate2∫
+mcom.knubisoft.base.date.DateTasks.findBiggestDate(java.lang.String, java.lang.String, java.lang.String)!date1	PARAMETER>
+4src/main/java/com/knubisoft/base/date/DateTasks.java1" 1('2∫
+mcom.knubisoft.base.date.DateTasks.findBiggestDate(java.lang.String, java.lang.String, java.lang.String)!date2	PARAMETER>
+4src/main/java/com/knubisoft/base/date/DateTasks.java10 1(52∫
+mcom.knubisoft.base.date.DateTasks.findBiggestDate(java.lang.String, java.lang.String, java.lang.String)!date3	PARAMETER>
+4src/main/java/com/knubisoft/base/date/DateTasks.java1> 1(C2_
+java.lang.StringRETURN_TYPE>
+4src/main/java/com/knubisoft/base/date/DateTasks.java1 1(
+‡
+mcom.knubisoft.base.date.DateTasks.findBiggestDate(java.lang.String, java.lang.String, java.lang.String)!date1	PARAMETER>
+4src/main/java/com/knubisoft/base/date/DateTasks.java1" 1('"
+typeString"
+isFinalfalse"!
+declarationStringString date1*date12X
+java.lang.StringTYPE>
+4src/main/java/com/knubisoft/base/date/DateTasks.java1 1(!‡
+mcom.knubisoft.base.date.DateTasks.findBiggestDate(java.lang.String, java.lang.String, java.lang.String)!date2	PARAMETER>
+4src/main/java/com/knubisoft/base/date/DateTasks.java10 1(5"
+typeString"
+isFinalfalse"!
+declarationStringString date2*date22X
+java.lang.StringTYPE>
+4src/main/java/com/knubisoft/base/date/DateTasks.java1) 1(/‡
+mcom.knubisoft.base.date.DateTasks.findBiggestDate(java.lang.String, java.lang.String, java.lang.String)!date3	PARAMETER>
+4src/main/java/com/knubisoft/base/date/DateTasks.java1> 1(C"
+typeString"
+isFinalfalse"!
+declarationStringString date3*date32X
+java.lang.StringTYPE>
+4src/main/java/com/knubisoft/base/date/DateTasks.java17 1(=Ö
+Hcom.knubisoft.base.date.DateTasks.getLastDayOfTheMonth(java.lang.String)METHOD>
+4src/main/java/com/knubisoft/base/date/DateTasks.javaB B("
+isFinalfalse"x
+declarationStringc<mark class="modifier"> </mark>String <mark class="method">getLastDayOfTheMonth</mark>(String date)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*getLastDayOfTheMonth2ö
+Mcom.knubisoft.base.date.DateTasks.getLastDayOfTheMonth(java.lang.String)!date	PARAMETER>
+4src/main/java/com/knubisoft/base/date/DateTasks.javaB' B(+2_
+java.lang.StringRETURN_TYPE>
+4src/main/java/com/knubisoft/base/date/DateTasks.javaB B(
+æ
+Mcom.knubisoft.base.date.DateTasks.getLastDayOfTheMonth(java.lang.String)!date	PARAMETER>
+4src/main/java/com/knubisoft/base/date/DateTasks.javaB' B(+"
+typeString"
+isFinalfalse" 
+declarationStringString date*date2X
+java.lang.StringTYPE>
+4src/main/java/com/knubisoft/base/date/DateTasks.javaB  B(&Î
+Ncom.knubisoft.base.date.DateTasks.sumTimes(java.lang.String, java.lang.String)METHOD>
+4src/main/java/com/knubisoft/base/date/DateTasks.javaW W("
+isFinalfalse"∏
+declarationString¢<mark class="modifier"> </mark>String <mark class="method">sumTimes</mark>(String time1<mark class="modifier"><mark class="modifier">,</mark></mark> String time2)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*sumTimes2°
+Tcom.knubisoft.base.date.DateTasks.sumTimes(java.lang.String, java.lang.String)!time1	PARAMETER>
+4src/main/java/com/knubisoft/base/date/DateTasks.javaW W( 2°
+Tcom.knubisoft.base.date.DateTasks.sumTimes(java.lang.String, java.lang.String)!time2	PARAMETER>
+4src/main/java/com/knubisoft/base/date/DateTasks.javaW) W(.2_
+java.lang.StringRETURN_TYPE>
+4src/main/java/com/knubisoft/base/date/DateTasks.javaW W(
+«
+Tcom.knubisoft.base.date.DateTasks.sumTimes(java.lang.String, java.lang.String)!time1	PARAMETER>
+4src/main/java/com/knubisoft/base/date/DateTasks.javaW W( "
+typeString"
+isFinalfalse"!
+declarationStringString time1*time12X
+java.lang.StringTYPE>
+4src/main/java/com/knubisoft/base/date/DateTasks.javaW W(«
+Tcom.knubisoft.base.date.DateTasks.sumTimes(java.lang.String, java.lang.String)!time2	PARAMETER>
+4src/main/java/com/knubisoft/base/date/DateTasks.javaW) W(."
+typeString"
+isFinalfalse"!
+declarationStringString time2*time22X
+java.lang.StringTYPE>
+4src/main/java/com/knubisoft/base/date/DateTasks.javaW" W((˝
+Fcom.knubisoft.base.date.DateTasks.getDateAfter2Weeks(java.lang.String)METHOD>
+4src/main/java/com/knubisoft/base/date/DateTasks.javae e("
+isFinalfalse"v
+declarationStringa<mark class="modifier"> </mark>String <mark class="method">getDateAfter2Weeks</mark>(String date)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*getDateAfter2Weeks2ò
+Kcom.knubisoft.base.date.DateTasks.getDateAfter2Weeks(java.lang.String)!date	PARAMETER>
+4src/main/java/com/knubisoft/base/date/DateTasks.javae% e()2_
+java.lang.StringRETURN_TYPE>
+4src/main/java/com/knubisoft/base/date/DateTasks.javae e(
+º
+Kcom.knubisoft.base.date.DateTasks.getDateAfter2Weeks(java.lang.String)!date	PARAMETER>
+4src/main/java/com/knubisoft/base/date/DateTasks.javae% e()"
+typeString"
+isFinalfalse" 
+declarationStringString date*date2X
+java.lang.StringTYPE>
+4src/main/java/com/knubisoft/base/date/DateTasks.javae e($Á
+dcom.knubisoft.base.date.DateTasks.getNumberOfDaysBetweenTwoDates(java.lang.String, java.lang.String)METHOD>
+4src/main/java/com/knubisoft/base/date/DateTasks.java~	 ~('"
+isFinalfalse"Í
+declarationString‘<mark class="modifier"> </mark><mark class="modifier">long</mark> <mark class="method">getNumberOfDaysBetweenTwoDates</mark>(String date1<mark class="modifier"><mark class="modifier">,</mark></mark> String date2)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typelong*getNumberOfDaysBetweenTwoDates2∑
+jcom.knubisoft.base.date.DateTasks.getNumberOfDaysBetweenTwoDates(java.lang.String, java.lang.String)!date1	PARAMETER>
+4src/main/java/com/knubisoft/base/date/DateTasks.java~/ ~(42∑
+jcom.knubisoft.base.date.DateTasks.getNumberOfDaysBetweenTwoDates(java.lang.String, java.lang.String)!date2	PARAMETER>
+4src/main/java/com/knubisoft/base/date/DateTasks.java~= ~(B2S
+longRETURN_TYPE>
+4src/main/java/com/knubisoft/base/date/DateTasks.java~ ~(›
+jcom.knubisoft.base.date.DateTasks.getNumberOfDaysBetweenTwoDates(java.lang.String, java.lang.String)!date1	PARAMETER>
+4src/main/java/com/knubisoft/base/date/DateTasks.java~/ ~(4"
+typeString"
+isFinalfalse"!
+declarationStringString date1*date12X
+java.lang.StringTYPE>
+4src/main/java/com/knubisoft/base/date/DateTasks.java~( ~(.›
+jcom.knubisoft.base.date.DateTasks.getNumberOfDaysBetweenTwoDates(java.lang.String, java.lang.String)!date2	PARAMETER>
+4src/main/java/com/knubisoft/base/date/DateTasks.java~= ~(B"
+typeString"
+isFinalfalse"!
+declarationStringString date2*date22X
+java.lang.StringTYPE>
+4src/main/java/com/knubisoft/base/date/DateTasks.java~6 ~(<Æ
+Ocom.knubisoft.base.date.DateTasks.getTheNextAndPreviousFriday(java.lang.String)METHOD@
+4src/main/java/com/knubisoft/base/date/DateTasks.javaö ö(("
+isFinalfalse"Å
+declarationStringl<mark class="modifier"> </mark>String[] <mark class="method">getTheNextAndPreviousFriday</mark>(String date)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString[]*getTheNextAndPreviousFriday2£
+Tcom.knubisoft.base.date.DateTasks.getTheNextAndPreviousFriday(java.lang.String)!date	PARAMETER@
+4src/main/java/com/knubisoft/base/date/DateTasks.javaö0 ö(42c
+java.lang.String[]RETURN_TYPE@
+4src/main/java/com/knubisoft/base/date/DateTasks.javaö ö(…
+Tcom.knubisoft.base.date.DateTasks.getTheNextAndPreviousFriday(java.lang.String)!date	PARAMETER@
+4src/main/java/com/knubisoft/base/date/DateTasks.javaö0 ö(4"
+typeString"
+isFinalfalse" 
+declarationStringString date*date2Z
+java.lang.StringTYPE@
+4src/main/java/com/knubisoft/base/date/DateTasks.javaö) ö(/‘
+Wcom.knubisoft.base.date.DateTasks.getNumberOfMonthsRemainingInTheYear(java.lang.String)METHOD@
+4src/main/java/com/knubisoft/base/date/DateTasks.java≠ ≠(+"
+isFinalfalse"£
+declarationStringç<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">getNumberOfMonthsRemainingInTheYear</mark>(String date)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*#getNumberOfMonthsRemainingInTheYear2´
+\com.knubisoft.base.date.DateTasks.getNumberOfMonthsRemainingInTheYear(java.lang.String)!date	PARAMETER@
+4src/main/java/com/knubisoft/base/date/DateTasks.java≠3 ≠(72T
+intRETURN_TYPE@
+4src/main/java/com/knubisoft/base/date/DateTasks.java≠ ≠(—
+\com.knubisoft.base.date.DateTasks.getNumberOfMonthsRemainingInTheYear(java.lang.String)!date	PARAMETER@
+4src/main/java/com/knubisoft/base/date/DateTasks.java≠3 ≠(7"
+typeString"
+isFinalfalse" 
+declarationStringString date*date2Z
+java.lang.StringTYPE@
+4src/main/java/com/knubisoft/base/date/DateTasks.java≠, ≠(2

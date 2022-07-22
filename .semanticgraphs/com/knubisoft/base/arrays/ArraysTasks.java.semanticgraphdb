@@ -1,0 +1,259 @@
+
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaœ
+%com.knubisoft.base.arrays.ArraysTasksTRAITB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java ("$
+packagecom.knubisoft.base.arrays"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"m
+declarationStringX<mark class="modifier">public </mark><mark class="modifier">interface </mark>ArraysTasks"
+accesspublic*ArraysTasks2á
+4com.knubisoft.base.arrays.ArraysTasks.reverse(int[])DECLARATIONB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java
+ (2í
+?com.knubisoft.base.arrays.ArraysTasks.mergeArrays(int[], int[])DECLARATIONB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java(
+ ((2è
+<com.knubisoft.base.arrays.ArraysTasks.findMax3InArray(int[])DECLARATIONB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaA
+ A(2©
+Vcom.knubisoft.base.arrays.ArraysTasks.findLongestIncreasingContinuesSubsequence(int[])DECLARATIONB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javab b(12ò
+Ccom.knubisoft.base.arrays.ArraysTasks.sumOfAllUniqueElements(int[])DECLARATIOND
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaÑ Ñ(2å
+7com.knubisoft.base.arrays.ArraysTasks.moveZeroes(int[])DECLARATIOND
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaó
+ ó(2ï
+@com.knubisoft.base.arrays.ArraysTasks.findFinalValue(int[], int)DECLARATIOND
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java∏ ∏(2¢
+Mcom.knubisoft.base.arrays.ArraysTasks.longestCommonPrefix(java.lang.String[])DECLARATIOND
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java– –(2è
+:com.knubisoft.base.arrays.ArraysTasks.missingNumber(int[])DECLARATIOND
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaÓ Ó(2ì
+>com.knubisoft.base.arrays.ArraysTasks.containsDuplicate(int[])DECLARATIOND
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaÜ Ü(Å
+4com.knubisoft.base.arrays.ArraysTasks.reverse(int[])METHODB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java
+ ("
+isFinalfalse"ß
+declarationStringë<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="method">reverse</mark>(<mark class="modifier">int</mark>[] array)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint[]*reverse2ã
+:com.knubisoft.base.arrays.ArraysTasks.reverse(int[])!array	PARAMETERB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java (2X
+int[]RETURN_TYPEB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java (	∆
+:com.knubisoft.base.arrays.ArraysTasks.reverse(int[])!array	PARAMETERB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java ("
+typeint[]"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark>[] array*array2Q
+int[]TYPEB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java (£
+?com.knubisoft.base.arrays.ArraysTasks.mergeArrays(int[], int[])METHODB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java(
+ (("
+isFinalfalse"î
+declarationString˛<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="method">mergeArrays</mark>(<mark class="modifier">int</mark>[] array1<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark>[] array2)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint[]*mergeArrays2ó
+Fcom.knubisoft.base.arrays.ArraysTasks.mergeArrays(int[], int[])!array1	PARAMETERB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java( (("2ó
+Fcom.knubisoft.base.arrays.ArraysTasks.mergeArrays(int[], int[])!array2	PARAMETERB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java(* ((02X
+int[]RETURN_TYPEB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java( ((	‘
+Fcom.knubisoft.base.arrays.ArraysTasks.mergeArrays(int[], int[])!array1	PARAMETERB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java( ((""
+typeint[]"
+isFinalfalse"?
+declarationString*<mark class="modifier">int</mark>[] array1*array12Q
+int[]TYPEB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java( ((‘
+Fcom.knubisoft.base.arrays.ArraysTasks.mergeArrays(int[], int[])!array2	PARAMETERB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java(* ((0"
+typeint[]"
+isFinalfalse"?
+declarationString*<mark class="modifier">int</mark>[] array2*array22Q
+int[]TYPEB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java($ (()°
+<com.knubisoft.base.arrays.ArraysTasks.findMax3InArray(int[])METHODB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaA
+ A("
+isFinalfalse"Ø
+declarationStringô<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="method">findMax3InArray</mark>(<mark class="modifier">int</mark>[] array)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint[]*findMax3InArray2ì
+Bcom.knubisoft.base.arrays.ArraysTasks.findMax3InArray(int[])!array	PARAMETERB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaA  A(%2X
+int[]RETURN_TYPEB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaA A(	Œ
+Bcom.knubisoft.base.arrays.ArraysTasks.findMax3InArray(int[])!array	PARAMETERB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaA  A(%"
+typeint[]"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark>[] array*array2Q
+int[]TYPEB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaA A(É
+Vcom.knubisoft.base.arrays.ArraysTasks.findLongestIncreasingContinuesSubsequence(int[])METHODB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javab b(1"
+isFinalfalse"«
+declarationString±<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">findLongestIncreasingContinuesSubsequence</mark>(<mark class="modifier">int</mark>[] array)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*)findLongestIncreasingContinuesSubsequence2≠
+\com.knubisoft.base.arrays.ArraysTasks.findLongestIncreasingContinuesSubsequence(int[])!array	PARAMETERB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javab8 b(=2V
+intRETURN_TYPEB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javab b(Ë
+\com.knubisoft.base.arrays.ArraysTasks.findLongestIncreasingContinuesSubsequence(int[])!array	PARAMETERB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javab8 b(="
+typeint[]"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark>[] array*array2Q
+int[]TYPEB
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javab2 b(7Ω
+Ccom.knubisoft.base.arrays.ArraysTasks.sumOfAllUniqueElements(int[])METHODD
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaÑ Ñ("
+isFinalfalse"¥
+declarationStringû<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">sumOfAllUniqueElements</mark>(<mark class="modifier">int</mark>[] array)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*sumOfAllUniqueElements2ú
+Icom.knubisoft.base.arrays.ArraysTasks.sumOfAllUniqueElements(int[])!array	PARAMETERD
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaÑ% Ñ(*2X
+intRETURN_TYPED
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaÑ Ñ(Ÿ
+Icom.knubisoft.base.arrays.ArraysTasks.sumOfAllUniqueElements(int[])!array	PARAMETERD
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaÑ% Ñ(*"
+typeint[]"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark>[] array*array2S
+int[]TYPED
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaÑ Ñ($ì
+7com.knubisoft.base.arrays.ArraysTasks.moveZeroes(int[])METHODD
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaó
+ ó("
+isFinalfalse"™
+declarationStringî<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="method">moveZeroes</mark>(<mark class="modifier">int</mark>[] array)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint[]*
+moveZeroes2ê
+=com.knubisoft.base.arrays.ArraysTasks.moveZeroes(int[])!array	PARAMETERD
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaó ó( 2Z
+int[]RETURN_TYPED
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaó ó(	Õ
+=com.knubisoft.base.arrays.ArraysTasks.moveZeroes(int[])!array	PARAMETERD
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaó ó( "
+typeint[]"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark>[] array*array2S
+int[]TYPED
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaó ó(¨
+@com.knubisoft.base.arrays.ArraysTasks.findFinalValue(int[], int)METHODD
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java∏ ∏("
+isFinalfalse"ì
+declarationString˝<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">findFinalValue</mark>(<mark class="modifier">int</mark>[] nums<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> original)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*findFinalValue2ò
+Ecom.knubisoft.base.arrays.ArraysTasks.findFinalValue(int[], int)!nums	PARAMETERD
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java∏ ∏(!2ú
+Icom.knubisoft.base.arrays.ArraysTasks.findFinalValue(int[], int)!original	PARAMETERD
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java∏' ∏(/2X
+intRETURN_TYPED
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java∏ ∏(”
+Ecom.knubisoft.base.arrays.ArraysTasks.findFinalValue(int[], int)!nums	PARAMETERD
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java∏ ∏(!"
+typeint[]"
+isFinalfalse"=
+declarationString(<mark class="modifier">int</mark>[] nums*nums2S
+int[]TYPED
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java∏ ∏(Ÿ
+Icom.knubisoft.base.arrays.ArraysTasks.findFinalValue(int[], int)!original	PARAMETERD
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java∏' ∏(/"
+typeint"
+isFinalfalse"?
+declarationString*<mark class="modifier">int</mark> original*original2Q
+intTYPED
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java∏# ∏(&£
+Mcom.knubisoft.base.arrays.ArraysTasks.longestCommonPrefix(java.lang.String[])METHODD
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java– –("
+isFinalfalse"z
+declarationStringe<mark class="modifier"> </mark>String <mark class="method">longestCommonPrefix</mark>(String[] words)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*longestCommonPrefix2¶
+Scom.knubisoft.base.arrays.ArraysTasks.longestCommonPrefix(java.lang.String[])!words	PARAMETERD
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java–( –(-2e
+java.lang.StringRETURN_TYPED
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java– –(
+ÿ
+Scom.knubisoft.base.arrays.ArraysTasks.longestCommonPrefix(java.lang.String[])!words	PARAMETERD
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java–( –(-"
+typeString[]"
+isFinalfalse"#
+declarationStringString[] words*words2`
+java.lang.String[]TYPED
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.java– –('ô
+:com.knubisoft.base.arrays.ArraysTasks.missingNumber(int[])METHODD
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaÓ Ó("
+isFinalfalse"´
+declarationStringï<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">missingNumber</mark>(<mark class="modifier">int</mark>[] array)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*missingNumber2ì
+@com.knubisoft.base.arrays.ArraysTasks.missingNumber(int[])!array	PARAMETERD
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaÓ Ó(!2X
+intRETURN_TYPED
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaÓ Ó(–
+@com.knubisoft.base.arrays.ArraysTasks.missingNumber(int[])!array	PARAMETERD
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaÓ Ó(!"
+typeint[]"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark>[] array*array2S
+int[]TYPED
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaÓ Ó(µ
+>com.knubisoft.base.arrays.ArraysTasks.containsDuplicate(int[])METHODD
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaÜ Ü("
+isFinalfalse"≥
+declarationStringù<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">containsDuplicate</mark>(<mark class="modifier">int</mark>[] array)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*containsDuplicate2ó
+Dcom.knubisoft.base.arrays.ArraysTasks.containsDuplicate(int[])!array	PARAMETERD
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaÜ$ Ü()2\
+booleanRETURN_TYPED
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaÜ Ü(‘
+Dcom.knubisoft.base.arrays.ArraysTasks.containsDuplicate(int[])!array	PARAMETERD
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaÜ$ Ü()"
+typeint[]"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark>[] array*array2S
+int[]TYPED
+8src/main/java/com/knubisoft/base/arrays/ArraysTasks.javaÜ Ü(#

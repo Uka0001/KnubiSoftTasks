@@ -1,0 +1,240 @@
+
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java¢
+&com.knubisoft.base.trees.TreeTasksImplCLASSC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java ("#
+packagecom.knubisoft.base.trees"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¢
+declarationStringŒ<mark class="modifier">public </mark><mark class="modifier">class </mark>TreeTasksImpl<mark class="modifier"><br>implements </mark>TreeTasks"
+accesspublic*TreeTasksImpl2à
+‹com.knubisoft.base.trees.TreeTasksImpl.isSameTree(com.knubisoft.base.trees.TreeTasks.TreeNode, com.knubisoft.base.trees.TreeTasks.TreeNode)DECLARATIONC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java (2¸
+dcom.knubisoft.base.trees.TreeTasksImpl.inorderTraversal(com.knubisoft.base.trees.TreeTasks.TreeNode)DECLARATIONC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java ()2³
+_com.knubisoft.base.trees.TreeTasksImpl.isSymmetric(com.knubisoft.base.trees.TreeTasks.TreeNode)DECLARATIONC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java (2°
+\com.knubisoft.base.trees.TreeTasksImpl.maxDepth(com.knubisoft.base.trees.TreeTasks.TreeNode)DECLARATIONC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java (2·
+ccom.knubisoft.base.trees.TreeTasksImpl.hasPathSum(com.knubisoft.base.trees.TreeTasks.TreeNode, int)DECLARATIONC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java (2²
+^com.knubisoft.base.trees.TreeTasksImpl.invertTree(com.knubisoft.base.trees.TreeTasks.TreeNode)DECLARATIONC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java! !(2·
+ccom.knubisoft.base.trees.TreeTasksImpl.sumOfLeftLeaves(com.knubisoft.base.trees.TreeTasks.TreeNode)DECLARATIONC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java& &(2à
+‹com.knubisoft.base.trees.TreeTasksImpl.mergeTrees(com.knubisoft.base.trees.TreeTasks.TreeNode, com.knubisoft.base.trees.TreeTasks.TreeNode)DECLARATIONC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java+ +(2q
+"com.knubisoft.base.trees.TreeTasksEXTENDC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java& (/ß
+
+‹com.knubisoft.base.trees.TreeTasksImpl.isSameTree(com.knubisoft.base.trees.TreeTasks.TreeNode, com.knubisoft.base.trees.TreeTasks.TreeNode)METHODC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java ("
+isFinalfalse"‘
+declarationStringû<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isSameTree</mark>(TreeNode node1<mark class="modifier"><mark class="modifier">,</mark></mark> TreeNode node2)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*
+isSameTree2Ù
+‡com.knubisoft.base.trees.TreeTasks.isSameTree(com.knubisoft.base.trees.TreeTasks.TreeNode, com.knubisoft.base.trees.TreeTasks.TreeNode)OVERRIDEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java (2ä
+‘com.knubisoft.base.trees.TreeTasksImpl.isSameTree(com.knubisoft.base.trees.TreeTasks.TreeNode, com.knubisoft.base.trees.TreeTasks.TreeNode)!node1	PARAMETERC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java' (,2ä
+‘com.knubisoft.base.trees.TreeTasksImpl.isSameTree(com.knubisoft.base.trees.TreeTasks.TreeNode, com.knubisoft.base.trees.TreeTasks.TreeNode)!node2	PARAMETERC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java7 (<2[
+booleanRETURN_TYPEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java (®
+‘com.knubisoft.base.trees.TreeTasksImpl.isSameTree(com.knubisoft.base.trees.TreeTasks.TreeNode, com.knubisoft.base.trees.TreeTasks.TreeNode)!node1	PARAMETERC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java' (,"
+typeTreeNode"
+isFinalfalse"#
+declarationStringTreeNode node1*node12x
++com.knubisoft.base.trees.TreeTasks.TreeNodeTYPEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java (&®
+‘com.knubisoft.base.trees.TreeTasksImpl.isSameTree(com.knubisoft.base.trees.TreeTasks.TreeNode, com.knubisoft.base.trees.TreeTasks.TreeNode)!node2	PARAMETERC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java7 (<"
+typeTreeNode"
+isFinalfalse"#
+declarationStringTreeNode node2*node22x
++com.knubisoft.base.trees.TreeTasks.TreeNodeTYPEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java. (6©
+dcom.knubisoft.base.trees.TreeTasksImpl.inorderTraversal(com.knubisoft.base.trees.TreeTasks.TreeNode)METHODC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java ()"
+isFinalfalse"¸
+declarationString¢<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>List&lt;Integer&gt; <mark class="method">inorderTraversal</mark>(TreeNode node)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<Integer>*inorderTraversal2±
+`com.knubisoft.base.trees.TreeTasks.inorderTraversal(com.knubisoft.base.trees.TreeTasks.TreeNode)OVERRIDEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java ()2»
+icom.knubisoft.base.trees.TreeTasksImpl.inorderTraversal(com.knubisoft.base.trees.TreeTasks.TreeNode)!node	PARAMETERC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java3 (72b
+java.util.ListRETURN_TYPEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java (2n
+java.lang.IntegerRETURN_TYPE_ARGUMENTC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java (ƒ
+icom.knubisoft.base.trees.TreeTasksImpl.inorderTraversal(com.knubisoft.base.trees.TreeTasks.TreeNode)!node	PARAMETERC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java3 (7"
+typeTreeNode"
+isFinalfalse""
+declarationStringTreeNode node*node2x
++com.knubisoft.base.trees.TreeTasks.TreeNodeTYPEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java* (2¥
+_com.knubisoft.base.trees.TreeTasksImpl.isSymmetric(com.knubisoft.base.trees.TreeTasks.TreeNode)METHODC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java ("
+isFinalfalse"Å
+declarationString¯<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isSymmetric</mark>(TreeNode node)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isSymmetric2¬
+[com.knubisoft.base.trees.TreeTasks.isSymmetric(com.knubisoft.base.trees.TreeTasks.TreeNode)OVERRIDEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java (2¶
+dcom.knubisoft.base.trees.TreeTasksImpl.isSymmetric(com.knubisoft.base.trees.TreeTasks.TreeNode)!node	PARAMETERC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java( (,2[
+booleanRETURN_TYPEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java (þ
+dcom.knubisoft.base.trees.TreeTasksImpl.isSymmetric(com.knubisoft.base.trees.TreeTasks.TreeNode)!node	PARAMETERC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java( (,"
+typeTreeNode"
+isFinalfalse""
+declarationStringTreeNode node*node2x
++com.knubisoft.base.trees.TreeTasks.TreeNodeTYPEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java ('Š
+\com.knubisoft.base.trees.TreeTasksImpl.maxDepth(com.knubisoft.base.trees.TreeTasks.TreeNode)METHODC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java ("
+isFinalfalse"¾
+declarationString¨<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">maxDepth</mark>(TreeNode node)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*maxDepth2©
+Xcom.knubisoft.base.trees.TreeTasks.maxDepth(com.knubisoft.base.trees.TreeTasks.TreeNode)OVERRIDEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java (2³
+acom.knubisoft.base.trees.TreeTasksImpl.maxDepth(com.knubisoft.base.trees.TreeTasks.TreeNode)!node	PARAMETERC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java! (%2W
+intRETURN_TYPEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java (û
+acom.knubisoft.base.trees.TreeTasksImpl.maxDepth(com.knubisoft.base.trees.TreeTasks.TreeNode)!node	PARAMETERC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java! (%"
+typeTreeNode"
+isFinalfalse""
+declarationStringTreeNode node*node2x
++com.knubisoft.base.trees.TreeTasks.TreeNodeTYPEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java ( Ú	
+ccom.knubisoft.base.trees.TreeTasksImpl.hasPathSum(com.knubisoft.base.trees.TreeTasks.TreeNode, int)METHODC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java ("
+isFinalfalse"­
+declarationString—<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">hasPathSum</mark>(TreeNode node<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> targetSum)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*
+hasPathSum2°
+_com.knubisoft.base.trees.TreeTasks.hasPathSum(com.knubisoft.base.trees.TreeTasks.TreeNode, int)OVERRIDEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java (2º
+hcom.knubisoft.base.trees.TreeTasksImpl.hasPathSum(com.knubisoft.base.trees.TreeTasks.TreeNode, int)!node	PARAMETERC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java' (+2¿
+mcom.knubisoft.base.trees.TreeTasksImpl.hasPathSum(com.knubisoft.base.trees.TreeTasks.TreeNode, int)!targetSum	PARAMETERC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java1 (:2[
+booleanRETURN_TYPEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java (‚
+hcom.knubisoft.base.trees.TreeTasksImpl.hasPathSum(com.knubisoft.base.trees.TreeTasks.TreeNode, int)!node	PARAMETERC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java' (+"
+typeTreeNode"
+isFinalfalse""
+declarationStringTreeNode node*node2x
++com.knubisoft.base.trees.TreeTasks.TreeNodeTYPEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java (&ý
+mcom.knubisoft.base.trees.TreeTasksImpl.hasPathSum(com.knubisoft.base.trees.TreeTasks.TreeNode, int)!targetSum	PARAMETERC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java1 (:"
+typeint"
+isFinalfalse"@
+declarationString+<mark class="modifier">int</mark> targetSum*	targetSum2P
+intTYPEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java- (0¨
+^com.knubisoft.base.trees.TreeTasksImpl.invertTree(com.knubisoft.base.trees.TreeTasks.TreeNode)METHODC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java! !("
+isFinalfalse"§
+declarationString‘<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>TreeNode <mark class="method">invertTree</mark>(TreeNode node)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeTreeNode*
+invertTree2«
+Zcom.knubisoft.base.trees.TreeTasks.invertTree(com.knubisoft.base.trees.TreeTasks.TreeNode)OVERRIDEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java! !(2µ
+ccom.knubisoft.base.trees.TreeTasksImpl.invertTree(com.knubisoft.base.trees.TreeTasks.TreeNode)!node	PARAMETERC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java!( !(,2
++com.knubisoft.base.trees.TreeTasks.TreeNodeRETURN_TYPEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java! !(ý
+ccom.knubisoft.base.trees.TreeTasksImpl.invertTree(com.knubisoft.base.trees.TreeTasks.TreeNode)!node	PARAMETERC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java!( !(,"
+typeTreeNode"
+isFinalfalse""
+declarationStringTreeNode node*node2x
++com.knubisoft.base.trees.TreeTasks.TreeNodeTYPEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java! !('­
+ccom.knubisoft.base.trees.TreeTasksImpl.sumOfLeftLeaves(com.knubisoft.base.trees.TreeTasks.TreeNode)METHODC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java& &("
+isFinalfalse"Å
+declarationString¯<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">sumOfLeftLeaves</mark>(TreeNode node)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*sumOfLeftLeaves2°
+_com.knubisoft.base.trees.TreeTasks.sumOfLeftLeaves(com.knubisoft.base.trees.TreeTasks.TreeNode)OVERRIDEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java& &(2º
+hcom.knubisoft.base.trees.TreeTasksImpl.sumOfLeftLeaves(com.knubisoft.base.trees.TreeTasks.TreeNode)!node	PARAMETERC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java&( &(,2W
+intRETURN_TYPEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java& &(‚
+hcom.knubisoft.base.trees.TreeTasksImpl.sumOfLeftLeaves(com.knubisoft.base.trees.TreeTasks.TreeNode)!node	PARAMETERC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java&( &(,"
+typeTreeNode"
+isFinalfalse""
+declarationStringTreeNode node*node2x
++com.knubisoft.base.trees.TreeTasks.TreeNodeTYPEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java& &('ç
+
+‹com.knubisoft.base.trees.TreeTasksImpl.mergeTrees(com.knubisoft.base.trees.TreeTasks.TreeNode, com.knubisoft.base.trees.TreeTasks.TreeNode)METHODC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java+ +("
+isFinalfalse"ô
+declarationStringÞ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>TreeNode <mark class="method">mergeTrees</mark>(TreeNode node1<mark class="modifier"><mark class="modifier">,</mark></mark> TreeNode node2)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeTreeNode*
+mergeTrees2Ù
+‡com.knubisoft.base.trees.TreeTasks.mergeTrees(com.knubisoft.base.trees.TreeTasks.TreeNode, com.knubisoft.base.trees.TreeTasks.TreeNode)OVERRIDEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java+ +(2ä
+‘com.knubisoft.base.trees.TreeTasksImpl.mergeTrees(com.knubisoft.base.trees.TreeTasks.TreeNode, com.knubisoft.base.trees.TreeTasks.TreeNode)!node1	PARAMETERC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java+( +(-2ä
+‘com.knubisoft.base.trees.TreeTasksImpl.mergeTrees(com.knubisoft.base.trees.TreeTasks.TreeNode, com.knubisoft.base.trees.TreeTasks.TreeNode)!node2	PARAMETERC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java+8 +(=2
++com.knubisoft.base.trees.TreeTasks.TreeNodeRETURN_TYPEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java+ +(®
+‘com.knubisoft.base.trees.TreeTasksImpl.mergeTrees(com.knubisoft.base.trees.TreeTasks.TreeNode, com.knubisoft.base.trees.TreeTasks.TreeNode)!node1	PARAMETERC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java+( +(-"
+typeTreeNode"
+isFinalfalse"#
+declarationStringTreeNode node1*node12x
++com.knubisoft.base.trees.TreeTasks.TreeNodeTYPEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java+ +('®
+‘com.knubisoft.base.trees.TreeTasksImpl.mergeTrees(com.knubisoft.base.trees.TreeTasks.TreeNode, com.knubisoft.base.trees.TreeTasks.TreeNode)!node2	PARAMETERC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java+8 +(="
+typeTreeNode"
+isFinalfalse"#
+declarationStringTreeNode node2*node22x
++com.knubisoft.base.trees.TreeTasks.TreeNodeTYPEC
+9src/main/java/com/knubisoft/base/trees/TreeTasksImpl.java+/ +(7

@@ -1,0 +1,323 @@
+
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java¬
+!com.knubisoft.base.bool.BoolTasksTRAIT>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java (""
+packagecom.knubisoft.base.bool"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"k
+declarationStringV<mark class="modifier">public </mark><mark class="modifier">interface </mark>BoolTasks"
+accesspublic*	BoolTasks2á
+8com.knubisoft.base.bool.BoolTasks.isTrueAutobox(boolean)DECLARATION>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java (2à
+9com.knubisoft.base.bool.BoolTasks.isFalseAutobox(boolean)DECLARATION>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java (2è
+@com.knubisoft.base.bool.BoolTasks.isTrueUnbox(java.lang.Boolean)DECLARATION>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java (2Ü
+7com.knubisoft.base.bool.BoolTasks.isFalseUnbox(boolean)DECLARATION>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java (2ì
+Dcom.knubisoft.base.bool.BoolTasks.andFunction(int, java.lang.String)DECLARATION>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java (2í
+Ccom.knubisoft.base.bool.BoolTasks.orFunction(int, java.lang.String)DECLARATION>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java% %(2ï
+Fcom.knubisoft.base.bool.BoolTasks.andComplexFunction(int, double, int)DECLARATION>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java6 6(2ô
+Jcom.knubisoft.base.bool.BoolTasks.orComplexFunction(int, double, int, int)DECLARATION>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javaH H(2©
+Zcom.knubisoft.base.bool.BoolTasks.isSameSizeArray(java.lang.Object[], java.lang.Object...)DECLARATION>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javaT T(2Ø
+`com.knubisoft.base.bool.BoolTasks.isSameCharactersCount(java.lang.String, java.lang.String, int)DECLARATION>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javal l(!¸
+8com.knubisoft.base.bool.BoolTasks.isTrueAutobox(boolean)METHOD>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java ("
+isFinalfalse"í
+declarationString}<mark class="modifier"> </mark>Boolean <mark class="method">isTrueAutobox</mark>(<mark class="modifier">boolean</mark> value)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeBoolean*isTrueAutobox2ã
+>com.knubisoft.base.bool.BoolTasks.isTrueAutobox(boolean)!value	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java" ('2`
+java.lang.BooleanRETURN_TYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java (»
+>com.knubisoft.base.bool.BoolTasks.isTrueAutobox(boolean)!value	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java" ('"
+typeboolean"
+isFinalfalse"@
+declarationString+<mark class="modifier">boolean</mark> value*value2O
+booleanTYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java (!Ä
+9com.knubisoft.base.bool.BoolTasks.isFalseAutobox(boolean)METHOD>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java ("
+isFinalfalse"ì
+declarationString~<mark class="modifier"> </mark>Boolean <mark class="method">isFalseAutobox</mark>(<mark class="modifier">boolean</mark> value)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeBoolean*isFalseAutobox2å
+?com.knubisoft.base.bool.BoolTasks.isFalseAutobox(boolean)!value	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java# ((2`
+java.lang.BooleanRETURN_TYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java (…
+?com.knubisoft.base.bool.BoolTasks.isFalseAutobox(boolean)!value	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java# (("
+typeboolean"
+isFinalfalse"@
+declarationString+<mark class="modifier">boolean</mark> value*value2O
+booleanTYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java ("˛
+@com.knubisoft.base.bool.BoolTasks.isTrueUnbox(java.lang.Boolean)METHOD>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java ("
+isFinalfalse"ê
+declarationString{<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isTrueUnbox</mark>(Boolean value)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isTrueUnbox2ì
+Fcom.knubisoft.base.bool.BoolTasks.isTrueUnbox(java.lang.Boolean)!value	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java  (%2V
+booleanRETURN_TYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java (º
+Fcom.knubisoft.base.bool.BoolTasks.isTrueUnbox(java.lang.Boolean)!value	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java  (%"
+typeBoolean"
+isFinalfalse""
+declarationStringBoolean value*value2Y
+java.lang.BooleanTYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java (¯
+7com.knubisoft.base.bool.BoolTasks.isFalseUnbox(boolean)METHOD>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java ("
+isFinalfalse"ë
+declarationString|<mark class="modifier"> </mark>Boolean <mark class="method">isFalseUnbox</mark>(<mark class="modifier">boolean</mark> value)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeBoolean*isFalseUnbox2ä
+=com.knubisoft.base.bool.BoolTasks.isFalseUnbox(boolean)!value	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java! (&2`
+java.lang.BooleanRETURN_TYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java («
+=com.knubisoft.base.bool.BoolTasks.isFalseUnbox(boolean)!value	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java! (&"
+typeboolean"
+isFinalfalse"@
+declarationString+<mark class="modifier">boolean</mark> value*value2O
+booleanTYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java ( •
+Dcom.knubisoft.base.bool.BoolTasks.andFunction(int, java.lang.String)METHOD>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java ("
+isFinalfalse"î
+declarationString˛<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">andFunction</mark>(<mark class="modifier">int</mark> digit<mark class="modifier"><mark class="modifier">,</mark></mark> String <mark class="modifier">string</mark>)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*andFunction2ó
+Jcom.knubisoft.base.bool.BoolTasks.andFunction(int, java.lang.String)!digit	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java (!2ò
+Kcom.knubisoft.base.bool.BoolTasks.andFunction(int, java.lang.String)!string	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java* (02V
+booleanRETURN_TYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java (»
+Jcom.knubisoft.base.bool.BoolTasks.andFunction(int, java.lang.String)!digit	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java (!"
+typeint"
+isFinalfalse"<
+declarationString'<mark class="modifier">int</mark> digit*digit2K
+intTYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java (ﬁ
+Kcom.knubisoft.base.bool.BoolTasks.andFunction(int, java.lang.String)!string	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java* (0"
+typeString"
+isFinalfalse"@
+declarationString+String <mark class="modifier">string</mark>*string2X
+java.lang.StringTYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java# ()†
+Ccom.knubisoft.base.bool.BoolTasks.orFunction(int, java.lang.String)METHOD>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java% %("
+isFinalfalse"ì
+declarationString˝<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">orFunction</mark>(<mark class="modifier">int</mark> digit<mark class="modifier"><mark class="modifier">,</mark></mark> String <mark class="modifier">string</mark>)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*
+orFunction2ñ
+Icom.knubisoft.base.bool.BoolTasks.orFunction(int, java.lang.String)!digit	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java% %( 2ó
+Jcom.knubisoft.base.bool.BoolTasks.orFunction(int, java.lang.String)!string	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java%) %(/2V
+booleanRETURN_TYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java% %(«
+Icom.knubisoft.base.bool.BoolTasks.orFunction(int, java.lang.String)!digit	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java% %( "
+typeint"
+isFinalfalse"<
+declarationString'<mark class="modifier">int</mark> digit*digit2K
+intTYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java% %(›
+Jcom.knubisoft.base.bool.BoolTasks.orFunction(int, java.lang.String)!string	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java%) %(/"
+typeString"
+isFinalfalse"@
+declarationString+String <mark class="modifier">string</mark>*string2X
+java.lang.StringTYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java%" %((Ú	
+Fcom.knubisoft.base.bool.BoolTasks.andComplexFunction(int, double, int)METHOD>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java6 6("
+isFinalfalse"ú
+declarationStringÜ<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">andComplexFunction</mark>(<mark class="modifier">int</mark> generatedFirstDigit<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">double</mark> generatedSecondDigit<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> range)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*andComplexFunction2ß
+Zcom.knubisoft.base.bool.BoolTasks.andComplexFunction(int, double, int)!generatedFirstDigit	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java6# 6(62®
+[com.knubisoft.base.bool.BoolTasks.andComplexFunction(int, double, int)!generatedSecondDigit	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java6? 6(S2ô
+Lcom.knubisoft.base.bool.BoolTasks.andComplexFunction(int, double, int)!range	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java6Y 6(^2V
+booleanRETURN_TYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java6 6(Ù
+Zcom.knubisoft.base.bool.BoolTasks.andComplexFunction(int, double, int)!generatedFirstDigit	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java6# 6(6"
+typeint"
+isFinalfalse"J
+declarationString5<mark class="modifier">int</mark> generatedFirstDigit*generatedFirstDigit2K
+intTYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java6 6("Ä
+[com.knubisoft.base.bool.BoolTasks.andComplexFunction(int, double, int)!generatedSecondDigit	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java6? 6(S"
+typedouble"
+isFinalfalse"N
+declarationString9<mark class="modifier">double</mark> generatedSecondDigit*generatedSecondDigit2N
+doubleTYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java68 6(> 
+Lcom.knubisoft.base.bool.BoolTasks.andComplexFunction(int, double, int)!range	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java6Y 6(^"
+typeint"
+isFinalfalse"<
+declarationString'<mark class="modifier">int</mark> range*range2K
+intTYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.java6U 6(X°
+Jcom.knubisoft.base.bool.BoolTasks.orComplexFunction(int, double, int, int)METHOD>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javaH H("
+isFinalfalse"é
+declarationString¯<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">orComplexFunction</mark>(<mark class="modifier">int</mark> generatedFirstDigit<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">double</mark> generatedSecondDigit<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> generatedThirdDigit<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> range)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*orComplexFunction2´
+^com.knubisoft.base.bool.BoolTasks.orComplexFunction(int, double, int, int)!generatedFirstDigit	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javaH" H(52¨
+_com.knubisoft.base.bool.BoolTasks.orComplexFunction(int, double, int, int)!generatedSecondDigit	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javaH> H(R2´
+^com.knubisoft.base.bool.BoolTasks.orComplexFunction(int, double, int, int)!generatedThirdDigit	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javaHX H(k2ù
+Pcom.knubisoft.base.bool.BoolTasks.orComplexFunction(int, double, int, int)!range	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javaHq H(v2V
+booleanRETURN_TYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javaH H(¯
+^com.knubisoft.base.bool.BoolTasks.orComplexFunction(int, double, int, int)!generatedFirstDigit	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javaH" H(5"
+typeint"
+isFinalfalse"J
+declarationString5<mark class="modifier">int</mark> generatedFirstDigit*generatedFirstDigit2K
+intTYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javaH H(!Ñ
+_com.knubisoft.base.bool.BoolTasks.orComplexFunction(int, double, int, int)!generatedSecondDigit	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javaH> H(R"
+typedouble"
+isFinalfalse"N
+declarationString9<mark class="modifier">double</mark> generatedSecondDigit*generatedSecondDigit2N
+doubleTYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javaH7 H(=¯
+^com.knubisoft.base.bool.BoolTasks.orComplexFunction(int, double, int, int)!generatedThirdDigit	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javaHX H(k"
+typeint"
+isFinalfalse"J
+declarationString5<mark class="modifier">int</mark> generatedThirdDigit*generatedThirdDigit2K
+intTYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javaHT H(WŒ
+Pcom.knubisoft.base.bool.BoolTasks.orComplexFunction(int, double, int, int)!range	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javaHq H(v"
+typeint"
+isFinalfalse"<
+declarationString'<mark class="modifier">int</mark> range*range2K
+intTYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javaHm H(pœ
+Zcom.knubisoft.base.bool.BoolTasks.isSameSizeArray(java.lang.Object[], java.lang.Object...)METHOD>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javaT T("
+isFinalfalse"Ó
+declarationStringÿ<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isSameSizeArray</mark>(Object[] firstArray<mark class="modifier"><mark class="modifier">,</mark></mark> Object... secondArray)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isSameSizeArray2≤
+ecom.knubisoft.base.bool.BoolTasks.isSameSizeArray(java.lang.Object[], java.lang.Object...)!firstArray	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javaT% T(/2≥
+fcom.knubisoft.base.bool.BoolTasks.isSameSizeArray(java.lang.Object[], java.lang.Object...)!secondArray	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javaT< T(G2V
+booleanRETURN_TYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javaT T(Ë
+ecom.knubisoft.base.bool.BoolTasks.isSameSizeArray(java.lang.Object[], java.lang.Object...)!firstArray	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javaT% T(/"
+typeObject[]"
+isFinalfalse"(
+declarationStringObject[] firstArray*
+firstArray2Z
+java.lang.Object[]TYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javaT T($Á
+fcom.knubisoft.base.bool.BoolTasks.isSameSizeArray(java.lang.Object[], java.lang.Object...)!secondArray	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javaT< T(G"
+typeObject"
+isFinalfalse"'
+declarationStringObject secondArray*secondArray2Z
+java.lang.Object[]TYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javaT1 T(7˘	
+`com.knubisoft.base.bool.BoolTasks.isSameCharactersCount(java.lang.String, java.lang.String, int)METHOD>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javal l(!"
+isFinalfalse"œ
+declarationStringπ<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isSameCharactersCount</mark>(String username<mark class="modifier"><mark class="modifier">,</mark></mark> String name<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> maxLength)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isSameCharactersCount2∂
+icom.knubisoft.base.bool.BoolTasks.isSameCharactersCount(java.lang.String, java.lang.String, int)!username	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javal) l(12≤
+ecom.knubisoft.base.bool.BoolTasks.isSameCharactersCount(java.lang.String, java.lang.String, int)!name	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javal: l(>2∑
+jcom.knubisoft.base.bool.BoolTasks.isSameCharactersCount(java.lang.String, java.lang.String, int)!maxLength	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javalD l(M2V
+booleanRETURN_TYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javal l(‚
+icom.knubisoft.base.bool.BoolTasks.isSameCharactersCount(java.lang.String, java.lang.String, int)!username	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javal) l(1"
+typeString"
+isFinalfalse"$
+declarationStringString username*username2X
+java.lang.StringTYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javal" l((÷
+ecom.knubisoft.base.bool.BoolTasks.isSameCharactersCount(java.lang.String, java.lang.String, int)!name	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javal: l(>"
+typeString"
+isFinalfalse" 
+declarationStringString name*name2X
+java.lang.StringTYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javal3 l(9
+jcom.knubisoft.base.bool.BoolTasks.isSameCharactersCount(java.lang.String, java.lang.String, int)!maxLength	PARAMETER>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javalD l(M"
+typeint"
+isFinalfalse"@
+declarationString+<mark class="modifier">int</mark> maxLength*	maxLength2K
+intTYPE>
+4src/main/java/com/knubisoft/base/bool/BoolTasks.javal@ l(C

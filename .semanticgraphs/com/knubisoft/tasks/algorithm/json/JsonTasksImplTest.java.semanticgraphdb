@@ -1,0 +1,215 @@
+
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.javaæ
+4com.knubisoft.tasks.algorithm.json.JsonTasksImplTestCLASSQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java ("-
+package"com.knubisoft.tasks.algorithm.json"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"i
+declarationStringT<mark class="modifier"> </mark><mark class="modifier">class </mark>JsonTasksImplTest"
+accesspackage_private*JsonTasksImplTest2™
+Hcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest.JsonTasksImplTest()DECLARATIONQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java (2¢
+@com.knubisoft.tasks.algorithm.json.JsonTasksImplTest.parseJson()DECLARATIONQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java	 (2¢
+@com.knubisoft.tasks.algorithm.json.JsonTasksImplTest.getAllIds()DECLARATIONQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java$	 $(2Ø
+Mcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest.getNameWithIdMoreThan1()DECLARATIONQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java+	 +(2§
+Bcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest.getAllItems()DECLARATIONQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java1	 1(2©
+Gcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest?object@17.28:17.34DECLARATIONQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java ("2™
+Hcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest?content@18.25:18.32DECLARATIONQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java ( ∆	
+Hcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest.JsonTasksImplTest()CONSTRUCTORQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java ("π
+declarationString£<mark class="modifier">public </mark><mark class="method">JsonTasksImplTest</mark>()<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IOException*JsonTasksImplTest2~
+#java.util.Objects.requireNonNull(T)CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java+ (92ñ
+;java.lang.ClassLoader.getResourceAsStream(java.lang.String)CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java, (?2{
+ java.lang.Class.getClassLoader()CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java ()2v
+java.lang.Object.getClass()CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java (2£
+Hcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest?content@18.25:18.32CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java (2ñ
+4com.knubisoft.tasks.algorithm.json.JsonTasksImplTestRETURN_TYPEQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java& (1Î
+@com.knubisoft.tasks.algorithm.json.JsonTasksImplTest.parseJson()METHODQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java	 ("
+isFinalfalse"©
+declarationStringì<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">parseJson</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*	parseJson2£
+Hcom.knubisoft.tasks.algorithm.json.JsonTasks.parseJson(java.lang.String)CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java" (+2p
+java.util.List.size()CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java% ()2¢
+Gcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest?object@17.28:17.34CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java (!2£
+Hcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest?content@18.25:18.32CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java, (32Æ
+Scom.knubisoft.tasks.algorithm.json.JsonTasksImplTest.parseJson()?result@27.18:27.24CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java (2µ
+Scom.knubisoft.tasks.algorithm.json.JsonTasksImplTest.parseJson()?result@27.18:27.24DECLARATIONQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java (2f
+voidRETURN_TYPEQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java (Ÿ
+Scom.knubisoft.tasks.algorithm.json.JsonTasksImplTest.parseJson()?result@27.18:27.24VARIABLEQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java ("
+type	ModelRoot"
+isFinalfalse"Å
+declarationStringl<mark class="modifier"> </mark>ModelRoot <mark class="class-field">result</mark> = object.parseJson(content)*result2Ç
+'com.knubisoft.tasks.algorithm.ModelRootTYPEQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java (2£
+Hcom.knubisoft.tasks.algorithm.json.JsonTasks.parseJson(java.lang.String)CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java" (+2¢
+Gcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest?object@17.28:17.34CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java (!2£
+Hcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest?content@18.25:18.32CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java, (3Û
+@com.knubisoft.tasks.algorithm.json.JsonTasksImplTest.getAllIds()METHODQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java$	 $("
+isFinalfalse"©
+declarationStringì<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">getAllIds</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*	getAllIds2£
+Hcom.knubisoft.tasks.algorithm.json.JsonTasks.getAllIds(java.lang.String)CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java%& %(/2x
+java.util.Arrays.asList(T...)CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java' '("2¢
+Gcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest?object@17.28:17.34CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java% %(%2£
+Hcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest?content@18.25:18.32CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java%0 %(72Æ
+Scom.knubisoft.tasks.algorithm.json.JsonTasksImplTest.getAllIds()?result@37.22:37.28CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java'+ '(12µ
+Scom.knubisoft.tasks.algorithm.json.JsonTasksImplTest.getAllIds()?result@37.22:37.28DECLARATIONQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java% %(2f
+voidRETURN_TYPEQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java$ $(æ
+Scom.knubisoft.tasks.algorithm.json.JsonTasksImplTest.getAllIds()?result@37.22:37.28VARIABLEQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java% %("
+typeList<Integer>"
+isFinalfalse"Ö
+declarationStringp<mark class="modifier"> </mark>List<Integer> <mark class="class-field">result</mark> = object.getAllIds(content)*result2i
+java.util.ListTYPEQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java% %(2u
+java.lang.IntegerTYPE_ARGUMENTQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java% %(2£
+Hcom.knubisoft.tasks.algorithm.json.JsonTasks.getAllIds(java.lang.String)CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java%& %(/2¢
+Gcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest?object@17.28:17.34CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java% %(%2£
+Hcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest?content@18.25:18.32CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java%0 %(7¡
+Mcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest.getNameWithIdMoreThan1()METHODQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java+	 +("
+isFinalfalse"∂
+declarationString†<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">getNameWithIdMoreThan1</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*getNameWithIdMoreThan12∞
+Ucom.knubisoft.tasks.algorithm.json.JsonTasks.getNameWithIdMoreThan1(java.lang.String)CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java,% ,(;2x
+java.util.Arrays.asList(T...)CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java- -("2¢
+Gcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest?object@17.28:17.34CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java, ,($2£
+Hcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest?content@18.25:18.32CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java,< ,(C2ª
+`com.knubisoft.tasks.algorithm.json.JsonTasksImplTest.getNameWithIdMoreThan1()?result@44.21:44.27CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java-5 -(;2¬
+`com.knubisoft.tasks.algorithm.json.JsonTasksImplTest.getNameWithIdMoreThan1()?result@44.21:44.27DECLARATIONQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java, ,(2f
+voidRETURN_TYPEQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java+ +(‚
+`com.knubisoft.tasks.algorithm.json.JsonTasksImplTest.getNameWithIdMoreThan1()?result@44.21:44.27VARIABLEQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java, ,("
+typeList<String>"
+isFinalfalse"ë
+declarationString|<mark class="modifier"> </mark>List<String> <mark class="class-field">result</mark> = object.getNameWithIdMoreThan1(content)*result2i
+java.util.ListTYPEQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java, ,(2t
+java.lang.StringTYPE_ARGUMENTQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java, ,(2∞
+Ucom.knubisoft.tasks.algorithm.json.JsonTasks.getNameWithIdMoreThan1(java.lang.String)CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java,% ,(;2¢
+Gcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest?object@17.28:17.34CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java, ,($2£
+Hcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest?content@18.25:18.32CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java,< ,(C˜
+Bcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest.getAllItems()METHODQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java1	 1("
+isFinalfalse"´
+declarationStringï<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">getAllItems</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*getAllItems2•
+Jcom.knubisoft.tasks.algorithm.json.JsonTasks.getAllItems(java.lang.String)CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java22 2(=2p
+java.util.List.size()CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java4 4(#2¢
+Gcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest?object@17.28:17.34CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java2+ 2(12£
+Hcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest?content@18.25:18.32CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java2> 2(E2∞
+Ucom.knubisoft.tasks.algorithm.json.JsonTasksImplTest.getAllItems()?result@50.34:50.40CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java4 4(2∑
+Ucom.knubisoft.tasks.algorithm.json.JsonTasksImplTest.getAllItems()?result@50.34:50.40DECLARATIONQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java2" 2((2f
+voidRETURN_TYPEQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java1 1(ƒ
+
+Ucom.knubisoft.tasks.algorithm.json.JsonTasksImplTest.getAllItems()?result@50.34:50.40VARIABLEQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java2" 2(("!
+typeList<Map<String, String>>"
+isFinalfalse"ì
+declarationString~<mark class="modifier"> </mark>List<Map<String, String>> <mark class="class-field">result</mark> = object.getAllItems(content)*result2i
+java.util.ListTYPEQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java2 2(2q
+java.util.MapTYPE_ARGUMENTQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java2 2(2t
+java.lang.StringTYPE_ARGUMENTQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java2 2(2t
+java.lang.StringTYPE_ARGUMENTQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java2 2(2•
+Jcom.knubisoft.tasks.algorithm.json.JsonTasks.getAllItems(java.lang.String)CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java22 2(=2¢
+Gcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest?object@17.28:17.34CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java2+ 2(12£
+Hcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest?content@18.25:18.32CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java2> 2(E»
+Gcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest?object@17.28:17.34VALUEQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java (""
+isFinaltrue"
+type	JsonTasks"®
+declarationStringí<mark class="modifier">private </mark><mark class="modifier">final </mark>JsonTasks <mark class="class-field">object</mark> = new JsonTasksImpl();"
+isStaticfalse"
+accessprivate*object2á
+,com.knubisoft.tasks.algorithm.json.JsonTasksTYPEQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java (2õ
+@com.knubisoft.tasks.algorithm.json.JsonTasksImpl.JsonTasksImpl()CALLQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java) (6Ú
+Hcom.knubisoft.tasks.algorithm.json.JsonTasksImplTest?content@18.25:18.32VALUEQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java ( "
+isFinaltrue"
+typeString"é
+declarationStringy<mark class="modifier">private </mark><mark class="modifier">final </mark>String <mark class="class-field">content</mark>"
+isStaticfalse"
+accessprivate*content2k
+java.lang.StringTYPEQ
+Gsrc/test/java/com/knubisoft/tasks/algorithm/json/JsonTasksImplTest.java (

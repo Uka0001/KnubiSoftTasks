@@ -1,0 +1,93 @@
+
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.javaó
+Dcom.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangleImplTestCLASSa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java ("7
+package,com.knubisoft.tasks.algorithm.pascaltriangle"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"o
+declarationStringZ<mark class="modifier"> </mark><mark class="modifier">class </mark>PascalsTriangleImplTest"
+accesspackage_private*PascalsTriangleImplTest2×
+ecom.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangleImplTest.calculateLineOfPascalsTriangle()DECLARATIONa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java	 ('2Ë
+Ycom.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangleImplTest?triangle@10.34:10.42DECLARATIONa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java
+" 
+(*…'
+ecom.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangleImplTest.calculateLineOfPascalsTriangle()METHODa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java	 ('"
+isFinalfalse"¾
+declarationString¨<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">calculateLineOfPascalsTriangle</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*calculateLineOfPascalsTriangle2
+java.util.List.of(E)CALLa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java (2Ë
+`com.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangle.calculateLineOfPascalsTriangle(int)CALLa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java* (H2‚
+java.util.List.of(E, E)CALLa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java (2Ë
+`com.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangle.calculateLineOfPascalsTriangle(int)CALLa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java- (K2…
+java.util.List.of(E, E, E)CALLa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java (2Ë
+`com.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangle.calculateLineOfPascalsTriangle(int)CALLa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java0 (N2ˆ
+java.util.List.of(E, E, E, E)CALLa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java (2Ë
+`com.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangle.calculateLineOfPascalsTriangle(int)CALLa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java3 (Q2‹
+ java.util.List.of(E, E, E, E, E)CALLa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java (2Ë
+`com.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangle.calculateLineOfPascalsTriangle(int)CALLa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java6 (T2Ž
+#java.util.List.of(E, E, E, E, E, E)CALLa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java (2Ë
+`com.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangle.calculateLineOfPascalsTriangle(int)CALLa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java; (Y2‘
+&java.util.List.of(E, E, E, E, E, E, E)CALLa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java (2Ë
+`com.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangle.calculateLineOfPascalsTriangle(int)CALLa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java? (]2€
+java.util.List.size()CALLa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.javaG (K2Ë
+`com.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangle.calculateLineOfPascalsTriangle(int)CALLa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java# (A2Ä
+Ycom.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangleImplTest?triangle@10.34:10.42CALLa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java! ()2Ä
+Ycom.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangleImplTest?triangle@10.34:10.42CALLa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java$ (,2Ä
+Ycom.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangleImplTest?triangle@10.34:10.42CALLa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java' (/2Ä
+Ycom.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangleImplTest?triangle@10.34:10.42CALLa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java* (22Ä
+Ycom.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangleImplTest?triangle@10.34:10.42CALLa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java- (52Ä
+Ycom.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangleImplTest?triangle@10.34:10.42CALLa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java2 (:2Ä
+Ycom.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangleImplTest?triangle@10.34:10.42CALLa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java6 (>2Ä
+Ycom.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangleImplTest?triangle@10.34:10.42CALLa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java ("2v
+voidRETURN_TYPEa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java (Æ
+Ycom.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangleImplTest?triangle@10.34:10.42VALUEa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java
+" 
+(*"
+isFinaltrue"
+typePascalsTriangle"¶
+declarationString <mark class="modifier">private </mark><mark class="modifier">final </mark>PascalsTriangle <mark class="class-field">triangle</mark> = new PascalsTriangleImpl();"
+isStaticfalse"
+accessprivate*triangle2§
+<com.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangleTYPEa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java
+ 
+(!2Á
+Vcom.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangleImpl.PascalsTriangleImpl()CALLa
+Wsrc/test/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImplTest.java
+1 
+(D

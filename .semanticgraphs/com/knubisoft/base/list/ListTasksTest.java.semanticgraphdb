@@ -1,0 +1,2015 @@
+
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÎ%
+%com.knubisoft.base.list.ListTasksTestCLASSB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (""
+packagecom.knubisoft.base.list"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"k
+declarationStringV<mark class="modifier">public </mark><mark class="modifier">class </mark>ListTasksTest"
+accesspublic*ListTasksTest2
+=com.knubisoft.base.list.ListTasksTest.addElementsSuccessful()DECLARATIONB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (%2Š
+7com.knubisoft.base.list.ListTasksTest.addElementsFail()DECLARATIONB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2™
+Fcom.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()DECLARATIONB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java& &(.2“
+@com.knubisoft.base.list.ListTasksTest.getElementsByIndexesFail()DECLARATIONB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaL L((2™
+Fcom.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()DECLARATIONB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java^ ^(.2•
+@com.knubisoft.base.list.ListTasksTest.addElementsByIndexesFail()DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaƒ ƒ((2›
+Fcom.knubisoft.base.list.ListTasksTest.setElementsByIndexesSuccessful()DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java• •(.2•
+@com.knubisoft.base.list.ListTasksTest.setElementsByIndexesFail()DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java° °((2’
+=com.knubisoft.base.list.ListTasksTest.getListSizeSuccessful()DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÂ Â(%2Œ
+7com.knubisoft.base.list.ListTasksTest.mergeSuccessful()DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaË Ë(2†
+1com.knubisoft.base.list.ListTasksTest.mergeFail()DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÜ Ü(2“
+>com.knubisoft.base.list.ListTasksTest.findMaxValueSuccessful()DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaï ï(&2
+8com.knubisoft.base.list.ListTasksTest.findMaxValueFail()DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaø ø( 2“
+>com.knubisoft.base.list.ListTasksTest.findMinValueSuccessful()DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java‚ ‚(&2
+8com.knubisoft.base.list.ListTasksTest.findMinValueFail()DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java‹ ‹( 2›
+Fcom.knubisoft.base.list.ListTasksTest.multiplyMax2ElementsSuccessful()DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java• •(.2•
+@com.knubisoft.base.list.ListTasksTest.multiplyMax2ElementsFail()DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java« «((2’
+=com.knubisoft.base.list.ListTasksTest.removeNullsSuccessful()DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¾ ¾(%2Œ
+7com.knubisoft.base.list.ListTasksTest.removeNullsFail()DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaĞ Ğ(2š
+Ecom.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsSuccessful()DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÕ Õ(-2”
+?com.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsFail()DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaì ì('2
+:com.knubisoft.base.list.ListTasksTest.cloneIdsSuccessful()DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javañ ñ("2‰
+4com.knubisoft.base.list.ListTasksTest.cloneIdsFail()DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java† †(2
+9com.knubisoft.base.list.ListTasksTest.shuffleSuccessful()DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java‹ ‹(!2’
+=com.knubisoft.base.list.ListTasksTest.shuffleSuccessfulFail()DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java§ §(%2•
+@com.knubisoft.base.list.ListTasksTest.getLastElementSuccessful()DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java® ®((2
+:com.knubisoft.base.list.ListTasksTest.getLastElementFail()DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java½ ½("2–
+Acom.knubisoft.base.list.ListTasksTest.compareElementsSuccessful()DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÄ Ä()2
+;com.knubisoft.base.list.ListTasksTest.compareElementsFail()DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÑ Ñ(#2
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22DECLARATIONB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java
+ 
+(±
+=com.knubisoft.base.list.ListTasksTest.addElementsSuccessful()METHODB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (%"
+isFinalfalse"»
+declarationString¥<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">addElementsSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*addElementsSuccessful2i
+java.util.Arrays.asList(T...)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java' (-2m
+!java.util.Collections.emptyList()CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java! (*2†
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (&2—
+Kcom.knubisoft.base.list.ListTasksTest.addElementsSuccessful()?i@16.17:16.18CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2œ
+Pcom.knubisoft.base.list.ListTasksTest.addElementsSuccessful()?actual@14.21:14.27CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java ("2—
+Kcom.knubisoft.base.list.ListTasksTest.addElementsSuccessful()?i@16.17:16.18CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java+ (,2
+Rcom.knubisoft.base.list.ListTasksTest.addElementsSuccessful()?expected@15.21:15.29CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (!2—
+Kcom.knubisoft.base.list.ListTasksTest.addElementsSuccessful()?i@16.17:16.18CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java& ('2œ
+Pcom.knubisoft.base.list.ListTasksTest.addElementsSuccessful()?actual@14.21:14.27CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java* (02—
+Kcom.knubisoft.base.list.ListTasksTest.addElementsSuccessful()?i@16.17:16.18CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java5 (62œ
+Pcom.knubisoft.base.list.ListTasksTest.addElementsSuccessful()?actual@14.21:14.27CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2œ
+Pcom.knubisoft.base.list.ListTasksTest.addElementsSuccessful()?actual@14.21:14.27CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java ("2œ
+Pcom.knubisoft.base.list.ListTasksTest.addElementsSuccessful()?actual@14.21:14.27CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2œ
+Pcom.knubisoft.base.list.ListTasksTest.addElementsSuccessful()?actual@14.21:14.27CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2†
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java. (62£
+Pcom.knubisoft.base.list.ListTasksTest.addElementsSuccessful()?actual@14.21:14.27DECLARATIONB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2¥
+Rcom.knubisoft.base.list.ListTasksTest.addElementsSuccessful()?expected@15.21:15.29DECLARATIONB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2
+Kcom.knubisoft.base.list.ListTasksTest.addElementsSuccessful()?i@16.17:16.18DECLARATIONB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2W
+voidRETURN_TYPEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (ó
+Pcom.knubisoft.base.list.ListTasksTest.addElementsSuccessful()?actual@14.21:14.27VARIABLEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java ("
+typeList<String>"
+isFinalfalse"Ô
+declarationString¾<mark class="modifier"> </mark>List<String> <mark class="class-field">actual</mark> = instance.addElements("Alex"<mark class="modifier">,</mark> "Bob"<mark class="modifier">,</mark> "Alica")*actual2Z
+java.util.ListTYPEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2e
+java.util.StringTYPE_ARGUMENTB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2†
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (&Ô
+Rcom.knubisoft.base.list.ListTasksTest.addElementsSuccessful()?expected@15.21:15.29VARIABLEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java ("
+typeList<String>"
+isFinalfalse"Ï
+declarationString¹<mark class="modifier"> </mark>List<String> <mark class="class-field">expected</mark> = Arrays.asList("Alex"<mark class="modifier">,</mark> "Bob"<mark class="modifier">,</mark> "Alica")*expected2Z
+java.util.ListTYPEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2e
+java.util.StringTYPE_ARGUMENTB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2i
+java.util.Arrays.asList(T...)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java' (-Œ
+Kcom.knubisoft.base.list.ListTasksTest.addElementsSuccessful()?i@16.17:16.18VARIABLEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java ("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = 0*i2O
+intTYPEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (¡
+7com.knubisoft.base.list.ListTasksTest.addElementsFail()METHODB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java ("
+isFinalfalse"µ
+declarationStringŸ<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">addElementsFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*addElementsFail2i
+java.util.Arrays.asList(T...)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java' (-2†
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (&2‘
+Ecom.knubisoft.base.list.ListTasksTest.addElementsFail()?i@30.17:30.18CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2–
+Jcom.knubisoft.base.list.ListTasksTest.addElementsFail()?actual@28.21:28.27CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java ("2‘
+Ecom.knubisoft.base.list.ListTasksTest.addElementsFail()?i@30.17:30.18CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java+ (,2˜
+Lcom.knubisoft.base.list.ListTasksTest.addElementsFail()?expected@29.21:29.29CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java ($2‘
+Ecom.knubisoft.base.list.ListTasksTest.addElementsFail()?i@30.17:30.18CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java) (*2–
+Jcom.knubisoft.base.list.ListTasksTest.addElementsFail()?actual@28.21:28.27CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java- (32‘
+Ecom.knubisoft.base.list.ListTasksTest.addElementsFail()?i@30.17:30.18CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java8 (92–
+Jcom.knubisoft.base.list.ListTasksTest.addElementsFail()?actual@28.21:28.27CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java! !(2–
+Jcom.knubisoft.base.list.ListTasksTest.addElementsFail()?actual@28.21:28.27CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java" "(2
+Jcom.knubisoft.base.list.ListTasksTest.addElementsFail()?actual@28.21:28.27DECLARATIONB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2Ÿ
+Lcom.knubisoft.base.list.ListTasksTest.addElementsFail()?expected@29.21:29.29DECLARATIONB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2˜
+Ecom.knubisoft.base.list.ListTasksTest.addElementsFail()?i@30.17:30.18DECLARATIONB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2W
+voidRETURN_TYPEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (í
+Jcom.knubisoft.base.list.ListTasksTest.addElementsFail()?actual@28.21:28.27VARIABLEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java ("
+typeList<String>"
+isFinalfalse"Ô
+declarationString¾<mark class="modifier"> </mark>List<String> <mark class="class-field">actual</mark> = instance.addElements("Alex"<mark class="modifier">,</mark> "Bob"<mark class="modifier">,</mark> "Alica")*actual2Z
+java.util.ListTYPEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2e
+java.util.StringTYPE_ARGUMENTB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2†
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (&Ñ
+Lcom.knubisoft.base.list.ListTasksTest.addElementsFail()?expected@29.21:29.29VARIABLEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java ("
+typeList<String>"
+isFinalfalse"Ò
+declarationString¼<mark class="modifier"> </mark>List<String> <mark class="class-field">expected</mark> = Arrays.asList("Tomeu"<mark class="modifier">,</mark> "Sergio"<mark class="modifier">,</mark> "Juan")*expected2Z
+java.util.ListTYPEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2e
+java.util.StringTYPE_ARGUMENTB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2i
+java.util.Arrays.asList(T...)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java' (-†
+Ecom.knubisoft.base.list.ListTasksTest.addElementsFail()?i@30.17:30.18VARIABLEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java ("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = 0*i2O
+intTYPEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (¤5
+Fcom.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()METHODB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java& &(."
+isFinalfalse"Ä
+declarationString®<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">getElementsByIndexesSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*getElementsByIndexesSuccessful2i
+java.util.Arrays.asList(T...)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java(= ((C2i
+java.util.Arrays.asList(T...)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java0= 0(C2i
+java.util.Arrays.asList(T...)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java9= 9(C2i
+java.util.Arrays.asList(T...)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaA= A(C2Œ
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java(* ((52Œ
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java0* 0(52Œ
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java9* 9(52Œ
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaA* A(52†
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java'# '(+2ª
+^com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualFirst@39.21:39.32CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java) )((2ª
+^com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualFirst@39.21:39.32CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java* *('2ª
+^com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualFirst@39.21:39.32CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java+ +()2ª
+^com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualFirst@39.21:39.32CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java, ,()2ª
+^com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualFirst@39.21:39.32CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java- -()2†
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java/$ /(,2«
+_com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualSecond@47.21:47.33CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java1 1()2«
+_com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualSecond@47.21:47.33CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java2 2((2«
+_com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualSecond@47.21:47.33CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java3 3(*2«
+_com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualSecond@47.21:47.33CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java4 4(*2«
+_com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualSecond@47.21:47.33CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java5 5(*2«
+_com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualSecond@47.21:47.33CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java6 6((2†
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java8# 8(+2ª
+^com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualThird@56.21:56.32CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java: :((2ª
+^com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualThird@56.21:56.32CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java; ;('2ª
+^com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualThird@56.21:56.32CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java< <()2ª
+^com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualThird@56.21:56.32CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java= =()2ª
+^com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualThird@56.21:56.32CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java> >('2†
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java@$ @(,2«
+_com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualFourth@64.21:64.33CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaB B()2«
+_com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualFourth@64.21:64.33CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaC C((2«
+_com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualFourth@64.21:64.33CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaD D(*2«
+_com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualFourth@64.21:64.33CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaE E(*2«
+_com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualFourth@64.21:64.33CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaF F((2«
+_com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualFourth@64.21:64.33CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaG G((2«
+_com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualFourth@64.21:64.33CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaH H((2±
+^com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualFirst@39.21:39.32DECLARATIONB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java' '( 2²
+_com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualSecond@47.21:47.33DECLARATIONB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java/ /(!2±
+^com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualThird@56.21:56.32DECLARATIONB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java8 8( 2²
+_com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualFourth@64.21:64.33DECLARATIONB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java@ @(!2W
+voidRETURN_TYPEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java& &(ş
+^com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualFirst@39.21:39.32VARIABLEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java' '( "
+typeList<String>"
+isFinalfalse"Ò
+declarationString¼<mark class="modifier"> </mark>List<String> <mark class="class-field">actualFirst</mark> = instance.getElementsByIndexes(new ArrayList<>(Arrays.asList("Alex"<mark class="modifier">,</mark> "Bob"<mark class="modifier">,</mark> "Alica"))<mark class="modifier">,</mark> new <mark class="modifier">int</mark>[] { 2, 3 })*actualFirst2Z
+java.util.ListTYPEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java' '(2e
+java.util.StringTYPE_ARGUMENTB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java' '(2i
+java.util.Arrays.asList(T...)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java(= ((C2Œ
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java(* ((52†
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java'# '(+„	
+_com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualSecond@47.21:47.33VARIABLEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java/ /(!"
+typeList<String>"
+isFinalfalse"Ö
+declarationStringÀ<mark class="modifier"> </mark>List<String> <mark class="class-field">actualSecond</mark> = instance.getElementsByIndexes(new ArrayList<>(Arrays.asList("Alex"<mark class="modifier">,</mark> "Bob"<mark class="modifier">,</mark> "Alica"))<mark class="modifier">,</mark> new <mark class="modifier">int</mark>[] { 2, 2, 1 })*actualSecond2Z
+java.util.ListTYPEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java/ /(2e
+java.util.StringTYPE_ARGUMENTB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java/ /(2i
+java.util.Arrays.asList(T...)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java0= 0(C2Œ
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java0* 0(52†
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java/$ /(,ş
+^com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualThird@56.21:56.32VARIABLEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java8 8( "
+typeList<String>"
+isFinalfalse"Ò
+declarationString¼<mark class="modifier"> </mark>List<String> <mark class="class-field">actualThird</mark> = instance.getElementsByIndexes(new ArrayList<>(Arrays.asList("Alex"<mark class="modifier">,</mark> "Bob"<mark class="modifier">,</mark> "Alica"))<mark class="modifier">,</mark> new <mark class="modifier">int</mark>[] { 2, 1 })*actualThird2Z
+java.util.ListTYPEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java8 8(2e
+java.util.StringTYPE_ARGUMENTB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java8 8(2i
+java.util.Arrays.asList(T...)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java9= 9(C2Œ
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java9* 9(52†
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java8# 8(+‡	
+_com.knubisoft.base.list.ListTasksTest.getElementsByIndexesSuccessful()?actualFourth@64.21:64.33VARIABLEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java@ @(!"
+typeList<String>"
+isFinalfalse"Ù
+declarationStringÃ<mark class="modifier"> </mark>List<String> <mark class="class-field">actualFourth</mark> = instance.getElementsByIndexes(new ArrayList<>(Arrays.asList("Alex"<mark class="modifier">,</mark> "Bob"<mark class="modifier">,</mark> "Alica"))<mark class="modifier">,</mark> new <mark class="modifier">int</mark>[] { 2, 1, 1, 1 })*actualFourth2Z
+java.util.ListTYPEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java@ @(2e
+java.util.StringTYPE_ARGUMENTB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java@ @(2i
+java.util.Arrays.asList(T...)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaA= A(C2Œ
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaA* A(52†
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java@$ @(,«
+@com.knubisoft.base.list.ListTasksTest.getElementsByIndexesFail()METHODB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaL L(("
+isFinalfalse"¾
+declarationString¨<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">getElementsByIndexesFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*getElementsByIndexesFail2i
+java.util.Arrays.asList(T...)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaNK N(Q2i
+java.util.Arrays.asList(T...)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaPK P(Q2i
+java.util.Arrays.asList(T...)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaSK S(Q2i
+java.util.Arrays.asList(T...)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaVK V(Q2i
+java.util.Arrays.asList(T...)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaYK Y(Q2Œ
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaN8 N(C2Œ
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaP8 P(C2Œ
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaS8 S(C2Œ
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaV8 V(C2Œ
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaY8 Y(C2†
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaN N(2†
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaP P(2†
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaS S(2†
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaV V(2†
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaY Y(2W
+voidRETURN_TYPEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaL L(4
+Fcom.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()METHODB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java^ ^(."
+isFinalfalse"Ä
+declarationString®<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">addElementsByIndexesSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*addElementsByIndexesSuccessful2i
+java.util.Arrays.asList(T...)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java`= `(C2i
+java.util.Arrays.asList(T...)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javah= h(C2i
+java.util.Arrays.asList(T...)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javap= p(C2i
+java.util.Arrays.asList(T...)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javax= x(C2Œ
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java`* `(52Œ
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javah* h(52Œ
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javap* p(52Œ
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javax* x(52†
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java_( _(02ª
+^com.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualFirst@95.26:95.37CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaa a((2ª
+^com.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualFirst@95.26:95.37CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javab b('2ª
+^com.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualFirst@95.26:95.37CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javac c()2ª
+^com.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualFirst@95.26:95.37CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javad d()2ª
+^com.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualFirst@95.26:95.37CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javae e()2†
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javag) g(12­
+acom.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualSecond@103.26:103.38CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javai i()2­
+acom.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualSecond@103.26:103.38CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaj j((2­
+acom.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualSecond@103.26:103.38CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javak k((2­
+acom.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualSecond@103.26:103.38CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javal l(*2­
+acom.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualSecond@103.26:103.38CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javam m(*2†
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javao( o(02¬
+`com.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualThird@111.26:111.37CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaq q((2¬
+`com.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualThird@111.26:111.37CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javar r('2¬
+`com.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualThird@111.26:111.37CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javas s('2¬
+`com.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualThird@111.26:111.37CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javat t()2¬
+`com.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualThird@111.26:111.37CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javau u()2†
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaw) w(12­
+acom.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualFourth@119.26:119.38CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javay y()2­
+acom.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualFourth@119.26:119.38CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaz z((2­
+acom.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualFourth@119.26:119.38CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java{ {((2­
+acom.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualFourth@119.26:119.38CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java| |((2­
+acom.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualFourth@119.26:119.38CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java} }((2­
+acom.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualFourth@119.26:119.38CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java~ ~(*2­
+acom.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualFourth@119.26:119.38CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (*2±
+^com.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualFirst@95.26:95.37DECLARATIONB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java_ _(%2´
+acom.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualSecond@103.26:103.38DECLARATIONB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javag g(&2³
+`com.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualThird@111.26:111.37DECLARATIONB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javao o(%2´
+acom.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualFourth@119.26:119.38DECLARATIONB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaw w(&2W
+voidRETURN_TYPEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java^ ^(	
+^com.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualFirst@95.26:95.37VARIABLEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java_ _(%"
+typeArrayList<String>"
+isFinalfalse"×
+declarationStringÁ<mark class="modifier"> </mark>ArrayList<String> <mark class="class-field">actualFirst</mark> = instance.addElementsByIndexes(new ArrayList<>(Arrays.asList("Alex"<mark class="modifier">,</mark> "Bob"<mark class="modifier">,</mark> "Alica"))<mark class="modifier">,</mark> new <mark class="modifier">int</mark>[] { 2, 3 })*actualFirst2_
+java.util.ArrayListTYPEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java_ _(2e
+java.util.StringTYPE_ARGUMENTB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java_ _(2i
+java.util.Arrays.asList(T...)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java`= `(C2Œ
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java`* `(52†
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java_( _(0’	
+acom.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualSecond@103.26:103.38VARIABLEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javag g(&"
+typeArrayList<String>"
+isFinalfalse"Ø
+declarationStringÂ<mark class="modifier"> </mark>ArrayList<String> <mark class="class-field">actualSecond</mark> = instance.addElementsByIndexes(new ArrayList<>(Arrays.asList("Alex"<mark class="modifier">,</mark> "Bob"<mark class="modifier">,</mark> "Alica"))<mark class="modifier">,</mark> new <mark class="modifier">int</mark>[] { 2, 1 })*actualSecond2_
+java.util.ArrayListTYPEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javag g(2e
+java.util.StringTYPE_ARGUMENTB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javag g(2i
+java.util.Arrays.asList(T...)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javah= h(C2Œ
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javah* h(52†
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javag) g(1	
+`com.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualThird@111.26:111.37VARIABLEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javao o(%"
+typeArrayList<String>"
+isFinalfalse"×
+declarationStringÁ<mark class="modifier"> </mark>ArrayList<String> <mark class="class-field">actualThird</mark> = instance.addElementsByIndexes(new ArrayList<>(Arrays.asList("Alex"<mark class="modifier">,</mark> "Bob"<mark class="modifier">,</mark> "Alica"))<mark class="modifier">,</mark> new <mark class="modifier">int</mark>[] { 2, 1 })*actualThird2_
+java.util.ArrayListTYPEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javao o(2e
+java.util.StringTYPE_ARGUMENTB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javao o(2i
+java.util.Arrays.asList(T...)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javap= p(C2Œ
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javap* p(52†
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javao( o(0˜	
+acom.knubisoft.base.list.ListTasksTest.addElementsByIndexesSuccessful()?actualFourth@119.26:119.38VARIABLEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaw w(&"
+typeArrayList<String>"
+isFinalfalse"Ş
+declarationStringÈ<mark class="modifier"> </mark>ArrayList<String> <mark class="class-field">actualFourth</mark> = instance.addElementsByIndexes(new ArrayList<>(Arrays.asList("Alex"<mark class="modifier">,</mark> "Bob"<mark class="modifier">,</mark> "Alica"))<mark class="modifier">,</mark> new <mark class="modifier">int</mark>[] { 2, 1, 1, 1 })*actualFourth2_
+java.util.ArrayListTYPEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaw w(2e
+java.util.StringTYPE_ARGUMENTB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaw w(2i
+java.util.Arrays.asList(T...)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javax= x(C2Œ
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javax* x(52†
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaw) w(1Í
+@com.knubisoft.base.list.ListTasksTest.addElementsByIndexesFail()METHODD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaƒ ƒ(("
+isFinalfalse"¾
+declarationString¨<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">addElementsByIndexesFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*addElementsByIndexesFail2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java…K …(Q2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java‡K ‡(Q2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaŠK Š(Q2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaK (Q2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaK (Q2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java…8 …(C2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java‡8 ‡(C2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaŠ8 Š(C2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java8 (C2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java8 (C2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java… …(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java‡ ‡(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaŠ Š(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2Y
+voidRETURN_TYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaƒ ƒ(’'
+Fcom.knubisoft.base.list.ListTasksTest.setElementsByIndexesSuccessful()METHODD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java• •(."
+isFinalfalse"Ä
+declarationString®<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setElementsByIndexesSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setElementsByIndexesSuccessful2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java—> —(D2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java> (D2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java£> £(D2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java©> ©(D2
+Bjava.util.LinkedList.LinkedList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java—* —(62
+Bjava.util.LinkedList.LinkedList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java* (62
+Bjava.util.LinkedList.LinkedList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java£* £(62
+Bjava.util.LinkedList.LinkedList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java©* ©(62ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java–) –(12®
+`com.knubisoft.base.list.ListTasksTest.setElementsByIndexesSuccessful()?actualFirst@150.27:150.38CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java˜ ˜((2®
+`com.knubisoft.base.list.ListTasksTest.setElementsByIndexesSuccessful()?actualFirst@150.27:150.38CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java™ ™('2®
+`com.knubisoft.base.list.ListTasksTest.setElementsByIndexesSuccessful()?actualFirst@150.27:150.38CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaš š()2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaœ* œ(22¯
+acom.knubisoft.base.list.ListTasksTest.setElementsByIndexesSuccessful()?actualSecond@156.27:156.39CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java ()2¯
+acom.knubisoft.base.list.ListTasksTest.setElementsByIndexesSuccessful()?actualSecond@156.27:156.39CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaŸ Ÿ((2¯
+acom.knubisoft.base.list.ListTasksTest.setElementsByIndexesSuccessful()?actualSecond@156.27:156.39CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java   (*2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¢) ¢(12®
+`com.knubisoft.base.list.ListTasksTest.setElementsByIndexesSuccessful()?actualThird@162.27:162.38CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¤ ¤((2®
+`com.knubisoft.base.list.ListTasksTest.setElementsByIndexesSuccessful()?actualThird@162.27:162.38CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¥ ¥('2®
+`com.knubisoft.base.list.ListTasksTest.setElementsByIndexesSuccessful()?actualThird@162.27:162.38CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¦ ¦()2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¨* ¨(22¯
+acom.knubisoft.base.list.ListTasksTest.setElementsByIndexesSuccessful()?actualFourth@168.27:168.39CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaª ª()2¯
+acom.knubisoft.base.list.ListTasksTest.setElementsByIndexesSuccessful()?actualFourth@168.27:168.39CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java« «((2¯
+acom.knubisoft.base.list.ListTasksTest.setElementsByIndexesSuccessful()?actualFourth@168.27:168.39CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¬ ¬(*2µ
+`com.knubisoft.base.list.ListTasksTest.setElementsByIndexesSuccessful()?actualFirst@150.27:150.38DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java– –(&2¶
+acom.knubisoft.base.list.ListTasksTest.setElementsByIndexesSuccessful()?actualSecond@156.27:156.39DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaœ œ('2µ
+`com.knubisoft.base.list.ListTasksTest.setElementsByIndexesSuccessful()?actualThird@162.27:162.38DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¢ ¢(&2¶
+acom.knubisoft.base.list.ListTasksTest.setElementsByIndexesSuccessful()?actualFourth@168.27:168.39DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¨ ¨('2Y
+voidRETURN_TYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java• •(¡	
+`com.knubisoft.base.list.ListTasksTest.setElementsByIndexesSuccessful()?actualFirst@150.27:150.38VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java– –(&"
+typeLinkedList<String>"
+isFinalfalse"Ù
+declarationStringÃ<mark class="modifier"> </mark>LinkedList<String> <mark class="class-field">actualFirst</mark> = instance.setElementsByIndexes(new LinkedList<>(Arrays.asList("Alex"<mark class="modifier">,</mark> "Bob"<mark class="modifier">,</mark> "Alica"))<mark class="modifier">,</mark> new <mark class="modifier">int</mark>[] { 2, 2 })*actualFirst2b
+java.util.LinkedListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java– –(2g
+java.util.StringTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java– –(2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java—> —(D2
+Bjava.util.LinkedList.LinkedList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java—* —(62ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java–) –(1§	
+acom.knubisoft.base.list.ListTasksTest.setElementsByIndexesSuccessful()?actualSecond@156.27:156.39VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaœ œ('"
+typeLinkedList<String>"
+isFinalfalse"İ
+declarationStringÇ<mark class="modifier"> </mark>LinkedList<String> <mark class="class-field">actualSecond</mark> = instance.setElementsByIndexes(new LinkedList<>(Arrays.asList("Alex"<mark class="modifier">,</mark> "Bob"<mark class="modifier">,</mark> "Alica"))<mark class="modifier">,</mark> new <mark class="modifier">int</mark>[] { 2, 1, 2 })*actualSecond2b
+java.util.LinkedListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaœ œ(2g
+java.util.StringTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaœ œ(2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java> (D2
+Bjava.util.LinkedList.LinkedList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java* (62ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaœ* œ(2¡	
+`com.knubisoft.base.list.ListTasksTest.setElementsByIndexesSuccessful()?actualThird@162.27:162.38VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¢ ¢(&"
+typeLinkedList<String>"
+isFinalfalse"Ù
+declarationStringÃ<mark class="modifier"> </mark>LinkedList<String> <mark class="class-field">actualThird</mark> = instance.setElementsByIndexes(new LinkedList<>(Arrays.asList("Alex"<mark class="modifier">,</mark> "Bob"<mark class="modifier">,</mark> "Alica"))<mark class="modifier">,</mark> new <mark class="modifier">int</mark>[] { 2, 1 })*actualThird2b
+java.util.LinkedListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¢ ¢(2g
+java.util.StringTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¢ ¢(2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java£> £(D2
+Bjava.util.LinkedList.LinkedList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java£* £(62ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¢) ¢(1ª	
+acom.knubisoft.base.list.ListTasksTest.setElementsByIndexesSuccessful()?actualFourth@168.27:168.39VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¨ ¨('"
+typeLinkedList<String>"
+isFinalfalse"à
+declarationStringÊ<mark class="modifier"> </mark>LinkedList<String> <mark class="class-field">actualFourth</mark> = instance.setElementsByIndexes(new LinkedList<>(Arrays.asList("Alex"<mark class="modifier">,</mark> "Bob"<mark class="modifier">,</mark> "Alica"))<mark class="modifier">,</mark> new <mark class="modifier">int</mark>[] { 2, 1, 1, 1 })*actualFourth2b
+java.util.LinkedListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¨ ¨(2g
+java.util.StringTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¨ ¨(2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java©> ©(D2
+Bjava.util.LinkedList.LinkedList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java©* ©(62ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¨* ¨(2Í
+@com.knubisoft.base.list.ListTasksTest.setElementsByIndexesFail()METHODD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java° °(("
+isFinalfalse"¾
+declarationString¨<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setElementsByIndexesFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setElementsByIndexesFail2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java²K ²(Q2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java´K ´(Q2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java·K ·(Q2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaºK º(Q2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java½K ½(Q2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java²8 ²(C2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java´8 ´(C2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java·8 ·(C2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaº8 º(C2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java½8 ½(C2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java² ²(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java´ ´(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java· ·(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaº º(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java½ ½(2Y
+voidRETURN_TYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java° °(Å
+=com.knubisoft.base.list.ListTasksTest.getListSizeSuccessful()METHODD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÂ Â(%"
+isFinalfalse"»
+declarationString¥<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">getListSizeSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*getListSizeSuccessful2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÃ5 Ã(;2o
+!java.util.Collections.emptyList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÆ9 Æ(B2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÃ" Ã(-2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÄ Ä( 2 
+Rcom.knubisoft.base.list.ListTasksTest.getListSizeSuccessful()?actual@195.21:195.27CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÄ- Ä(32 
+Rcom.knubisoft.base.list.ListTasksTest.getListSizeSuccessful()?actual@195.21:195.27CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÅ Å(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÅ$ Å(,2 
+Rcom.knubisoft.base.list.ListTasksTest.getListSizeSuccessful()?actual@195.21:195.27CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÅ9 Å(?2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÆ Æ( 2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÇ Ç( 2§
+Rcom.knubisoft.base.list.ListTasksTest.getListSizeSuccessful()?actual@195.21:195.27DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÃ Ã(2Y
+voidRETURN_TYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÂ Â(ú
+Rcom.knubisoft.base.list.ListTasksTest.getListSizeSuccessful()?actual@195.21:195.27VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÃ Ã("
+typeList<String>"
+isFinalfalse"Ş
+declarationStringÈ<mark class="modifier"> </mark>List<String> <mark class="class-field">actual</mark> = new ArrayList<>(Arrays.asList("Alex"<mark class="modifier">,</mark> "Bob"<mark class="modifier">,</mark> "Alica"))*actual2\
+java.util.ListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÃ Ã(2g
+java.util.StringTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÃ Ã(2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÃ5 Ã(;2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÃ" Ã(-Î
+7com.knubisoft.base.list.ListTasksTest.mergeSuccessful()METHODD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaË Ë("
+isFinalfalse"µ
+declarationStringŸ<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">mergeSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*mergeSuccessful2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÌ" Ì((2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÍ( Í(.2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÎ6 Î(<2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÎ# Î(.2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÏ Ï(#2œ
+Ncom.knubisoft.base.list.ListTasksTest.mergeSuccessful()?integers@205.22:205.30CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÏ* Ï(22™
+Kcom.knubisoft.base.list.ListTasksTest.mergeSuccessful()?longs@204.19:204.24CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÏ4 Ï(92›
+Mcom.knubisoft.base.list.ListTasksTest.mergeSuccessful()?strings@206.21:206.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÏ; Ï(B2™
+Kcom.knubisoft.base.list.ListTasksTest.mergeSuccessful()?merge@207.19:207.24CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaĞ Ğ(2™
+Kcom.knubisoft.base.list.ListTasksTest.mergeSuccessful()?merge@207.19:207.24CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÑ Ñ(2™
+Kcom.knubisoft.base.list.ListTasksTest.mergeSuccessful()?merge@207.19:207.24CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÒ Ò(2™
+Kcom.knubisoft.base.list.ListTasksTest.mergeSuccessful()?merge@207.19:207.24CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÓ Ó(2™
+Kcom.knubisoft.base.list.ListTasksTest.mergeSuccessful()?merge@207.19:207.24CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÔ Ô(2™
+Kcom.knubisoft.base.list.ListTasksTest.mergeSuccessful()?merge@207.19:207.24CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÕ Õ(2™
+Kcom.knubisoft.base.list.ListTasksTest.mergeSuccessful()?merge@207.19:207.24CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÖ Ö(2™
+Kcom.knubisoft.base.list.ListTasksTest.mergeSuccessful()?merge@207.19:207.24CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java× ×(2™
+Kcom.knubisoft.base.list.ListTasksTest.mergeSuccessful()?merge@207.19:207.24CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaØ Ø(2 
+Kcom.knubisoft.base.list.ListTasksTest.mergeSuccessful()?longs@204.19:204.24DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÌ Ì(2£
+Ncom.knubisoft.base.list.ListTasksTest.mergeSuccessful()?integers@205.22:205.30DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÍ Í(2¢
+Mcom.knubisoft.base.list.ListTasksTest.mergeSuccessful()?strings@206.21:206.28DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÎ Î(2 
+Kcom.knubisoft.base.list.ListTasksTest.mergeSuccessful()?merge@207.19:207.24DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÏ Ï(2Y
+voidRETURN_TYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaË Ë(û
+Kcom.knubisoft.base.list.ListTasksTest.mergeSuccessful()?longs@204.19:204.24VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÌ Ì("
+type
+List<Long>"
+isFinalfalse"}
+declarationStringh<mark class="modifier"> </mark>List<Long> <mark class="class-field">longs</mark> = Arrays.asList(3l, 4l)*longs2\
+java.util.ListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÌ Ì(2e
+java.util.LongTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÌ Ì(2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÌ" Ì((Œ
+Ncom.knubisoft.base.list.ListTasksTest.mergeSuccessful()?integers@205.22:205.30VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÍ Í("
+typeList<Integer>"
+isFinalfalse"
+declarationStringl<mark class="modifier"> </mark>List<Integer> <mark class="class-field">integers</mark> = Arrays.asList(5, 6)*integers2\
+java.util.ListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÍ Í(2h
+java.util.IntegerTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÍ Í(2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÍ( Í(.Ë
+Mcom.knubisoft.base.list.ListTasksTest.mergeSuccessful()?strings@206.21:206.28VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÎ Î("
+typeList<String>"
+isFinalfalse"³
+declarationString<mark class="modifier"> </mark>List<String> <mark class="class-field">strings</mark> = new ArrayList<>(Arrays.asList("1"<mark class="modifier">,</mark> "2"))*strings2\
+java.util.ListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÎ Î(2g
+java.util.StringTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÎ Î(2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÎ6 Î(<2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÎ# Î(.†	
+Kcom.knubisoft.base.list.ListTasksTest.mergeSuccessful()?merge@207.19:207.24VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÏ Ï("
+type
+List<Long>"
+isFinalfalse"
+declarationString{<mark class="modifier"> </mark>List<Long> <mark class="class-field">merge</mark> = instance.merge(integers, longs, strings)*merge2\
+java.util.ListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÏ Ï(2e
+java.util.LongTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÏ Ï(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÏ Ï(#2œ
+Ncom.knubisoft.base.list.ListTasksTest.mergeSuccessful()?integers@205.22:205.30CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÏ* Ï(22™
+Kcom.knubisoft.base.list.ListTasksTest.mergeSuccessful()?longs@204.19:204.24CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÏ4 Ï(92›
+Mcom.knubisoft.base.list.ListTasksTest.mergeSuccessful()?strings@206.21:206.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÏ; Ï(Bå)
+1com.knubisoft.base.list.ListTasksTest.mergeFail()METHODD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÜ Ü("
+isFinalfalse"¯
+declarationString™<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">mergeFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*	mergeFail2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaİ" İ((2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaŞ( Ş(.2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaà' à(-2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaâ' â(-2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaä' ä(-2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaæ' æ(-2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaè' è(-2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaê' ê(-2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaà à(2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaâ â(2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaä ä(2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaæ æ(2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaè è(2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaê ê(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaß; ß(C2–
+Hcom.knubisoft.base.list.ListTasksTest.mergeFail()?integers@222.22:222.30CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaßJ ß(R2“
+Ecom.knubisoft.base.list.ListTasksTest.mergeFail()?longs@221.19:221.24CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaßT ß(Y2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaá; á(C2–
+Hcom.knubisoft.base.list.ListTasksTest.mergeFail()?integers@222.22:222.30CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaáJ á(R2“
+Ecom.knubisoft.base.list.ListTasksTest.mergeFail()?longs@221.19:221.24CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaáT á(Y2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaã7 ã(?2–
+Hcom.knubisoft.base.list.ListTasksTest.mergeFail()?integers@222.22:222.30CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaãF ã(N2“
+Ecom.knubisoft.base.list.ListTasksTest.mergeFail()?longs@221.19:221.24CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaãP ã(U2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaå7 å(?2–
+Hcom.knubisoft.base.list.ListTasksTest.mergeFail()?integers@222.22:222.30CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaåF å(N2“
+Ecom.knubisoft.base.list.ListTasksTest.mergeFail()?longs@221.19:221.24CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaåP å(U2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaç3 ç(;2“
+Ecom.knubisoft.base.list.ListTasksTest.mergeFail()?longs@221.19:221.24CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaçH ç(M2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaé3 é(;2–
+Hcom.knubisoft.base.list.ListTasksTest.mergeFail()?integers@222.22:222.30CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaéB é(J2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaë3 ë(;2–
+Hcom.knubisoft.base.list.ListTasksTest.mergeFail()?integers@222.22:222.30CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaëB ë(J2“
+Ecom.knubisoft.base.list.ListTasksTest.mergeFail()?longs@221.19:221.24CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaëL ë(Q2š
+Ecom.knubisoft.base.list.ListTasksTest.mergeFail()?longs@221.19:221.24DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaİ İ(2
+Hcom.knubisoft.base.list.ListTasksTest.mergeFail()?integers@222.22:222.30DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaŞ Ş(2Y
+voidRETURN_TYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÜ Ü(õ
+Ecom.knubisoft.base.list.ListTasksTest.mergeFail()?longs@221.19:221.24VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaİ İ("
+type
+List<Long>"
+isFinalfalse"}
+declarationStringh<mark class="modifier"> </mark>List<Long> <mark class="class-field">longs</mark> = Arrays.asList(3l, 4l)*longs2\
+java.util.ListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaİ İ(2e
+java.util.LongTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaİ İ(2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaİ" İ((†
+Hcom.knubisoft.base.list.ListTasksTest.mergeFail()?integers@222.22:222.30VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaŞ Ş("
+typeList<Integer>"
+isFinalfalse"
+declarationStringl<mark class="modifier"> </mark>List<Integer> <mark class="class-field">integers</mark> = Arrays.asList(5, 6)*integers2\
+java.util.ListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaŞ Ş(2h
+java.util.IntegerTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaŞ Ş(2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaŞ( Ş(.õ
+>com.knubisoft.base.list.ListTasksTest.findMaxValueSuccessful()METHODD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaï ï(&"
+isFinalfalse"¼
+declarationString¦<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">findMaxValueSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*findMaxValueSuccessful2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javañ> ñ(D2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javañ+ ñ(62ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaó ó(2¤
+Vcom.knubisoft.base.list.ListTasksTest.findMaxValueSuccessful()?integers1@240.27:240.36CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaó- ó(62¤
+Vcom.knubisoft.base.list.ListTasksTest.findMaxValueSuccessful()?integers2@241.27:241.36CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaó8 ó(A2¤
+Vcom.knubisoft.base.list.ListTasksTest.findMaxValueSuccessful()?integers3@242.27:242.36CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaóC ó(L2£
+Ucom.knubisoft.base.list.ListTasksTest.findMaxValueSuccessful()?maxValue@243.12:243.20CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaô( ô(02«
+Vcom.knubisoft.base.list.ListTasksTest.findMaxValueSuccessful()?integers1@240.27:240.36DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javağ ğ($2«
+Vcom.knubisoft.base.list.ListTasksTest.findMaxValueSuccessful()?integers2@241.27:241.36DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javañ ñ($2«
+Vcom.knubisoft.base.list.ListTasksTest.findMaxValueSuccessful()?integers3@242.27:242.36DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaò ò($2ª
+Ucom.knubisoft.base.list.ListTasksTest.findMaxValueSuccessful()?maxValue@243.12:243.20DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaó ó(2Y
+voidRETURN_TYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaï ï(ß
+Vcom.knubisoft.base.list.ListTasksTest.findMaxValueSuccessful()?integers1@240.27:240.36VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javağ ğ($"
+typeArrayList<Integer>"
+isFinalfalse"®
+declarationString˜<mark class="modifier"> </mark>ArrayList<Integer> <mark class="class-field">integers1</mark> = new ArrayList<>(Arrays.asList(123, Integer.MAX_VALUE, 0))*	integers12a
+java.util.ArrayListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javağ ğ(2h
+java.util.IntegerTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javağ ğ(Ü
+Vcom.knubisoft.base.list.ListTasksTest.findMaxValueSuccessful()?integers2@241.27:241.36VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javañ ñ($"
+typeArrayList<Integer>"
+isFinalfalse"­
+declarationString—<mark class="modifier"> </mark>ArrayList<Integer> <mark class="class-field">integers2</mark> = new ArrayList<>(Arrays.asList(1253435, 12413, -1243254))*	integers22a
+java.util.ArrayListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javañ ñ(2h
+java.util.IntegerTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javañ ñ(2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javañ> ñ(D2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javañ+ ñ(6è
+Vcom.knubisoft.base.list.ListTasksTest.findMaxValueSuccessful()?integers3@242.27:242.36VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaò ò($"
+typeArrayList<Integer>"
+isFinalfalse"·
+declarationString¡<mark class="modifier"> </mark>ArrayList<Integer> <mark class="class-field">integers3</mark> = new ArrayList<>(Arrays.asList(Integer.MIN_VALUE, 12413, -1243254))*	integers32a
+java.util.ArrayListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaò ò(2h
+java.util.IntegerTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaò ò(ß
+Ucom.knubisoft.base.list.ListTasksTest.findMaxValueSuccessful()?maxValue@243.12:243.20VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaó ó("
+typeint"
+isFinalfalse"¹
+declarationString£<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">maxValue</mark> = instance.findMaxValue(integers1, integers2, integers3)*maxValue2Q
+intTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaó ó(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaó ó(2¤
+Vcom.knubisoft.base.list.ListTasksTest.findMaxValueSuccessful()?integers1@240.27:240.36CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaó- ó(62¤
+Vcom.knubisoft.base.list.ListTasksTest.findMaxValueSuccessful()?integers2@241.27:241.36CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaó8 ó(A2¤
+Vcom.knubisoft.base.list.ListTasksTest.findMaxValueSuccessful()?integers3@242.27:242.36CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaóC ó(LÃ
+8com.knubisoft.base.list.ListTasksTest.findMaxValueFail()METHODD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaø ø( "
+isFinalfalse"¶
+declarationString <mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">findMaxValueFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*findMaxValueFail2m
+java.util.ArrayList.ArrayList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaú6 ú(A2m
+java.util.ArrayList.ArrayList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaúI ú(T2m
+java.util.ArrayList.ArrayList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaü0 ü(;2m
+java.util.ArrayList.ArrayList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaüI ü(T2m
+java.util.ArrayList.ArrayList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaş0 ş(;2m
+java.util.ArrayList.ArrayList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaşC ş(N2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaú ú(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaü ü(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaş ş(2Y
+voidRETURN_TYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaø ø(õ
+>com.knubisoft.base.list.ListTasksTest.findMinValueSuccessful()METHODD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java‚ ‚(&"
+isFinalfalse"¼
+declarationString¦<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">findMinValueSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*findMinValueSuccessful2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java„> „(D2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java„+ „(62ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java† †(2¤
+Vcom.knubisoft.base.list.ListTasksTest.findMinValueSuccessful()?integers1@259.27:259.36CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java†- †(62¤
+Vcom.knubisoft.base.list.ListTasksTest.findMinValueSuccessful()?integers2@260.27:260.36CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java†8 †(A2¤
+Vcom.knubisoft.base.list.ListTasksTest.findMinValueSuccessful()?integers3@261.27:261.36CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java†C †(L2£
+Ucom.knubisoft.base.list.ListTasksTest.findMinValueSuccessful()?minValue@262.12:262.20CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java‡( ‡(02«
+Vcom.knubisoft.base.list.ListTasksTest.findMinValueSuccessful()?integers1@259.27:259.36DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaƒ ƒ($2«
+Vcom.knubisoft.base.list.ListTasksTest.findMinValueSuccessful()?integers2@260.27:260.36DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java„ „($2«
+Vcom.knubisoft.base.list.ListTasksTest.findMinValueSuccessful()?integers3@261.27:261.36DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java… …($2ª
+Ucom.knubisoft.base.list.ListTasksTest.findMinValueSuccessful()?minValue@262.12:262.20DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java† †(2Y
+voidRETURN_TYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java‚ ‚(ß
+Vcom.knubisoft.base.list.ListTasksTest.findMinValueSuccessful()?integers1@259.27:259.36VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaƒ ƒ($"
+typeArrayList<Integer>"
+isFinalfalse"®
+declarationString˜<mark class="modifier"> </mark>ArrayList<Integer> <mark class="class-field">integers1</mark> = new ArrayList<>(Arrays.asList(123, Integer.MAX_VALUE, 0))*	integers12a
+java.util.ArrayListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaƒ ƒ(2h
+java.util.IntegerTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaƒ ƒ(Ü
+Vcom.knubisoft.base.list.ListTasksTest.findMinValueSuccessful()?integers2@260.27:260.36VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java„ „($"
+typeArrayList<Integer>"
+isFinalfalse"­
+declarationString—<mark class="modifier"> </mark>ArrayList<Integer> <mark class="class-field">integers2</mark> = new ArrayList<>(Arrays.asList(1253435, 12413, -1243254))*	integers22a
+java.util.ArrayListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java„ „(2h
+java.util.IntegerTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java„ „(2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java„> „(D2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java„+ „(6è
+Vcom.knubisoft.base.list.ListTasksTest.findMinValueSuccessful()?integers3@261.27:261.36VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java… …($"
+typeArrayList<Integer>"
+isFinalfalse"·
+declarationString¡<mark class="modifier"> </mark>ArrayList<Integer> <mark class="class-field">integers3</mark> = new ArrayList<>(Arrays.asList(Integer.MIN_VALUE, 12413, -1243254))*	integers32a
+java.util.ArrayListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java… …(2h
+java.util.IntegerTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java… …(ß
+Ucom.knubisoft.base.list.ListTasksTest.findMinValueSuccessful()?minValue@262.12:262.20VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java† †("
+typeint"
+isFinalfalse"¹
+declarationString£<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">minValue</mark> = instance.findMinValue(integers1, integers2, integers3)*minValue2Q
+intTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java† †(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java† †(2¤
+Vcom.knubisoft.base.list.ListTasksTest.findMinValueSuccessful()?integers1@259.27:259.36CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java†- †(62¤
+Vcom.knubisoft.base.list.ListTasksTest.findMinValueSuccessful()?integers2@260.27:260.36CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java†8 †(A2¤
+Vcom.knubisoft.base.list.ListTasksTest.findMinValueSuccessful()?integers3@261.27:261.36CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java†C †(LÃ
+8com.knubisoft.base.list.ListTasksTest.findMinValueFail()METHODD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java‹ ‹( "
+isFinalfalse"¶
+declarationString <mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">findMinValueFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*findMinValueFail2m
+java.util.ArrayList.ArrayList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java6 (A2m
+java.util.ArrayList.ArrayList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaI (T2m
+java.util.ArrayList.ArrayList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java0 (;2m
+java.util.ArrayList.ArrayList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaI (T2m
+java.util.ArrayList.ArrayList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java‘0 ‘(;2m
+java.util.ArrayList.ArrayList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java‘C ‘(N2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java‘ ‘(2Y
+voidRETURN_TYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java‹ ‹(ğ
+Fcom.knubisoft.base.list.ListTasksTest.multiplyMax2ElementsSuccessful()METHODD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java• •(."
+isFinalfalse"Ä
+declarationString®<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">multiplyMax2ElementsSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*multiplyMax2ElementsSuccessful2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java—' —(-2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java' (-2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java£' £(-2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java— —(2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java£ £(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java– –(2ª
+\com.knubisoft.base.list.ListTasksTest.multiplyMax2ElementsSuccessful()?actual1@278.12:278.19CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java› ›(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaœ œ(2ª
+\com.knubisoft.base.list.ListTasksTest.multiplyMax2ElementsSuccessful()?actual2@284.12:284.19CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¡ ¡(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¢ ¢(2ª
+\com.knubisoft.base.list.ListTasksTest.multiplyMax2ElementsSuccessful()?actual3@290.12:290.19CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java§ §(!2±
+\com.knubisoft.base.list.ListTasksTest.multiplyMax2ElementsSuccessful()?actual1@278.12:278.19DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java– –(2±
+\com.knubisoft.base.list.ListTasksTest.multiplyMax2ElementsSuccessful()?actual2@284.12:284.19DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaœ œ(2±
+\com.knubisoft.base.list.ListTasksTest.multiplyMax2ElementsSuccessful()?actual3@290.12:290.19DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¢ ¢(2Y
+voidRETURN_TYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java• •(Â
+\com.knubisoft.base.list.ListTasksTest.multiplyMax2ElementsSuccessful()?actual1@278.12:278.19VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java– –("
+typeint"
+isFinalfalse"
+declarationString÷<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">actual1</mark> = instance.multiplyMax2Elements(new ArrayList<>(Arrays.asList(1, -1, 1242323))<mark class="modifier">,</mark> new ArrayList<>(Arrays.asList(1, Integer.MAX_VALUE, 0))<mark class="modifier">,</mark> new ArrayList<>(Arrays.asList(Integer.MAX_VALUE, Integer.MIN_VALUE, 0)))*actual12Q
+intTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java– –(2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java—' —(-2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java— —(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java– –(Ä
+\com.knubisoft.base.list.ListTasksTest.multiplyMax2ElementsSuccessful()?actual2@284.12:284.19VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaœ œ("
+typeint"
+isFinalfalse"
+declarationStringù<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">actual2</mark> = instance.multiplyMax2Elements(new ArrayList<>(Arrays.asList(1, -1, 1242323))<mark class="modifier">,</mark> new ArrayList<>(Arrays.asList(Integer.MAX_VALUE, Integer.MAX_VALUE, 0))<mark class="modifier">,</mark> new ArrayList<>(Arrays.asList(124, Integer.MIN_VALUE, 0)))*actual22Q
+intTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaœ œ(2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java' (-2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaœ œ(³
+\com.knubisoft.base.list.ListTasksTest.multiplyMax2ElementsSuccessful()?actual3@290.12:290.19VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¢ ¢("
+typeint"
+isFinalfalse"ş
+declarationStringè<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">actual3</mark> = instance.multiplyMax2Elements(new ArrayList<>(Arrays.asList(1, -1, 12))<mark class="modifier">,</mark> new ArrayList<>(Arrays.asList(12, Integer.MIN_VALUE, 0))<mark class="modifier">,</mark> new ArrayList<>(Arrays.asList(-12412, Integer.MIN_VALUE, 0)))*actual32Q
+intTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¢ ¢(2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java£' £(-2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java£ £(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¢ ¢(½
+@com.knubisoft.base.list.ListTasksTest.multiplyMax2ElementsFail()METHODD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java« «(("
+isFinalfalse"¾
+declarationString¨<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">multiplyMax2ElementsFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*multiplyMax2ElementsFail2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java²' ²(-2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java·' ·(-2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java² ²(2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java· ·(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¬3 ¬(;2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java±3 ±(;2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¶3 ¶(;2Y
+voidRETURN_TYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java« «(‰
+=com.knubisoft.base.list.ListTasksTest.removeNullsSuccessful()METHODD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¾ ¾(%"
+isFinalfalse"»
+declarationString¥<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">removeNullsSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*removeNullsSuccessful2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÀ' À(-2t
+&java.util.Collections.singletonList(T)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÇ, Ç(92
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÀ À(2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÇ Ç(2m
+java.util.ArrayList.ArrayList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÊ: Ê(E2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¿ ¿('2¡
+Scom.knubisoft.base.list.ListTasksTest.removeNullsSuccessful()?strings@319.21:319.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÁ Á(2¡
+Scom.knubisoft.base.list.ListTasksTest.removeNullsSuccessful()?strings@319.21:319.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÂ Â(2¡
+Scom.knubisoft.base.list.ListTasksTest.removeNullsSuccessful()?strings@319.21:319.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÃ Ã(%2¡
+Scom.knubisoft.base.list.ListTasksTest.removeNullsSuccessful()?strings@319.21:319.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÄ! Ä((2¡
+Scom.knubisoft.base.list.ListTasksTest.removeNullsSuccessful()?strings@319.21:319.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÅ* Å(12ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÆ% Æ(-2§
+Ycom.knubisoft.base.list.ListTasksTest.removeNullsSuccessful()?singletonList@326.21:326.34CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÈ È(%2§
+Ycom.knubisoft.base.list.ListTasksTest.removeNullsSuccessful()?singletonList@326.21:326.34CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÉ* É(72ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÊ! Ê()2£
+Ucom.knubisoft.base.list.ListTasksTest.removeNullsSuccessful()?emptyList@330.21:330.30CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaË Ë(!2£
+Ucom.knubisoft.base.list.ListTasksTest.removeNullsSuccessful()?emptyList@330.21:330.30CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÌ Ì(2¨
+Scom.knubisoft.base.list.ListTasksTest.removeNullsSuccessful()?strings@319.21:319.28DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¿ ¿(2®
+Ycom.knubisoft.base.list.ListTasksTest.removeNullsSuccessful()?singletonList@326.21:326.34DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÆ Æ("2ª
+Ucom.knubisoft.base.list.ListTasksTest.removeNullsSuccessful()?emptyList@330.21:330.30DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÊ Ê(2Y
+voidRETURN_TYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¾ ¾(´	
+Scom.knubisoft.base.list.ListTasksTest.removeNullsSuccessful()?strings@319.21:319.28VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¿ ¿("
+typeList<String>"
+isFinalfalse"‹
+declarationStringõ<mark class="modifier"> </mark>List<String> <mark class="class-field">strings</mark> = instance.removeNulls(new ArrayList<>(Arrays.asList("Geeks"<mark class="modifier">,</mark> <mark class="modifier">null</mark><mark class="modifier">,</mark> "forGeeks"<mark class="modifier">,</mark> <mark class="modifier">null</mark><mark class="modifier">,</mark> "A computer portal")))*strings2\
+java.util.ListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¿ ¿(2g
+java.util.StringTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¿ ¿(2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÀ' À(-2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÀ À(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¿ ¿('†
+Ycom.knubisoft.base.list.ListTasksTest.removeNullsSuccessful()?singletonList@326.21:326.34VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÆ Æ(""
+typeList<String>"
+isFinalfalse"È
+declarationString²<mark class="modifier"> </mark>List<String> <mark class="class-field">singletonList</mark> = instance.removeNulls(new ArrayList<>(Collections.singletonList("A computer portal")))*singletonList2\
+java.util.ListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÆ Æ(2g
+java.util.StringTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÆ Æ(2t
+&java.util.Collections.singletonList(T)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÇ, Ç(92
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÇ Ç(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÆ% Æ(-´
+Ucom.knubisoft.base.list.ListTasksTest.removeNullsSuccessful()?emptyList@330.21:330.30VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÊ Ê("
+typeList<String>"
+isFinalfalse"–
+declarationString€<mark class="modifier"> </mark>List<String> <mark class="class-field">emptyList</mark> = instance.removeNulls(new ArrayList<>())*	emptyList2\
+java.util.ListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÊ Ê(2g
+java.util.StringTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÊ Ê(2m
+java.util.ArrayList.ArrayList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÊ: Ê(E2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÊ! Ê()
+7com.knubisoft.base.list.ListTasksTest.removeNullsFail()METHODD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaĞ Ğ("
+isFinalfalse"µ
+declarationStringŸ<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">removeNullsFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*removeNullsFail2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÑ3 Ñ(;2Y
+voidRETURN_TYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaĞ Ğ(*
+Ecom.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsSuccessful()METHODD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÕ Õ(-"
+isFinalfalse"Ã
+declarationString­<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">flatMapWithoutNullsSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*flatMapWithoutNullsSuccessful2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java×( ×(.2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaØ( Ø(.2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÙ( Ù(.2t
+&java.util.Collections.singletonList(T)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÚ- Ú(:2m
+java.util.ArrayList.ArrayList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÖ' Ö(22
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java× ×( 2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaØ Ø( 2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÙ Ù( 2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÚ Ú( 2m
+java.util.ArrayList.ArrayList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÛ Û( 2¦
+Xcom.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsSuccessful()?list@342.28:342.32CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java× ×(2¦
+Xcom.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsSuccessful()?list@342.28:342.32CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaØ Ø(2¦
+Xcom.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsSuccessful()?list@342.28:342.32CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÙ Ù(2¦
+Xcom.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsSuccessful()?list@342.28:342.32CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÚ Ú(2¦
+Xcom.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsSuccessful()?list@342.28:342.32CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÛ Û(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÜ! Ü()2¦
+Xcom.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsSuccessful()?list@342.28:342.32CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÜ> Ü(B2ª
+\com.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsSuccessful()?integers@348.22:348.30CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaİ İ(2ª
+\com.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsSuccessful()?integers@348.22:348.30CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaŞ Ş(!2ª
+\com.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsSuccessful()?integers@348.22:348.30CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaß ß(!2ª
+\com.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsSuccessful()?integers@348.22:348.30CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaà à( 2ª
+\com.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsSuccessful()?integers@348.22:348.30CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaá á( 2ª
+\com.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsSuccessful()?integers@348.22:348.30CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaâ â(!2ª
+\com.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsSuccessful()?integers@348.22:348.30CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaã ã(!2ª
+\com.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsSuccessful()?integers@348.22:348.30CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaä ä( 2ª
+\com.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsSuccessful()?integers@348.22:348.30CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaå å(#2ª
+\com.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsSuccessful()?integers@348.22:348.30CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaæ æ(!2ª
+\com.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsSuccessful()?integers@348.22:348.30CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaç ç( 2ª
+\com.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsSuccessful()?integers@348.22:348.30CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaè è( 2­
+Xcom.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsSuccessful()?list@342.28:342.32DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÖ Ö( 2±
+\com.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsSuccessful()?integers@348.22:348.30DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÜ Ü(2Y
+voidRETURN_TYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÕ Õ(
+Xcom.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsSuccessful()?list@342.28:342.32VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÖ Ö( "
+typeList<List<Integer>>"
+isFinalfalse"
+declarationStringl<mark class="modifier"> </mark>List<List<Integer>> <mark class="class-field">list</mark> = new ArrayList<>()*list2\
+java.util.ListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÖ Ö(2e
+java.util.ListTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÖ Ö(2h
+java.util.IntegerTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÖ Ö(2m
+java.util.ArrayList.ArrayList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÖ' Ö(2ğ
+\com.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsSuccessful()?integers@348.22:348.30VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÜ Ü("
+typeList<Integer>"
+isFinalfalse"
+declarationString{<mark class="modifier"> </mark>List<Integer> <mark class="class-field">integers</mark> = instance.flatMapWithoutNulls(list)*integers2\
+java.util.ListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÜ Ü(2h
+java.util.IntegerTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÜ Ü(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÜ! Ü()2¦
+Xcom.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsSuccessful()?list@342.28:342.32CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÜ> Ü(B¨
+?com.knubisoft.base.list.ListTasksTest.flatMapWithoutNullsFail()METHODD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaì ì('"
+isFinalfalse"½
+declarationString§<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">flatMapWithoutNullsFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*flatMapWithoutNullsFail2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaí9 í(A2Y
+voidRETURN_TYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaì ì(‚"
+:com.knubisoft.base.list.ListTasksTest.cloneIdsSuccessful()METHODD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javañ ñ(""
+isFinalfalse"¸
+declarationString¢<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">cloneIdsSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*cloneIdsSuccessful2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaòK ò(Q2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaùK ù(Q2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaò8 ò(C2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaù8 ù(C2m
+java.util.ArrayList.ArrayList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java€8 €(C2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaò" ò(*2 
+Rcom.knubisoft.base.list.ListTasksTest.cloneIdsSuccessful()?integers1@370.22:370.31CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaó ó(2 
+Rcom.knubisoft.base.list.ListTasksTest.cloneIdsSuccessful()?integers1@370.22:370.31CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaô ô(!2 
+Rcom.knubisoft.base.list.ListTasksTest.cloneIdsSuccessful()?integers1@370.22:370.31CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaõ õ(!2 
+Rcom.knubisoft.base.list.ListTasksTest.cloneIdsSuccessful()?integers1@370.22:370.31CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaö ö(!2 
+Rcom.knubisoft.base.list.ListTasksTest.cloneIdsSuccessful()?integers1@370.22:370.31CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java÷ ÷(!2 
+Rcom.knubisoft.base.list.ListTasksTest.cloneIdsSuccessful()?integers1@370.22:370.31CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaø ø(#2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaù" ù(*2 
+Rcom.knubisoft.base.list.ListTasksTest.cloneIdsSuccessful()?integers2@377.22:377.31CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaú ú(2 
+Rcom.knubisoft.base.list.ListTasksTest.cloneIdsSuccessful()?integers2@377.22:377.31CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaû û(!2 
+Rcom.knubisoft.base.list.ListTasksTest.cloneIdsSuccessful()?integers2@377.22:377.31CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaü ü($2 
+Rcom.knubisoft.base.list.ListTasksTest.cloneIdsSuccessful()?integers2@377.22:377.31CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaı ı(!2 
+Rcom.knubisoft.base.list.ListTasksTest.cloneIdsSuccessful()?integers2@377.22:377.31CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaş ş(!2 
+Rcom.knubisoft.base.list.ListTasksTest.cloneIdsSuccessful()?integers2@377.22:377.31CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÿ ÿ(#2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java€" €(*2 
+Rcom.knubisoft.base.list.ListTasksTest.cloneIdsSuccessful()?integers3@384.22:384.31CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2 
+Rcom.knubisoft.base.list.ListTasksTest.cloneIdsSuccessful()?integers3@384.22:384.31CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java‚ ‚(!2§
+Rcom.knubisoft.base.list.ListTasksTest.cloneIdsSuccessful()?integers1@370.22:370.31DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaò ò(2§
+Rcom.knubisoft.base.list.ListTasksTest.cloneIdsSuccessful()?integers2@377.22:377.31DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaù ù(2§
+Rcom.knubisoft.base.list.ListTasksTest.cloneIdsSuccessful()?integers3@384.22:384.31DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java€ €(2Y
+voidRETURN_TYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javañ ñ(ƒ	
+Rcom.knubisoft.base.list.ListTasksTest.cloneIdsSuccessful()?integers1@370.22:370.31VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaò ò("
+typeList<Integer>"
+isFinalfalse"×
+declarationStringÁ<mark class="modifier"> </mark>List<Integer> <mark class="class-field">integers1</mark> = instance.cloneIds(new ArrayList<>(Arrays.asList(<mark class="modifier">null</mark><mark class="modifier">,</mark> 1, 4, 6, <mark class="modifier">null</mark><mark class="modifier">,</mark> 123, <mark class="modifier">null</mark>)))*	integers12\
+java.util.ListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaò ò(2h
+java.util.IntegerTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaò ò(2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaòK ò(Q2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaò8 ò(C2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaò" ò(*†	
+Rcom.knubisoft.base.list.ListTasksTest.cloneIdsSuccessful()?integers2@377.22:377.31VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaù ù("
+typeList<Integer>"
+isFinalfalse"Ú
+declarationStringÄ<mark class="modifier"> </mark>List<Integer> <mark class="class-field">integers2</mark> = instance.cloneIds(new ArrayList<>(Arrays.asList(1253, 1, <mark class="modifier">null</mark><mark class="modifier">,</mark> 6, <mark class="modifier">null</mark><mark class="modifier">,</mark> 123, <mark class="modifier">null</mark>)))*	integers22\
+java.util.ListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaù ù(2h
+java.util.IntegerTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaù ù(2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaùK ù(Q2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaù8 ù(C2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaù" ù(*°
+Rcom.knubisoft.base.list.ListTasksTest.cloneIdsSuccessful()?integers3@384.22:384.31VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java€ €("
+typeList<Integer>"
+isFinalfalse"“
+declarationString~<mark class="modifier"> </mark>List<Integer> <mark class="class-field">integers3</mark> = instance.cloneIds(new ArrayList<>())*	integers32\
+java.util.ListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java€ €(2h
+java.util.IntegerTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java€ €(2m
+java.util.ArrayList.ArrayList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java€8 €(C2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java€" €(*‡
+4com.knubisoft.base.list.ListTasksTest.cloneIdsFail()METHODD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java† †("
+isFinalfalse"²
+declarationStringœ<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">cloneIdsFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*cloneIdsFail2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java‡9 ‡(A2Y
+voidRETURN_TYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java† †(ñ$
+9com.knubisoft.base.list.ListTasksTest.shuffleSuccessful()METHODD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java‹ ‹(!"
+isFinalfalse"·
+declarationString¡<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">shuffleSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*shuffleSuccessful2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaŒ6 Œ(<2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaŒ# Œ(.2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2
+Ocom.knubisoft.base.list.ListTasksTest.shuffleSuccessful()?shuffle@396.21:396.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java ( 2
+Ocom.knubisoft.base.list.ListTasksTest.shuffleSuccessful()?shuffle@396.21:396.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2
+Ocom.knubisoft.base.list.ListTasksTest.shuffleSuccessful()?shuffle@396.21:396.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2
+Ocom.knubisoft.base.list.ListTasksTest.shuffleSuccessful()?shuffle@396.21:396.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2
+Ocom.knubisoft.base.list.ListTasksTest.shuffleSuccessful()?shuffle@396.21:396.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java‘ ‘(2
+Ocom.knubisoft.base.list.ListTasksTest.shuffleSuccessful()?shuffle@396.21:396.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java’ ’(2
+Ocom.knubisoft.base.list.ListTasksTest.shuffleSuccessful()?shuffle@396.21:396.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java“ “(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java• •(2
+Ocom.knubisoft.base.list.ListTasksTest.shuffleSuccessful()?shuffle@396.21:396.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java• •( 2
+Ocom.knubisoft.base.list.ListTasksTest.shuffleSuccessful()?shuffle@396.21:396.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java– –(2
+Ocom.knubisoft.base.list.ListTasksTest.shuffleSuccessful()?shuffle@396.21:396.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java— —(2
+Ocom.knubisoft.base.list.ListTasksTest.shuffleSuccessful()?shuffle@396.21:396.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java˜ ˜(2
+Ocom.knubisoft.base.list.ListTasksTest.shuffleSuccessful()?shuffle@396.21:396.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java™ ™(2
+Ocom.knubisoft.base.list.ListTasksTest.shuffleSuccessful()?shuffle@396.21:396.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaš š(2
+Ocom.knubisoft.base.list.ListTasksTest.shuffleSuccessful()?shuffle@396.21:396.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java› ›(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2
+Ocom.knubisoft.base.list.ListTasksTest.shuffleSuccessful()?shuffle@396.21:396.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java ( 2
+Ocom.knubisoft.base.list.ListTasksTest.shuffleSuccessful()?shuffle@396.21:396.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java (2
+Ocom.knubisoft.base.list.ListTasksTest.shuffleSuccessful()?shuffle@396.21:396.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaŸ Ÿ(2
+Ocom.knubisoft.base.list.ListTasksTest.shuffleSuccessful()?shuffle@396.21:396.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java   (2
+Ocom.knubisoft.base.list.ListTasksTest.shuffleSuccessful()?shuffle@396.21:396.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¡ ¡(2
+Ocom.knubisoft.base.list.ListTasksTest.shuffleSuccessful()?shuffle@396.21:396.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¢ ¢(2
+Ocom.knubisoft.base.list.ListTasksTest.shuffleSuccessful()?shuffle@396.21:396.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java£ £(2¤
+Ocom.knubisoft.base.list.ListTasksTest.shuffleSuccessful()?shuffle@396.21:396.28DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaŒ Œ(2Y
+voidRETURN_TYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java‹ ‹(¡
+Ocom.knubisoft.base.list.ListTasksTest.shuffleSuccessful()?shuffle@396.21:396.28VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaŒ Œ("
+typeList<String>"
+isFinalfalse"‡
+declarationStringñ<mark class="modifier"> </mark>List<String> <mark class="class-field">shuffle</mark> = new ArrayList<>(Arrays.asList("Red"<mark class="modifier">,</mark> "Green"<mark class="modifier">,</mark> "Blue"<mark class="modifier">,</mark> "orange"))*shuffle2\
+java.util.ListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaŒ Œ(2g
+java.util.StringTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaŒ Œ(2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaŒ6 Œ(<2
+@java.util.ArrayList.ArrayList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaŒ# Œ(.Ü
+
+=com.knubisoft.base.list.ListTasksTest.shuffleSuccessfulFail()METHODD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java§ §(%"
+isFinalfalse"»
+declarationString¥<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">shuffleSuccessfulFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*shuffleSuccessfulFail2o
+!java.util.Collections.emptyList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java©! ©(*2m
+java.util.ArrayList.ArrayList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¨# ¨(.2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java©. ©(62¡
+Scom.knubisoft.base.list.ListTasksTest.shuffleSuccessfulFail()?shuffle@424.21:424.28CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java©? ©(F2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaª3 ª(;2¨
+Scom.knubisoft.base.list.ListTasksTest.shuffleSuccessfulFail()?shuffle@424.21:424.28DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¨ ¨(2Y
+voidRETURN_TYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java§ §(‹
+Scom.knubisoft.base.list.ListTasksTest.shuffleSuccessfulFail()?shuffle@424.21:424.28VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¨ ¨("
+typeList<String>"
+isFinalfalse"}
+declarationStringh<mark class="modifier"> </mark>List<String> <mark class="class-field">shuffle</mark> = new ArrayList<>()*shuffle2\
+java.util.ListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¨ ¨(2g
+java.util.StringTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¨ ¨(2m
+java.util.ArrayList.ArrayList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¨# ¨(.é
+@com.knubisoft.base.list.ListTasksTest.getLastElementSuccessful()METHODD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java® ®(("
+isFinalfalse"¾
+declarationString¨<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">getLastElementSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*getLastElementSuccessful2o
+!java.util.LinkedList.LinkedList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¯' ¯(32¡
+Scom.knubisoft.base.list.ListTasksTest.getLastElementSuccessful()?list@431.28:431.32CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java° °(2¡
+Scom.knubisoft.base.list.ListTasksTest.getLastElementSuccessful()?list@431.28:431.32CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java± ±(2¡
+Scom.knubisoft.base.list.ListTasksTest.getLastElementSuccessful()?list@431.28:431.32CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java² ²(2¡
+Scom.knubisoft.base.list.ListTasksTest.getLastElementSuccessful()?list@431.28:431.32CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java³ ³(2¡
+Scom.knubisoft.base.list.ListTasksTest.getLastElementSuccessful()?list@431.28:431.32CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java´ ´(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaµ µ( 2¡
+Scom.knubisoft.base.list.ListTasksTest.getLastElementSuccessful()?list@431.28:431.32CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaµ0 µ(42¡
+Scom.knubisoft.base.list.ListTasksTest.getLastElementSuccessful()?list@431.28:431.32CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¶ ¶(2¡
+Scom.knubisoft.base.list.ListTasksTest.getLastElementSuccessful()?list@431.28:431.32CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java· ·(2£
+Ucom.knubisoft.base.list.ListTasksTest.getLastElementSuccessful()?actual@437.15:437.21CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¸ ¸(#2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¹ ¹(%2¡
+Scom.knubisoft.base.list.ListTasksTest.getLastElementSuccessful()?list@431.28:431.32CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¹5 ¹(92¨
+Scom.knubisoft.base.list.ListTasksTest.getLastElementSuccessful()?list@431.28:431.32DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¯ ¯( 2ª
+Ucom.knubisoft.base.list.ListTasksTest.getLastElementSuccessful()?actual@437.15:437.21DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaµ µ(2Y
+voidRETURN_TYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java® ®(›
+Scom.knubisoft.base.list.ListTasksTest.getLastElementSuccessful()?list@431.28:431.32VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¯ ¯( "
+typeLinkedList<String>"
+isFinalfalse"
+declarationStringl<mark class="modifier"> </mark>LinkedList<String> <mark class="class-field">list</mark> = new LinkedList<>()*list2b
+java.util.LinkedListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¯ ¯(2g
+java.util.StringTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¯ ¯(2o
+!java.util.LinkedList.LinkedList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¯' ¯(3å
+Ucom.knubisoft.base.list.ListTasksTest.getLastElementSuccessful()?actual@437.15:437.21VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaµ µ("
+typeString"
+isFinalfalse"‚
+declarationStringm<mark class="modifier"> </mark>String <mark class="class-field">actual</mark> = instance.getLastElement(list)*actual2^
+java.util.StringTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaµ µ(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaµ µ( 2¡
+Scom.knubisoft.base.list.ListTasksTest.getLastElementSuccessful()?list@431.28:431.32CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaµ0 µ(4Ø	
+:com.knubisoft.base.list.ListTasksTest.getLastElementFail()METHODD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java½ ½(""
+isFinalfalse"¸
+declarationString¢<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">getLastElementFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*getLastElementFail2o
+!java.util.LinkedList.LinkedList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¾' ¾(32ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¿ ¿(!2›
+Mcom.knubisoft.base.list.ListTasksTest.getLastElementFail()?list@446.28:446.32CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¿1 ¿(52ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÀ9 À(A2¢
+Mcom.knubisoft.base.list.ListTasksTest.getLastElementFail()?list@446.28:446.32DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¾ ¾( 2Y
+voidRETURN_TYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java½ ½(•
+Mcom.knubisoft.base.list.ListTasksTest.getLastElementFail()?list@446.28:446.32VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¾ ¾( "
+typeLinkedList<String>"
+isFinalfalse"
+declarationStringl<mark class="modifier"> </mark>LinkedList<String> <mark class="class-field">list</mark> = new LinkedList<>()*list2b
+java.util.LinkedListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¾ ¾(2g
+java.util.StringTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¾ ¾(2o
+!java.util.LinkedList.LinkedList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java¾' ¾(3Ë
+Acom.knubisoft.base.list.ListTasksTest.compareElementsSuccessful()METHODD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÄ Ä()"
+isFinalfalse"¿
+declarationString©<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">compareElementsSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*compareElementsSuccessful2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÅN Å(T2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÆ( Æ(.2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÇN Ç(T2t
+&java.util.Collections.singletonList(T)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÈ- È(:2o
+!java.util.Collections.emptyList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÍ! Í(*2
+Bjava.util.LinkedList.LinkedList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÅ: Å(F2
+Bjava.util.LinkedList.LinkedList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÆ Æ( 2
+Bjava.util.LinkedList.LinkedList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÇ: Ç(F2
+Bjava.util.LinkedList.LinkedList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÈ È( 2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÅ Å(%2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÇ Ç(%2£
+Ucom.knubisoft.base.list.ListTasksTest.compareElementsSuccessful()?list1@453.21:453.26CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÉ É(2£
+Ucom.knubisoft.base.list.ListTasksTest.compareElementsSuccessful()?list2@455.21:455.26CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÊ Ê(2£
+Ucom.knubisoft.base.list.ListTasksTest.compareElementsSuccessful()?list1@453.21:453.26CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaË Ë(2£
+Ucom.knubisoft.base.list.ListTasksTest.compareElementsSuccessful()?list1@453.21:453.26CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÌ Ì("2£
+Ucom.knubisoft.base.list.ListTasksTest.compareElementsSuccessful()?list2@455.21:455.26CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÍ. Í(32ª
+Ucom.knubisoft.base.list.ListTasksTest.compareElementsSuccessful()?list1@453.21:453.26DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÅ Å(2ª
+Ucom.knubisoft.base.list.ListTasksTest.compareElementsSuccessful()?list2@455.21:455.26DECLARATIOND
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÇ Ç(2Y
+voidRETURN_TYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÄ Ä(’
+Ucom.knubisoft.base.list.ListTasksTest.compareElementsSuccessful()?list1@453.21:453.26VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÅ Å("
+typeList<String>"
+isFinalfalse"ç
+declarationStringÑ<mark class="modifier"> </mark>List<String> <mark class="class-field">list1</mark> = instance.compareElements(new LinkedList<>(Arrays.asList("Red"<mark class="modifier">,</mark> "Green"<mark class="modifier">,</mark> "Blue"))<mark class="modifier">,</mark> new LinkedList<>(Arrays.asList("orange"<mark class="modifier">,</mark> "Blue")))*list12\
+java.util.ListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÅ Å(2g
+java.util.StringTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÅ Å(2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÅN Å(T2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÆ( Æ(.2
+Bjava.util.LinkedList.LinkedList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÅ: Å(F2
+Bjava.util.LinkedList.LinkedList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÆ Æ( 2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÅ Å(%ÿ
+
+Ucom.knubisoft.base.list.ListTasksTest.compareElementsSuccessful()?list2@455.21:455.26VARIABLED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÇ Ç("
+typeList<String>"
+isFinalfalse"Ë
+declarationStringµ<mark class="modifier"> </mark>List<String> <mark class="class-field">list2</mark> = instance.compareElements(new LinkedList<>(Arrays.asList("Red"<mark class="modifier">,</mark> "Green"<mark class="modifier">,</mark> "Blue"))<mark class="modifier">,</mark> new LinkedList<>(Collections.singletonList("Pink")))*list22\
+java.util.ListTYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÇ Ç(2g
+java.util.StringTYPE_ARGUMENTD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÇ Ç(2k
+java.util.Arrays.asList(T...)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÇN Ç(T2t
+&java.util.Collections.singletonList(T)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÈ- È(:2
+Bjava.util.LinkedList.LinkedList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÇ: Ç(F2
+Bjava.util.LinkedList.LinkedList(java.util.Collection<? extends E>)CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÈ È( 2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÇ Ç(%ç
+;com.knubisoft.base.list.ListTasksTest.compareElementsFail()METHODD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÑ Ñ(#"
+isFinalfalse"¹
+declarationString£<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">compareElementsFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*compareElementsFail2o
+!java.util.Collections.emptyList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÒ! Ò(*2o
+!java.util.LinkedList.LinkedList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÒK Ò(W2o
+!java.util.LinkedList.LinkedList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÒ_ Ò(k2o
+!java.util.LinkedList.LinkedList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÔ9 Ô(E2o
+!java.util.LinkedList.LinkedList()CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÖ3 Ö(?2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÒ. Ò(62ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÔ Ô(2ˆ
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22CALLD
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÖ Ö(2Y
+voidRETURN_TYPED
+8src/test/java/com/knubisoft/base/list/ListTasksTest.javaÑ Ñ(Ú
+:com.knubisoft.base.list.ListTasksTest?instance@10.14:10.22VARIABLEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java
+ 
+("
+isFinalfalse"
+type	ListTasks"~
+declarationStringi<mark class="modifier"> </mark>ListTasks <mark class="class-field">instance</mark> = new ListTasksImpl();"
+isStaticfalse"
+accesspackage_private*instance2m
+!com.knubisoft.base.list.ListTasksTYPEB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java
+ 
+(2
+5com.knubisoft.base.list.ListTasksImpl.ListTasksImpl()CALLB
+8src/test/java/com/knubisoft/base/list/ListTasksTest.java
+ 
+(*

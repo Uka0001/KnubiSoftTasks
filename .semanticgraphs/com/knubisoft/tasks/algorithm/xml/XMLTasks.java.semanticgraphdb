@@ -1,0 +1,98 @@
+
+=src/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasks.javaﬁ
+*com.knubisoft.tasks.algorithm.xml.XMLTasksTRAITG
+=src/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasks.java (",
+package!com.knubisoft.tasks.algorithm.xml"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"j
+declarationStringU<mark class="modifier">public </mark><mark class="modifier">interface </mark>XMLTasks"
+accesspublic*XMLTasks2ù
+Ecom.knubisoft.tasks.algorithm.xml.XMLTasks.parseXML(java.lang.String)DECLARATIONG
+=src/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasks.java (2û
+Fcom.knubisoft.tasks.algorithm.xml.XMLTasks.getAllIds(java.lang.String)DECLARATIONG
+=src/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasks.java
+ 
+(2´
+Scom.knubisoft.tasks.algorithm.xml.XMLTasks.getNameWithIdMoreThan1(java.lang.String)DECLARATIONG
+=src/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasks.java ('ù
+Ecom.knubisoft.tasks.algorithm.xml.XMLTasks.parseXML(java.lang.String)METHODG
+=src/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasks.java ("
+isFinalfalse"n
+declarationStringY<mark class="modifier"> </mark>ModelRoot <mark class="method">parseXML</mark>(String xml)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+type	ModelRoot*parseXML2ü
+Icom.knubisoft.tasks.algorithm.xml.XMLTasks.parseXML(java.lang.String)!xml	PARAMETERG
+=src/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasks.java (!2
+'com.knubisoft.tasks.algorithm.ModelRootRETURN_TYPEG
+=src/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasks.java ( 
+Icom.knubisoft.tasks.algorithm.xml.XMLTasks.parseXML(java.lang.String)!xml	PARAMETERG
+=src/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasks.java (!"
+typeString"
+isFinalfalse"
+declarationString
+String xml*xml2a
+java.lang.StringTYPEG
+=src/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasks.java (ä
+Fcom.knubisoft.tasks.algorithm.xml.XMLTasks.getAllIds(java.lang.String)METHODG
+=src/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasks.java
+ 
+("
+isFinalfalse"y
+declarationStringd<mark class="modifier"> </mark>List&lt;Integer&gt; <mark class="method">getAllIds</mark>(String xml)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeList<Integer>*	getAllIds2†
+Jcom.knubisoft.tasks.algorithm.xml.XMLTasks.getAllIds(java.lang.String)!xml	PARAMETERG
+=src/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasks.java
+# 
+(&2f
+java.util.ListRETURN_TYPEG
+=src/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasks.java
+ 
+(2r
+java.lang.IntegerRETURN_TYPE_ARGUMENTG
+=src/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasks.java
+	 
+(À
+Jcom.knubisoft.tasks.algorithm.xml.XMLTasks.getAllIds(java.lang.String)!xml	PARAMETERG
+=src/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasks.java
+# 
+(&"
+typeString"
+isFinalfalse"
+declarationString
+String xml*xml2a
+java.lang.StringTYPEG
+=src/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasks.java
+ 
+("º
+Scom.knubisoft.tasks.algorithm.xml.XMLTasks.getNameWithIdMoreThan1(java.lang.String)METHODG
+=src/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasks.java ('"
+isFinalfalse"Ö
+declarationStringp<mark class="modifier"> </mark>List&lt;String&gt; <mark class="method">getNameWithIdMoreThan1</mark>(String xml)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeList<String>*getNameWithIdMoreThan12≠
+Wcom.knubisoft.tasks.algorithm.xml.XMLTasks.getNameWithIdMoreThan1(java.lang.String)!xml	PARAMETERG
+=src/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasks.java/ (22f
+java.util.ListRETURN_TYPEG
+=src/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasks.java (2q
+java.lang.StringRETURN_TYPE_ARGUMENTG
+=src/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasks.java	 (ÿ
+Wcom.knubisoft.tasks.algorithm.xml.XMLTasks.getNameWithIdMoreThan1(java.lang.String)!xml	PARAMETERG
+=src/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasks.java/ (2"
+typeString"
+isFinalfalse"
+declarationString
+String xml*xml2a
+java.lang.StringTYPEG
+=src/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasks.java( (.

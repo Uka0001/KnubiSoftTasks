@@ -1,0 +1,122 @@
+
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.javaÉ
+9com.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTestCLASSV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java ("4
+package)com.knubisoft.tasks.algorithm.luckyticket"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"g
+declarationStringR<mark class="modifier"> </mark><mark class="modifier">class </mark>LuckyTicketTest"
+accesspackage_private*LuckyTicketTest2¶
+Ocom.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTest.notLuckyTicketsTest()DECLARATIONV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (#2³
+Lcom.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTest.luckyTicketsTest()DECLARATIONV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java' '( 2µ
+Ncom.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTest?instance@14.30:14.38DECLARATIONV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (&ñ&
+Ocom.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTest.notLuckyTicketsTest()METHODV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (#"
+isFinalfalse"¹
+declarationString£<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">notLuckyTicketsTest</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*notLuckyTicketsTest2º
+Zcom.knubisoft.tasks.algorithm.luckyticket.LuckyTicket.checkIsLuckyTicket(java.lang.String)CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (/2º
+Zcom.knubisoft.tasks.algorithm.luckyticket.LuckyTicket.checkIsLuckyTicket(java.lang.String)CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (/2º
+Zcom.knubisoft.tasks.algorithm.luckyticket.LuckyTicket.checkIsLuckyTicket(java.lang.String)CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (/2º
+Zcom.knubisoft.tasks.algorithm.luckyticket.LuckyTicket.checkIsLuckyTicket(java.lang.String)CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (/2º
+Zcom.knubisoft.tasks.algorithm.luckyticket.LuckyTicket.checkIsLuckyTicket(java.lang.String)CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (/2º
+Zcom.knubisoft.tasks.algorithm.luckyticket.LuckyTicket.checkIsLuckyTicket(java.lang.String)CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (/2º
+Zcom.knubisoft.tasks.algorithm.luckyticket.LuckyTicket.checkIsLuckyTicket(java.lang.String)CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (/2º
+Zcom.knubisoft.tasks.algorithm.luckyticket.LuckyTicket.checkIsLuckyTicket(java.lang.String)CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (/2º
+Zcom.knubisoft.tasks.algorithm.luckyticket.LuckyTicket.checkIsLuckyTicket(java.lang.String)CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (/2º
+Zcom.knubisoft.tasks.algorithm.luckyticket.LuckyTicket.checkIsLuckyTicket(java.lang.String)CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (/2º
+Zcom.knubisoft.tasks.algorithm.luckyticket.LuckyTicket.checkIsLuckyTicket(java.lang.String)CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (/2º
+Zcom.knubisoft.tasks.algorithm.luckyticket.LuckyTicket.checkIsLuckyTicket(java.lang.String)CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java   (/2®
+Ncom.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTest?instance@14.30:14.38CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (2®
+Ncom.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTest?instance@14.30:14.38CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (2®
+Ncom.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTest?instance@14.30:14.38CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (2®
+Ncom.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTest?instance@14.30:14.38CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (2®
+Ncom.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTest?instance@14.30:14.38CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (2®
+Ncom.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTest?instance@14.30:14.38CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (2®
+Ncom.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTest?instance@14.30:14.38CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (2®
+Ncom.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTest?instance@14.30:14.38CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (2®
+Ncom.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTest?instance@14.30:14.38CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (2®
+Ncom.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTest?instance@14.30:14.38CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (2®
+Ncom.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTest?instance@14.30:14.38CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (2®
+Ncom.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTest?instance@14.30:14.38CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java   (2k
+voidRETURN_TYPEV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (Ô
+Lcom.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTest.luckyTicketsTest()METHODV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java' '( "
+isFinalfalse"¶
+declarationString <mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">luckyTicketsTest</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*luckyTicketsTest2º
+Zcom.knubisoft.tasks.algorithm.luckyticket.LuckyTicket.checkIsLuckyTicket(java.lang.String)CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java( ((.2º
+Zcom.knubisoft.tasks.algorithm.luckyticket.LuckyTicket.checkIsLuckyTicket(java.lang.String)CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java) )(.2º
+Zcom.knubisoft.tasks.algorithm.luckyticket.LuckyTicket.checkIsLuckyTicket(java.lang.String)CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java* *(.2º
+Zcom.knubisoft.tasks.algorithm.luckyticket.LuckyTicket.checkIsLuckyTicket(java.lang.String)CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java+ +(.2º
+Zcom.knubisoft.tasks.algorithm.luckyticket.LuckyTicket.checkIsLuckyTicket(java.lang.String)CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java, ,(.2º
+Zcom.knubisoft.tasks.algorithm.luckyticket.LuckyTicket.checkIsLuckyTicket(java.lang.String)CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java- -(.2®
+Ncom.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTest?instance@14.30:14.38CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java( ((2®
+Ncom.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTest?instance@14.30:14.38CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java) )(2®
+Ncom.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTest?instance@14.30:14.38CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java* *(2®
+Ncom.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTest?instance@14.30:14.38CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java+ +(2®
+Ncom.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTest?instance@14.30:14.38CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java, ,(2®
+Ncom.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTest?instance@14.30:14.38CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java- -(2k
+voidRETURN_TYPEV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java' '(ü
+Ncom.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTest?instance@14.30:14.38VALUEV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (&"
+isFinaltrue"
+typeLuckyTicket"®
+declarationString˜<mark class="modifier">private </mark><mark class="modifier">final </mark>LuckyTicket <mark class="class-field">instance</mark> = new LuckyTicketImpl();"
+isStaticfalse"
+accessprivate*instance2•
+5com.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTYPEV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java (2«
+Kcom.knubisoft.tasks.algorithm.luckyticket.LuckyTicketImpl.LuckyTicketImpl()CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicketTest.java- (<

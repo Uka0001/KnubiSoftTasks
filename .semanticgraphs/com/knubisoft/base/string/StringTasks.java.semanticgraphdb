@@ -1,0 +1,314 @@
+
+8src/main/java/com/knubisoft/base/string/StringTasks.javaı
+%com.knubisoft.base.string.StringTasksTRAITB
+8src/main/java/com/knubisoft/base/string/StringTasks.java ("$
+packagecom.knubisoft.base.string"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"m
+declarationStringX<mark class="modifier">public </mark><mark class="modifier">interface </mark>StringTasks"
+accesspublic*StringTasks2ò
+Ecom.knubisoft.base.string.StringTasks.reverseString(java.lang.String)DECLARATIONB
+8src/main/java/com/knubisoft/base/string/StringTasks.java (2±
+^com.knubisoft.base.string.StringTasks.insertStringInMiddle(java.lang.String, java.lang.String)DECLARATIONB
+8src/main/java/com/knubisoft/base/string/StringTasks.java (2™
+Wcom.knubisoft.base.string.StringTasks.insertSymbolInString(java.lang.String, char, int)DECLARATIONB
+8src/main/java/com/knubisoft/base/string/StringTasks.java% %(2≤
+_com.knubisoft.base.string.StringTasks.appendToString(java.lang.StringBuilder, java.lang.String)DECLARATIONB
+8src/main/java/com/knubisoft/base/string/StringTasks.java. .(2ó
+Dcom.knubisoft.base.string.StringTasks.isPalindrome(java.lang.String)DECLARATIONB
+8src/main/java/com/knubisoft/base/string/StringTasks.java? ?(2ó
+Dcom.knubisoft.base.string.StringTasks.hasLowerCase(java.lang.String)DECLARATIONB
+8src/main/java/com/knubisoft/base/string/StringTasks.javaP P(2õ
+Hcom.knubisoft.base.string.StringTasks.uniqueCharacters(java.lang.String)DECLARATIONB
+8src/main/java/com/knubisoft/base/string/StringTasks.javaa a(2§
+Qcom.knubisoft.base.string.StringTasks.removeAllCharacters(java.lang.String, char)DECLARATIONB
+8src/main/java/com/knubisoft/base/string/StringTasks.javas s(2ñ
+Ccom.knubisoft.base.string.StringTasks.toCamelCase(java.lang.String)DECLARATIONB
+8src/main/java/com/knubisoft/base/string/StringTasks.java~ ~(2•
+Pcom.knubisoft.base.string.StringTasks.getCountRepeatableString(java.lang.String)DECLARATIOND
+8src/main/java/com/knubisoft/base/string/StringTasks.javaé é(#2§
+Ocom.knubisoft.base.string.StringTasks.sortStringCharactersAsc(java.lang.String)DECLARATIOND
+8src/main/java/com/knubisoft/base/string/StringTasks.javaò ò("Ö
+Ecom.knubisoft.base.string.StringTasks.reverseString(java.lang.String)METHODB
+8src/main/java/com/knubisoft/base/string/StringTasks.java ("
+isFinalfalse"u
+declarationString`<mark class="modifier"> </mark>String <mark class="method">reverseString</mark>(String original)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*reverseString2ü
+Ncom.knubisoft.base.string.StringTasks.reverseString(java.lang.String)!original	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.java  ((2c
+java.lang.StringRETURN_TYPEB
+8src/main/java/com/knubisoft/base/string/StringTasks.java (
+œ
+Ncom.knubisoft.base.string.StringTasks.reverseString(java.lang.String)!original	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.java  (("
+typeString"
+isFinalfalse"$
+declarationStringString original*original2\
+java.lang.StringTYPEB
+8src/main/java/com/knubisoft/base/string/StringTasks.java (œ
+^com.knubisoft.base.string.StringTasks.insertStringInMiddle(java.lang.String, java.lang.String)METHODB
+8src/main/java/com/knubisoft/base/string/StringTasks.java ("
+isFinalfalse" 
+declarationString¥<mark class="modifier"> </mark>String <mark class="method">insertStringInMiddle</mark>(String original<mark class="modifier"><mark class="modifier">,</mark></mark> String toInsert)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*insertStringInMiddle2∏
+gcom.knubisoft.base.string.StringTasks.insertStringInMiddle(java.lang.String, java.lang.String)!original	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.java' (/2∏
+gcom.knubisoft.base.string.StringTasks.insertStringInMiddle(java.lang.String, java.lang.String)!toInsert	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.java8 (@2c
+java.lang.StringRETURN_TYPEB
+8src/main/java/com/knubisoft/base/string/StringTasks.java (
+Ë
+gcom.knubisoft.base.string.StringTasks.insertStringInMiddle(java.lang.String, java.lang.String)!original	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.java' (/"
+typeString"
+isFinalfalse"$
+declarationStringString original*original2\
+java.lang.StringTYPEB
+8src/main/java/com/knubisoft/base/string/StringTasks.java  (&Ë
+gcom.knubisoft.base.string.StringTasks.insertStringInMiddle(java.lang.String, java.lang.String)!toInsert	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.java8 (@"
+typeString"
+isFinalfalse"$
+declarationStringString toInsert*toInsert2\
+java.lang.StringTYPEB
+8src/main/java/com/knubisoft/base/string/StringTasks.java1 (7‘	
+Wcom.knubisoft.base.string.StringTasks.insertSymbolInString(java.lang.String, char, int)METHODB
+8src/main/java/com/knubisoft/base/string/StringTasks.java% %("
+isFinalfalse"∞
+declarationStringö<mark class="modifier"> </mark>String <mark class="method">insertSymbolInString</mark>(String original<mark class="modifier"><mark class="modifier">,</mark></mark> char toInsert<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> position)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*insertSymbolInString2±
+`com.knubisoft.base.string.StringTasks.insertSymbolInString(java.lang.String, char, int)!original	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.java%' %(/2±
+`com.knubisoft.base.string.StringTasks.insertSymbolInString(java.lang.String, char, int)!toInsert	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.java%6 %(>2±
+`com.knubisoft.base.string.StringTasks.insertSymbolInString(java.lang.String, char, int)!position	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.java%D %(L2c
+java.lang.StringRETURN_TYPEB
+8src/main/java/com/knubisoft/base/string/StringTasks.java% %(
+·
+`com.knubisoft.base.string.StringTasks.insertSymbolInString(java.lang.String, char, int)!original	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.java%' %(/"
+typeString"
+isFinalfalse"$
+declarationStringString original*original2\
+java.lang.StringTYPEB
+8src/main/java/com/knubisoft/base/string/StringTasks.java%  %(&—
+`com.knubisoft.base.string.StringTasks.insertSymbolInString(java.lang.String, char, int)!toInsert	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.java%6 %(>"
+typechar"
+isFinalfalse""
+declarationStringchar toInsert*toInsert2P
+charTYPEB
+8src/main/java/com/knubisoft/base/string/StringTasks.java%1 %(5Ï
+`com.knubisoft.base.string.StringTasks.insertSymbolInString(java.lang.String, char, int)!position	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.java%D %(L"
+typeint"
+isFinalfalse"?
+declarationString*<mark class="modifier">int</mark> position*position2O
+intTYPEB
+8src/main/java/com/knubisoft/base/string/StringTasks.java%@ %(CÕ
+_com.knubisoft.base.string.StringTasks.appendToString(java.lang.StringBuilder, java.lang.String)METHODB
+8src/main/java/com/knubisoft/base/string/StringTasks.java. .("
+isFinalfalse"À
+declarationStringµ<mark class="modifier"> </mark>String <mark class="method">appendToString</mark>(StringBuilder original<mark class="modifier"><mark class="modifier">,</mark></mark> String toAppend)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*appendToString2π
+hcom.knubisoft.base.string.StringTasks.appendToString(java.lang.StringBuilder, java.lang.String)!original	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.java.( .(02π
+hcom.knubisoft.base.string.StringTasks.appendToString(java.lang.StringBuilder, java.lang.String)!toAppend	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.java.9 .(A2c
+java.lang.StringRETURN_TYPEB
+8src/main/java/com/knubisoft/base/string/StringTasks.java. .(
+˛
+hcom.knubisoft.base.string.StringTasks.appendToString(java.lang.StringBuilder, java.lang.String)!original	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.java.( .(0"
+typeStringBuilder"
+isFinalfalse"+
+declarationStringStringBuilder original*original2c
+java.lang.StringBuilderTYPEB
+8src/main/java/com/knubisoft/base/string/StringTasks.java. .('È
+hcom.knubisoft.base.string.StringTasks.appendToString(java.lang.StringBuilder, java.lang.String)!toAppend	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.java.9 .(A"
+typeString"
+isFinalfalse"$
+declarationStringString toAppend*toAppend2\
+java.lang.StringTYPEB
+8src/main/java/com/knubisoft/base/string/StringTasks.java.2 .(8û
+Dcom.knubisoft.base.string.StringTasks.isPalindrome(java.lang.String)METHODB
+8src/main/java/com/knubisoft/base/string/StringTasks.java? ?("
+isFinalfalse"ñ
+declarationStringÄ<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isPalindrome</mark>(String palindrome)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isPalindrome2†
+Ocom.knubisoft.base.string.StringTasks.isPalindrome(java.lang.String)!palindrome	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.java?  ?(*2Z
+booleanRETURN_TYPEB
+8src/main/java/com/knubisoft/base/string/StringTasks.java? ?(‘
+Ocom.knubisoft.base.string.StringTasks.isPalindrome(java.lang.String)!palindrome	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.java?  ?(*"
+typeString"
+isFinalfalse"&
+declarationStringString palindrome*
+palindrome2\
+java.lang.StringTYPEB
+8src/main/java/com/knubisoft/base/string/StringTasks.java? ?(è
+Dcom.knubisoft.base.string.StringTasks.hasLowerCase(java.lang.String)METHODB
+8src/main/java/com/knubisoft/base/string/StringTasks.javaP P("
+isFinalfalse"é
+declarationStringy<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">hasLowerCase</mark>(String str)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*hasLowerCase2ô
+Hcom.knubisoft.base.string.StringTasks.hasLowerCase(java.lang.String)!str	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.javaP  P(#2Z
+booleanRETURN_TYPEB
+8src/main/java/com/knubisoft/base/string/StringTasks.javaP P(ø
+Hcom.knubisoft.base.string.StringTasks.hasLowerCase(java.lang.String)!str	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.javaP  P(#"
+typeString"
+isFinalfalse"
+declarationString
+String str*str2\
+java.lang.StringTYPEB
+8src/main/java/com/knubisoft/base/string/StringTasks.javaP P(á
+Hcom.knubisoft.base.string.StringTasks.uniqueCharacters(java.lang.String)METHODB
+8src/main/java/com/knubisoft/base/string/StringTasks.javaa a("
+isFinalfalse"s
+declarationString^<mark class="modifier"> </mark>String <mark class="method">uniqueCharacters</mark>(String str)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*uniqueCharacters2ù
+Lcom.knubisoft.base.string.StringTasks.uniqueCharacters(java.lang.String)!str	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.javaa# a(&2c
+java.lang.StringRETURN_TYPEB
+8src/main/java/com/knubisoft/base/string/StringTasks.javaa a(
+√
+Lcom.knubisoft.base.string.StringTasks.uniqueCharacters(java.lang.String)!str	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.javaa# a(&"
+typeString"
+isFinalfalse"
+declarationString
+String str*str2\
+java.lang.StringTYPEB
+8src/main/java/com/knubisoft/base/string/StringTasks.javaa a("¢
+Qcom.knubisoft.base.string.StringTasks.removeAllCharacters(java.lang.String, char)METHODB
+8src/main/java/com/knubisoft/base/string/StringTasks.javas s("
+isFinalfalse"∆
+declarationString∞<mark class="modifier"> </mark>String <mark class="method">removeAllCharacters</mark>(String str<mark class="modifier"><mark class="modifier">,</mark></mark> char charToRemove)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*removeAllCharacters2¶
+Ucom.knubisoft.base.string.StringTasks.removeAllCharacters(java.lang.String, char)!str	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.javas& s()2Ø
+^com.knubisoft.base.string.StringTasks.removeAllCharacters(java.lang.String, char)!charToRemove	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.javas0 s(<2c
+java.lang.StringRETURN_TYPEB
+8src/main/java/com/knubisoft/base/string/StringTasks.javas s(
+Ã
+Ucom.knubisoft.base.string.StringTasks.removeAllCharacters(java.lang.String, char)!str	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.javas& s()"
+typeString"
+isFinalfalse"
+declarationString
+String str*str2\
+java.lang.StringTYPEB
+8src/main/java/com/knubisoft/base/string/StringTasks.javas s(%◊
+^com.knubisoft.base.string.StringTasks.removeAllCharacters(java.lang.String, char)!charToRemove	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.javas0 s(<"
+typechar"
+isFinalfalse"&
+declarationStringchar charToRemove*charToRemove2P
+charTYPEB
+8src/main/java/com/knubisoft/base/string/StringTasks.javas+ s(/Û
+Ccom.knubisoft.base.string.StringTasks.toCamelCase(java.lang.String)METHODB
+8src/main/java/com/knubisoft/base/string/StringTasks.java~ ~("
+isFinalfalse"n
+declarationStringY<mark class="modifier"> </mark>String <mark class="method">toCamelCase</mark>(String str)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*toCamelCase2ò
+Gcom.knubisoft.base.string.StringTasks.toCamelCase(java.lang.String)!str	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.java~ ~(!2c
+java.lang.StringRETURN_TYPEB
+8src/main/java/com/knubisoft/base/string/StringTasks.java~ ~(
+æ
+Gcom.knubisoft.base.string.StringTasks.toCamelCase(java.lang.String)!str	PARAMETERB
+8src/main/java/com/knubisoft/base/string/StringTasks.java~ ~(!"
+typeString"
+isFinalfalse"
+declarationString
+String str*str2\
+java.lang.StringTYPEB
+8src/main/java/com/knubisoft/base/string/StringTasks.java~ ~(≠
+Pcom.knubisoft.base.string.StringTasks.getCountRepeatableString(java.lang.String)METHODD
+8src/main/java/com/knubisoft/base/string/StringTasks.javaé é(#"
+isFinalfalse"{
+declarationStringf<mark class="modifier"> </mark>String <mark class="method">getCountRepeatableString</mark>(String str)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*getCountRepeatableString2ß
+Tcom.knubisoft.base.string.StringTasks.getCountRepeatableString(java.lang.String)!str	PARAMETERD
+8src/main/java/com/knubisoft/base/string/StringTasks.javaé+ é(.2e
+java.lang.StringRETURN_TYPED
+8src/main/java/com/knubisoft/base/string/StringTasks.javaé é(
+œ
+Tcom.knubisoft.base.string.StringTasks.getCountRepeatableString(java.lang.String)!str	PARAMETERD
+8src/main/java/com/knubisoft/base/string/StringTasks.javaé+ é(."
+typeString"
+isFinalfalse"
+declarationString
+String str*str2^
+java.lang.StringTYPED
+8src/main/java/com/knubisoft/base/string/StringTasks.javaé$ é(*©
+Ocom.knubisoft.base.string.StringTasks.sortStringCharactersAsc(java.lang.String)METHODD
+8src/main/java/com/knubisoft/base/string/StringTasks.javaò ò(""
+isFinalfalse"z
+declarationStringe<mark class="modifier"> </mark>String <mark class="method">sortStringCharactersAsc</mark>(String str)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeString*sortStringCharactersAsc2¶
+Scom.knubisoft.base.string.StringTasks.sortStringCharactersAsc(java.lang.String)!str	PARAMETERD
+8src/main/java/com/knubisoft/base/string/StringTasks.javaò* ò(-2e
+java.lang.StringRETURN_TYPED
+8src/main/java/com/knubisoft/base/string/StringTasks.javaò ò(
+Œ
+Scom.knubisoft.base.string.StringTasks.sortStringCharactersAsc(java.lang.String)!str	PARAMETERD
+8src/main/java/com/knubisoft/base/string/StringTasks.javaò* ò(-"
+typeString"
+isFinalfalse"
+declarationString
+String str*str2^
+java.lang.StringTYPED
+8src/main/java/com/knubisoft/base/string/StringTasks.javaò# ò()

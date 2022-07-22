@@ -1,0 +1,201 @@
+
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.javaó
+.com.knubisoft.base.reflection.model.EntryModelCLASSK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java ( ".
+package#com.knubisoft.base.reflection.model"
+isFinalfalse"
+inner classfalse"
+
+isAbstracttrue"è
+declarationStringz<mark class="modifier">public </mark><mark class="modifier">abstract </mark><mark class="modifier">class </mark>EntryModel"
+accesspublic*
+EntryModel2ß
+Kcom.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String)DECLARATIONK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (2π
+]com.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String, java.lang.String)DECLARATIONK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (2À
+ocom.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String, java.lang.String, java.lang.String)DECLARATIONK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (2î
+8com.knubisoft.base.reflection.model.EntryModel.builder()DECLARATIONK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (2î
+8com.knubisoft.base.reflection.model.EntryModel.getUser()DECLARATIONK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (2ï
+9com.knubisoft.base.reflection.model.EntryModel.getUser1()DECLARATIONK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (2û
+Bcom.knubisoft.base.reflection.model.EntryModel?tableName@3.19:3.28DECLARATIONK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (2ü
+Ccom.knubisoft.base.reflection.model.EntryModel?schemaName@4.19:4.29DECLARATIONK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (2ú
+@com.knubisoft.base.reflection.model.EntryModel?version@5.19:5.26DECLARATIONK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (2ò
+<com.knubisoft.base.reflection.model.EntryModel?asd@6.18:6.21DECLARATIONK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (≠
+Kcom.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String)CONSTRUCTORK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java ("r
+declarationString]<mark class="modifier">public </mark><mark class="method">EntryModel</mark>(String tableName)*
+EntryModel2™
+Ucom.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String)!tableNameCALLK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java	 	("2ó
+Bcom.knubisoft.base.reflection.model.EntryModel?tableName@3.19:3.28CALLK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java	 	(2Ø
+Ucom.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String)!tableName	PARAMETERK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (&2ä
+.com.knubisoft.base.reflection.model.EntryModelRETURN_TYPEK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (Í
+Ucom.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String)!tableName	PARAMETERK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (&"
+typeString"
+isFinalfalse"%
+declarationStringString tableName*	tableName2e
+java.lang.StringTYPEK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (‘
+]com.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String, java.lang.String)CONSTRUCTORK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java ("¬
+declarationString¨<mark class="modifier">public </mark><mark class="method">EntryModel</mark>(String tableName<mark class="modifier"><mark class="modifier">,</mark></mark> String schemaName)*
+EntryModel2º
+gcom.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String, java.lang.String)!tableNameCALLK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java ("2Ω
+hcom.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String, java.lang.String)!schemaNameCALLK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java ($2ó
+Bcom.knubisoft.base.reflection.model.EntryModel?tableName@3.19:3.28CALLK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (2ò
+Ccom.knubisoft.base.reflection.model.EntryModel?schemaName@4.19:4.29CALLK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (2¡
+gcom.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String, java.lang.String)!tableName	PARAMETERK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (&2¬
+hcom.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String, java.lang.String)!schemaName	PARAMETERK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java/ (92ä
+.com.knubisoft.base.reflection.model.EntryModelRETURN_TYPEK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (¸
+gcom.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String, java.lang.String)!tableName	PARAMETERK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (&"
+typeString"
+isFinalfalse"%
+declarationStringString tableName*	tableName2e
+java.lang.StringTYPEK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (ˇ
+hcom.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String, java.lang.String)!schemaName	PARAMETERK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java/ (9"
+typeString"
+isFinalfalse"&
+declarationStringString schemaName*
+schemaName2e
+java.lang.StringTYPEK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java( (.µ
+ocom.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String, java.lang.String, java.lang.String)CONSTRUCTORK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java ("é
+declarationString¯<mark class="modifier">public </mark><mark class="method">EntryModel</mark>(String tableName<mark class="modifier"><mark class="modifier">,</mark></mark> String schemaName<mark class="modifier"><mark class="modifier">,</mark></mark> String version)*
+EntryModel2Œ
+ycom.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String, java.lang.String, java.lang.String)!tableNameCALLK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java ("2œ
+zcom.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String, java.lang.String, java.lang.String)!schemaNameCALLK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java ($2Ã
+wcom.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String, java.lang.String, java.lang.String)!versionCALLK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (2ó
+Bcom.knubisoft.base.reflection.model.EntryModel?tableName@3.19:3.28CALLK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (2ò
+Ccom.knubisoft.base.reflection.model.EntryModel?schemaName@4.19:4.29CALLK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (2ï
+@com.knubisoft.base.reflection.model.EntryModel?version@5.19:5.26CALLK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (2”
+ycom.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String, java.lang.String, java.lang.String)!tableName	PARAMETERK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (&2‘
+zcom.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String, java.lang.String, java.lang.String)!schemaName	PARAMETERK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java/ (92—
+wcom.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String, java.lang.String, java.lang.String)!version	PARAMETERK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.javaB (I2ä
+.com.knubisoft.base.reflection.model.EntryModelRETURN_TYPEK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (é
+ycom.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String, java.lang.String, java.lang.String)!tableName	PARAMETERK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (&"
+typeString"
+isFinalfalse"%
+declarationStringString tableName*	tableName2e
+java.lang.StringTYPEK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (ë
+zcom.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String, java.lang.String, java.lang.String)!schemaName	PARAMETERK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java/ (9"
+typeString"
+isFinalfalse"&
+declarationStringString schemaName*
+schemaName2e
+java.lang.StringTYPEK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java( (.à
+wcom.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String, java.lang.String, java.lang.String)!version	PARAMETERK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.javaB (I"
+typeString"
+isFinalfalse"#
+declarationStringString version*version2e
+java.lang.StringTYPEK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java; (AÒ
+8com.knubisoft.base.reflection.model.EntryModel.builder()METHODK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java ("
+isFinalfalse"j
+declarationStringU<mark class="modifier">public </mark>EntryModel <mark class="method">builder</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+type
+EntryModel*builder2ä
+.com.knubisoft.base.reflection.model.EntryModelRETURN_TYPEK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (Ã
+8com.knubisoft.base.reflection.model.EntryModel.getUser()METHODK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java ("
+isFinalfalse"g
+declarationStringR<mark class="modifier">private </mark>String <mark class="method">getUser</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typeString*getUser2l
+java.lang.StringRETURN_TYPEK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (œ
+9com.knubisoft.base.reflection.model.EntryModel.getUser1()METHODK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java ("
+isFinalfalse"h
+declarationStringS<mark class="modifier">private </mark>String <mark class="method">getUser1</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typeString*getUser12l
+java.lang.StringRETURN_TYPEK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (√
+Bcom.knubisoft.base.reflection.model.EntryModel?tableName@3.19:3.28VARIABLEK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java ("
+isFinalfalse"
+typeString"l
+declarationStringW<mark class="modifier">private </mark>String <mark class="class-field">tableName</mark>"
+isStaticfalse"
+accessprivate*	tableName2e
+java.lang.StringTYPEK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (∆
+Ccom.knubisoft.base.reflection.model.EntryModel?schemaName@4.19:4.29VARIABLEK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java ("
+isFinalfalse"
+typeString"m
+declarationStringX<mark class="modifier">private </mark>String <mark class="class-field">schemaName</mark>"
+isStaticfalse"
+accessprivate*
+schemaName2e
+java.lang.StringTYPEK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (Ω
+@com.knubisoft.base.reflection.model.EntryModel?version@5.19:5.26VARIABLEK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java ("
+isFinalfalse"
+typeString"j
+declarationStringU<mark class="modifier">private </mark>String <mark class="class-field">version</mark>"
+isStaticfalse"
+accessprivate*version2e
+java.lang.StringTYPEK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (Ø
+<com.knubisoft.base.reflection.model.EntryModel?asd@6.18:6.21VARIABLEK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java ("
+isFinalfalse"
+typeString"e
+declarationStringP<mark class="modifier">public </mark>String <mark class="class-field">asd</mark>"
+isStaticfalse"
+accesspublic*asd2e
+java.lang.StringTYPEK
+Asrc/main/java/com/knubisoft/base/reflection/model/EntryModel.java (

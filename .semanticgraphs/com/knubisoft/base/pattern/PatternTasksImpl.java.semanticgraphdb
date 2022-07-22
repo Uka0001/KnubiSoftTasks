@@ -1,0 +1,325 @@
+
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java±
++com.knubisoft.base.pattern.PatternTasksImplCLASSH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java ("%
+packagecom.knubisoft.base.pattern"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¨
+declarationString’<mark class="modifier">public </mark><mark class="modifier">class </mark>PatternTasksImpl<mark class="modifier"><br>implements </mark>PatternTasks"
+accesspublic*PatternTasksImpl2ª
+Qcom.knubisoft.base.pattern.PatternTasksImpl.haveSetOfCharacters(java.lang.String)DECLARATIONH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java (&2¨
+Ocom.knubisoft.base.pattern.PatternTasksImpl.matchByCharacters(java.lang.String)DECLARATIONH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java
+ 
+(#2§
+Ncom.knubisoft.base.pattern.PatternTasksImpl.matchStartAndEnd(java.lang.String)DECLARATIONH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java ("2¥
+Lcom.knubisoft.base.pattern.PatternTasksImpl.matchIpAddress(java.lang.String)DECLARATIONH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java ( 2¢
+Icom.knubisoft.base.pattern.PatternTasksImpl.matchVowels(java.lang.String)DECLARATIONH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java (2¢
+Icom.knubisoft.base.pattern.PatternTasksImpl.validatePIN(java.lang.String)DECLARATIONH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java (2•
+<com.knubisoft.base.pattern.PatternTasksImpl.divideDigit(int)DECLARATIONH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java# #(2¹
+`com.knubisoft.base.pattern.PatternTasksImpl.removeAllNonAlphanumericCharacters(java.lang.String)DECLARATIONH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java( ((42ª
+Qcom.knubisoft.base.pattern.PatternTasksImpl.validatePhoneNumber(java.lang.String)DECLARATIONH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java- -(&2µ
+\com.knubisoft.base.pattern.PatternTasksImpl.getLastVowelsByConstraint(java.lang.String, int)DECLARATIONH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java2 2(+2¯
+Vcom.knubisoft.base.pattern.PatternTasksImpl.isMathematicalExpression(java.lang.String)DECLARATIONH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java7 7(+2¡
+Hcom.knubisoft.base.pattern.PatternTasksImpl.insertDash(java.lang.String)DECLARATIONH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java< <(2{
+'com.knubisoft.base.pattern.PatternTasksEXTENDH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java) (5
+Qcom.knubisoft.base.pattern.PatternTasksImpl.haveSetOfCharacters(java.lang.String)METHODH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java (&"
+isFinalfalse"Ë
+declarationStringµ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">haveSetOfCharacters</mark>(String text)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*haveSetOfCharacters2£
+Mcom.knubisoft.base.pattern.PatternTasks.haveSetOfCharacters(java.lang.String)OVERRIDEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java (&2­
+Vcom.knubisoft.base.pattern.PatternTasksImpl.haveSetOfCharacters(java.lang.String)!text	PARAMETERH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java. (22`
+booleanRETURN_TYPEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java (Û
+Vcom.knubisoft.base.pattern.PatternTasksImpl.haveSetOfCharacters(java.lang.String)!text	PARAMETERH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java. (2"
+typeString"
+isFinalfalse" 
+declarationStringString text*text2b
+java.lang.StringTYPEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java' (-ü
+Ocom.knubisoft.base.pattern.PatternTasksImpl.matchByCharacters(java.lang.String)METHODH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java
+ 
+(#"
+isFinalfalse"ª
+declarationString”<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">matchByCharacters</mark>(String text)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*matchByCharacters2¡
+Kcom.knubisoft.base.pattern.PatternTasks.matchByCharacters(java.lang.String)OVERRIDEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java
+ 
+(#2«
+Tcom.knubisoft.base.pattern.PatternTasksImpl.matchByCharacters(java.lang.String)!text	PARAMETERH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java
++ 
+(/2i
+java.lang.StringRETURN_TYPEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java
+ 
+(Ù
+Tcom.knubisoft.base.pattern.PatternTasksImpl.matchByCharacters(java.lang.String)!text	PARAMETERH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java
++ 
+(/"
+typeString"
+isFinalfalse" 
+declarationStringString text*text2b
+java.lang.StringTYPEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java
+$ 
+(*÷
+Ncom.knubisoft.base.pattern.PatternTasksImpl.matchStartAndEnd(java.lang.String)METHODH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java (""
+isFinalfalse"©
+declarationString“<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">matchStartAndEnd</mark>(String text)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*matchStartAndEnd2 
+Jcom.knubisoft.base.pattern.PatternTasks.matchStartAndEnd(java.lang.String)OVERRIDEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java ("2ª
+Scom.knubisoft.base.pattern.PatternTasksImpl.matchStartAndEnd(java.lang.String)!text	PARAMETERH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java* (.2i
+java.lang.StringRETURN_TYPEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java (Ø
+Scom.knubisoft.base.pattern.PatternTasksImpl.matchStartAndEnd(java.lang.String)!text	PARAMETERH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java* (."
+typeString"
+isFinalfalse" 
+declarationStringString text*text2b
+java.lang.StringTYPEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java# ()í
+Lcom.knubisoft.base.pattern.PatternTasksImpl.matchIpAddress(java.lang.String)METHODH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java ( "
+isFinalfalse"§
+declarationString‘<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">matchIpAddress</mark>(String text)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*matchIpAddress2ž
+Hcom.knubisoft.base.pattern.PatternTasks.matchIpAddress(java.lang.String)OVERRIDEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java ( 2¨
+Qcom.knubisoft.base.pattern.PatternTasksImpl.matchIpAddress(java.lang.String)!text	PARAMETERH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java( (,2i
+java.lang.StringRETURN_TYPEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java (Ö
+Qcom.knubisoft.base.pattern.PatternTasksImpl.matchIpAddress(java.lang.String)!text	PARAMETERH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java( (,"
+typeString"
+isFinalfalse" 
+declarationStringString text*text2b
+java.lang.StringTYPEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java! ('Þ
+Icom.knubisoft.base.pattern.PatternTasksImpl.matchVowels(java.lang.String)METHODH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java ("
+isFinalfalse"¤
+declarationStringŽ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">matchVowels</mark>(String text)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*matchVowels2›
+Ecom.knubisoft.base.pattern.PatternTasks.matchVowels(java.lang.String)OVERRIDEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java (2¥
+Ncom.knubisoft.base.pattern.PatternTasksImpl.matchVowels(java.lang.String)!text	PARAMETERH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java% ()2i
+java.lang.StringRETURN_TYPEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java (Ó
+Ncom.knubisoft.base.pattern.PatternTasksImpl.matchVowels(java.lang.String)!text	PARAMETERH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java% ()"
+typeString"
+isFinalfalse" 
+declarationStringString text*text2b
+java.lang.StringTYPEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java ($õ
+Icom.knubisoft.base.pattern.PatternTasksImpl.validatePIN(java.lang.String)METHODH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java ("
+isFinalfalse"Ã
+declarationString­<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">validatePIN</mark>(String text)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*validatePIN2›
+Ecom.knubisoft.base.pattern.PatternTasks.validatePIN(java.lang.String)OVERRIDEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java (2¥
+Ncom.knubisoft.base.pattern.PatternTasksImpl.validatePIN(java.lang.String)!text	PARAMETERH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java& (*2`
+booleanRETURN_TYPEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java (Ó
+Ncom.knubisoft.base.pattern.PatternTasksImpl.validatePIN(java.lang.String)!text	PARAMETERH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java& (*"
+typeString"
+isFinalfalse" 
+declarationStringString text*text2b
+java.lang.StringTYPEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java (%Ô
+<com.knubisoft.base.pattern.PatternTasksImpl.divideDigit(int)METHODH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java# #("
+isFinalfalse"À
+declarationStringª<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">divideDigit</mark>(<mark class="modifier">int</mark> digit)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*divideDigit2Ž
+8com.knubisoft.base.pattern.PatternTasks.divideDigit(int)OVERRIDEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java# #(2™
+Bcom.knubisoft.base.pattern.PatternTasksImpl.divideDigit(int)!digit	PARAMETERH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java#" #('2i
+java.lang.StringRETURN_TYPEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java# #(Ô
+Bcom.knubisoft.base.pattern.PatternTasksImpl.divideDigit(int)!digit	PARAMETERH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java#" #('"
+typeint"
+isFinalfalse"<
+declarationString'<mark class="modifier">int</mark> digit*digit2U
+intTYPEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java# #(!Ñ
+`com.knubisoft.base.pattern.PatternTasksImpl.removeAllNonAlphanumericCharacters(java.lang.String)METHODH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java( ((4"
+isFinalfalse"»
+declarationString¥<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">removeAllNonAlphanumericCharacters</mark>(String text)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*"removeAllNonAlphanumericCharacters2²
+\com.knubisoft.base.pattern.PatternTasks.removeAllNonAlphanumericCharacters(java.lang.String)OVERRIDEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java( ((42¼
+ecom.knubisoft.base.pattern.PatternTasksImpl.removeAllNonAlphanumericCharacters(java.lang.String)!text	PARAMETERH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java(< ((@2i
+java.lang.StringRETURN_TYPEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java( ((ê
+ecom.knubisoft.base.pattern.PatternTasksImpl.removeAllNonAlphanumericCharacters(java.lang.String)!text	PARAMETERH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java(< ((@"
+typeString"
+isFinalfalse" 
+declarationStringString text*text2b
+java.lang.StringTYPEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java(5 ((;
+Qcom.knubisoft.base.pattern.PatternTasksImpl.validatePhoneNumber(java.lang.String)METHODH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java- -(&"
+isFinalfalse"Ë
+declarationStringµ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">validatePhoneNumber</mark>(String text)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*validatePhoneNumber2£
+Mcom.knubisoft.base.pattern.PatternTasks.validatePhoneNumber(java.lang.String)OVERRIDEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java- -(&2­
+Vcom.knubisoft.base.pattern.PatternTasksImpl.validatePhoneNumber(java.lang.String)!text	PARAMETERH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java-. -(22`
+booleanRETURN_TYPEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java- -(Û
+Vcom.knubisoft.base.pattern.PatternTasksImpl.validatePhoneNumber(java.lang.String)!text	PARAMETERH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java-. -(2"
+typeString"
+isFinalfalse" 
+declarationStringString text*text2b
+java.lang.StringTYPEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java-' -(-Ì	
+\com.knubisoft.base.pattern.PatternTasksImpl.getLastVowelsByConstraint(java.lang.String, int)METHODH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java2 2(+"
+isFinalfalse"“
+declarationStringý<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">getLastVowelsByConstraint</mark>(String text<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> n)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getLastVowelsByConstraint2®
+Xcom.knubisoft.base.pattern.PatternTasks.getLastVowelsByConstraint(java.lang.String, int)OVERRIDEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java2 2(+2¸
+acom.knubisoft.base.pattern.PatternTasksImpl.getLastVowelsByConstraint(java.lang.String, int)!text	PARAMETERH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java23 2(72µ
+^com.knubisoft.base.pattern.PatternTasksImpl.getLastVowelsByConstraint(java.lang.String, int)!n	PARAMETERH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java2= 2(>2i
+java.lang.StringRETURN_TYPEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java2 2(æ
+acom.knubisoft.base.pattern.PatternTasksImpl.getLastVowelsByConstraint(java.lang.String, int)!text	PARAMETERH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java23 2(7"
+typeString"
+isFinalfalse" 
+declarationStringString text*text2b
+java.lang.StringTYPEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java2, 2(2è
+^com.knubisoft.base.pattern.PatternTasksImpl.getLastVowelsByConstraint(java.lang.String, int)!n	PARAMETERH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java2= 2(>"
+typeint"
+isFinalfalse"8
+declarationString#<mark class="modifier">int</mark> n*n2U
+intTYPEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java29 2(<¶
+Vcom.knubisoft.base.pattern.PatternTasksImpl.isMathematicalExpression(java.lang.String)METHODH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java7 7(+"
+isFinalfalse"Ð
+declarationStringº<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isMathematicalExpression</mark>(String text)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isMathematicalExpression2¨
+Rcom.knubisoft.base.pattern.PatternTasks.isMathematicalExpression(java.lang.String)OVERRIDEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java7 7(+2²
+[com.knubisoft.base.pattern.PatternTasksImpl.isMathematicalExpression(java.lang.String)!text	PARAMETERH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java73 7(72`
+booleanRETURN_TYPEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java7 7(à
+[com.knubisoft.base.pattern.PatternTasksImpl.isMathematicalExpression(java.lang.String)!text	PARAMETERH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java73 7(7"
+typeString"
+isFinalfalse" 
+declarationStringString text*text2b
+java.lang.StringTYPEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java7, 7(2Ù
+Hcom.knubisoft.base.pattern.PatternTasksImpl.insertDash(java.lang.String)METHODH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java< <("
+isFinalfalse"£
+declarationString<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">insertDash</mark>(String text)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*
+insertDash2š
+Dcom.knubisoft.base.pattern.PatternTasks.insertDash(java.lang.String)OVERRIDEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java< <(2¤
+Mcom.knubisoft.base.pattern.PatternTasksImpl.insertDash(java.lang.String)!text	PARAMETERH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java<$ <((2i
+java.lang.StringRETURN_TYPEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java< <(Ò
+Mcom.knubisoft.base.pattern.PatternTasksImpl.insertDash(java.lang.String)!text	PARAMETERH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java<$ <(("
+typeString"
+isFinalfalse" 
+declarationStringString text*text2b
+java.lang.StringTYPEH
+>src/main/java/com/knubisoft/base/pattern/PatternTasksImpl.java< <(#

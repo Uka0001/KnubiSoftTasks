@@ -1,0 +1,120 @@
+
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.javaŸ
+2com.knubisoft.tasks.algorithm.sorting.SortImplTestCLASSO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java ("0
+package%com.knubisoft.tasks.algorithm.sorting"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"d
+declarationStringO<mark class="modifier"> </mark><mark class="modifier">class </mark>SortImplTest"
+accesspackage_private*SortImplTest2¶
+Fcom.knubisoft.tasks.algorithm.sorting.SortImplTest.sortKeysAndValues()DECLARATIONO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java	 (2£
+Ccom.knubisoft.tasks.algorithm.sorting.SortImplTest?sort@13.23:13.27DECLARATIONO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java (Ñ!
+Fcom.knubisoft.tasks.algorithm.sorting.SortImplTest.sortKeysAndValues()METHODO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java	 ("
+isFinalfalse"±
+declarationStringõ<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">sortKeysAndValues</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*sortKeysAndValues2p
+java.util.Map.put(K, V)CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java (2v
+java.util.Arrays.asList(T...)CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java ( 2p
+java.util.Map.put(K, V)CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java (2v
+java.util.Arrays.asList(T...)CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java ( 2p
+java.util.Map.put(K, V)CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java (2v
+java.util.Arrays.asList(T...)CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java ( 2q
+java.util.Map.entrySet()CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.javaR (Z2€
+Åcom.knubisoft.tasks.algorithm.sorting.Sort.sortKeysAndValues(java.util.Map<java.lang.Integer, java.util.List<java.lang.Integer>>)CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java; (L2u
+java.util.Map.Entry.getKey()CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java% (+2y
+ java.util.List.of(E, E, E, E, E)CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java ( 2w
+java.util.Map.Entry.getValue()CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java6 (>2t
+java.util.HashMap.HashMap()CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java. (72Ø
+Vcom.knubisoft.tasks.algorithm.sorting.SortImplTest.sortKeysAndValues()?map@17.36:17.39CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java (2Ø
+Vcom.knubisoft.tasks.algorithm.sorting.SortImplTest.sortKeysAndValues()?map@17.36:17.39CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java (2Ø
+Vcom.knubisoft.tasks.algorithm.sorting.SortImplTest.sortKeysAndValues()?map@17.36:17.39CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java (2ú
+Ccom.knubisoft.tasks.algorithm.sorting.SortImplTest?sort@13.23:13.27CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java6 (:2Ø
+Vcom.knubisoft.tasks.algorithm.sorting.SortImplTest.sortKeysAndValues()?map@17.36:17.39CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.javaM (P2±
+Xcom.knubisoft.tasks.algorithm.sorting.SortImplTest.sortKeysAndValues()?index@22.12:22.17CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java (2±
+Xcom.knubisoft.tasks.algorithm.sorting.SortImplTest.sortKeysAndValues()?index@22.12:22.17CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java (2∞
+Wcom.knubisoft.tasks.algorithm.sorting.SortImplTest.sortKeysAndValues()?each@23.47:23.51CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java  ($2∞
+Wcom.knubisoft.tasks.algorithm.sorting.SortImplTest.sortKeysAndValues()?each@23.47:23.51CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java1 (52∂
+Vcom.knubisoft.tasks.algorithm.sorting.SortImplTest.sortKeysAndValues()?map@17.36:17.39DECLARATIONO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java$ ('2∏
+Xcom.knubisoft.tasks.algorithm.sorting.SortImplTest.sortKeysAndValues()?index@22.12:22.17DECLARATIONO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java (2∑
+Wcom.knubisoft.tasks.algorithm.sorting.SortImplTest.sortKeysAndValues()?each@23.47:23.51DECLARATIONO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java/ (32d
+voidRETURN_TYPEO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java (≤
+Vcom.knubisoft.tasks.algorithm.sorting.SortImplTest.sortKeysAndValues()?map@17.36:17.39VARIABLEO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java$ ('"#
+typeMap<Integer, List<Integer>>"
+isFinalfalse"Ü
+declarationStringq<mark class="modifier"> </mark>Map<Integer, List<Integer>> <mark class="class-field">map</mark> = new HashMap<>()*map2f
+java.util.MapTYPEO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java (2s
+java.lang.IntegerTYPE_ARGUMENTO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java (2p
+java.util.ListTYPE_ARGUMENTO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java (2s
+java.lang.IntegerTYPE_ARGUMENTO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java (!2t
+java.util.HashMap.HashMap()CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java. (7º
+Xcom.knubisoft.tasks.algorithm.sorting.SortImplTest.sortKeysAndValues()?index@22.12:22.17VARIABLEO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java ("
+typeint"
+isFinalfalse"Ä
+declarationStringk<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">index</mark> = 0*index2\
+intTYPEO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java (æ
+Wcom.knubisoft.tasks.algorithm.sorting.SortImplTest.sortKeysAndValues()?each@23.47:23.51VARIABLEO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java/ (3")
+type!Map.Entry<Integer, List<Integer>>"
+isFinalfalse"{
+declarationStringf<mark class="modifier"> </mark>Map.Entry<Integer, List<Integer>> <mark class="class-field">each</mark>*each2l
+java.util.Map.EntryTYPEO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java (2s
+java.lang.IntegerTYPE_ARGUMENTO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java (2p
+java.util.ListTYPE_ARGUMENTO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java (2s
+java.lang.IntegerTYPE_ARGUMENTO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java  ($¢
+Ccom.knubisoft.tasks.algorithm.sorting.SortImplTest?sort@13.23:13.27VALUEO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java ("
+isFinaltrue"
+typeSort"ú
+declarationStringÜ<mark class="modifier">private </mark><mark class="modifier">final </mark>Sort <mark class="class-field">sort</mark> = new SortImpl();"
+isStaticfalse"
+accessprivate*sort2É
+*com.knubisoft.tasks.algorithm.sorting.SortTYPEO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java (2í
+9com.knubisoft.tasks.algorithm.sorting.SortImpl.SortImpl()CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/sorting/SortImplTest.java" (*

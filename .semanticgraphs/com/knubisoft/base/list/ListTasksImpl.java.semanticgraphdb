@@ -1,0 +1,704 @@
+
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaë
+%com.knubisoft.base.list.ListTasksImplCLASSB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java (""
+packagecom.knubisoft.base.list"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¢
+declarationStringå<mark class="modifier">public </mark><mark class="modifier">class </mark>ListTasksImpl<mark class="modifier"><br>implements </mark>ListTasks"
+accesspublic*ListTasksImpl2ô
+Fcom.knubisoft.base.list.ListTasksImpl.addElements(java.util.String...)DECLARATIONB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java (#2∂
+ccom.knubisoft.base.list.ListTasksImpl.getElementsByIndexes(java.util.List<java.util.String>, int[])DECLARATIONB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java (,2ª
+hcom.knubisoft.base.list.ListTasksImpl.addElementsByIndexes(java.util.ArrayList<java.util.String>, int[])DECLARATIONB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java (12º
+icom.knubisoft.base.list.ListTasksImpl.setElementsByIndexes(java.util.LinkedList<java.util.String>, int[])DECLARATIONB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java) )(22¶
+Scom.knubisoft.base.list.ListTasksImpl.getListSize(java.util.List<java.util.String>)DECLARATIONB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java5 5(2‰
+êcom.knubisoft.base.list.ListTasksImpl.merge(java.util.List<java.util.Integer>, java.util.List<java.util.Long>, java.util.List<java.util.String>)DECLARATIONB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java@ @(2Ô
+õcom.knubisoft.base.list.ListTasksImpl.findMaxValue(java.util.List<java.util.Integer>, java.util.List<java.util.Integer>, java.util.List<java.util.Integer>)DECLARATIONB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java[ [(2Ô
+õcom.knubisoft.base.list.ListTasksImpl.findMinValue(java.util.List<java.util.Integer>, java.util.List<java.util.Integer>, java.util.List<java.util.Integer>)DECLARATIONB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java` `(2˜
+£com.knubisoft.base.list.ListTasksImpl.multiplyMax2Elements(java.util.List<java.util.Integer>, java.util.List<java.util.Integer>, java.util.List<java.util.Integer>)DECLARATIONB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javae e(#2¶
+Scom.knubisoft.base.list.ListTasksImpl.removeNulls(java.util.List<java.util.String>)DECLARATIONB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaj j(#2ø
+lcom.knubisoft.base.list.ListTasksImpl.flatMapWithoutNulls(java.util.List<java.util.List<java.util.Integer>>)DECLARATIONB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javao o(,2§
+Qcom.knubisoft.base.list.ListTasksImpl.cloneIds(java.util.List<java.util.Integer>)DECLARATIONB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javat t(!2¢
+Ocom.knubisoft.base.list.ListTasksImpl.shuffle(java.util.List<java.util.String>)DECLARATIONB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javay y(2Ø
+\com.knubisoft.base.list.ListTasksImpl.getLastElement(java.util.LinkedList<java.util.String>)DECLARATIONB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java~ ~( 2€
+Öcom.knubisoft.base.list.ListTasksImpl.compareElements(java.util.LinkedList<java.util.String>, java.util.LinkedList<java.util.String>)DECLARATIOND
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaÉ É('2o
+!com.knubisoft.base.list.ListTasksEXTENDB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java& (/ä
+Fcom.knubisoft.base.list.ListTasksImpl.addElements(java.util.String...)METHODB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java (#"
+isFinalfalse"∑
+declarationString°<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>List&lt;String&gt; <mark class="method">addElements</mark>(String... elements)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<String>*addElements2k
+java.util.ArrayList.ArrayList()CALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java	' 	(22†
+Tcom.knubisoft.base.list.ListTasksImpl.addElements(java.util.String...)?i@10.17:10.18CALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java
+ 
+(2õ
+Ocom.knubisoft.base.list.ListTasksImpl.addElements(java.util.String...)!elementsCALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java
+ 
+($2†
+Tcom.knubisoft.base.list.ListTasksImpl.addElements(java.util.String...)?i@10.17:10.18CALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java
+- 
+(.2®
+\com.knubisoft.base.list.ListTasksImpl.addElements(java.util.String...)?newElements@9.21:9.32CALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java (2õ
+Ocom.knubisoft.base.list.ListTasksImpl.addElements(java.util.String...)!elementsCALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java ($2†
+Tcom.knubisoft.base.list.ListTasksImpl.addElements(java.util.String...)?i@10.17:10.18CALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java% (&2®
+\com.knubisoft.base.list.ListTasksImpl.addElements(java.util.String...)?newElements@9.21:9.32CALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java (2í
+Bcom.knubisoft.base.list.ListTasks.addElements(java.lang.String...)OVERRIDEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java (#2†
+Ocom.knubisoft.base.list.ListTasksImpl.addElements(java.util.String...)!elements	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java. (62Ø
+\com.knubisoft.base.list.ListTasksImpl.addElements(java.util.String...)?newElements@9.21:9.32DECLARATIONB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java	 	( 2ß
+Tcom.knubisoft.base.list.ListTasksImpl.addElements(java.util.String...)?i@10.17:10.18DECLARATIONB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java
+ 
+(2a
+java.util.ListRETURN_TYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java (2l
+java.util.StringRETURN_TYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java (ï
+\com.knubisoft.base.list.ListTasksImpl.addElements(java.util.String...)?newElements@9.21:9.32VARIABLEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java	 	( "
+typeList<String>"
+isFinalfalse"Å
+declarationStringl<mark class="modifier"> </mark>List<String> <mark class="class-field">newElements</mark> = new ArrayList<>()*newElements2Z
+java.util.ListTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java	 	(2e
+java.util.StringTYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java	 	(2k
+java.util.ArrayList.ArrayList()CALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java	' 	(2ï
+Tcom.knubisoft.base.list.ListTasksImpl.addElements(java.util.String...)?i@10.17:10.18VARIABLEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java
+ 
+("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = 0*i2O
+intTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java
+ 
+(“
+Ocom.knubisoft.base.list.ListTasksImpl.addElements(java.util.String...)!elements	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java. (6"
+typeString"
+isFinalfalse"$
+declarationStringString elements*elements2^
+java.util.String[]TYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java$ (*°
+ccom.knubisoft.base.list.ListTasksImpl.getElementsByIndexes(java.util.List<java.util.String>, int[])METHODB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java (,"
+isFinalfalse"≤
+declarationStringú<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>List&lt;String&gt; <mark class="method">getElementsByIndexes</mark>(List&lt;String&gt; elements<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark>[] indexes)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<String>*getElementsByIndexes2∑
+kcom.knubisoft.base.list.ListTasksImpl.getElementsByIndexes(java.util.List<java.util.String>, int[])!indexesCALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java ($2∏
+lcom.knubisoft.base.list.ListTasksImpl.getElementsByIndexes(java.util.List<java.util.String>, int[])!elementsCALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java (2∏
+lcom.knubisoft.base.list.ListTasksImpl.getElementsByIndexes(java.util.List<java.util.String>, int[])!elementsCALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java (%2¡
+ucom.knubisoft.base.list.ListTasksImpl.getElementsByIndexes(java.util.List<java.util.String>, int[])?index@19.21:19.26CALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java* (/2∏
+lcom.knubisoft.base.list.ListTasksImpl.getElementsByIndexes(java.util.List<java.util.String>, int[])!elementsCALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java (2Ø
+_com.knubisoft.base.list.ListTasks.getElementsByIndexes(java.util.List<java.lang.String>, int[])OVERRIDEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java (,2Ω
+lcom.knubisoft.base.list.ListTasksImpl.getElementsByIndexes(java.util.List<java.util.String>, int[])!elements	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java: (B2º
+kcom.knubisoft.base.list.ListTasksImpl.getElementsByIndexes(java.util.List<java.util.String>, int[])!indexes	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaJ (Q2»
+ucom.knubisoft.base.list.ListTasksImpl.getElementsByIndexes(java.util.List<java.util.String>, int[])?index@19.21:19.26DECLARATIONB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java (2ƒ
+qcom.knubisoft.base.list.ListTasksImpl.getElementsByIndexes(java.util.List<java.util.String>, int[])?e@23.66:23.67DECLARATIONB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaB (C2a
+java.util.ListRETURN_TYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java (2l
+java.util.StringRETURN_TYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java (∫
+ucom.knubisoft.base.list.ListTasksImpl.getElementsByIndexes(java.util.List<java.util.String>, int[])?index@19.21:19.26VARIABLEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java ("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">index</mark>*index2O
+intTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java (ﬁ
+lcom.knubisoft.base.list.ListTasksImpl.getElementsByIndexes(java.util.List<java.util.String>, int[])!elements	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java: (B"
+typeList<String>"
+isFinalfalse"*
+declarationStringList<String> elements*elements2Z
+java.util.ListTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java- (12e
+java.util.StringTYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java2 (8˚
+kcom.knubisoft.base.list.ListTasksImpl.getElementsByIndexes(java.util.List<java.util.String>, int[])!indexes	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaJ (Q"
+typeint[]"
+isFinalfalse"@
+declarationString+<mark class="modifier">int</mark>[] indexes*indexes2Q
+int[]TYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaD (IÏ
+qcom.knubisoft.base.list.ListTasksImpl.getElementsByIndexes(java.util.List<java.util.String>, int[])?e@23.66:23.67VARIABLEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaB (C"8
+type0NullPointerException | IndexOutOfBoundsException"
+isFinalfalse"G
+declarationString2NullPointerException | IndexOutOfBoundsException e*e2ê
+Djava.util.NullPointerException | java.util.IndexOutOfBoundsExceptionTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java (Aµ
+hcom.knubisoft.base.list.ListTasksImpl.addElementsByIndexes(java.util.ArrayList<java.util.String>, int[])METHODB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java (1"
+isFinalfalse"º
+declarationString¶<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>ArrayList&lt;String&gt; <mark class="method">addElementsByIndexes</mark>(ArrayList&lt;String&gt; elements<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark>[] indexes)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeArrayList<String>*addElementsByIndexes2º
+pcom.knubisoft.base.list.ListTasksImpl.addElementsByIndexes(java.util.ArrayList<java.util.String>, int[])!indexesCALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java ($2Ω
+qcom.knubisoft.base.list.ListTasksImpl.addElementsByIndexes(java.util.ArrayList<java.util.String>, int[])!elementsCALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java   (2∆
+zcom.knubisoft.base.list.ListTasksImpl.addElementsByIndexes(java.util.ArrayList<java.util.String>, int[])?index@31.21:31.26CALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java   ("2Ω
+qcom.knubisoft.base.list.ListTasksImpl.addElementsByIndexes(java.util.ArrayList<java.util.String>, int[])!elementsCALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java $  (,2∆
+zcom.knubisoft.base.list.ListTasksImpl.addElementsByIndexes(java.util.ArrayList<java.util.String>, int[])?index@31.21:31.26CALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java 1  (62Ω
+qcom.knubisoft.base.list.ListTasksImpl.addElementsByIndexes(java.util.ArrayList<java.util.String>, int[])!elementsCALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java" "(2¥
+dcom.knubisoft.base.list.ListTasks.addElementsByIndexes(java.util.ArrayList<java.lang.String>, int[])OVERRIDEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java (12¬
+qcom.knubisoft.base.list.ListTasksImpl.addElementsByIndexes(java.util.ArrayList<java.util.String>, int[])!elements	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaD (L2¡
+pcom.knubisoft.base.list.ListTasksImpl.addElementsByIndexes(java.util.ArrayList<java.util.String>, int[])!indexes	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaT ([2Õ
+zcom.knubisoft.base.list.ListTasksImpl.addElementsByIndexes(java.util.ArrayList<java.util.String>, int[])?index@31.21:31.26DECLARATIONB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java (2…
+vcom.knubisoft.base.list.ListTasksImpl.addElementsByIndexes(java.util.ArrayList<java.util.String>, int[])?e@35.66:35.67DECLARATIONB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java#B #(C2f
+java.util.ArrayListRETURN_TYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java (2l
+java.util.StringRETURN_TYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java (ø
+zcom.knubisoft.base.list.ListTasksImpl.addElementsByIndexes(java.util.ArrayList<java.util.String>, int[])?index@31.21:31.26VARIABLEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java ("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">index</mark>*index2O
+intTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java (Ú
+qcom.knubisoft.base.list.ListTasksImpl.addElementsByIndexes(java.util.ArrayList<java.util.String>, int[])!elements	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaD (L"
+typeArrayList<String>"
+isFinalfalse"/
+declarationStringArrayList<String> elements*elements2_
+java.util.ArrayListTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java2 (;2e
+java.util.StringTYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java< (BÄ
+pcom.knubisoft.base.list.ListTasksImpl.addElementsByIndexes(java.util.ArrayList<java.util.String>, int[])!indexes	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaT (["
+typeint[]"
+isFinalfalse"@
+declarationString+<mark class="modifier">int</mark>[] indexes*indexes2Q
+int[]TYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaN (SÒ
+vcom.knubisoft.base.list.ListTasksImpl.addElementsByIndexes(java.util.ArrayList<java.util.String>, int[])?e@35.66:35.67VARIABLEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java#B #(C"8
+type0NullPointerException | IndexOutOfBoundsException"
+isFinalfalse"G
+declarationString2NullPointerException | IndexOutOfBoundsException e*e2ê
+Djava.util.NullPointerException | java.util.IndexOutOfBoundsExceptionTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java# #(A≈
+icom.knubisoft.base.list.ListTasksImpl.setElementsByIndexes(java.util.LinkedList<java.util.String>, int[])METHODB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java) )(2"
+isFinalfalse"æ
+declarationString®<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>LinkedList&lt;String&gt; <mark class="method">setElementsByIndexes</mark>(LinkedList&lt;String&gt; elements<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark>[] indexes)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeLinkedList<String>*setElementsByIndexes2Ω
+qcom.knubisoft.base.list.ListTasksImpl.setElementsByIndexes(java.util.LinkedList<java.util.String>, int[])!indexesCALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java+ +($2æ
+rcom.knubisoft.base.list.ListTasksImpl.setElementsByIndexes(java.util.LinkedList<java.util.String>, int[])!elementsCALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java, ,(2«
+{com.knubisoft.base.list.ListTasksImpl.setElementsByIndexes(java.util.LinkedList<java.util.String>, int[])?index@43.21:43.26CALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java, ,("2æ
+rcom.knubisoft.base.list.ListTasksImpl.setElementsByIndexes(java.util.LinkedList<java.util.String>, int[])!elementsCALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java,$ ,(,2«
+{com.knubisoft.base.list.ListTasksImpl.setElementsByIndexes(java.util.LinkedList<java.util.String>, int[])?index@43.21:43.26CALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java,1 ,(62æ
+rcom.knubisoft.base.list.ListTasksImpl.setElementsByIndexes(java.util.LinkedList<java.util.String>, int[])!elementsCALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java. .(2µ
+ecom.knubisoft.base.list.ListTasks.setElementsByIndexes(java.util.LinkedList<java.lang.String>, int[])OVERRIDEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java) )(22√
+rcom.knubisoft.base.list.ListTasksImpl.setElementsByIndexes(java.util.LinkedList<java.util.String>, int[])!elements	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java)F )(N2¬
+qcom.knubisoft.base.list.ListTasksImpl.setElementsByIndexes(java.util.LinkedList<java.util.String>, int[])!indexes	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java)V )(]2Œ
+{com.knubisoft.base.list.ListTasksImpl.setElementsByIndexes(java.util.LinkedList<java.util.String>, int[])?index@43.21:43.26DECLARATIONB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java+ +(2 
+wcom.knubisoft.base.list.ListTasksImpl.setElementsByIndexes(java.util.LinkedList<java.util.String>, int[])?e@47.66:47.67DECLARATIONB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java/B /(C2g
+java.util.LinkedListRETURN_TYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java) )(2l
+java.util.StringRETURN_TYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java) )(¿
+{com.knubisoft.base.list.ListTasksImpl.setElementsByIndexes(java.util.LinkedList<java.util.String>, int[])?index@43.21:43.26VARIABLEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java+ +("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">index</mark>*index2O
+intTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java+ +(ˆ
+rcom.knubisoft.base.list.ListTasksImpl.setElementsByIndexes(java.util.LinkedList<java.util.String>, int[])!elements	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java)F )(N"
+typeLinkedList<String>"
+isFinalfalse"0
+declarationStringLinkedList<String> elements*elements2`
+java.util.LinkedListTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java)3 )(=2e
+java.util.StringTYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java)> )(DÅ
+qcom.knubisoft.base.list.ListTasksImpl.setElementsByIndexes(java.util.LinkedList<java.util.String>, int[])!indexes	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java)V )(]"
+typeint[]"
+isFinalfalse"@
+declarationString+<mark class="modifier">int</mark>[] indexes*indexes2Q
+int[]TYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java)P )(UÚ
+wcom.knubisoft.base.list.ListTasksImpl.setElementsByIndexes(java.util.LinkedList<java.util.String>, int[])?e@47.66:47.67VARIABLEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java/B /(C"8
+type0NullPointerException | IndexOutOfBoundsException"
+isFinalfalse"G
+declarationString2NullPointerException | IndexOutOfBoundsException e*e2ê
+Djava.util.NullPointerException | java.util.IndexOutOfBoundsExceptionTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java/ /(A
+
+Scom.knubisoft.base.list.ListTasksImpl.getListSize(java.util.List<java.util.String>)METHODB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java5 5("
+isFinalfalse"À
+declarationStringµ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">getListSize</mark>(List&lt;String&gt; list)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*getListSize2§
+Xcom.knubisoft.base.list.ListTasksImpl.getListSize(java.util.List<java.util.String>)!listCALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java6 6(2§
+Xcom.knubisoft.base.list.ListTasksImpl.getListSize(java.util.List<java.util.String>)!listCALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java8 8(2§
+Xcom.knubisoft.base.list.ListTasksImpl.getListSize(java.util.List<java.util.String>)!listCALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java; ;(2ü
+Ocom.knubisoft.base.list.ListTasks.getListSize(java.util.List<java.lang.String>)OVERRIDEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java5 5(2©
+Xcom.knubisoft.base.list.ListTasksImpl.getListSize(java.util.List<java.util.String>)!list	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java5( 5(,2V
+intRETURN_TYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java5 5(¬
+Xcom.knubisoft.base.list.ListTasksImpl.getListSize(java.util.List<java.util.String>)!list	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java5( 5(,"
+typeList<String>"
+isFinalfalse"&
+declarationStringList<String> list*list2Z
+java.util.ListTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java5 5(2e
+java.util.StringTYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java5  5(&À
+êcom.knubisoft.base.list.ListTasksImpl.merge(java.util.List<java.util.Integer>, java.util.List<java.util.Long>, java.util.List<java.util.String>)METHODB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java@ @("
+isFinalfalse"·
+declarationStringÀ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>List&lt;Long&gt; <mark class="method">merge</mark>(List&lt;Integer&gt; first<mark class="modifier"><mark class="modifier">,</mark></mark> List&lt;Long&gt; second<mark class="modifier"><mark class="modifier">,</mark></mark> List&lt;String&gt; third)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+type
+List<Long>*merge2p
+$java.util.stream.Collectors.toList()CALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaT$ T(*2p
+$java.util.stream.Collectors.toList()CALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaW$ W(*2„
+ñcom.knubisoft.base.list.ListTasksImpl.merge(java.util.List<java.util.Integer>, java.util.List<java.util.Long>, java.util.List<java.util.String>)!firstCALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaR R(2„
+ñcom.knubisoft.base.list.ListTasksImpl.merge(java.util.List<java.util.Integer>, java.util.List<java.util.Long>, java.util.List<java.util.String>)!thirdCALLB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaU U(2›
+åcom.knubisoft.base.list.ListTasks.merge(java.util.List<java.lang.Integer>, java.util.List<java.lang.Long>, java.util.List<java.lang.String>)OVERRIDEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java@ @(2Ë
+ñcom.knubisoft.base.list.ListTasksImpl.merge(java.util.List<java.util.Integer>, java.util.List<java.util.Long>, java.util.List<java.util.String>)!first	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java@* @(/2È
+ócom.knubisoft.base.list.ListTasksImpl.merge(java.util.List<java.util.Integer>, java.util.List<java.util.Long>, java.util.List<java.util.String>)!second	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java@< @(B2Ë
+ñcom.knubisoft.base.list.ListTasksImpl.merge(java.util.List<java.util.Integer>, java.util.List<java.util.Long>, java.util.List<java.util.String>)!third	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java@Q @(V2a
+java.util.ListRETURN_TYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java@ @(2j
+java.util.LongRETURN_TYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java@ @(Ü
+ñcom.knubisoft.base.list.ListTasksImpl.merge(java.util.List<java.util.Integer>, java.util.List<java.util.Long>, java.util.List<java.util.String>)!first	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java@* @(/"
+typeList<Integer>"
+isFinalfalse"(
+declarationStringList<Integer> first*first2Z
+java.util.ListTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java@ @( 2f
+java.util.IntegerTYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java@! @((Ä
+ócom.knubisoft.base.list.ListTasksImpl.merge(java.util.List<java.util.Integer>, java.util.List<java.util.Long>, java.util.List<java.util.String>)!second	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java@< @(B"
+type
+List<Long>"
+isFinalfalse"&
+declarationStringList<Long> second*second2Z
+java.util.ListTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java@1 @(52c
+java.util.LongTYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java@6 @(:É
+ñcom.knubisoft.base.list.ListTasksImpl.merge(java.util.List<java.util.Integer>, java.util.List<java.util.Long>, java.util.List<java.util.String>)!third	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java@Q @(V"
+typeList<String>"
+isFinalfalse"'
+declarationStringList<String> third*third2Z
+java.util.ListTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java@D @(H2e
+java.util.StringTYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java@I @(O˜
+õcom.knubisoft.base.list.ListTasksImpl.findMaxValue(java.util.List<java.util.Integer>, java.util.List<java.util.Integer>, java.util.List<java.util.Integer>)METHODB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java[ [("
+isFinalfalse"˝
+declarationStringÁ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">findMaxValue</mark>(List&lt;Integer&gt; first<mark class="modifier"><mark class="modifier">,</mark></mark> List&lt;Integer&gt; second<mark class="modifier"><mark class="modifier">,</mark></mark> List&lt;Integer&gt; third)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*findMaxValue2Ë
+ócom.knubisoft.base.list.ListTasks.findMaxValue(java.util.List<java.lang.Integer>, java.util.List<java.lang.Integer>, java.util.List<java.lang.Integer>)OVERRIDEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java[ [(2Û
+°com.knubisoft.base.list.ListTasksImpl.findMaxValue(java.util.List<java.util.Integer>, java.util.List<java.util.Integer>, java.util.List<java.util.Integer>)!first	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java[* [(/2Ù
+¢com.knubisoft.base.list.ListTasksImpl.findMaxValue(java.util.List<java.util.Integer>, java.util.List<java.util.Integer>, java.util.List<java.util.Integer>)!second	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java[? [(E2Û
+°com.knubisoft.base.list.ListTasksImpl.findMaxValue(java.util.List<java.util.Integer>, java.util.List<java.util.Integer>, java.util.List<java.util.Integer>)!third	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java[U [(Z2V
+intRETURN_TYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java[ [(ë
+°com.knubisoft.base.list.ListTasksImpl.findMaxValue(java.util.List<java.util.Integer>, java.util.List<java.util.Integer>, java.util.List<java.util.Integer>)!first	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java[* [(/"
+typeList<Integer>"
+isFinalfalse"(
+declarationStringList<Integer> first*first2Z
+java.util.ListTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java[ [( 2f
+java.util.IntegerTYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java[! [((î
+¢com.knubisoft.base.list.ListTasksImpl.findMaxValue(java.util.List<java.util.Integer>, java.util.List<java.util.Integer>, java.util.List<java.util.Integer>)!second	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java[? [(E"
+typeList<Integer>"
+isFinalfalse")
+declarationStringList<Integer> second*second2Z
+java.util.ListTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java[1 [(52f
+java.util.IntegerTYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java[6 [(=ë
+°com.knubisoft.base.list.ListTasksImpl.findMaxValue(java.util.List<java.util.Integer>, java.util.List<java.util.Integer>, java.util.List<java.util.Integer>)!third	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java[U [(Z"
+typeList<Integer>"
+isFinalfalse"(
+declarationStringList<Integer> third*third2Z
+java.util.ListTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java[G [(K2f
+java.util.IntegerTYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java[L [(S˜
+õcom.knubisoft.base.list.ListTasksImpl.findMinValue(java.util.List<java.util.Integer>, java.util.List<java.util.Integer>, java.util.List<java.util.Integer>)METHODB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java` `("
+isFinalfalse"˝
+declarationStringÁ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">findMinValue</mark>(List&lt;Integer&gt; first<mark class="modifier"><mark class="modifier">,</mark></mark> List&lt;Integer&gt; second<mark class="modifier"><mark class="modifier">,</mark></mark> List&lt;Integer&gt; third)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*findMinValue2Ë
+ócom.knubisoft.base.list.ListTasks.findMinValue(java.util.List<java.lang.Integer>, java.util.List<java.lang.Integer>, java.util.List<java.lang.Integer>)OVERRIDEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java` `(2Û
+°com.knubisoft.base.list.ListTasksImpl.findMinValue(java.util.List<java.util.Integer>, java.util.List<java.util.Integer>, java.util.List<java.util.Integer>)!first	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java`* `(/2Ù
+¢com.knubisoft.base.list.ListTasksImpl.findMinValue(java.util.List<java.util.Integer>, java.util.List<java.util.Integer>, java.util.List<java.util.Integer>)!second	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java`? `(E2Û
+°com.knubisoft.base.list.ListTasksImpl.findMinValue(java.util.List<java.util.Integer>, java.util.List<java.util.Integer>, java.util.List<java.util.Integer>)!third	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java`U `(Z2V
+intRETURN_TYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java` `(ë
+°com.knubisoft.base.list.ListTasksImpl.findMinValue(java.util.List<java.util.Integer>, java.util.List<java.util.Integer>, java.util.List<java.util.Integer>)!first	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java`* `(/"
+typeList<Integer>"
+isFinalfalse"(
+declarationStringList<Integer> first*first2Z
+java.util.ListTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java` `( 2f
+java.util.IntegerTYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java`! `((î
+¢com.knubisoft.base.list.ListTasksImpl.findMinValue(java.util.List<java.util.Integer>, java.util.List<java.util.Integer>, java.util.List<java.util.Integer>)!second	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java`? `(E"
+typeList<Integer>"
+isFinalfalse")
+declarationStringList<Integer> second*second2Z
+java.util.ListTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java`1 `(52f
+java.util.IntegerTYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java`6 `(=ë
+°com.knubisoft.base.list.ListTasksImpl.findMinValue(java.util.List<java.util.Integer>, java.util.List<java.util.Integer>, java.util.List<java.util.Integer>)!third	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java`U `(Z"
+typeList<Integer>"
+isFinalfalse"(
+declarationStringList<Integer> third*third2Z
+java.util.ListTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java`G `(K2f
+java.util.IntegerTYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java`L `(SØ
+£com.knubisoft.base.list.ListTasksImpl.multiplyMax2Elements(java.util.List<java.util.Integer>, java.util.List<java.util.Integer>, java.util.List<java.util.Integer>)METHODB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javae e(#"
+isFinalfalse"Ö
+declarationStringÔ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">multiplyMax2Elements</mark>(List&lt;Integer&gt; first<mark class="modifier"><mark class="modifier">,</mark></mark> List&lt;Integer&gt; second<mark class="modifier"><mark class="modifier">,</mark></mark> List&lt;Integer&gt; third)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*multiplyMax2Elements2
+ücom.knubisoft.base.list.ListTasks.multiplyMax2Elements(java.util.List<java.lang.Integer>, java.util.List<java.lang.Integer>, java.util.List<java.lang.Integer>)OVERRIDEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javae e(#2˚
+©com.knubisoft.base.list.ListTasksImpl.multiplyMax2Elements(java.util.List<java.util.Integer>, java.util.List<java.util.Integer>, java.util.List<java.util.Integer>)!first	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javae2 e(72¸
+™com.knubisoft.base.list.ListTasksImpl.multiplyMax2Elements(java.util.List<java.util.Integer>, java.util.List<java.util.Integer>, java.util.List<java.util.Integer>)!second	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaeG e(M2˚
+©com.knubisoft.base.list.ListTasksImpl.multiplyMax2Elements(java.util.List<java.util.Integer>, java.util.List<java.util.Integer>, java.util.List<java.util.Integer>)!third	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javae] e(b2V
+intRETURN_TYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javae e(ô
+©com.knubisoft.base.list.ListTasksImpl.multiplyMax2Elements(java.util.List<java.util.Integer>, java.util.List<java.util.Integer>, java.util.List<java.util.Integer>)!first	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javae2 e(7"
+typeList<Integer>"
+isFinalfalse"(
+declarationStringList<Integer> first*first2Z
+java.util.ListTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javae$ e((2f
+java.util.IntegerTYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javae) e(0ú
+™com.knubisoft.base.list.ListTasksImpl.multiplyMax2Elements(java.util.List<java.util.Integer>, java.util.List<java.util.Integer>, java.util.List<java.util.Integer>)!second	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaeG e(M"
+typeList<Integer>"
+isFinalfalse")
+declarationStringList<Integer> second*second2Z
+java.util.ListTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javae9 e(=2f
+java.util.IntegerTYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javae> e(Eô
+©com.knubisoft.base.list.ListTasksImpl.multiplyMax2Elements(java.util.List<java.util.Integer>, java.util.List<java.util.Integer>, java.util.List<java.util.Integer>)!third	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javae] e(b"
+typeList<Integer>"
+isFinalfalse"(
+declarationStringList<Integer> third*third2Z
+java.util.ListTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaeO e(S2f
+java.util.IntegerTYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaeT e([Ó
+Scom.knubisoft.base.list.ListTasksImpl.removeNulls(java.util.List<java.util.String>)METHODB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaj j(#"
+isFinalfalse"º
+declarationString¶<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>List&lt;String&gt; <mark class="method">removeNulls</mark>(List&lt;String&gt; list)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<String>*removeNulls2ü
+Ocom.knubisoft.base.list.ListTasks.removeNulls(java.util.List<java.lang.String>)OVERRIDEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaj j(#2©
+Xcom.knubisoft.base.list.ListTasksImpl.removeNulls(java.util.List<java.util.String>)!list	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaj1 j(52a
+java.util.ListRETURN_TYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaj j(2l
+java.util.StringRETURN_TYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaj j(¬
+Xcom.knubisoft.base.list.ListTasksImpl.removeNulls(java.util.List<java.util.String>)!list	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaj1 j(5"
+typeList<String>"
+isFinalfalse"&
+declarationStringList<String> list*list2Z
+java.util.ListTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaj$ j((2e
+java.util.StringTYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaj) j(/Ÿ
+lcom.knubisoft.base.list.ListTasksImpl.flatMapWithoutNulls(java.util.List<java.util.List<java.util.Integer>>)METHODB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javao o(,"
+isFinalfalse"“
+declarationStringº<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>List&lt;Integer&gt; <mark class="method">flatMapWithoutNulls</mark>(List&lt;List&lt;Integer&gt;&gt; list)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<Integer>*flatMapWithoutNulls2∏
+hcom.knubisoft.base.list.ListTasks.flatMapWithoutNulls(java.util.List<java.util.List<java.lang.Integer>>)OVERRIDEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javao o(,2¬
+qcom.knubisoft.base.list.ListTasksImpl.flatMapWithoutNulls(java.util.List<java.util.List<java.util.Integer>>)!list	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaoA o(E2a
+java.util.ListRETURN_TYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javao o(2m
+java.util.IntegerRETURN_TYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javao o(œ
+qcom.knubisoft.base.list.ListTasksImpl.flatMapWithoutNulls(java.util.List<java.util.List<java.util.Integer>>)!list	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaoA o(E"
+typeList<List<Integer>>"
+isFinalfalse"-
+declarationStringList<List<Integer>> list*list2Z
+java.util.ListTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javao- o(12c
+java.util.ListTYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javao2 o(62f
+java.util.IntegerTYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javao7 o(>Ù
+Qcom.knubisoft.base.list.ListTasksImpl.cloneIds(java.util.List<java.util.Integer>)METHODB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javat t(!"
+isFinalfalse"¬
+declarationString¨<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>List&lt;Integer&gt; <mark class="method">cloneIds</mark>(List&lt;Integer&gt; originalIds)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<Integer>*cloneIds2ù
+Mcom.knubisoft.base.list.ListTasks.cloneIds(java.util.List<java.lang.Integer>)OVERRIDEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javat t(!2Æ
+]com.knubisoft.base.list.ListTasksImpl.cloneIds(java.util.List<java.util.Integer>)!originalIds	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javat0 t(;2a
+java.util.ListRETURN_TYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javat t(2m
+java.util.IntegerRETURN_TYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javat t(ÿ
+]com.knubisoft.base.list.ListTasksImpl.cloneIds(java.util.List<java.util.Integer>)!originalIds	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javat0 t(;"
+typeList<Integer>"
+isFinalfalse".
+declarationStringList<Integer> originalIds*originalIds2Z
+java.util.ListTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javat" t(&2f
+java.util.IntegerTYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javat' t(.
+Ocom.knubisoft.base.list.ListTasksImpl.shuffle(java.util.List<java.util.String>)METHODB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javay y("
+isFinalfalse"√
+declarationString≠<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>List&lt;String&gt; <mark class="method">shuffle</mark>(List&lt;String&gt; originalStrings)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<String>*shuffle2õ
+Kcom.knubisoft.base.list.ListTasks.shuffle(java.util.List<java.lang.String>)OVERRIDEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javay y(2∞
+_com.knubisoft.base.list.ListTasksImpl.shuffle(java.util.List<java.util.String>)!originalStrings	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javay- y(<2a
+java.util.ListRETURN_TYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javay y(2l
+java.util.StringRETURN_TYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javay y(ﬂ
+_com.knubisoft.base.list.ListTasksImpl.shuffle(java.util.List<java.util.String>)!originalStrings	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javay- y(<"
+typeList<String>"
+isFinalfalse"1
+declarationStringList<String> originalStrings*originalStrings2Z
+java.util.ListTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javay  y($2e
+java.util.StringTYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javay% y(+ó
+\com.knubisoft.base.list.ListTasksImpl.getLastElement(java.util.LinkedList<java.util.String>)METHODB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java~ ~( "
+isFinalfalse"π
+declarationString£<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">getLastElement</mark>(LinkedList&lt;String&gt; list)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getLastElement2®
+Xcom.knubisoft.base.list.ListTasks.getLastElement(java.util.LinkedList<java.lang.String>)OVERRIDEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java~ ~( 2≤
+acom.knubisoft.base.list.ListTasksImpl.getLastElement(java.util.LinkedList<java.util.String>)!list	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java~4 ~(82c
+java.util.StringRETURN_TYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java~ ~(›
+acom.knubisoft.base.list.ListTasksImpl.getLastElement(java.util.LinkedList<java.util.String>)!list	PARAMETERB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java~4 ~(8"
+typeLinkedList<String>"
+isFinalfalse",
+declarationStringLinkedList<String> list*list2`
+java.util.LinkedListTYPEB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java~! ~(+2e
+java.util.StringTYPE_ARGUMENTB
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.java~, ~(2ó
+Öcom.knubisoft.base.list.ListTasksImpl.compareElements(java.util.LinkedList<java.util.String>, java.util.LinkedList<java.util.String>)METHODD
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaÉ É('"
+isFinalfalse"ø
+declarationString©<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>List&lt;String&gt; <mark class="method">compareElements</mark>(LinkedList&lt;String&gt; originalCollection<mark class="modifier"><mark class="modifier">,</mark></mark> LinkedList&lt;String&gt; additionalCollection)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<String>*compareElements2‘
+Åcom.knubisoft.base.list.ListTasks.compareElements(java.util.LinkedList<java.lang.String>, java.util.LinkedList<java.lang.String>)OVERRIDED
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaÉ É('2Ï
+òcom.knubisoft.base.list.ListTasksImpl.compareElements(java.util.LinkedList<java.util.String>, java.util.LinkedList<java.util.String>)!originalCollection	PARAMETERD
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaÉ; É(M2Ó
+öcom.knubisoft.base.list.ListTasksImpl.compareElements(java.util.LinkedList<java.util.String>, java.util.LinkedList<java.util.String>)!additionalCollection	PARAMETERD
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaÉb É(v2c
+java.util.ListRETURN_TYPED
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaÉ É(2n
+java.util.StringRETURN_TYPE_ARGUMENTD
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaÉ É(∑
+òcom.knubisoft.base.list.ListTasksImpl.compareElements(java.util.LinkedList<java.util.String>, java.util.LinkedList<java.util.String>)!originalCollection	PARAMETERD
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaÉ; É(M"
+typeLinkedList<String>"
+isFinalfalse":
+declarationString%LinkedList<String> originalCollection*originalCollection2b
+java.util.LinkedListTYPED
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaÉ( É(22g
+java.util.StringTYPE_ARGUMENTD
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaÉ3 É(9Ω
+öcom.knubisoft.base.list.ListTasksImpl.compareElements(java.util.LinkedList<java.util.String>, java.util.LinkedList<java.util.String>)!additionalCollection	PARAMETERD
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaÉb É(v"
+typeLinkedList<String>"
+isFinalfalse"<
+declarationString'LinkedList<String> additionalCollection*additionalCollection2b
+java.util.LinkedListTYPED
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaÉO É(Y2g
+java.util.StringTYPE_ARGUMENTD
+8src/main/java/com/knubisoft/base/list/ListTasksImpl.javaÉZ É(`

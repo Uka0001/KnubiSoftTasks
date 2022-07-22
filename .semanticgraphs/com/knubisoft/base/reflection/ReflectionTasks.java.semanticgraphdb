@@ -1,0 +1,257 @@
+
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.javaµ
+-com.knubisoft.base.reflection.ReflectionTasksTRAITJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java ( "(
+packagecom.knubisoft.base.reflection"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"q
+declarationString\<mark class="modifier">public </mark><mark class="modifier">interface </mark>ReflectionTasks"
+accesspublic*ReflectionTasks2∂
+[com.knubisoft.base.reflection.ReflectionTasks.createNewInstanceForClass(java.lang.Class<?>)DECLARATIONJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java ($2ª
+`com.knubisoft.base.reflection.ReflectionTasks.findImplementationForInterface(java.lang.Class<T>)DECLARATIONJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java (92≤
+Wcom.knubisoft.base.reflection.ReflectionTasks.findAllFieldsForClass(java.lang.Class<?>)DECLARATIONJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java! !(-2∑
+\com.knubisoft.base.reflection.ReflectionTasks.countPrivateMethodsInClass(java.lang.Class<?>)DECLARATIONJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java' '("2Ã
+qcom.knubisoft.base.reflection.ReflectionTasks.isMethodHasAnnotation(java.lang.reflect.Method, java.lang.Class<?>)DECLARATIONJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java. .(!2√
+hcom.knubisoft.base.reflection.ReflectionTasks.evaluateMethodByName(java.lang.Class<?>, java.lang.String)DECLARATIONJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java7 7(2ﬂ
+Écom.knubisoft.base.reflection.ReflectionTasks.evaluateMethodWithArgsByName(java.lang.Object, java.lang.String, java.lang.Object...)DECLARATIONJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java@ @('2÷
+{com.knubisoft.base.reflection.ReflectionTasks.changePrivateFieldValue(java.lang.Object, java.lang.String, java.lang.Object)DECLARATIONJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.javaH H("‡
+[com.knubisoft.base.reflection.ReflectionTasks.createNewInstanceForClass(java.lang.Class<?>)METHODJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java ($"
+isFinalfalse"Ñ
+declarationStringo<mark class="modifier"> </mark>Object <mark class="method">createNewInstanceForClass</mark>(Class&lt;?&gt; cls)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeObject*createNewInstanceForClass2∏
+_com.knubisoft.base.reflection.ReflectionTasks.createNewInstanceForClass(java.lang.Class<?>)!cls	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java. (12k
+java.lang.ObjectRETURN_TYPEJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java (
+È
+_com.knubisoft.base.reflection.ReflectionTasks.createNewInstanceForClass(java.lang.Class<?>)!cls	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java. (1"
+typeClass<?>"
+isFinalfalse"!
+declarationStringClass<?> cls*cls2c
+java.lang.ClassTYPEJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java% (*’
+`com.knubisoft.base.reflection.ReflectionTasks.findImplementationForInterface(java.lang.Class<T>)METHODJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java (9"
+isFinalfalse"ú
+declarationStringÜ<mark class="modifier"> </mark>Class&lt;? extends T&gt; <mark class="method">findImplementationForInterface</mark>(Class&lt;T&gt; cls)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeClass<? extends T>*findImplementationForInterface2Ω
+dcom.knubisoft.base.reflection.ReflectionTasks.findImplementationForInterface(java.lang.Class<T>)!cls	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.javaC (F2j
+java.lang.ClassRETURN_TYPEJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java (2¿
+bcom.knubisoft.base.reflection.ReflectionTasks.findImplementationForInterface(java.lang.Class<T>).TTYPE_PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java (‘
+dcom.knubisoft.base.reflection.ReflectionTasks.findImplementationForInterface(java.lang.Class<T>)!cls	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.javaC (F"
+typeClass<T>"
+isFinalfalse"E
+declarationString0Class<<mark class="type-parameter">T</mark>> cls*cls2c
+java.lang.ClassTYPEJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java: (?2ø
+bcom.knubisoft.base.reflection.ReflectionTasks.findImplementationForInterface(java.lang.Class<T>).TTYPE_ARGUMENTJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java@ (A√
+bcom.knubisoft.base.reflection.ReflectionTasks.findImplementationForInterface(java.lang.Class<T>).TTYPE_PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java (*Tï
+Wcom.knubisoft.base.reflection.ReflectionTasks.findAllFieldsForClass(java.lang.Class<?>)METHODJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java! !(-"
+isFinalfalse"œ
+declarationStringπ<mark class="modifier"> </mark>Map&lt;String<mark class="modifier"><mark class="modifier">,</mark></mark>Object&gt; <mark class="method">findAllFieldsForClass</mark>(Class&lt;?&gt; cls)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeMap<String, Object>*findAllFieldsForClass2¥
+[com.knubisoft.base.reflection.ReflectionTasks.findAllFieldsForClass(java.lang.Class<?>)!cls	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java!7 !(:2h
+java.util.MapRETURN_TYPEJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java! !(2t
+java.lang.StringRETURN_TYPE_ARGUMENTJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java! !(2t
+java.lang.ObjectRETURN_TYPE_ARGUMENTJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java! !(Â
+[com.knubisoft.base.reflection.ReflectionTasks.findAllFieldsForClass(java.lang.Class<?>)!cls	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java!7 !(:"
+typeClass<?>"
+isFinalfalse"!
+declarationStringClass<?> cls*cls2c
+java.lang.ClassTYPEJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java!. !(3
+\com.knubisoft.base.reflection.ReflectionTasks.countPrivateMethodsInClass(java.lang.Class<?>)METHODJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java' '(""
+isFinalfalse"°
+declarationStringã<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">countPrivateMethodsInClass</mark>(Class&lt;?&gt; cls)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*countPrivateMethodsInClass2π
+`com.knubisoft.base.reflection.ReflectionTasks.countPrivateMethodsInClass(java.lang.Class<?>)!cls	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java', '(/2^
+intRETURN_TYPEJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java' '(Í
+`com.knubisoft.base.reflection.ReflectionTasks.countPrivateMethodsInClass(java.lang.Class<?>)!cls	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java', '(/"
+typeClass<?>"
+isFinalfalse"!
+declarationStringClass<?> cls*cls2c
+java.lang.ClassTYPEJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java'# '((ø
+qcom.knubisoft.base.reflection.ReflectionTasks.isMethodHasAnnotation(java.lang.reflect.Method, java.lang.Class<?>)METHODJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java. .(!"
+isFinalfalse"Ì
+declarationString◊<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isMethodHasAnnotation</mark>(Method method<mark class="modifier"><mark class="modifier">,</mark></mark> Class&lt;?&gt; clazz)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isMethodHasAnnotation2—
+xcom.knubisoft.base.reflection.ReflectionTasks.isMethodHasAnnotation(java.lang.reflect.Method, java.lang.Class<?>)!method	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java.) .(/2–
+wcom.knubisoft.base.reflection.ReflectionTasks.isMethodHasAnnotation(java.lang.reflect.Method, java.lang.Class<?>)!clazz	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java.: .(?2b
+booleanRETURN_TYPEJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java. .(ç
+xcom.knubisoft.base.reflection.ReflectionTasks.isMethodHasAnnotation(java.lang.reflect.Method, java.lang.Class<?>)!method	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java.) .(/"
+typeMethod"
+isFinalfalse""
+declarationStringMethod method*method2l
+java.lang.reflect.MethodTYPEJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java." .((Ö
+wcom.knubisoft.base.reflection.ReflectionTasks.isMethodHasAnnotation(java.lang.reflect.Method, java.lang.Class<?>)!clazz	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java.: .(?"
+typeClass<?>"
+isFinalfalse"#
+declarationStringClass<?> clazz*clazz2c
+java.lang.ClassTYPEJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java.1 .(6É
+hcom.knubisoft.base.reflection.ReflectionTasks.evaluateMethodByName(java.lang.Class<?>, java.lang.String)METHODJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java7 7("
+isFinalfalse"…
+declarationString≥<mark class="modifier"> </mark>Object <mark class="method">evaluateMethodByName</mark>(Class&lt;?&gt; cls<mark class="modifier"><mark class="modifier">,</mark></mark> String name)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeObject*evaluateMethodByName2≈
+lcom.knubisoft.base.reflection.ReflectionTasks.evaluateMethodByName(java.lang.Class<?>, java.lang.String)!cls	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java7) 7(,2∆
+mcom.knubisoft.base.reflection.ReflectionTasks.evaluateMethodByName(java.lang.Class<?>, java.lang.String)!name	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java75 7(92k
+java.lang.ObjectRETURN_TYPEJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java7 7(
+ˆ
+lcom.knubisoft.base.reflection.ReflectionTasks.evaluateMethodByName(java.lang.Class<?>, java.lang.String)!cls	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java7) 7(,"
+typeClass<?>"
+isFinalfalse"!
+declarationStringClass<?> cls*cls2c
+java.lang.ClassTYPEJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java7  7(%ˆ
+mcom.knubisoft.base.reflection.ReflectionTasks.evaluateMethodByName(java.lang.Class<?>, java.lang.String)!name	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java75 7(9"
+typeString"
+isFinalfalse" 
+declarationStringString name*name2d
+java.lang.StringTYPEJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java7. 7(4ê
+Écom.knubisoft.base.reflection.ReflectionTasks.evaluateMethodWithArgsByName(java.lang.Object, java.lang.String, java.lang.Object...)METHODJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java@ @('"
+isFinalfalse"ï
+declarationStringˇ<mark class="modifier"> </mark>Object <mark class="method">evaluateMethodWithArgsByName</mark>(Object obj<mark class="modifier"><mark class="modifier">,</mark></mark> String name<mark class="modifier"><mark class="modifier">,</mark></mark> Object... args)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeObject*evaluateMethodWithArgsByName2·
+ácom.knubisoft.base.reflection.ReflectionTasks.evaluateMethodWithArgsByName(java.lang.Object, java.lang.String, java.lang.Object...)!obj	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java@/ @(22‚
+àcom.knubisoft.base.reflection.ReflectionTasks.evaluateMethodWithArgsByName(java.lang.Object, java.lang.String, java.lang.Object...)!name	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java@; @(?2‚
+àcom.knubisoft.base.reflection.ReflectionTasks.evaluateMethodWithArgsByName(java.lang.Object, java.lang.String, java.lang.Object...)!args	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java@K @(O2k
+java.lang.ObjectRETURN_TYPEJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java@ @(
+è
+ácom.knubisoft.base.reflection.ReflectionTasks.evaluateMethodWithArgsByName(java.lang.Object, java.lang.String, java.lang.Object...)!obj	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java@/ @(2"
+typeObject"
+isFinalfalse"
+declarationString
+Object obj*obj2d
+java.lang.ObjectTYPEJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java@( @(.í
+àcom.knubisoft.base.reflection.ReflectionTasks.evaluateMethodWithArgsByName(java.lang.Object, java.lang.String, java.lang.Object...)!name	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java@; @(?"
+typeString"
+isFinalfalse" 
+declarationStringString name*name2d
+java.lang.StringTYPEJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java@4 @(:î
+àcom.knubisoft.base.reflection.ReflectionTasks.evaluateMethodWithArgsByName(java.lang.Object, java.lang.String, java.lang.Object...)!args	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java@K @(O"
+typeObject"
+isFinalfalse" 
+declarationStringObject args*args2f
+java.lang.Object[]TYPEJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.java@A @(GÙ
+
+{com.knubisoft.base.reflection.ReflectionTasks.changePrivateFieldValue(java.lang.Object, java.lang.String, java.lang.Object)METHODJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.javaH H(""
+isFinalfalse"ñ
+declarationStringÄ<mark class="modifier"> </mark>Object <mark class="method">changePrivateFieldValue</mark>(Object instance<mark class="modifier"><mark class="modifier">,</mark></mark> String name<mark class="modifier"><mark class="modifier">,</mark></mark> Object newValue)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeObject*changePrivateFieldValue2ﬁ
+Ñcom.knubisoft.base.reflection.ReflectionTasks.changePrivateFieldValue(java.lang.Object, java.lang.String, java.lang.Object)!instance	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.javaH* H(22⁄
+Äcom.knubisoft.base.reflection.ReflectionTasks.changePrivateFieldValue(java.lang.Object, java.lang.String, java.lang.Object)!name	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.javaH; H(?2ﬁ
+Ñcom.knubisoft.base.reflection.ReflectionTasks.changePrivateFieldValue(java.lang.Object, java.lang.String, java.lang.Object)!newValue	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.javaHH H(P2k
+java.lang.ObjectRETURN_TYPEJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.javaH H(
+ñ
+Ñcom.knubisoft.base.reflection.ReflectionTasks.changePrivateFieldValue(java.lang.Object, java.lang.String, java.lang.Object)!instance	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.javaH* H(2"
+typeObject"
+isFinalfalse"$
+declarationStringObject instance*instance2d
+java.lang.ObjectTYPEJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.javaH# H()ä
+Äcom.knubisoft.base.reflection.ReflectionTasks.changePrivateFieldValue(java.lang.Object, java.lang.String, java.lang.Object)!name	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.javaH; H(?"
+typeString"
+isFinalfalse" 
+declarationStringString name*name2d
+java.lang.StringTYPEJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.javaH4 H(:ñ
+Ñcom.knubisoft.base.reflection.ReflectionTasks.changePrivateFieldValue(java.lang.Object, java.lang.String, java.lang.Object)!newValue	PARAMETERJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.javaHH H(P"
+typeObject"
+isFinalfalse"$
+declarationStringObject newValue*newValue2d
+java.lang.ObjectTYPEJ
+@src/main/java/com/knubisoft/base/reflection/ReflectionTasks.javaHA H(G

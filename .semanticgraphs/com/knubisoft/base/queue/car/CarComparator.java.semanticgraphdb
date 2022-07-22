@@ -1,0 +1,56 @@
+
+=src/main/java/com/knubisoft/base/queue/car/CarComparator.javaÚ
+*com.knubisoft.base.queue.car.CarComparatorCLASSG
+=src/main/java/com/knubisoft/base/queue/car/CarComparator.java ("'
+packagecom.knubisoft.base.queue.car"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Æ
+declarationStringò<mark class="modifier">public </mark><mark class="modifier">class </mark>CarComparator<mark class="modifier"><br>implements </mark>Comparator&lt;Car&gt;"
+accesspublic*CarComparator2Œ
+vcom.knubisoft.base.queue.car.CarComparator.compare(com.knubisoft.base.queue.car.Car, com.knubisoft.base.queue.car.Car)DECLARATIONG
+=src/main/java/com/knubisoft/base/queue/car/CarComparator.java (2g
+java.util.ComparatorEXTENDG
+=src/main/java/com/knubisoft/base/queue/car/CarComparator.java& (02Å
+ com.knubisoft.base.queue.car.CarEXTEND_TYPE_ARGUMENTG
+=src/main/java/com/knubisoft/base/queue/car/CarComparator.java1 (4∫
+vcom.knubisoft.base.queue.car.CarComparator.compare(com.knubisoft.base.queue.car.Car, com.knubisoft.base.queue.car.Car)METHODG
+=src/main/java/com/knubisoft/base/queue/car/CarComparator.java ("
+isFinalfalse"˙
+declarationString‰<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">compare</mark>(Car o1<mark class="modifier"><mark class="modifier">,</mark></mark> Car o2)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*compare2y
+(java.lang.Double.compare(double, double)CALLG
+=src/main/java/com/knubisoft/base/queue/car/CarComparator.java (2|
++com.knubisoft.base.queue.car.Car.getPrice()CALLG
+=src/main/java/com/knubisoft/base/queue/car/CarComparator.java! ()2|
++com.knubisoft.base.queue.car.Car.getPrice()CALLG
+=src/main/java/com/knubisoft/base/queue/car/CarComparator.java0 (82 
+ycom.knubisoft.base.queue.car.CarComparator.compare(com.knubisoft.base.queue.car.Car, com.knubisoft.base.queue.car.Car)!o1CALLG
+=src/main/java/com/knubisoft/base/queue/car/CarComparator.java ( 2 
+ycom.knubisoft.base.queue.car.CarComparator.compare(com.knubisoft.base.queue.car.Car, com.knubisoft.base.queue.car.Car)!o2CALLG
+=src/main/java/com/knubisoft/base/queue/car/CarComparator.java- (/2œ
+ycom.knubisoft.base.queue.car.CarComparator.compare(com.knubisoft.base.queue.car.Car, com.knubisoft.base.queue.car.Car)!o1	PARAMETERG
+=src/main/java/com/knubisoft/base/queue/car/CarComparator.java (2œ
+ycom.knubisoft.base.queue.car.CarComparator.compare(com.knubisoft.base.queue.car.Car, com.knubisoft.base.queue.car.Car)!o2	PARAMETERG
+=src/main/java/com/knubisoft/base/queue/car/CarComparator.java# (%2[
+intRETURN_TYPEG
+=src/main/java/com/knubisoft/base/queue/car/CarComparator.java (Ç
+ycom.knubisoft.base.queue.car.CarComparator.compare(com.knubisoft.base.queue.car.Car, com.knubisoft.base.queue.car.Car)!o1	PARAMETERG
+=src/main/java/com/knubisoft/base/queue/car/CarComparator.java ("
+typeCar"
+isFinalfalse"
+declarationStringCar o1*o12q
+ com.knubisoft.base.queue.car.CarTYPEG
+=src/main/java/com/knubisoft/base/queue/car/CarComparator.java (Ç
+ycom.knubisoft.base.queue.car.CarComparator.compare(com.knubisoft.base.queue.car.Car, com.knubisoft.base.queue.car.Car)!o2	PARAMETERG
+=src/main/java/com/knubisoft/base/queue/car/CarComparator.java# (%"
+typeCar"
+isFinalfalse"
+declarationStringCar o2*o22q
+ com.knubisoft.base.queue.car.CarTYPEG
+=src/main/java/com/knubisoft/base/queue/car/CarComparator.java ("

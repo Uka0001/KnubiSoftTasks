@@ -1,0 +1,126 @@
+
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.javaê
+7com.knubisoft.base.reflection.model.InheritedEntryModelCLASST
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java ( ".
+package#com.knubisoft.base.reflection.model"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"£
+declarationStringç<mark class="modifier">public </mark><mark class="modifier">class </mark>InheritedEntryModel<mark class="modifier"> extends </mark>EntryModel"
+accesspublic*InheritedEntryModel2¬
+]com.knubisoft.base.reflection.model.InheritedEntryModel.InheritedEntryModel(java.lang.String)DECLARATIONT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java (2‘
+ocom.knubisoft.base.reflection.model.InheritedEntryModel.InheritedEntryModel(java.lang.String, java.lang.String)DECLARATIONT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java (2Á
+Åcom.knubisoft.base.reflection.model.InheritedEntryModel.InheritedEntryModel(java.lang.String, java.lang.String, java.lang.String)DECLARATIONT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java (2¶
+Acom.knubisoft.base.reflection.model.InheritedEntryModel.builder()DECLARATIONT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java (2é
+.com.knubisoft.base.reflection.model.EntryModelEXTENDT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java) (3¥
+]com.knubisoft.base.reflection.model.InheritedEntryModel.InheritedEntryModel(java.lang.String)CONSTRUCTORT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java ("{
+declarationStringf<mark class="modifier">public </mark><mark class="method">InheritedEntryModel</mark>(String tableName)*InheritedEntryModel2©
+Kcom.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String)CALLT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java (2≈
+gcom.knubisoft.base.reflection.model.InheritedEntryModel.InheritedEntryModel(java.lang.String)!tableNameCALLT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java (2 
+gcom.knubisoft.base.reflection.model.InheritedEntryModel.InheritedEntryModel(java.lang.String)!tableName	PARAMETERT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java& (/2ú
+7com.knubisoft.base.reflection.model.InheritedEntryModelRETURN_TYPET
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java (é
+gcom.knubisoft.base.reflection.model.InheritedEntryModel.InheritedEntryModel(java.lang.String)!tableName	PARAMETERT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java& (/"
+typeString"
+isFinalfalse"%
+declarationStringString tableName*	tableName2n
+java.lang.StringTYPET
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java (%à
+ocom.knubisoft.base.reflection.model.InheritedEntryModel.InheritedEntryModel(java.lang.String, java.lang.String)CONSTRUCTORT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java ("À
+declarationStringµ<mark class="modifier">public </mark><mark class="method">InheritedEntryModel</mark>(String tableName<mark class="modifier"><mark class="modifier">,</mark></mark> String schemaName)*InheritedEntryModel2ª
+]com.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String, java.lang.String)CALLT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java	 	(2◊
+ycom.knubisoft.base.reflection.model.InheritedEntryModel.InheritedEntryModel(java.lang.String, java.lang.String)!tableNameCALLT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java	 	(2ÿ
+zcom.knubisoft.base.reflection.model.InheritedEntryModel.InheritedEntryModel(java.lang.String, java.lang.String)!schemaNameCALLT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java	 	(#2‹
+ycom.knubisoft.base.reflection.model.InheritedEntryModel.InheritedEntryModel(java.lang.String, java.lang.String)!tableName	PARAMETERT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java& (/2›
+zcom.knubisoft.base.reflection.model.InheritedEntryModel.InheritedEntryModel(java.lang.String, java.lang.String)!schemaName	PARAMETERT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java8 (B2ú
+7com.knubisoft.base.reflection.model.InheritedEntryModelRETURN_TYPET
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java (†
+ycom.knubisoft.base.reflection.model.InheritedEntryModel.InheritedEntryModel(java.lang.String, java.lang.String)!tableName	PARAMETERT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java& (/"
+typeString"
+isFinalfalse"%
+declarationStringString tableName*	tableName2n
+java.lang.StringTYPET
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java (%£
+zcom.knubisoft.base.reflection.model.InheritedEntryModel.InheritedEntryModel(java.lang.String, java.lang.String)!schemaName	PARAMETERT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java8 (B"
+typeString"
+isFinalfalse"&
+declarationStringString schemaName*
+schemaName2n
+java.lang.StringTYPET
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java1 (7†
+Åcom.knubisoft.base.reflection.model.InheritedEntryModel.InheritedEntryModel(java.lang.String, java.lang.String, java.lang.String)CONSTRUCTORT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java ("ó
+declarationStringÅ<mark class="modifier">public </mark><mark class="method">InheritedEntryModel</mark>(String tableName<mark class="modifier"><mark class="modifier">,</mark></mark> String schemaName<mark class="modifier"><mark class="modifier">,</mark></mark> String version)*InheritedEntryModel2Õ
+ocom.knubisoft.base.reflection.model.EntryModel.EntryModel(java.lang.String, java.lang.String, java.lang.String)CALLT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java (2Í
+ãcom.knubisoft.base.reflection.model.InheritedEntryModel.InheritedEntryModel(java.lang.String, java.lang.String, java.lang.String)!tableNameCALLT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java (2Î
+åcom.knubisoft.base.reflection.model.InheritedEntryModel.InheritedEntryModel(java.lang.String, java.lang.String, java.lang.String)!schemaNameCALLT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java (#2Ë
+âcom.knubisoft.base.reflection.model.InheritedEntryModel.InheritedEntryModel(java.lang.String, java.lang.String, java.lang.String)!versionCALLT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java% (,2Ô
+ãcom.knubisoft.base.reflection.model.InheritedEntryModel.InheritedEntryModel(java.lang.String, java.lang.String, java.lang.String)!tableName	PARAMETERT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java& (/2
+åcom.knubisoft.base.reflection.model.InheritedEntryModel.InheritedEntryModel(java.lang.String, java.lang.String, java.lang.String)!schemaName	PARAMETERT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java8 (B2Ì
+âcom.knubisoft.base.reflection.model.InheritedEntryModel.InheritedEntryModel(java.lang.String, java.lang.String, java.lang.String)!version	PARAMETERT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.javaK (R2ú
+7com.knubisoft.base.reflection.model.InheritedEntryModelRETURN_TYPET
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java (≥
+ãcom.knubisoft.base.reflection.model.InheritedEntryModel.InheritedEntryModel(java.lang.String, java.lang.String, java.lang.String)!tableName	PARAMETERT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java& (/"
+typeString"
+isFinalfalse"%
+declarationStringString tableName*	tableName2n
+java.lang.StringTYPET
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java (%∂
+åcom.knubisoft.base.reflection.model.InheritedEntryModel.InheritedEntryModel(java.lang.String, java.lang.String, java.lang.String)!schemaName	PARAMETERT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java8 (B"
+typeString"
+isFinalfalse"&
+declarationStringString schemaName*
+schemaName2n
+java.lang.StringTYPET
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java1 (7≠
+âcom.knubisoft.base.reflection.model.InheritedEntryModel.InheritedEntryModel(java.lang.String, java.lang.String, java.lang.String)!version	PARAMETERT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.javaK (R"
+typeString"
+isFinalfalse"#
+declarationStringString version*version2n
+java.lang.StringTYPET
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.javaD (JÚ
+Acom.knubisoft.base.reflection.model.InheritedEntryModel.builder()METHODT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java ("
+isFinalfalse"ô
+declarationStringÉ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>EntryModel <mark class="method">builder</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+type
+EntryModel*builder2ñ
+8com.knubisoft.base.reflection.model.EntryModel.builder()CALLT
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java (2ö
+8com.knubisoft.base.reflection.model.EntryModel.builder()OVERRIDET
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java (2ì
+.com.knubisoft.base.reflection.model.EntryModelRETURN_TYPET
+Jsrc/main/java/com/knubisoft/base/reflection/model/InheritedEntryModel.java (

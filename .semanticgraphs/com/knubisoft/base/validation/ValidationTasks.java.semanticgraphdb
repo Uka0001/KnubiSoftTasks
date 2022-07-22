@@ -1,0 +1,318 @@
+
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java“
+-com.knubisoft.base.validation.ValidationTasksTRAITJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java ( "(
+packagecom.knubisoft.base.validation"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"q
+declarationString\<mark class="modifier">public </mark><mark class="modifier">interface </mark>ValidationTasks"
+accesspublic*ValidationTasks2£
+Hcom.knubisoft.base.validation.ValidationTasks.validate(java.lang.Object)DECLARATIONJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java	 (2î
+9com.knubisoft.base.validation.ValidationTasks.buildUser()DECLARATIONJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java	 (2¢
+Gcom.knubisoft.base.validation.ValidationTasks.buildUserGeneralDetails()DECLARATIONJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java! !(.2¢
+Gcom.knubisoft.base.validation.ValidationTasks.buildUserAddressDetails()DECLARATIONJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java& &(.2ç
+2com.knubisoft.base.validation.ValidationTasks.UserDECLARATIONJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java,
+ ,(2õ
+@com.knubisoft.base.validation.ValidationTasks.UserGeneralDetailsDECLARATIONJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaA
+ A(2õ
+@com.knubisoft.base.validation.ValidationTasks.UserAddressDetailsDECLARATIONJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaV
+ V(®
+Hcom.knubisoft.base.validation.ValidationTasks.validate(java.lang.Object)METHODJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java	 ("
+isFinalfalse"å
+declarationStringw<mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">validate</mark>(Object instance)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*validate2™
+Qcom.knubisoft.base.validation.ValidationTasks.validate(java.lang.Object)!instance	PARAMETERJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java (!2_
+voidRETURN_TYPEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java (‚
+Qcom.knubisoft.base.validation.ValidationTasks.validate(java.lang.Object)!instance	PARAMETERJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java (!"
+typeObject"
+isFinalfalse"$
+declarationStringObject instance*instance2d
+java.lang.ObjectTYPEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java (Ô
+9com.knubisoft.base.validation.ValidationTasks.buildUser()METHODJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java	 ("
+isFinalfalse"`
+declarationStringK<mark class="modifier"> </mark>User <mark class="method">buildUser</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeUser*	buildUser2ç
+2com.knubisoft.base.validation.ValidationTasks.UserRETURN_TYPEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java (√
+Gcom.knubisoft.base.validation.ValidationTasks.buildUserGeneralDetails()METHODJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java! !(."
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark>UserGeneralDetails <mark class="method">buildUserGeneralDetails</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeUserGeneralDetails*buildUserGeneralDetails2õ
+@com.knubisoft.base.validation.ValidationTasks.UserGeneralDetailsRETURN_TYPEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java! !(√
+Gcom.knubisoft.base.validation.ValidationTasks.buildUserAddressDetails()METHODJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java& &(."
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark>UserAddressDetails <mark class="method">buildUserAddressDetails</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeUserAddressDetails*buildUserAddressDetails2õ
+@com.knubisoft.base.validation.ValidationTasks.UserAddressDetailsRETURN_TYPEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java& &(»
+2com.knubisoft.base.validation.ValidationTasks.UserCLASSJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java,
+ ,("8
+package-com.knubisoft.base.validation.ValidationTasks"
+isFinalfalse"
+inner classtrue"
+
+isAbstractfalse"ò
+declarationStringÇ<mark class="annotation">@Entity</mark> <br><mark class="annotation">@Setter</mark> <br><mark class="annotation">@Getter</mark> <br><mark class="annotation">@EqualsAndHashCode</mark> <br><mark class="modifier"> </mark><mark class="modifier">class </mark>User"
+accesspackage_private*User2ú
+Acom.knubisoft.base.validation.ValidationTasks.User?id@46.21:46.23DECLARATIONJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java. .(2û
+Ccom.knubisoft.base.validation.ValidationTasks.User?name@49.23:49.27DECLARATIONJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java1 1(2°
+Fcom.knubisoft.base.validation.ValidationTasks.User?surname@52.23:52.30DECLARATIONJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java4 4(2£
+Hcom.knubisoft.base.validation.ValidationTasks.User?isMarried@53.24:53.33DECLARATIONJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java5 5(!2©
+Ncom.knubisoft.base.validation.ValidationTasks.User?countOfChildren@54.24:54.39DECLARATIONJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java6 6('2•
+Jcom.knubisoft.base.validation.ValidationTasks.User?countOfPets@55.24:55.35DECLARATIONJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java7 7(#2Æ
+Scom.knubisoft.base.validation.ValidationTasks.User?fkUserGeneralDetails@58.21:58.41DECLARATIONJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java: :()≈
+Acom.knubisoft.base.validation.ValidationTasks.User?id@46.21:46.23VARIABLEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java. .("
+isFinalfalse"
+typeLong"|
+declarationStringg<mark class="modifier">private </mark>Long <mark class="class-field">id</mark> = true)
+private Long id;"
+isStaticfalse"
+accessprivate*id2b
+java.lang.LongTYPEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java. .(‹
+Ccom.knubisoft.base.validation.ValidationTasks.User?name@49.23:49.27VARIABLEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java1 1("
+isFinalfalse"
+typeString"ä
+declarationStringu<mark class="modifier">private </mark>String <mark class="class-field">name</mark> = 7)
+@NotNull
+private String name;"
+isStaticfalse"
+accessprivate*name2d
+java.lang.StringTYPEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java1 1(È
+Fcom.knubisoft.base.validation.ValidationTasks.User?surname@52.23:52.30VARIABLEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java4 4("
+isFinalfalse"
+typeString"ë
+declarationString|<mark class="modifier">private </mark>String <mark class="class-field">surname</mark> = 10)
+@NotNull
+private String surname;"
+isStaticfalse"
+accessprivate*surname2d
+java.lang.StringTYPEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java4 4(ﬂ
+Hcom.knubisoft.base.validation.ValidationTasks.User?isMarried@53.24:53.33VARIABLEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java5 5(!"
+isFinalfalse"
+typeboolean"ã
+declarationStringv<mark class="modifier">private </mark><mark class="modifier">boolean</mark> <mark class="class-field">isMarried</mark>"
+isStaticfalse"
+accessprivate*	isMarried2[
+booleanTYPEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java5 5(‹
+Ncom.knubisoft.base.validation.ValidationTasks.User?countOfChildren@54.24:54.39VARIABLEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java6 6('"
+isFinalfalse"
+typeInteger"s
+declarationString^<mark class="modifier">private </mark>Integer <mark class="class-field">countOfChildren</mark>"
+isStaticfalse"
+accessprivate*countOfChildren2e
+java.lang.IntegerTYPEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java6 6(–
+Jcom.knubisoft.base.validation.ValidationTasks.User?countOfPets@55.24:55.35VARIABLEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java7 7(#"
+isFinalfalse"
+typeInteger"o
+declarationStringZ<mark class="modifier">private </mark>Integer <mark class="class-field">countOfPets</mark>"
+isStaticfalse"
+accessprivate*countOfPets2e
+java.lang.IntegerTYPEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java7 7(¨
+Scom.knubisoft.base.validation.ValidationTasks.User?fkUserGeneralDetails@58.21:58.41VARIABLEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java: :()"
+isFinalfalse"
+typeLong"æ
+declarationString®<mark class="modifier">private </mark>Long <mark class="class-field">fkUserGeneralDetails</mark> = UserGeneralDetails.class)
+@NotNull
+private Long fkUserGeneralDetails;"
+isStaticfalse"
+accessprivate*fkUserGeneralDetails2b
+java.lang.LongTYPEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java: :(û
+@com.knubisoft.base.validation.ValidationTasks.UserGeneralDetailsCLASSJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaA
+ A("8
+package-com.knubisoft.base.validation.ValidationTasks"
+isFinalfalse"
+inner classtrue"
+
+isAbstractfalse"¶
+declarationStringê<mark class="annotation">@Entity</mark> <br><mark class="annotation">@Setter</mark> <br><mark class="annotation">@Getter</mark> <br><mark class="annotation">@EqualsAndHashCode</mark> <br><mark class="modifier"> </mark><mark class="modifier">class </mark>UserGeneralDetails"
+accesspackage_private*UserGeneralDetails2™
+Ocom.knubisoft.base.validation.ValidationTasks.UserGeneralDetails?id@67.21:67.23DECLARATIONJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaC C(2∫
+_com.knubisoft.base.validation.ValidationTasks.UserGeneralDetails?previousProfession@69.23:69.41DECLARATIONJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaE E()2Ø
+Tcom.knubisoft.base.validation.ValidationTasks.UserGeneralDetails?country@72.23:72.30DECLARATIONJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaH H(2Æ
+Scom.knubisoft.base.validation.ValidationTasks.UserGeneralDetails?oblast@74.23:74.29DECLARATIONJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaJ J(2¨
+Qcom.knubisoft.base.validation.ValidationTasks.UserGeneralDetails?city@76.23:76.27DECLARATIONJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaL L(2º
+acom.knubisoft.base.validation.ValidationTasks.UserGeneralDetails?fkUserAddressDetails@79.21:79.41DECLARATIONJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaO O()”
+Ocom.knubisoft.base.validation.ValidationTasks.UserGeneralDetails?id@67.21:67.23VARIABLEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaC C("
+isFinalfalse"
+typeLong"|
+declarationStringg<mark class="modifier">private </mark>Long <mark class="class-field">id</mark> = true)
+private Long id;"
+isStaticfalse"
+accessprivate*id2b
+java.lang.LongTYPEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaC C(õ
+_com.knubisoft.base.validation.ValidationTasks.UserGeneralDetails?previousProfession@69.23:69.41VARIABLEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaE E()"
+isFinalfalse"
+typeString"ü
+declarationStringâ<mark class="modifier">private </mark>String <mark class="class-field">previousProfession</mark> = 13)
+private String previousProfession;"
+isStaticfalse"
+accessprivate*previousProfession2d
+java.lang.StringTYPEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaE E(˜
+Tcom.knubisoft.base.validation.ValidationTasks.UserGeneralDetails?country@72.23:72.30VARIABLEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaH H("
+isFinalfalse"
+typeString"ë
+declarationString|<mark class="modifier">private </mark>String <mark class="class-field">country</mark> = 14)
+@NotNull
+private String country;"
+isStaticfalse"
+accessprivate*country2d
+java.lang.StringTYPEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaH H(Í
+Scom.knubisoft.base.validation.ValidationTasks.UserGeneralDetails?oblast@74.23:74.29VARIABLEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaJ J("
+isFinalfalse"
+typeString"Ü
+declarationStringq<mark class="modifier">private </mark>String <mark class="class-field">oblast</mark> = 15)
+private String oblast;"
+isStaticfalse"
+accessprivate*oblast2d
+java.lang.StringTYPEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaJ J(‚
+Qcom.knubisoft.base.validation.ValidationTasks.UserGeneralDetails?city@76.23:76.27VARIABLEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaL L("
+isFinalfalse"
+typeString"Ç
+declarationStringm<mark class="modifier">private </mark>String <mark class="class-field">city</mark> = 15)
+private String city;"
+isStaticfalse"
+accessprivate*city2d
+java.lang.StringTYPEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaL L(∫
+acom.knubisoft.base.validation.ValidationTasks.UserGeneralDetails?fkUserAddressDetails@79.21:79.41VARIABLEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaO O()"
+isFinalfalse"
+typeLong"æ
+declarationString®<mark class="modifier">private </mark>Long <mark class="class-field">fkUserAddressDetails</mark> = UserAddressDetails.class)
+@NotNull
+private Long fkUserAddressDetails;"
+isStaticfalse"
+accessprivate*fkUserAddressDetails2b
+java.lang.LongTYPEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaO O(´
+
+@com.knubisoft.base.validation.ValidationTasks.UserAddressDetailsCLASSJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaV
+ V("8
+package-com.knubisoft.base.validation.ValidationTasks"
+isFinalfalse"
+inner classtrue"
+
+isAbstractfalse"¶
+declarationStringê<mark class="annotation">@Entity</mark> <br><mark class="annotation">@Setter</mark> <br><mark class="annotation">@Getter</mark> <br><mark class="annotation">@EqualsAndHashCode</mark> <br><mark class="modifier"> </mark><mark class="modifier">class </mark>UserAddressDetails"
+accesspackage_private*UserAddressDetails2™
+Ocom.knubisoft.base.validation.ValidationTasks.UserAddressDetails?id@88.21:88.23DECLARATIONJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaX X(2Ø
+Tcom.knubisoft.base.validation.ValidationTasks.UserAddressDetails?zipCode@90.23:90.30DECLARATIONJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaZ Z(2Æ
+Scom.knubisoft.base.validation.ValidationTasks.UserAddressDetails?street@92.23:92.29DECLARATIONJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java\ \(2µ
+Zcom.knubisoft.base.validation.ValidationTasks.UserAddressDetails?numberOfHouse@94.23:94.36DECLARATIONJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java^ ^($”
+Ocom.knubisoft.base.validation.ValidationTasks.UserAddressDetails?id@88.21:88.23VARIABLEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaX X("
+isFinalfalse"
+typeLong"|
+declarationStringg<mark class="modifier">private </mark>Long <mark class="class-field">id</mark> = true)
+private Long id;"
+isStaticfalse"
+accessprivate*id2b
+java.lang.LongTYPEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaX X(Ì
+Tcom.knubisoft.base.validation.ValidationTasks.UserAddressDetails?zipCode@90.23:90.30VARIABLEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaZ Z("
+isFinalfalse"
+typeString"á
+declarationStringr<mark class="modifier">private </mark>String <mark class="class-field">zipCode</mark> = 6)
+private String zipCode;"
+isStaticfalse"
+accessprivate*zipCode2d
+java.lang.StringTYPEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.javaZ Z(Í
+Scom.knubisoft.base.validation.ValidationTasks.UserAddressDetails?street@92.23:92.29VARIABLEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java\ \("
+isFinalfalse"
+typeString"Ü
+declarationStringq<mark class="modifier">private </mark>String <mark class="class-field">street</mark> = 20)
+private String street;"
+isStaticfalse"
+accessprivate*street2d
+java.lang.StringTYPEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java\ \(Ö
+Zcom.knubisoft.base.validation.ValidationTasks.UserAddressDetails?numberOfHouse@94.23:94.36VARIABLEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java^ ^($"
+isFinalfalse"
+typeString"ì
+declarationString~<mark class="modifier">private </mark>String <mark class="class-field">numberOfHouse</mark> = 7)
+private String numberOfHouse;"
+isStaticfalse"
+accessprivate*numberOfHouse2d
+java.lang.StringTYPEJ
+@src/main/java/com/knubisoft/base/validation/ValidationTasks.java^ ^(

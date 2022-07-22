@@ -31,5 +31,57 @@ Java Beans
 
 Мітінг 18.07.2022
 
+Мітінг 20.07.2022
+PostgresSQL
+Обовязково знати:! ієрархія колекцій, логоріфмічна складність, методи Object, Hash code,
+принципи ООП, Collections, цикли, ексепшини, форматер, трасформації, компоратор, map
+
+Test 20.07.2022
+Object class
+pattern Visitor
+anonymous inner class
+methods findFirst() findAny()
+Stream, intermediate, terminal
+pattern Bridge
+HashMap - O(n) vs HashSet
+Serializable
+close() - flush()
+ArrayList
+getBytes(), finalize(), notifyAll(), clone()
+String & StringBuffer - s1.toString().equals(s2)
+abstract class VS interface
+LinkedHashMap vs HashMap
+статическое связиваніє(відбувається під час компіляції)
+OutputStream
+TreeMap
+transient
+Template Method
+ArrayList O(1)
+Collection.retainAll(Collection c)
+PriorityQueue
+Generics, extends, super
+сериализация и десереализация
+interface DataOutput
+heap pollution
+Throwable
+trim(), StringUtils.trim(s)
+hashCode()
+Collections.frequency(Collection c, Object o)
+pattern Facade Mediator
+InputStreamReader
+YAGNI
+Proxy
+StringBuffer VS StringBuilder
+
+21.07.2022
+ SOLID:
+- S: Single Responsibility Principle (Принцип единственной ответственности).
+- O: Open-Closed Principle (Принцип открытости-закрытости).
+- L: Liskov Substitution Principle (Принцип подстановки Барбары Лисков).
+- I: Interface Segregation Principle (Принцип разделения интерфейса).
+- D: Dependency Inversion Principle (Принцип инверсии зависимостей).
+
+
+
 
 

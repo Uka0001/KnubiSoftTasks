@@ -1,0 +1,492 @@
+
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaÃ!
++com.knubisoft.base.pattern.PatternTasksTestCLASSH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java ("%
+packagecom.knubisoft.base.pattern"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"n
+declarationStringY<mark class="modifier">public </mark><mark class="modifier">class </mark>PatternTasksTest"
+accesspublic*PatternTasksTest2¤
+Kcom.knubisoft.base.pattern.PatternTasksTest.haveSetOfCharactersSuccessful()DECLARATIONH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java (-2ž
+Ecom.knubisoft.base.pattern.PatternTasksTest.haveSetOfCharactersFail()DECLARATIONH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java ('2¢
+Icom.knubisoft.base.pattern.PatternTasksTest.matchByCharactersSuccessful()DECLARATIONH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java (+2œ
+Ccom.knubisoft.base.pattern.PatternTasksTest.matchByCharactersFail()DECLARATIONH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java$ $(%2¡
+Hcom.knubisoft.base.pattern.PatternTasksTest.matchStartAndEndSuccessful()DECLARATIONH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java) )(*2›
+Bcom.knubisoft.base.pattern.PatternTasksTest.matchStartAndEndFail()DECLARATIONH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java5 5($2Ÿ
+Fcom.knubisoft.base.pattern.PatternTasksTest.matchIpAddressSuccessful()DECLARATIONH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java: :((2™
+@com.knubisoft.base.pattern.PatternTasksTest.matchIpAddressFail()DECLARATIONH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaA A("2œ
+Ccom.knubisoft.base.pattern.PatternTasksTest.matchVowelsSuccessful()DECLARATIONH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaH H(%2–
+=com.knubisoft.base.pattern.PatternTasksTest.matchVowelsFail()DECLARATIONH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaP P(2œ
+Ccom.knubisoft.base.pattern.PatternTasksTest.validatePINSuccessful()DECLARATIONH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaW W(%2–
+=com.knubisoft.base.pattern.PatternTasksTest.validatePINFail()DECLARATIONH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaa a(2œ
+Ccom.knubisoft.base.pattern.PatternTasksTest.divideDigitSuccessful()DECLARATIONH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javah h(%2³
+Zcom.knubisoft.base.pattern.PatternTasksTest.removeAllNonAlphanumericCharactersSuccessful()DECLARATIONH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javap p(<2­
+Tcom.knubisoft.base.pattern.PatternTasksTest.removeAllNonAlphanumericCharactersFail()DECLARATIONH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javav v(62¤
+Kcom.knubisoft.base.pattern.PatternTasksTest.validatePhoneNumberSuccessful()DECLARATIONH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java{ {(-2 
+Ecom.knubisoft.base.pattern.PatternTasksTest.validatePhoneNumberFail()DECLARATIONJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaŒ Œ('2¬
+Qcom.knubisoft.base.pattern.PatternTasksTest.getLastVowelsByConstraintSuccessful()DECLARATIONJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java“ “(32¦
+Kcom.knubisoft.base.pattern.PatternTasksTest.getLastVowelsByConstraintFail()DECLARATIONJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java› ›(-2«
+Pcom.knubisoft.base.pattern.PatternTasksTest.isMathematicalExpressionSuccessful()DECLARATIONJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java© ©(22¥
+Jcom.knubisoft.base.pattern.PatternTasksTest.isMathematicalExpressionFail()DECLARATIONJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java± ±(,2
+Bcom.knubisoft.base.pattern.PatternTasksTest.insertDashSuccessful()DECLARATIONJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java¸ ¸($2—
+<com.knubisoft.base.pattern.PatternTasksTest.insertDashFail()DECLARATIONJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaÀ À(2—
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25DECLARATIONH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java (‰	
+Kcom.knubisoft.base.pattern.PatternTasksTest.haveSetOfCharactersSuccessful()METHODH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java (-"
+isFinalfalse"Ã
+declarationString­<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">haveSetOfCharactersSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*haveSetOfCharactersSuccessful2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java (2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java (2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java (2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java (2]
+voidRETURN_TYPEH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java (ä
+Ecom.knubisoft.base.pattern.PatternTasksTest.haveSetOfCharactersFail()METHODH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java ('"
+isFinalfalse"½
+declarationString§<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">haveSetOfCharactersFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*haveSetOfCharactersFail2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java; (C2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java; (C2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java; (C2]
+voidRETURN_TYPEH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java (©
+Icom.knubisoft.base.pattern.PatternTasksTest.matchByCharactersSuccessful()METHODH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java (+"
+isFinalfalse"Á
+declarationString«<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">matchByCharactersSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*matchByCharactersSuccessful2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java' (/2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java' (/2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java% (-2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java% (-2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java% (-2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java %  (-2]
+voidRETURN_TYPEH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java (¸
+Ccom.knubisoft.base.pattern.PatternTasksTest.matchByCharactersFail()METHODH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java$ $(%"
+isFinalfalse"»
+declarationString¥<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">matchByCharactersFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*matchByCharactersFail2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java%; %(C2]
+voidRETURN_TYPEH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java$ $(€	
+Hcom.knubisoft.base.pattern.PatternTasksTest.matchStartAndEndSuccessful()METHODH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java) )(*"
+isFinalfalse"À
+declarationStringª<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">matchStartAndEndSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*matchStartAndEndSuccessful2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java+ +(2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java- -(2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java/ /(2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java1 1(2]
+voidRETURN_TYPEH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java) )(µ
+Bcom.knubisoft.base.pattern.PatternTasksTest.matchStartAndEndFail()METHODH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java5 5($"
+isFinalfalse"º
+declarationString¤<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">matchStartAndEndFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*matchStartAndEndFail2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java6: 6(B2]
+voidRETURN_TYPEH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java5 5(ç
+Fcom.knubisoft.base.pattern.PatternTasksTest.matchIpAddressSuccessful()METHODH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java: :(("
+isFinalfalse"¾
+declarationString¨<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">matchIpAddressSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*matchIpAddressSuccessful2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java;% ;(-2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java<  <((2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java=& =(.2]
+voidRETURN_TYPEH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java: :(Õ
+@com.knubisoft.base.pattern.PatternTasksTest.matchIpAddressFail()METHODH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaA A(""
+isFinalfalse"¸
+declarationString¢<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">matchIpAddressFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*matchIpAddressFail2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaB; B(C2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaC; C(C2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaD; D(C2]
+voidRETURN_TYPEH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaA A(ñ
+Ccom.knubisoft.base.pattern.PatternTasksTest.matchVowelsSuccessful()METHODH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaH H(%"
+isFinalfalse"»
+declarationString¥<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">matchVowelsSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*matchVowelsSuccessful2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaI I(%2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaJ J(#2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaK# K(+2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaL L($2]
+voidRETURN_TYPEH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaH H(Ì
+=com.knubisoft.base.pattern.PatternTasksTest.matchVowelsFail()METHODH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaP P("
+isFinalfalse"µ
+declarationStringŸ<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">matchVowelsFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*matchVowelsFail2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaQ; Q(C2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaR; R(C2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaS; S(C2]
+voidRETURN_TYPEH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaP P(—
+Ccom.knubisoft.base.pattern.PatternTasksTest.validatePINSuccessful()METHODH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaW W(%"
+isFinalfalse"»
+declarationString¥<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">validatePINSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*validatePINSuccessful2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaX X(2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaY Y(2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaZ Z(2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java[ [(2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java\ \(2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java] ](2]
+voidRETURN_TYPEH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaW W(Ì
+=com.knubisoft.base.pattern.PatternTasksTest.validatePINFail()METHODH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaa a("
+isFinalfalse"µ
+declarationStringŸ<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">validatePINFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*validatePINFail2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javab; b(C2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javac; c(C2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javad; d(C2]
+voidRETURN_TYPEH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaa a(ñ
+Ccom.knubisoft.base.pattern.PatternTasksTest.divideDigitSuccessful()METHODH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javah h(%"
+isFinalfalse"»
+declarationString¥<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">divideDigitSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*divideDigitSuccessful2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javai i($2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaj j(&2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javak k('2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javal  l((2]
+voidRETURN_TYPEH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javah h(
+Zcom.knubisoft.base.pattern.PatternTasksTest.removeAllNonAlphanumericCharactersSuccessful()METHODH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javap p(<"
+isFinalfalse"Ò
+declarationString¼<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">removeAllNonAlphanumericCharactersSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*,removeAllNonAlphanumericCharactersSuccessful2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaq& q(.2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javar" r(*2]
+voidRETURN_TYPEH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javap p(ë
+Tcom.knubisoft.base.pattern.PatternTasksTest.removeAllNonAlphanumericCharactersFail()METHODH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javav v(6"
+isFinalfalse"Ì
+declarationString¶<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">removeAllNonAlphanumericCharactersFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*&removeAllNonAlphanumericCharactersFail2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaw3 w(;2]
+voidRETURN_TYPEH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javav v(Æ
+Kcom.knubisoft.base.pattern.PatternTasksTest.validatePhoneNumberSuccessful()METHODH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java{ {(-"
+isFinalfalse"Ã
+declarationString­<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">validatePhoneNumberSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*validatePhoneNumberSuccessful2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java| |(2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java} }(2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java~ ~(2
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java (2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java€ €(2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java (2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java‚ ‚(2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaƒ ƒ(2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java„ „(2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java… …(2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java† †(2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java‡ ‡(2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaˆ ˆ(2]
+voidRETURN_TYPEH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java{ {(î
+Ecom.knubisoft.base.pattern.PatternTasksTest.validatePhoneNumberFail()METHODJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaŒ Œ('"
+isFinalfalse"½
+declarationString§<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">validatePhoneNumberFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*validatePhoneNumberFail2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java; (C2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaŽ; Ž(C2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java; (C2_
+voidRETURN_TYPEJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaŒ Œ(§	
+Qcom.knubisoft.base.pattern.PatternTasksTest.getLastVowelsByConstraintSuccessful()METHODJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java“ “(3"
+isFinalfalse"É
+declarationString³<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">getLastVowelsByConstraintSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*#getLastVowelsByConstraintSuccessful2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java” ”(#2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java• •(#2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java– –($2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java— —(#2_
+voidRETURN_TYPEJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java“ “(ª
+
+Kcom.knubisoft.base.pattern.PatternTasksTest.getLastVowelsByConstraintFail()METHODJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java› ›(-"
+isFinalfalse"Ã
+declarationString­<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">getLastVowelsByConstraintFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*getLastVowelsByConstraintFail2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java (2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaŸ Ÿ(2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java¡ ¡(2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java£ £(2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java¥ ¥(2_
+voidRETURN_TYPEJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java› ›(¤	
+Pcom.knubisoft.base.pattern.PatternTasksTest.isMathematicalExpressionSuccessful()METHODJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java© ©(2"
+isFinalfalse"È
+declarationString²<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">isMathematicalExpressionSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*"isMathematicalExpressionSuccessful2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaª ª(2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java« «(2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java¬ ¬(2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java­ ­(2_
+voidRETURN_TYPEJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java© ©(ý
+Jcom.knubisoft.base.pattern.PatternTasksTest.isMathematicalExpressionFail()METHODJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java± ±(,"
+isFinalfalse"Â
+declarationString¬<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">isMathematicalExpressionFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*isMathematicalExpressionFail2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java²; ²(C2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java³; ³(C2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java´; ´(C2_
+voidRETURN_TYPEJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java± ±(å
+Bcom.knubisoft.base.pattern.PatternTasksTest.insertDashSuccessful()METHODJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java¸ ¸($"
+isFinalfalse"º
+declarationString¤<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">insertDashSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*insertDashSuccessful2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java¹+ ¹(32’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java» »(2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java¼' ¼(/2_
+voidRETURN_TYPEJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java¸ ¸(©
+<com.knubisoft.base.pattern.PatternTasksTest.insertDashFail()METHODJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaÀ À("
+isFinalfalse"´
+declarationStringž<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">insertDashFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*insertDashFail2’
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25CALLJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaÁ3 Á(;2_
+voidRETURN_TYPEJ
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.javaÀ À(‰
+>com.knubisoft.base.pattern.PatternTasksTest?instance@8.17:8.25VARIABLEH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java ("
+isFinalfalse"
+typePatternTasks"„
+declarationStringo<mark class="modifier"> </mark>PatternTasks <mark class="class-field">instance</mark> = new PatternTasksImpl();"
+isStaticfalse"
+accesspackage_private*instance2y
+'com.knubisoft.base.pattern.PatternTasksTYPEH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java (2
+>com.knubisoft.base.pattern.PatternTasksImpl.PatternTasksImpl()CALLH
+>src/test/java/com/knubisoft/base/pattern/PatternTasksTest.java  (0

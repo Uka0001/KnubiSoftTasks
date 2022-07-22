@@ -1,0 +1,288 @@
+
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java±
+.com.knubisoft.tasks.algorithm.collection.UtilsTRAITK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java ("3
+package(com.knubisoft.tasks.algorithm.collection"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"g
+declarationStringR<mark class="modifier">public </mark><mark class="modifier">interface </mark>Utils"
+accesspublic*Utils2©
+Mcom.knubisoft.tasks.algorithm.collection.Utils.invertMap(java.util.Map<K, V>)DECLARATIONK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java (2 
+ncom.knubisoft.tasks.algorithm.collection.Utils.union(java.util.List<? extends E>, java.util.List<? extends E>)DECLARATIONK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java* *(2»
+lcom.knubisoft.tasks.algorithm.collection.Utils.isEqualList(java.util.Collection<?>, java.util.Collection<?>)DECLARATIONK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaI I(2Ø
+Scom.knubisoft.tasks.algorithm.collection.Utils.synchronizedMap(java.util.Map<K, V>)DECLARATIONK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javab b($2ÿ
+|com.knubisoft.tasks.algorithm.collection.Utils.disjunction(java.lang.Iterable<? extends O>, java.lang.Iterable<? extends O>)DECLARATIONK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaz z(!2◊
+ycom.knubisoft.tasks.algorithm.collection.Utils.subtract(java.lang.Iterable<? extends O>, java.lang.Iterable<? extends O>)DECLARATIONM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaâ â(2∫
+\com.knubisoft.tasks.algorithm.collection.Utils.chainedComparator(java.util.Comparator<E>...)DECLARATIONM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaï ï(.2Œ
+pcom.knubisoft.tasks.algorithm.collection.Utils.isSubCollection(java.util.Collection<?>, java.util.Collection<?>)DECLARATIONM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java° °(ˇ
+Mcom.knubisoft.tasks.algorithm.collection.Utils.invertMap(java.util.Map<K, V>)METHODK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java ("
+isFinalfalse"¸
+declarationStringÊ<mark class="modifier"> </mark>Map&lt;V<mark class="modifier"><mark class="modifier">,</mark></mark>K&gt; <mark class="method">invertMap</mark>(final Map&lt;K<mark class="modifier"><mark class="modifier">,</mark></mark> V&gt; map)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+type	Map<V, K>*	invertMap2´
+Qcom.knubisoft.tasks.algorithm.collection.Utils.invertMap(java.util.Map<K, V>)!map	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java/ (22i
+java.util.MapRETURN_TYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java (2¥
+Ocom.knubisoft.tasks.algorithm.collection.Utils.invertMap(java.util.Map<K, V>).VRETURN_TYPE_ARGUMENTK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java (2¥
+Ocom.knubisoft.tasks.algorithm.collection.Utils.invertMap(java.util.Map<K, V>).KRETURN_TYPE_ARGUMENTK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java (2Æ
+Ocom.knubisoft.tasks.algorithm.collection.Utils.invertMap(java.util.Map<K, V>).KTYPE_PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java (2Æ
+Ocom.knubisoft.tasks.algorithm.collection.Utils.invertMap(java.util.Map<K, V>).VTYPE_PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java (	£
+Qcom.knubisoft.tasks.algorithm.collection.Utils.invertMap(java.util.Map<K, V>)!map	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java/ (2"
+type	Map<K, V>"
+isFinaltrue"à
+declarationStringsMap<<mark class="type-parameter">K</mark><mark class="modifier">,</mark> <mark class="type-parameter">V</mark>> map*map2b
+java.util.MapTYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java% ((2≠
+Ocom.knubisoft.tasks.algorithm.collection.Utils.invertMap(java.util.Map<K, V>).KTYPE_ARGUMENTK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java) (*2≠
+Ocom.knubisoft.tasks.algorithm.collection.Utils.invertMap(java.util.Map<K, V>).VTYPE_ARGUMENTK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java, (-±
+Ocom.knubisoft.tasks.algorithm.collection.Utils.invertMap(java.util.Map<K, V>).KTYPE_PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java (*K±
+Ocom.knubisoft.tasks.algorithm.collection.Utils.invertMap(java.util.Map<K, V>).VTYPE_PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java (	*V◊
+ncom.knubisoft.tasks.algorithm.collection.Utils.union(java.util.List<? extends E>, java.util.List<? extends E>)METHODK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java* *("
+isFinalfalse"Í
+declarationString‘<mark class="modifier"> </mark>List&lt;E&gt; <mark class="method">union</mark>(final List&lt;? extends E&gt; list1<mark class="modifier"><mark class="modifier">,</mark></mark> final List&lt;? extends E&gt; list2)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeList<E>*union2Œ
+tcom.knubisoft.tasks.algorithm.collection.Utils.union(java.util.List<? extends E>, java.util.List<? extends E>)!list1	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java*. *(32Œ
+tcom.knubisoft.tasks.algorithm.collection.Utils.union(java.util.List<? extends E>, java.util.List<? extends E>)!list2	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java*M *(R2j
+java.util.ListRETURN_TYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java* *(2’
+pcom.knubisoft.tasks.algorithm.collection.Utils.union(java.util.List<? extends E>, java.util.List<? extends E>).ERETURN_TYPE_ARGUMENTK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java* *(2œ
+pcom.knubisoft.tasks.algorithm.collection.Utils.union(java.util.List<? extends E>, java.util.List<? extends E>).ETYPE_PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java* *(∏
+tcom.knubisoft.tasks.algorithm.collection.Utils.union(java.util.List<? extends E>, java.util.List<? extends E>)!list1	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java*. *(3"
+typeList<? extends E>"
+isFinaltrue"P
+declarationString;List<? extends <mark class="type-parameter">E</mark>> list1*list12c
+java.util.ListTYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java* *( ∏
+tcom.knubisoft.tasks.algorithm.collection.Utils.union(java.util.List<? extends E>, java.util.List<? extends E>)!list2	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java*M *(R"
+typeList<? extends E>"
+isFinaltrue"P
+declarationString;List<? extends <mark class="type-parameter">E</mark>> list2*list22c
+java.util.ListTYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java*; *(?“
+pcom.knubisoft.tasks.algorithm.collection.Utils.union(java.util.List<? extends E>, java.util.List<? extends E>).ETYPE_PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java* *(*Eº
+lcom.knubisoft.tasks.algorithm.collection.Utils.isEqualList(java.util.Collection<?>, java.util.Collection<?>)METHODK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaI I("
+isFinalfalse"Ä
+declarationStringÍ<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isEqualList</mark>(final Collection&lt;?&gt; list1<mark class="modifier"><mark class="modifier">,</mark></mark> final Collection&lt;?&gt; list2)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isEqualList2Ã
+rcom.knubisoft.tasks.algorithm.collection.Utils.isEqualList(java.util.Collection<?>, java.util.Collection<?>)!list1	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaI, I(12Ã
+rcom.knubisoft.tasks.algorithm.collection.Utils.isEqualList(java.util.Collection<?>, java.util.Collection<?>)!list2	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaIG I(L2c
+booleanRETURN_TYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaI I(ê
+rcom.knubisoft.tasks.algorithm.collection.Utils.isEqualList(java.util.Collection<?>, java.util.Collection<?>)!list1	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaI, I(1"
+typeCollection<?>"
+isFinaltrue"(
+declarationStringCollection<?> list1*list12i
+java.util.CollectionTYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaI I((ê
+rcom.knubisoft.tasks.algorithm.collection.Utils.isEqualList(java.util.Collection<?>, java.util.Collection<?>)!list2	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaIG I(L"
+typeCollection<?>"
+isFinaltrue"(
+declarationStringCollection<?> list2*list22i
+java.util.CollectionTYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaI9 I(CØ
+Scom.knubisoft.tasks.algorithm.collection.Utils.synchronizedMap(java.util.Map<K, V>)METHODK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javab b($"
+isFinalfalse"Ç
+declarationStringÏ<mark class="modifier"> </mark>Map&lt;K<mark class="modifier"><mark class="modifier">,</mark></mark>V&gt; <mark class="method">synchronizedMap</mark>(final Map&lt;K<mark class="modifier"><mark class="modifier">,</mark></mark> V&gt; map)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+type	Map<K, V>*synchronizedMap2±
+Wcom.knubisoft.tasks.algorithm.collection.Utils.synchronizedMap(java.util.Map<K, V>)!map	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javab5 b(82i
+java.util.MapRETURN_TYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javab b(2∫
+Ucom.knubisoft.tasks.algorithm.collection.Utils.synchronizedMap(java.util.Map<K, V>).KRETURN_TYPE_ARGUMENTK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javab b(2∫
+Ucom.knubisoft.tasks.algorithm.collection.Utils.synchronizedMap(java.util.Map<K, V>).VRETURN_TYPE_ARGUMENTK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javab b(2¥
+Ucom.knubisoft.tasks.algorithm.collection.Utils.synchronizedMap(java.util.Map<K, V>).KTYPE_PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javab b(2¥
+Ucom.knubisoft.tasks.algorithm.collection.Utils.synchronizedMap(java.util.Map<K, V>).VTYPE_PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javab b(	µ
+Wcom.knubisoft.tasks.algorithm.collection.Utils.synchronizedMap(java.util.Map<K, V>)!map	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javab5 b(8"
+type	Map<K, V>"
+isFinaltrue"à
+declarationStringsMap<<mark class="type-parameter">K</mark><mark class="modifier">,</mark> <mark class="type-parameter">V</mark>> map*map2b
+java.util.MapTYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javab+ b(.2≥
+Ucom.knubisoft.tasks.algorithm.collection.Utils.synchronizedMap(java.util.Map<K, V>).KTYPE_ARGUMENTK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javab/ b(02≥
+Ucom.knubisoft.tasks.algorithm.collection.Utils.synchronizedMap(java.util.Map<K, V>).VTYPE_ARGUMENTK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javab2 b(3∑
+Ucom.knubisoft.tasks.algorithm.collection.Utils.synchronizedMap(java.util.Map<K, V>).KTYPE_PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javab b(*K∑
+Ucom.knubisoft.tasks.algorithm.collection.Utils.synchronizedMap(java.util.Map<K, V>).VTYPE_PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javab b(	*V≥
+|com.knubisoft.tasks.algorithm.collection.Utils.disjunction(java.lang.Iterable<? extends O>, java.lang.Iterable<? extends O>)METHODK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaz z(!"
+isFinalfalse"ˆ
+declarationString‡<mark class="modifier"> </mark>Collection&lt;O&gt; <mark class="method">disjunction</mark>(final Iterable&lt;? extends O&gt; a<mark class="modifier"><mark class="modifier">,</mark></mark> final Iterable&lt;? extends O&gt; b)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeCollection<O>*disjunction2ÿ
+~com.knubisoft.tasks.algorithm.collection.Utils.disjunction(java.lang.Iterable<? extends O>, java.lang.Iterable<? extends O>)!a	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaz> z(?2ÿ
+~com.knubisoft.tasks.algorithm.collection.Utils.disjunction(java.lang.Iterable<? extends O>, java.lang.Iterable<? extends O>)!b	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaz] z(^2p
+java.util.CollectionRETURN_TYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaz z(2„
+~com.knubisoft.tasks.algorithm.collection.Utils.disjunction(java.lang.Iterable<? extends O>, java.lang.Iterable<? extends O>).ORETURN_TYPE_ARGUMENTK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaz z(2›
+~com.knubisoft.tasks.algorithm.collection.Utils.disjunction(java.lang.Iterable<? extends O>, java.lang.Iterable<? extends O>).OTYPE_PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaz z(∆
+~com.knubisoft.tasks.algorithm.collection.Utils.disjunction(java.lang.Iterable<? extends O>, java.lang.Iterable<? extends O>)!a	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaz> z(?"
+typeIterable<? extends O>"
+isFinaltrue"P
+declarationString;Iterable<? extends <mark class="type-parameter">O</mark>> a*a2g
+java.lang.IterableTYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaz( z(0∆
+~com.knubisoft.tasks.algorithm.collection.Utils.disjunction(java.lang.Iterable<? extends O>, java.lang.Iterable<? extends O>)!b	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaz] z(^"
+typeIterable<? extends O>"
+isFinaltrue"P
+declarationString;Iterable<? extends <mark class="type-parameter">O</mark>> b*b2g
+java.lang.IterableTYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javazG z(O‡
+~com.knubisoft.tasks.algorithm.collection.Utils.disjunction(java.lang.Iterable<? extends O>, java.lang.Iterable<? extends O>).OTYPE_PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaz z(*O™
+ycom.knubisoft.tasks.algorithm.collection.Utils.subtract(java.lang.Iterable<? extends O>, java.lang.Iterable<? extends O>)METHODM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaâ â("
+isFinalfalse"Û
+declarationString›<mark class="modifier"> </mark>Collection&lt;O&gt; <mark class="method">subtract</mark>(final Iterable&lt;? extends O&gt; a<mark class="modifier"><mark class="modifier">,</mark></mark> final Iterable&lt;? extends O&gt; b)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeCollection<O>*subtract2◊
+{com.knubisoft.tasks.algorithm.collection.Utils.subtract(java.lang.Iterable<? extends O>, java.lang.Iterable<? extends O>)!a	PARAMETERM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaâ; â(<2◊
+{com.knubisoft.tasks.algorithm.collection.Utils.subtract(java.lang.Iterable<? extends O>, java.lang.Iterable<? extends O>)!b	PARAMETERM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaâZ â([2r
+java.util.CollectionRETURN_TYPEM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaâ â(2‚
+{com.knubisoft.tasks.algorithm.collection.Utils.subtract(java.lang.Iterable<? extends O>, java.lang.Iterable<? extends O>).ORETURN_TYPE_ARGUMENTM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaâ â(2‹
+{com.knubisoft.tasks.algorithm.collection.Utils.subtract(java.lang.Iterable<? extends O>, java.lang.Iterable<? extends O>).OTYPE_PARAMETERM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaâ â(«
+{com.knubisoft.tasks.algorithm.collection.Utils.subtract(java.lang.Iterable<? extends O>, java.lang.Iterable<? extends O>)!a	PARAMETERM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaâ; â(<"
+typeIterable<? extends O>"
+isFinaltrue"P
+declarationString;Iterable<? extends <mark class="type-parameter">O</mark>> a*a2i
+java.lang.IterableTYPEM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaâ% â(-«
+{com.knubisoft.tasks.algorithm.collection.Utils.subtract(java.lang.Iterable<? extends O>, java.lang.Iterable<? extends O>)!b	PARAMETERM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaâZ â(["
+typeIterable<? extends O>"
+isFinaltrue"P
+declarationString;Iterable<? extends <mark class="type-parameter">O</mark>> b*b2i
+java.lang.IterableTYPEM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaâD â(Lﬂ
+{com.knubisoft.tasks.algorithm.collection.Utils.subtract(java.lang.Iterable<? extends O>, java.lang.Iterable<? extends O>).OTYPE_PARAMETERM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaâ â(*Oô	
+\com.knubisoft.tasks.algorithm.collection.Utils.chainedComparator(java.util.Comparator<E>...)METHODM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaï ï(."
+isFinalfalse"¶
+declarationStringê<mark class="modifier">public </mark>Comparator&lt;E&gt; <mark class="method">chainedComparator</mark>(final Comparator&lt;E&gt;... comparators)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeComparator<E>*chainedComparator2ƒ
+hcom.knubisoft.tasks.algorithm.collection.Utils.chainedComparator(java.util.Comparator<E>...)!comparators	PARAMETERM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaïF ï(Q2r
+java.util.ComparatorRETURN_TYPEM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaï ï(2≈
+^com.knubisoft.tasks.algorithm.collection.Utils.chainedComparator(java.util.Comparator<E>...).ERETURN_TYPE_ARGUMENTM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaï ï(2ø
+^com.knubisoft.tasks.algorithm.collection.Utils.chainedComparator(java.util.Comparator<E>...).ETYPE_PARAMETERM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaï ï(ø
+hcom.knubisoft.tasks.algorithm.collection.Utils.chainedComparator(java.util.Comparator<E>...)!comparators	PARAMETERM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaïF ï(Q"
+typeComparator<E>"
+isFinaltrue"R
+declarationString=Comparator<<mark class="type-parameter">E</mark>> comparators*comparators2p
+java.util.Comparator<E>[]TYPEM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaï5 ï(?¬
+^com.knubisoft.tasks.algorithm.collection.Utils.chainedComparator(java.util.Comparator<E>...).ETYPE_PARAMETERM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.javaï ï(*E»
+pcom.knubisoft.tasks.algorithm.collection.Utils.isSubCollection(java.util.Collection<?>, java.util.Collection<?>)METHODM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java° °("
+isFinalfalse"¸
+declarationStringÊ<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">isSubCollection</mark>(final Collection&lt;?&gt; a<mark class="modifier"><mark class="modifier">,</mark></mark> final Collection&lt;?&gt; b)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*isSubCollection2Œ
+rcom.knubisoft.tasks.algorithm.collection.Utils.isSubCollection(java.util.Collection<?>, java.util.Collection<?>)!a	PARAMETERM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java°0 °(12Œ
+rcom.knubisoft.tasks.algorithm.collection.Utils.isSubCollection(java.util.Collection<?>, java.util.Collection<?>)!b	PARAMETERM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java°G °(H2e
+booleanRETURN_TYPEM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java° °(å
+rcom.knubisoft.tasks.algorithm.collection.Utils.isSubCollection(java.util.Collection<?>, java.util.Collection<?>)!a	PARAMETERM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java°0 °(1"
+typeCollection<?>"
+isFinaltrue"$
+declarationStringCollection<?> a*a2k
+java.util.CollectionTYPEM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java°" °(,å
+rcom.knubisoft.tasks.algorithm.collection.Utils.isSubCollection(java.util.Collection<?>, java.util.Collection<?>)!b	PARAMETERM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java°G °(H"
+typeCollection<?>"
+isFinaltrue"$
+declarationStringCollection<?> b*b2k
+java.util.CollectionTYPEM
+Asrc/main/java/com/knubisoft/tasks/algorithm/collection/Utils.java°9 °(C

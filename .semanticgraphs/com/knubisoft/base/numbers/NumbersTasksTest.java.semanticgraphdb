@@ -1,0 +1,337 @@
+
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaÅ
++com.knubisoft.base.numbers.NumbersTasksTestCLASSH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java ("%
+packagecom.knubisoft.base.numbers"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"h
+declarationStringS<mark class="modifier"> </mark><mark class="modifier">class </mark>NumbersTasksTest"
+accesspackage_private*NumbersTasksTest2“
+:com.knubisoft.base.numbers.NumbersTasksTest.isUglyNumber()DECLARATIONH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java	 (2
+7com.knubisoft.base.numbers.NumbersTasksTest.addDigits()DECLARATIONH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java	 (2–
+=com.knubisoft.base.numbers.NumbersTasksTest.isHarshadNumber()DECLARATIONH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java(	 ((2
+5com.knubisoft.base.numbers.NumbersTasksTest.isPrime()DECLARATIONH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java6	 6(2˜
+?com.knubisoft.base.numbers.NumbersTasksTest.isArmstrongNumber()DECLARATIONH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaD	 D(2
+7com.knubisoft.base.numbers.NumbersTasksTest.factorial()DECLARATIONH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaS	 S(2‘
+8com.knubisoft.base.numbers.NumbersTasksTest.palindrome()DECLARATIONH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaa	 a(2”
+;com.knubisoft.base.numbers.NumbersTasksTest.isAutomorphic()DECLARATIONH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javav	 v(2
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29DECLARATIONH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java
+ 
+(î
+:com.knubisoft.base.numbers.NumbersTasksTest.isUglyNumber()METHODH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java	 ("
+isFinalfalse"¬
+declarationString–<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">isUglyNumber</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*isUglyNumber2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java ( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java (2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java ( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java (2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java ( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java (2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java ( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java (2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java ( 2]
+voidRETURN_TYPEH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java (ş
+7com.knubisoft.base.numbers.NumbersTasksTest.addDigits()METHODH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java	 ("
+isFinalfalse"©
+declarationString“<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">addDigits</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*	addDigits2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java ($2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java ($2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java ($2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java ($2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java ($2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java   ($2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java! !($2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java" "($2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java# #($2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java$ $($2]
+voidRETURN_TYPEH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java (
+=com.knubisoft.base.numbers.NumbersTasksTest.isHarshadNumber()METHODH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java(	 (("
+isFinalfalse"¯
+declarationString™<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">isHarshadNumber</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*isHarshadNumber2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java) )(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java* *( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java+ +(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java, ,( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java- -(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java. .( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java/ /(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java0 0( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java1 1(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java2 2( 2]
+voidRETURN_TYPEH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java( ((ø
+5com.knubisoft.base.numbers.NumbersTasksTest.isPrime()METHODH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java6	 6("
+isFinalfalse"§
+declarationString‘<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">isPrime</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*isPrime2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java7 7(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java8 8( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java9 9(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java: :( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java; ;(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java< <( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java= =(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java> >( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java? ?(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java@ @( 2]
+voidRETURN_TYPEH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java6 6(¯
+?com.knubisoft.base.numbers.NumbersTasksTest.isArmstrongNumber()METHODH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaD	 D("
+isFinalfalse"±
+declarationString›<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">isArmstrongNumber</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*isArmstrongNumber2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaE E(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaF F( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaG G(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaH H( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaI I(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaJ J( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaK K(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaL L( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaM M(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaN N( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaO O(2]
+voidRETURN_TYPEH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaD D(ì
+7com.knubisoft.base.numbers.NumbersTasksTest.factorial()METHODH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaS	 S("
+isFinalfalse"©
+declarationString“<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">factorial</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*	factorial2t
+"java.math.BigInteger.valueOf(long)CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaT  T('2t
+"java.math.BigInteger.valueOf(long)CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaW  W('2t
+"java.math.BigInteger.valueOf(long)CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaX  X('2t
+"java.math.BigInteger.valueOf(long)CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaY  Y('2t
+"java.math.BigInteger.valueOf(long)CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java\  \('2ƒ
+1java.math.BigInteger.BigInteger(java.lang.String)CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaU U(#2ƒ
+1java.math.BigInteger.BigInteger(java.lang.String)CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaV V(#2ƒ
+1java.math.BigInteger.BigInteger(java.lang.String)CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaZ Z(#2ƒ
+1java.math.BigInteger.BigInteger(java.lang.String)CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java[ [(#2ƒ
+1java.math.BigInteger.BigInteger(java.lang.String)CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java] ](#2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaT. T(:2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaUJ U(V2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaV6 V(B2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaW, W(82–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaX, X(82–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaY3 Y(?2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaZY Z(e2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java[M [(Y2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java\1 \(=2˜
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLJ
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java]Ç ](Ó2]
+voidRETURN_TYPEH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaS S(°
+8com.knubisoft.base.numbers.NumbersTasksTest.palindrome()METHODH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaa	 a("
+isFinalfalse"ª
+declarationString”<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">palindrome</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*
+palindrome2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javab b(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javac c( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javad d(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javae e( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaf f(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javag g( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javah h(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javai i( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaj j(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javak k( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javal l(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javam m( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javan n(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javao o( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javap p(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaq q( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javar r(2]
+voidRETURN_TYPEH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaa a(İ
+;com.knubisoft.base.numbers.NumbersTasksTest.isAutomorphic()METHODH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javav	 v("
+isFinalfalse"­
+declarationString—<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">isAutomorphic</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*isAutomorphic2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaw w(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javax x( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javay y(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaz z( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java{ {(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java| |( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java} }(2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java~ ~( 2–
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java (2˜
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLJ
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java€ €( 2˜
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLJ
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java (2˜
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLJ
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java‚ ‚(2˜
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29CALLJ
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javaƒ ƒ(2]
+voidRETURN_TYPEH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.javav v(—
+Dcom.knubisoft.base.numbers.NumbersTasksTest?numbersTasks@10.17:10.29VARIABLEH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java
+ 
+("
+isFinalfalse"
+typeNumbersTasks"ˆ
+declarationStrings<mark class="modifier"> </mark>NumbersTasks <mark class="class-field">numbersTasks</mark> = new NumbersTasksImpl();"
+isStaticfalse"
+accesspackage_private*numbersTasks2y
+'com.knubisoft.base.numbers.NumbersTasksTYPEH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java
+ 
+(2
+>com.knubisoft.base.numbers.NumbersTasksImpl.NumbersTasksImpl()CALLH
+>src/test/java/com/knubisoft/base/numbers/NumbersTasksTest.java
+$ 
+(4

@@ -1,0 +1,37 @@
+
+Lsrc/main/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInString.javaÊ
+9com.knubisoft.tasks.algorithm.charsinstring.CharsInStringTRAITV
+Lsrc/main/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInString.java ("6
+package+com.knubisoft.tasks.algorithm.charsinstring"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"o
+declarationStringZ<mark class="modifier">public </mark><mark class="modifier">interface </mark>CharsInString"
+accesspublic*CharsInString2¬
+[com.knubisoft.tasks.algorithm.charsinstring.CharsInString.charactersCount(java.lang.String)DECLARATIONV
+Lsrc/main/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInString.java (+’
+[com.knubisoft.tasks.algorithm.charsinstring.CharsInString.charactersCount(java.lang.String)METHODV
+Lsrc/main/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInString.java (+"
+isFinalfalse"∆
+declarationString∞<mark class="modifier"> </mark>Map&lt;Character<mark class="modifier"><mark class="modifier">,</mark></mark>Integer&gt; <mark class="method">charactersCount</mark>(String text)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeMap<Character, Integer>*charactersCount2≈
+`com.knubisoft.tasks.algorithm.charsinstring.CharsInString.charactersCount(java.lang.String)!text	PARAMETERV
+Lsrc/main/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInString.java3 (72t
+java.util.MapRETURN_TYPEV
+Lsrc/main/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInString.java (2É
+java.lang.CharacterRETURN_TYPE_ARGUMENTV
+Lsrc/main/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInString.java (2Å
+java.lang.IntegerRETURN_TYPE_ARGUMENTV
+Lsrc/main/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInString.java (Å
+`com.knubisoft.tasks.algorithm.charsinstring.CharsInString.charactersCount(java.lang.String)!text	PARAMETERV
+Lsrc/main/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInString.java3 (7"
+typeString"
+isFinalfalse" 
+declarationStringString text*text2p
+java.lang.StringTYPEV
+Lsrc/main/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInString.java, (2

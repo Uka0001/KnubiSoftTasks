@@ -1,0 +1,150 @@
+
+6src/main/java/com/knubisoft/base/queue/QueueTasks.java‰	
+#com.knubisoft.base.queue.QueueTasksTRAIT@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.java ("#
+packagecom.knubisoft.base.queue"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"l
+declarationStringW<mark class="modifier">public </mark><mark class="modifier">interface </mark>QueueTasks"
+accesspublic*
+QueueTasks2≥
+bcom.knubisoft.base.queue.QueueTasks.reverseQueueUsingRecursion(java.util.Queue<java.lang.Integer>)DECLARATION@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.java (-2∫
+icom.knubisoft.base.queue.QueueTasks.reverseFirstKElementsOfQueue(java.util.Queue<java.lang.Integer>, int)DECLARATION@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.java5 5(/2ß
+Vcom.knubisoft.base.queue.QueueTasks.sortQueueOfInt(java.util.Queue<java.lang.Integer>)DECLARATION@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.javaB B(!2ó
+Fcom.knubisoft.base.queue.QueueTasks.validParentheses(java.lang.String)DECLARATION@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.javaf f(2Œ
+}com.knubisoft.base.queue.QueueTasks.implementPriorityQueueThroughComparator(java.util.List<com.knubisoft.base.queue.car.Car>)DECLARATION@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.javax x(>ﬂ
+bcom.knubisoft.base.queue.QueueTasks.reverseQueueUsingRecursion(java.util.Queue<java.lang.Integer>)METHOD@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.java (-"
+isFinalfalse"ú
+declarationStringÜ<mark class="modifier"> </mark>Queue&lt;Integer&gt; <mark class="method">reverseQueueUsingRecursion</mark>(Queue&lt;Integer&gt; queue)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeQueue<Integer>*reverseQueueUsingRecursion2∑
+hcom.knubisoft.base.queue.QueueTasks.reverseQueueUsingRecursion(java.util.Queue<java.lang.Integer>)!queue	PARAMETER@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.java= (B2`
+java.util.QueueRETURN_TYPE@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.java (	2k
+java.lang.IntegerRETURN_TYPE_ARGUMENT@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.java
+ (‘
+hcom.knubisoft.base.queue.QueueTasks.reverseQueueUsingRecursion(java.util.Queue<java.lang.Integer>)!queue	PARAMETER@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.java= (B"
+typeQueue<Integer>"
+isFinalfalse")
+declarationStringQueue<Integer> queue*queue2Y
+java.util.QueueTYPE@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.java. (32d
+java.lang.IntegerTYPE_ARGUMENT@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.java4 (;è	
+icom.knubisoft.base.queue.QueueTasks.reverseFirstKElementsOfQueue(java.util.Queue<java.lang.Integer>, int)METHOD@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.java5 5(/"
+isFinalfalse"ˇ
+declarationStringÈ<mark class="modifier"> </mark>Queue&lt;Integer&gt; <mark class="method">reverseFirstKElementsOfQueue</mark>(Queue&lt;Integer&gt; queue<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> k)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeQueue<Integer>*reverseFirstKElementsOfQueue2æ
+ocom.knubisoft.base.queue.QueueTasks.reverseFirstKElementsOfQueue(java.util.Queue<java.lang.Integer>, int)!queue	PARAMETER@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.java5? 5(D2∫
+kcom.knubisoft.base.queue.QueueTasks.reverseFirstKElementsOfQueue(java.util.Queue<java.lang.Integer>, int)!k	PARAMETER@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.java5J 5(K2`
+java.util.QueueRETURN_TYPE@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.java5 5(	2k
+java.lang.IntegerRETURN_TYPE_ARGUMENT@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.java5
+ 5(€
+ocom.knubisoft.base.queue.QueueTasks.reverseFirstKElementsOfQueue(java.util.Queue<java.lang.Integer>, int)!queue	PARAMETER@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.java5? 5(D"
+typeQueue<Integer>"
+isFinalfalse")
+declarationStringQueue<Integer> queue*queue2Y
+java.util.QueueTYPE@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.java50 5(52d
+java.lang.IntegerTYPE_ARGUMENT@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.java56 5(=Â
+kcom.knubisoft.base.queue.QueueTasks.reverseFirstKElementsOfQueue(java.util.Queue<java.lang.Integer>, int)!k	PARAMETER@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.java5J 5(K"
+typeint"
+isFinalfalse"8
+declarationString#<mark class="modifier">int</mark> k*k2M
+intTYPE@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.java5F 5(IÆ
+Vcom.knubisoft.base.queue.QueueTasks.sortQueueOfInt(java.util.Queue<java.lang.Integer>)METHOD@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.javaB B(!"
+isFinalfalse"è
+declarationStringz<mark class="modifier"> </mark>Queue&lt;Integer&gt; <mark class="method">sortQueueOfInt</mark>(Queue&lt;Integer&gt; queue)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeQueue<Integer>*sortQueueOfInt2´
+\com.knubisoft.base.queue.QueueTasks.sortQueueOfInt(java.util.Queue<java.lang.Integer>)!queue	PARAMETER@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.javaB1 B(62`
+java.util.QueueRETURN_TYPE@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.javaB B(	2k
+java.lang.IntegerRETURN_TYPE_ARGUMENT@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.javaB
+ B(»
+\com.knubisoft.base.queue.QueueTasks.sortQueueOfInt(java.util.Queue<java.lang.Integer>)!queue	PARAMETER@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.javaB1 B(6"
+typeQueue<Integer>"
+isFinalfalse")
+declarationStringQueue<Integer> queue*queue2Y
+java.util.QueueTYPE@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.javaB" B('2d
+java.lang.IntegerTYPE_ARGUMENT@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.javaB( B(/¶
+Fcom.knubisoft.base.queue.QueueTasks.validParentheses(java.lang.String)METHOD@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.javaf f("
+isFinalfalse"õ
+declarationStringÖ<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">validParentheses</mark>(String parentheses)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*validParentheses2°
+Rcom.knubisoft.base.queue.QueueTasks.validParentheses(java.lang.String)!parentheses	PARAMETER@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.javaf$ f(/2X
+booleanRETURN_TYPE@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.javaf f(’
+Rcom.knubisoft.base.queue.QueueTasks.validParentheses(java.lang.String)!parentheses	PARAMETER@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.javaf$ f(/"
+typeString"
+isFinalfalse"'
+declarationStringString parentheses*parentheses2Z
+java.lang.StringTYPE@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.javaf f(#»
+}com.knubisoft.base.queue.QueueTasks.implementPriorityQueueThroughComparator(java.util.List<com.knubisoft.base.queue.car.Car>)METHOD@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.javax x(>"
+isFinalfalse"ß
+declarationStringë<mark class="modifier"> </mark>PriorityQueue&lt;Car&gt; <mark class="method">implementPriorityQueueThroughComparator</mark>(List&lt;Car&gt; cars)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typePriorityQueue<Car>*'implementPriorityQueueThroughComparator2“
+Çcom.knubisoft.base.queue.QueueTasks.implementPriorityQueueThroughComparator(java.util.List<com.knubisoft.base.queue.car.Car>)!cars	PARAMETER@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.javaxI x(M2h
+java.util.PriorityQueueRETURN_TYPE@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.javax x(2z
+ com.knubisoft.base.queue.car.CarRETURN_TYPE_ARGUMENT@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.javax x(Ò
+Çcom.knubisoft.base.queue.QueueTasks.implementPriorityQueueThroughComparator(java.util.List<com.knubisoft.base.queue.car.Car>)!cars	PARAMETER@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.javaxI x(M"
+type	List<Car>"
+isFinalfalse"#
+declarationStringList<Car> cars*cars2X
+java.util.ListTYPE@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.javax? x(C2s
+ com.knubisoft.base.queue.car.CarTYPE_ARGUMENT@
+6src/main/java/com/knubisoft/base/queue/QueueTasks.javaxD x(G

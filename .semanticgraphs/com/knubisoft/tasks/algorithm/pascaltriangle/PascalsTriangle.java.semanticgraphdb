@@ -1,0 +1,36 @@
+
+Osrc/main/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangle.javaù
+<com.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangleTRAITY
+Osrc/main/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangle.java ( "7
+package,com.knubisoft.tasks.algorithm.pascaltriangle"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"q
+declarationString\<mark class="modifier">public </mark><mark class="modifier">interface </mark>PascalsTriangle"
+accesspublic*PascalsTriangle2Ê
+`com.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangle.calculateLineOfPascalsTriangle(int)DECLARATIONY
+Osrc/main/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangle.java (0Ü
+`com.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangle.calculateLineOfPascalsTriangle(int)METHODY
+Osrc/main/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangle.java (0"
+isFinalfalse"±
+declarationString›<mark class="modifier"> </mark>List&lt;Integer&gt; <mark class="method">calculateLineOfPascalsTriangle</mark>(<mark class="modifier">int</mark> lineNumber)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeList<Integer>*calculateLineOfPascalsTriangle2Ó
+kcom.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangle.calculateLineOfPascalsTriangle(int)!lineNumber	PARAMETERY
+Osrc/main/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangle.java5 (?2x
+java.util.ListRETURN_TYPEY
+Osrc/main/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangle.java (2„
+java.lang.IntegerRETURN_TYPE_ARGUMENTY
+Osrc/main/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangle.java	 (©
+kcom.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangle.calculateLineOfPascalsTriangle(int)!lineNumber	PARAMETERY
+Osrc/main/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangle.java5 (?"
+typeint"
+isFinalfalse"A
+declarationString,<mark class="modifier">int</mark> lineNumber*
+lineNumber2f
+intTYPEY
+Osrc/main/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangle.java1 (4

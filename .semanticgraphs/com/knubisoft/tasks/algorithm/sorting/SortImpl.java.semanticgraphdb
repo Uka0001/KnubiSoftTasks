@@ -1,0 +1,49 @@
+
+Asrc/main/java/com/knubisoft/tasks/algorithm/sorting/SortImpl.javaì
+.com.knubisoft.tasks.algorithm.sorting.SortImplCLASSK
+Asrc/main/java/com/knubisoft/tasks/algorithm/sorting/SortImpl.java ("0
+package%com.knubisoft.tasks.algorithm.sorting"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"ò
+declarationStringÇ<mark class="modifier">public </mark><mark class="modifier">class </mark>SortImpl<mark class="modifier"><br>implements </mark>Sort"
+accesspublic*SortImpl2‚
+Öcom.knubisoft.tasks.algorithm.sorting.SortImpl.sortKeysAndValues(java.util.Map<java.lang.Integer, java.util.List<java.lang.Integer>>)DECLARATIONK
+Asrc/main/java/com/knubisoft/tasks/algorithm/sorting/SortImpl.java' (82Å
+*com.knubisoft.tasks.algorithm.sorting.SortEXTENDK
+Asrc/main/java/com/knubisoft/tasks/algorithm/sorting/SortImpl.java! (%ﬂ
+Öcom.knubisoft.tasks.algorithm.sorting.SortImpl.sortKeysAndValues(java.util.Map<java.lang.Integer, java.util.List<java.lang.Integer>>)METHODK
+Asrc/main/java/com/knubisoft/tasks/algorithm/sorting/SortImpl.java' (8"
+isFinalfalse"‰
+declarationStringŒ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Map&lt;Integer<mark class="modifier"><mark class="modifier">,</mark></mark>List&lt;Integer&gt;&gt; <mark class="method">sortKeysAndValues</mark>(Map&lt;Integer<mark class="modifier"><mark class="modifier">,</mark></mark> List&lt;Integer&gt;&gt; input)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"#
+typeMap<Integer, List<Integer>>*sortKeysAndValues2€
+Åcom.knubisoft.tasks.algorithm.sorting.Sort.sortKeysAndValues(java.util.Map<java.lang.Integer, java.util.List<java.lang.Integer>>)OVERRIDEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/sorting/SortImpl.java' (82Ê
+ãcom.knubisoft.tasks.algorithm.sorting.SortImpl.sortKeysAndValues(java.util.Map<java.lang.Integer, java.util.List<java.lang.Integer>>)!input	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/sorting/SortImpl.javaU (Z2i
+java.util.MapRETURN_TYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/sorting/SortImpl.java (2v
+java.lang.IntegerRETURN_TYPE_ARGUMENTK
+Asrc/main/java/com/knubisoft/tasks/algorithm/sorting/SortImpl.java (2s
+java.util.ListRETURN_TYPE_ARGUMENTK
+Asrc/main/java/com/knubisoft/tasks/algorithm/sorting/SortImpl.java (2v
+java.lang.IntegerRETURN_TYPE_ARGUMENTK
+Asrc/main/java/com/knubisoft/tasks/algorithm/sorting/SortImpl.java ($ê
+ãcom.knubisoft.tasks.algorithm.sorting.SortImpl.sortKeysAndValues(java.util.Map<java.lang.Integer, java.util.List<java.lang.Integer>>)!input	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/sorting/SortImpl.javaU (Z"#
+typeMap<Integer, List<Integer>>"
+isFinalfalse"6
+declarationString!Map<Integer, List<Integer>> input*input2b
+java.util.MapTYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/sorting/SortImpl.java9 (<2o
+java.lang.IntegerTYPE_ARGUMENTK
+Asrc/main/java/com/knubisoft/tasks/algorithm/sorting/SortImpl.java= (D2l
+java.util.ListTYPE_ARGUMENTK
+Asrc/main/java/com/knubisoft/tasks/algorithm/sorting/SortImpl.javaF (J2o
+java.lang.IntegerTYPE_ARGUMENTK
+Asrc/main/java/com/knubisoft/tasks/algorithm/sorting/SortImpl.javaK (R

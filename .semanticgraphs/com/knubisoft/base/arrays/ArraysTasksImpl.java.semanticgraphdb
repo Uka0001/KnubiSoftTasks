@@ -1,0 +1,781 @@
+
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java÷
+)com.knubisoft.base.arrays.ArraysTasksImplCLASSF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java	 	("$
+packagecom.knubisoft.base.arrays"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¶
+declarationStringê<mark class="modifier">public </mark><mark class="modifier">class </mark>ArraysTasksImpl<mark class="modifier"><br>implements </mark>ArraysTasks"
+accesspublic*ArraysTasksImpl2è
+8com.knubisoft.base.arrays.ArraysTasksImpl.reverse(int[])DECLARATIONF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java (2ö
+Ccom.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])DECLARATIONF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java (2ó
+@com.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])DECLARATIONF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java ( 2±
+Zcom.knubisoft.base.arrays.ArraysTasksImpl.findLongestIncreasingContinuesSubsequence(int[])DECLARATIONF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java* *(82û
+Gcom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])DECLARATIONF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java= =(%2í
+;com.knubisoft.base.arrays.ArraysTasksImpl.moveZeroes(int[])DECLARATIONF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaY Y(2õ
+Dcom.knubisoft.base.arrays.ArraysTasksImpl.findFinalValue(int[], int)DECLARATIONF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javae e(2®
+Qcom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])DECLARATIONF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javap p(%2ó
+>com.knubisoft.base.arrays.ArraysTasksImpl.missingNumber(int[])DECLARATIONH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaá á(2õ
+Bcom.knubisoft.base.arrays.ArraysTasksImpl.containsDuplicate(int[])DECLARATIONH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaê ê($2w
+%com.knubisoft.base.arrays.ArraysTasksEXTENDF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java	( 	(3Ì
+8com.knubisoft.base.arrays.ArraysTasksImpl.reverse(int[])METHODF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java ("
+isFinalfalse"€
+declarationString≈<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark>[] <mark class="method">reverse</mark>(<mark class="modifier">int</mark>[] array)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint[]*reverse2é
+>com.knubisoft.base.arrays.ArraysTasksImpl.reverse(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java ( 2é
+>com.knubisoft.base.arrays.ArraysTasksImpl.reverse(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java (2à
+4com.knubisoft.base.arrays.ArraysTasks.reverse(int[])OVERRIDEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java (2ì
+>com.knubisoft.base.arrays.ArraysTasksImpl.reverse(int[])!array	PARAMETERF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java ($2\
+int[]RETURN_TYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java (“
+>com.knubisoft.base.arrays.ArraysTasksImpl.reverse(int[])!array	PARAMETERF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java ($"
+typeint[]"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark>[] array*array2U
+int[]TYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java (£"
+Ccom.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])METHODF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java ("
+isFinalfalse"»
+declarationString≤<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark>[] <mark class="method">mergeArrays</mark>(<mark class="modifier">int</mark>[] array1<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark>[] array2)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint[]*mergeArrays2ù
+Mjava.lang.System.arraycopy(java.lang.Object, int, java.lang.Object, int, int)CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java (2ù
+Mjava.lang.System.arraycopy(java.lang.Object, int, java.lang.Object, int, int)CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java (2}
+-java.io.PrintStream.println(java.lang.String)CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java (2p
+ java.util.Arrays.toString(int[])CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java" (*2ö
+Jcom.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])!array1CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java (2ö
+Jcom.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])!array2CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java (2¢
+Rcom.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])?a1@19.12:19.14CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java$ (&2¢
+Rcom.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])?b1@20.12:20.14CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java) (+2ö
+Jcom.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])!array1CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java (2´
+[com.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])?mergedArray@21.14:21.25CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java$ (/2¢
+Rcom.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])?a1@19.12:19.14CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java4 (62ö
+Jcom.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])!array2CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java (2´
+[com.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])?mergedArray@21.14:21.25CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java$ (/2¢
+Rcom.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])?a1@19.12:19.14CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java1 (32¢
+Rcom.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])?b1@20.12:20.14CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java5 (72´
+[com.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])?mergedArray@21.14:21.25CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java+ (62´
+[com.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])?mergedArray@21.14:21.25CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java (2ì
+?com.knubisoft.base.arrays.ArraysTasks.mergeArrays(int[], int[])OVERRIDEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java (2ü
+Jcom.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])!array1	PARAMETERF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java# ()2ü
+Jcom.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])!array2	PARAMETERF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java1 (72©
+Rcom.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])?a1@19.12:19.14DECLARATIONF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java (2©
+Rcom.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])?b1@20.12:20.14DECLARATIONF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java (2≤
+[com.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])?mergedArray@21.14:21.25DECLARATIONF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java (2\
+int[]RETURN_TYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java («
+Rcom.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])?a1@19.12:19.14VARIABLEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java ("
+typeint"
+isFinalfalse"â
+declarationStringt<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">a1</mark> = array1.length*a12S
+intTYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java (2ö
+Jcom.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])!array1CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java («
+Rcom.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])?b1@20.12:20.14VARIABLEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java ("
+typeint"
+isFinalfalse"â
+declarationStringt<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">b1</mark> = array2.length*b12S
+intTYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java (2ö
+Jcom.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])!array2CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java (µ
+[com.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])?mergedArray@21.14:21.25VARIABLEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java ("
+typeint"
+isFinalfalse"∂
+declarationString†<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">mergedArray</mark> = new <mark class="modifier">int</mark>[a1 + b1]*mergedArray2U
+int[]TYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java (2¢
+Rcom.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])?a1@19.12:19.14CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java$ (&2¢
+Rcom.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])?b1@20.12:20.14CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java) (+‡
+Jcom.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])!array1	PARAMETERF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java# ()"
+typeint[]"
+isFinalfalse"?
+declarationString*<mark class="modifier">int</mark>[] array1*array12U
+int[]TYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java ("‡
+Jcom.knubisoft.base.arrays.ArraysTasksImpl.mergeArrays(int[], int[])!array2	PARAMETERF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java1 (7"
+typeint[]"
+isFinalfalse"?
+declarationString*<mark class="modifier">int</mark>[] array2*array22U
+int[]TYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java+ (0∑
+@com.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])METHODF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java ( "
+isFinalfalse"„
+declarationStringÕ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark>[] <mark class="method">findMax3InArray</mark>(<mark class="modifier">int</mark>[] array)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint[]*findMax3InArray2l
+java.util.Arrays.sort(int[])CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java (2ñ
+Fcom.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java (2ñ
+Fcom.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java (2ñ
+Fcom.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java   (2ñ
+Fcom.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java   (#2ñ
+Fcom.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java! !(2ñ
+Fcom.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java! !($2ñ
+Fcom.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java" "(2ñ
+Fcom.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java" "(#2¢
+Rcom.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])?first@32.16:32.21CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java# #("2£
+Scom.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])?second@33.16:33.22CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java#$ #(*2¢
+Rcom.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])?third@34.16:34.21CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java#, #(12ñ
+Fcom.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java% %(2ê
+<com.knubisoft.base.arrays.ArraysTasks.findMax3InArray(int[])OVERRIDEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java ( 2õ
+Fcom.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])!array	PARAMETERF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java' (,2©
+Rcom.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])?first@32.16:32.21DECLARATIONF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java   (2™
+Scom.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])?second@33.16:33.22DECLARATIONF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java! !(2©
+Rcom.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])?third@34.16:34.21DECLARATIONF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java" "(2\
+int[]RETURN_TYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java (Ì
+Rcom.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])?first@32.16:32.21VARIABLEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java   ("
+typeint"
+isFinalfalse"ó
+declarationStringÅ<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">first</mark> = array[array.length - 1]*first2S
+intTYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java   (2ñ
+Fcom.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java   (2ñ
+Fcom.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java   (#
+Scom.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])?second@33.16:33.22VARIABLEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java! !("
+typeint"
+isFinalfalse"ò
+declarationStringÇ<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">second</mark> = array[array.length - 2]*second2S
+intTYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java! !(2ñ
+Fcom.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java! !(2ñ
+Fcom.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java! !($Ì
+Rcom.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])?third@34.16:34.21VARIABLEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java" "("
+typeint"
+isFinalfalse"ó
+declarationStringÅ<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">third</mark> = array[array.length - 3]*third2S
+intTYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java" "(2ñ
+Fcom.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java" "(2ñ
+Fcom.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java" "(#⁄
+Fcom.knubisoft.base.arrays.ArraysTasksImpl.findMax3InArray(int[])!array	PARAMETERF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java' (,"
+typeint[]"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark>[] array*array2U
+int[]TYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java! (&’%
+Zcom.knubisoft.base.arrays.ArraysTasksImpl.findLongestIncreasingContinuesSubsequence(int[])METHODF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java* *(8"
+isFinalfalse"˚
+declarationStringÂ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">findLongestIncreasingContinuesSubsequence</mark>(<mark class="modifier">int</mark>[] array)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*)findLongestIncreasingContinuesSubsequence2l
+java.lang.Math.max(int, int)CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java4" 4(%2l
+java.lang.Math.max(int, int)CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java9 9(2∏
+hcom.knubisoft.base.arrays.ArraysTasksImpl.findLongestIncreasingContinuesSubsequence(int[])?i@45.17:45.18CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java- -(2∞
+`com.knubisoft.base.arrays.ArraysTasksImpl.findLongestIncreasingContinuesSubsequence(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java- -(!2∏
+hcom.knubisoft.base.arrays.ArraysTasksImpl.findLongestIncreasingContinuesSubsequence(int[])?i@45.17:45.18CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java-* -(+2∏
+hcom.knubisoft.base.arrays.ArraysTasksImpl.findLongestIncreasingContinuesSubsequence(int[])?i@45.17:45.18CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java. .(2º
+lcom.knubisoft.base.arrays.ArraysTasksImpl.findLongestIncreasingContinuesSubsequence(int[])?count@43.12:43.17CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java/ /(2∞
+`com.knubisoft.base.arrays.ArraysTasksImpl.findLongestIncreasingContinuesSubsequence(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java1 1(2∏
+hcom.knubisoft.base.arrays.ArraysTasksImpl.findLongestIncreasingContinuesSubsequence(int[])?i@45.17:45.18CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java1 1(2∞
+`com.knubisoft.base.arrays.ArraysTasksImpl.findLongestIncreasingContinuesSubsequence(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java1 1($2∏
+hcom.knubisoft.base.arrays.ArraysTasksImpl.findLongestIncreasingContinuesSubsequence(int[])?i@45.17:45.18CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java1% 1(&2º
+lcom.knubisoft.base.arrays.ArraysTasksImpl.findLongestIncreasingContinuesSubsequence(int[])?count@43.12:43.17CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java2 2(2Ω
+mcom.knubisoft.base.arrays.ArraysTasksImpl.findLongestIncreasingContinuesSubsequence(int[])?result@44.12:44.18CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java4 4(2Ω
+mcom.knubisoft.base.arrays.ArraysTasksImpl.findLongestIncreasingContinuesSubsequence(int[])?result@44.12:44.18CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java4& 4(,2º
+lcom.knubisoft.base.arrays.ArraysTasksImpl.findLongestIncreasingContinuesSubsequence(int[])?count@43.12:43.17CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java4. 4(32º
+lcom.knubisoft.base.arrays.ArraysTasksImpl.findLongestIncreasingContinuesSubsequence(int[])?count@43.12:43.17CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java5 5(2Ω
+mcom.knubisoft.base.arrays.ArraysTasksImpl.findLongestIncreasingContinuesSubsequence(int[])?result@44.12:44.18CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java9 9(2º
+lcom.knubisoft.base.arrays.ArraysTasksImpl.findLongestIncreasingContinuesSubsequence(int[])?count@43.12:43.17CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java9  9(%2™
+Vcom.knubisoft.base.arrays.ArraysTasks.findLongestIncreasingContinuesSubsequence(int[])OVERRIDEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java* *(82µ
+`com.knubisoft.base.arrays.ArraysTasksImpl.findLongestIncreasingContinuesSubsequence(int[])!array	PARAMETERF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java*? *(D2√
+lcom.knubisoft.base.arrays.ArraysTasksImpl.findLongestIncreasingContinuesSubsequence(int[])?count@43.12:43.17DECLARATIONF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java+ +(2ƒ
+mcom.knubisoft.base.arrays.ArraysTasksImpl.findLongestIncreasingContinuesSubsequence(int[])?result@44.12:44.18DECLARATIONF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java, ,(2ø
+hcom.knubisoft.base.arrays.ArraysTasksImpl.findLongestIncreasingContinuesSubsequence(int[])?i@45.17:45.18DECLARATIONF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java- -(2Z
+intRETURN_TYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java* *(æ
+lcom.knubisoft.base.arrays.ArraysTasksImpl.findLongestIncreasingContinuesSubsequence(int[])?count@43.12:43.17VARIABLEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java+ +("
+typeint"
+isFinalfalse"Ä
+declarationStringk<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">count</mark> = 0*count2S
+intTYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java+ +(¡
+mcom.knubisoft.base.arrays.ArraysTasksImpl.findLongestIncreasingContinuesSubsequence(int[])?result@44.12:44.18VARIABLEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java, ,("
+typeint"
+isFinalfalse"Å
+declarationStringl<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">result</mark> = 0*result2S
+intTYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java, ,(±
+hcom.knubisoft.base.arrays.ArraysTasksImpl.findLongestIncreasingContinuesSubsequence(int[])?i@45.17:45.18VARIABLEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java- -("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = 0*i2S
+intTYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java- -(Ù
+`com.knubisoft.base.arrays.ArraysTasksImpl.findLongestIncreasingContinuesSubsequence(int[])!array	PARAMETERF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java*? *(D"
+typeint[]"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark>[] array*array2U
+int[]TYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java*9 *(>∏$
+Gcom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])METHODF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java= =(%"
+isFinalfalse"Ë
+declarationString“<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">sumOfAllUniqueElements</mark>(<mark class="modifier">int</mark>[] array)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*sumOfAllUniqueElements2l
+java.util.Arrays.sort(int[])CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaA A(2ù
+Mcom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java@ @(2ù
+Mcom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaA A(2ß
+Wcom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])?sum@63.12:63.15CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaB B(2ù
+Mcom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaB B(2•
+Ucom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])?i@67.21:67.22CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaC C(2ù
+Mcom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaC  C(%2•
+Ucom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])?i@67.21:67.22CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaC2 C(32ù
+Mcom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaD D(2•
+Ucom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])?i@67.21:67.22CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaD D(2ù
+Mcom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaD  D(%2•
+Ucom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])?i@67.21:67.22CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaD& D('2ß
+Wcom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])?sum@63.12:63.15CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaE E(2ù
+Mcom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaE E( 2•
+Ucom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])?i@67.21:67.22CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaE! E("2ù
+Mcom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaH H(2ß
+Wcom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])?sum@63.12:63.15CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaI I(2ù
+Mcom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaI I(2ù
+Mcom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaI I("2ß
+Wcom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])?sum@63.12:63.15CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaK K(2ß
+Wcom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])?sum@63.12:63.15CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaL L(2ó
+Ccom.knubisoft.base.arrays.ArraysTasks.sumOfAllUniqueElements(int[])OVERRIDEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java= =(%2¢
+Mcom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])!array	PARAMETERF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java=, =(12Æ
+Wcom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])?sum@63.12:63.15DECLARATIONF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java? ?(2¨
+Ucom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])?i@67.21:67.22DECLARATIONF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaC C(2Z
+intRETURN_TYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java= =(†
+Wcom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])?sum@63.12:63.15VARIABLEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java? ?("
+typeint"
+isFinalfalse"z
+declarationStringe<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">sum</mark>*sum2S
+intTYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java? ?(û
+Ucom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])?i@67.21:67.22VARIABLEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaC C("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = 0*i2S
+intTYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaC C(·
+Mcom.knubisoft.base.arrays.ArraysTasksImpl.sumOfAllUniqueElements(int[])!array	PARAMETERF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java=, =(1"
+typeint[]"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark>[] array*array2U
+int[]TYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java=& =(+Ä
+;com.knubisoft.base.arrays.ArraysTasksImpl.moveZeroes(int[])METHODF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaY Y("
+isFinalfalse"ﬁ
+declarationString»<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark>[] <mark class="method">moveZeroes</mark>(<mark class="modifier">int</mark>[] array)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint[]*
+moveZeroes2ô
+Icom.knubisoft.base.arrays.ArraysTasksImpl.moveZeroes(int[])?i@91.17:91.18CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java[ [(2ë
+Acom.knubisoft.base.arrays.ArraysTasksImpl.moveZeroes(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java[ [(!2ô
+Icom.knubisoft.base.arrays.ArraysTasksImpl.moveZeroes(int[])?i@91.17:91.18CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java[* [(+2ë
+Acom.knubisoft.base.arrays.ArraysTasksImpl.moveZeroes(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java\ \(2ô
+Icom.knubisoft.base.arrays.ArraysTasksImpl.moveZeroes(int[])?i@91.17:91.18CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java\ \(2ë
+Acom.knubisoft.base.arrays.ArraysTasksImpl.moveZeroes(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java] ](2ù
+Mcom.knubisoft.base.arrays.ArraysTasksImpl.moveZeroes(int[])?count@90.12:90.17CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java] ](2ë
+Acom.knubisoft.base.arrays.ArraysTasksImpl.moveZeroes(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java]! ](&2ô
+Icom.knubisoft.base.arrays.ArraysTasksImpl.moveZeroes(int[])?i@91.17:91.18CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java]' ]((2ù
+Mcom.knubisoft.base.arrays.ArraysTasksImpl.moveZeroes(int[])?count@90.12:90.17CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java^ ^(2ë
+Acom.knubisoft.base.arrays.ArraysTasksImpl.moveZeroes(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java^ ^(2ë
+Acom.knubisoft.base.arrays.ArraysTasksImpl.moveZeroes(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java_ _(2ù
+Mcom.knubisoft.base.arrays.ArraysTasksImpl.moveZeroes(int[])?count@90.12:90.17CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java_ _(2ë
+Acom.knubisoft.base.arrays.ArraysTasksImpl.moveZeroes(int[])!arrayCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java` `(2ã
+7com.knubisoft.base.arrays.ArraysTasks.moveZeroes(int[])OVERRIDEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaY Y(2ñ
+Acom.knubisoft.base.arrays.ArraysTasksImpl.moveZeroes(int[])!array	PARAMETERF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaY" Y('2§
+Mcom.knubisoft.base.arrays.ArraysTasksImpl.moveZeroes(int[])?count@90.12:90.17DECLARATIONF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaZ Z(2†
+Icom.knubisoft.base.arrays.ArraysTasksImpl.moveZeroes(int[])?i@91.17:91.18DECLARATIONF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java[ [(2\
+int[]RETURN_TYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaY Y(ü
+Mcom.knubisoft.base.arrays.ArraysTasksImpl.moveZeroes(int[])?count@90.12:90.17VARIABLEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaZ Z("
+typeint"
+isFinalfalse"Ä
+declarationStringk<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">count</mark> = 0*count2S
+intTYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaZ Z(í
+Icom.knubisoft.base.arrays.ArraysTasksImpl.moveZeroes(int[])?i@91.17:91.18VARIABLEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java[ [("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = 0*i2S
+intTYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java[ [(’
+Acom.knubisoft.base.arrays.ArraysTasksImpl.moveZeroes(int[])!array	PARAMETERF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaY" Y('"
+typeint[]"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark>[] array*array2U
+int[]TYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaY Y(!Å
+Dcom.knubisoft.base.arrays.ArraysTasksImpl.findFinalValue(int[], int)METHODF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javae e("
+isFinalfalse"«
+declarationString±<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">findFinalValue</mark>(<mark class="modifier">int</mark>[] nums<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> original)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*findFinalValue2l
+java.util.Arrays.sort(int[])CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaf f(2ô
+Icom.knubisoft.base.arrays.ArraysTasksImpl.findFinalValue(int[], int)!numsCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaf f(2ô
+Icom.knubisoft.base.arrays.ArraysTasksImpl.findFinalValue(int[], int)!numsCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javag g(2ù
+Mcom.knubisoft.base.arrays.ArraysTasksImpl.findFinalValue(int[], int)!originalCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javah h(2¶
+Vcom.knubisoft.base.arrays.ArraysTasksImpl.findFinalValue(int[], int)?num@103.17:103.20CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javah h("2ù
+Mcom.knubisoft.base.arrays.ArraysTasksImpl.findFinalValue(int[], int)!originalCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javai i(2ù
+Mcom.knubisoft.base.arrays.ArraysTasksImpl.findFinalValue(int[], int)!originalCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javai i(#2ù
+Mcom.knubisoft.base.arrays.ArraysTasksImpl.findFinalValue(int[], int)!originalCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javal l(2î
+@com.knubisoft.base.arrays.ArraysTasks.findFinalValue(int[], int)OVERRIDEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javae e(2û
+Icom.knubisoft.base.arrays.ArraysTasksImpl.findFinalValue(int[], int)!nums	PARAMETERF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javae$ e((2¢
+Mcom.knubisoft.base.arrays.ArraysTasksImpl.findFinalValue(int[], int)!original	PARAMETERF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javae. e(62≠
+Vcom.knubisoft.base.arrays.ArraysTasksImpl.findFinalValue(int[], int)?num@103.17:103.20DECLARATIONF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javag g(2Z
+intRETURN_TYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javae e(ü
+Vcom.knubisoft.base.arrays.ArraysTasksImpl.findFinalValue(int[], int)?num@103.17:103.20VARIABLEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javag g("
+typeint"
+isFinalfalse"z
+declarationStringe<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">num</mark>*num2S
+intTYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javag g(€
+Icom.knubisoft.base.arrays.ArraysTasksImpl.findFinalValue(int[], int)!nums	PARAMETERF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javae$ e(("
+typeint[]"
+isFinalfalse"=
+declarationString(<mark class="modifier">int</mark>[] nums*nums2U
+int[]TYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javae e(#·
+Mcom.knubisoft.base.arrays.ArraysTasksImpl.findFinalValue(int[], int)!original	PARAMETERF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javae. e(6"
+typeint"
+isFinalfalse"?
+declarationString*<mark class="modifier">int</mark> original*original2S
+intTYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javae* e(-À*
+Qcom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])METHODF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javap p(%"
+isFinalfalse"Ø
+declarationStringô<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">longestCommonPrefix</mark>(String[] words)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*longestCommonPrefix2y
+)java.util.Arrays.sort(java.lang.Object[])CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java{ {(2l
+java.lang.Math.min(int, int)CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java} }(2i
+java.lang.String.length()CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java}$ }(*2i
+java.lang.String.length()CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java}> }(D2n
+java.lang.String.charAt(int)CALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaÅ# Å()2n
+java.lang.String.charAt(int)CALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaÅ@ Å(F2v
+$java.lang.String.substring(int, int)CALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaÉ É(!2ß
+Wcom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])!wordsCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javat t(2¥
+dcom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])?size@116.12:116.16CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javav v(2¥
+dcom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])?size@116.12:116.16CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javax x(2ß
+Wcom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])!wordsCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javay y(2ß
+Wcom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])!wordsCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java{ {(2ß
+Wcom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])!wordsCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java} }( 2ß
+Wcom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])!wordsCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java}. }(32¥
+dcom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])?size@116.12:116.16CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java}4 }(82≥
+acom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])?i@128.12:128.13CALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaÅ Å(2µ
+ccom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])?end@125.12:125.15CALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaÅ Å(2©
+Wcom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])!wordsCALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaÅ Å(2≥
+acom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])?i@128.12:128.13CALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaÅ* Å(+2©
+Wcom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])!wordsCALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaÅ0 Å(52∂
+dcom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])?size@116.12:116.16CALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaÅ6 Å(:2≥
+acom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])?i@128.12:128.13CALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaÅG Å(H2≥
+acom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])?i@128.12:128.13CALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaÇ Ç(2©
+Wcom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])!wordsCALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaÉ É(2≥
+acom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])?i@128.12:128.13CALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaÉ% É(&2°
+Mcom.knubisoft.base.arrays.ArraysTasks.longestCommonPrefix(java.lang.String[])OVERRIDEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javap p(%2¨
+Wcom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])!words	PARAMETERF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javap/ p(42ª
+dcom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])?size@116.12:116.16DECLARATIONF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javat t(2∫
+ccom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])?end@125.12:125.15DECLARATIONF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java} }(2∫
+acom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])?i@128.12:128.13DECLARATIONH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaÄ Ä(2g
+java.lang.StringRETURN_TYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javap p(È
+dcom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])?size@116.12:116.16VARIABLEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javat t("
+typeint"
+isFinalfalse"ä
+declarationStringu<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">size</mark> = words.length*size2S
+intTYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javat t(2ß
+Wcom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])!wordsCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javat t(”
+
+ccom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])?end@125.12:125.15VARIABLEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java} }("
+typeint"
+isFinalfalse"—
+declarationStringª<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">end</mark> = Math.min(words[0].length()<mark class="modifier">,</mark> words[size - 1].length())*end2S
+intTYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java} }(2l
+java.lang.Math.min(int, int)CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java} }(2i
+java.lang.String.length()CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java}$ }(*2i
+java.lang.String.length()CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java}> }(D2ß
+Wcom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])!wordsCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java} }( 2ß
+Wcom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])!wordsCALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java}. }(32¥
+dcom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])?size@116.12:116.16CALLF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.java}4 }(8Æ
+acom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])?i@128.12:128.13VARIABLEH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaÄ Ä("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">i</mark> = 0*i2U
+intTYPEH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaÄ Ä(‡
+Wcom.knubisoft.base.arrays.ArraysTasksImpl.longestCommonPrefix(java.lang.String[])!words	PARAMETERF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javap/ p(4"
+typeString[]"
+isFinalfalse"#
+declarationStringString[] words*words2b
+java.lang.String[]TYPEF
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javap& p(.–
+>com.knubisoft.base.arrays.ArraysTasksImpl.missingNumber(int[])METHODH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaá á("
+isFinalfalse"ﬂ
+declarationString…<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">missingNumber</mark>(<mark class="modifier">int</mark>[] array)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*missingNumber2ñ
+Dcom.knubisoft.base.arrays.ArraysTasksImpl.missingNumber(int[])!arrayCALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaâ â(2†
+Ncom.knubisoft.base.arrays.ArraysTasksImpl.missingNumber(int[])?n@137.12:137.13CALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaä ä(2†
+Ncom.knubisoft.base.arrays.ArraysTasksImpl.missingNumber(int[])?n@137.12:137.13CALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaä ä(2ñ
+Dcom.knubisoft.base.arrays.ArraysTasksImpl.missingNumber(int[])!arrayCALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaã ã(2¢
+Pcom.knubisoft.base.arrays.ArraysTasksImpl.missingNumber(int[])?sum@138.12:138.15CALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaã ã(2†
+Ncom.knubisoft.base.arrays.ArraysTasksImpl.missingNumber(int[])?j@139.17:139.18CALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaã# ã($2¢
+Pcom.knubisoft.base.arrays.ArraysTasksImpl.missingNumber(int[])?sum@138.12:138.15CALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaå å(2ê
+:com.knubisoft.base.arrays.ArraysTasks.missingNumber(int[])OVERRIDEH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaá á(2õ
+Dcom.knubisoft.base.arrays.ArraysTasksImpl.missingNumber(int[])!array	PARAMETERH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaá# á((2ß
+Ncom.knubisoft.base.arrays.ArraysTasksImpl.missingNumber(int[])?n@137.12:137.13DECLARATIONH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaâ â(2©
+Pcom.knubisoft.base.arrays.ArraysTasksImpl.missingNumber(int[])?sum@138.12:138.15DECLARATIONH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaä ä(2ß
+Ncom.knubisoft.base.arrays.ArraysTasksImpl.missingNumber(int[])?j@139.17:139.18DECLARATIONH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaã ã(2\
+intRETURN_TYPEH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaá á(¿
+Ncom.knubisoft.base.arrays.ArraysTasksImpl.missingNumber(int[])?n@137.12:137.13VARIABLEH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaâ â("
+typeint"
+isFinalfalse"á
+declarationStringr<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">n</mark> = array.length*n2U
+intTYPEH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaâ â(2ñ
+Dcom.knubisoft.base.arrays.ArraysTasksImpl.missingNumber(int[])!arrayCALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaâ â(ˆ
+Pcom.knubisoft.base.arrays.ArraysTasksImpl.missingNumber(int[])?sum@138.12:138.15VARIABLEH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaä ä("
+typeint"
+isFinalfalse"å
+declarationStringw<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">sum</mark> = n * (n + 1) / 2*sum2U
+intTYPEH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaä ä(2†
+Ncom.knubisoft.base.arrays.ArraysTasksImpl.missingNumber(int[])?n@137.12:137.13CALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaä ä(2†
+Ncom.knubisoft.base.arrays.ArraysTasksImpl.missingNumber(int[])?n@137.12:137.13CALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaä ä(ó
+Ncom.knubisoft.base.arrays.ArraysTasksImpl.missingNumber(int[])?j@139.17:139.18VARIABLEH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaã ã("
+typeint"
+isFinalfalse"x
+declarationStringc<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">j</mark>*j2U
+intTYPEH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaã ã(‹
+Dcom.knubisoft.base.arrays.ArraysTasksImpl.missingNumber(int[])!array	PARAMETERH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaá# á(("
+typeint[]"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark>[] array*array2W
+int[]TYPEH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaá á("˘
+Bcom.knubisoft.base.arrays.ArraysTasksImpl.containsDuplicate(int[])METHODH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaê ê($"
+isFinalfalse"Á
+declarationString—<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">containsDuplicate</mark>(<mark class="modifier">int</mark>[] array)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*containsDuplicate2z
+(java.util.Set.contains(java.lang.Object)CALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaú ú(2f
+java.util.Set.add(E)CALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaü ü(2m
+java.util.HashSet.HashSet()CALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaö ö((2ö
+Hcom.knubisoft.base.arrays.ArraysTasksImpl.containsDuplicate(int[])!arrayCALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaõ õ(2¶
+Tcom.knubisoft.base.arrays.ArraysTasksImpl.containsDuplicate(int[])?set@154.21:154.24CALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaú ú(2§
+Rcom.knubisoft.base.arrays.ArraysTasksImpl.containsDuplicate(int[])?j@155.17:155.18CALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaú ú(2¶
+Tcom.knubisoft.base.arrays.ArraysTasksImpl.containsDuplicate(int[])?set@154.21:154.24CALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaü ü(2§
+Rcom.knubisoft.base.arrays.ArraysTasksImpl.containsDuplicate(int[])?j@155.17:155.18CALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaü ü(2î
+>com.knubisoft.base.arrays.ArraysTasks.containsDuplicate(int[])OVERRIDEH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaê ê($2ü
+Hcom.knubisoft.base.arrays.ArraysTasksImpl.containsDuplicate(int[])!array	PARAMETERH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaê+ ê(02≠
+Tcom.knubisoft.base.arrays.ArraysTasksImpl.containsDuplicate(int[])?set@154.21:154.24DECLARATIONH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaö ö(2´
+Rcom.knubisoft.base.arrays.ArraysTasksImpl.containsDuplicate(int[])?j@155.17:155.18DECLARATIONH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaõ õ(2`
+booleanRETURN_TYPEH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaê ê(é
+Tcom.knubisoft.base.arrays.ArraysTasksImpl.containsDuplicate(int[])?set@154.21:154.24VARIABLEH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaö ö("
+typeSet<Integer>"
+isFinalfalse"w
+declarationStringb<mark class="modifier"> </mark>Set<Integer> <mark class="class-field">set</mark> = new HashSet<>()*set2_
+java.util.SetTYPEH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaö ö(2l
+java.lang.IntegerTYPE_ARGUMENTH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaö ö(2m
+java.util.HashSet.HashSet()CALLH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaö ö((õ
+Rcom.knubisoft.base.arrays.ArraysTasksImpl.containsDuplicate(int[])?j@155.17:155.18VARIABLEH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaõ õ("
+typeint"
+isFinalfalse"x
+declarationStringc<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">j</mark>*j2U
+intTYPEH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaõ õ(‡
+Hcom.knubisoft.base.arrays.ArraysTasksImpl.containsDuplicate(int[])!array	PARAMETERH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaê+ ê(0"
+typeint[]"
+isFinalfalse">
+declarationString)<mark class="modifier">int</mark>[] array*array2W
+int[]TYPEH
+<src/main/java/com/knubisoft/base/arrays/ArraysTasksImpl.javaê% ê(*

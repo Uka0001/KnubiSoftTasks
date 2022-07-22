@@ -1,0 +1,176 @@
+
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.javaÍ
+.com.knubisoft.tasks.algorithm.xml.XMLTasksImplCLASSK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java (",
+package!com.knubisoft.tasks.algorithm.xml"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"†
+declarationStringä<mark class="modifier">public </mark><mark class="modifier">class </mark>XMLTasksImpl<mark class="modifier"><br>implements </mark>XMLTasks"
+accesspublic*XMLTasksImpl2•
+Icom.knubisoft.tasks.algorithm.xml.XMLTasksImpl.parseXML(java.lang.String)DECLARATIONK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java (2¶
+Jcom.knubisoft.tasks.algorithm.xml.XMLTasksImpl.getAllIds(java.lang.String)DECLARATIONK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java ("2≥
+Wcom.knubisoft.tasks.algorithm.xml.XMLTasksImpl.getNameWithIdMoreThan1(java.lang.String)DECLARATIONK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java (.2œ
+scom.knubisoft.tasks.algorithm.xml.XMLTasksImpl.xpath(java.lang.String, java.lang.String, javax.xml.namespace.QName)DECLARATIONK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java (2ÿ
+|com.knubisoft.tasks.algorithm.xml.XMLTasksImpl.apply(org.w3c.dom.NodeList, java.util.function.Function<org.w3c.dom.Node, T>)DECLARATIONK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java" "(2Å
+*com.knubisoft.tasks.algorithm.xml.XMLTasksEXTENDK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java% (-â
+Icom.knubisoft.tasks.algorithm.xml.XMLTasksImpl.parseXML(java.lang.String)METHODK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java ("
+isFinalfalse"¨
+declarationStringñ <br><mark class="annotation">@SneakyThrows</mark> <br><mark class="modifier">public </mark>ModelRoot <mark class="method">parseXML</mark>(String xml)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+type	ModelRoot*parseXML2û
+Ecom.knubisoft.tasks.algorithm.xml.XMLTasks.parseXML(java.lang.String)OVERRIDEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java (2ß
+Mcom.knubisoft.tasks.algorithm.xml.XMLTasksImpl.parseXML(java.lang.String)!xml	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java% ((2É
+'com.knubisoft.tasks.algorithm.ModelRootRETURN_TYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java (÷
+Mcom.knubisoft.tasks.algorithm.xml.XMLTasksImpl.parseXML(java.lang.String)!xml	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java% (("
+typeString"
+isFinalfalse"
+declarationString
+String xml*xml2e
+java.lang.StringTYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java ($Ò
+Jcom.knubisoft.tasks.algorithm.xml.XMLTasksImpl.getAllIds(java.lang.String)METHODK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java (""
+isFinalfalse"Æ
+declarationStringò<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>List&lt;Integer&gt; <mark class="method">getAllIds</mark>(String xml)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<Integer>*	getAllIds2ü
+Fcom.knubisoft.tasks.algorithm.xml.XMLTasks.getAllIds(java.lang.String)OVERRIDEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java ("2®
+Ncom.knubisoft.tasks.algorithm.xml.XMLTasksImpl.getAllIds(java.lang.String)!xml	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java* (-2j
+java.util.ListRETURN_TYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java (2v
+java.lang.IntegerRETURN_TYPE_ARGUMENTK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java (◊
+Ncom.knubisoft.tasks.algorithm.xml.XMLTasksImpl.getAllIds(java.lang.String)!xml	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java* (-"
+typeString"
+isFinalfalse"
+declarationString
+String xml*xml2e
+java.lang.StringTYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java# ()Ø
+Wcom.knubisoft.tasks.algorithm.xml.XMLTasksImpl.getNameWithIdMoreThan1(java.lang.String)METHODK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java (."
+isFinalfalse"∫
+declarationString§<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>List&lt;String&gt; <mark class="method">getNameWithIdMoreThan1</mark>(String xml)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<String>*getNameWithIdMoreThan12¨
+Scom.knubisoft.tasks.algorithm.xml.XMLTasks.getNameWithIdMoreThan1(java.lang.String)OVERRIDEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java (.2µ
+[com.knubisoft.tasks.algorithm.xml.XMLTasksImpl.getNameWithIdMoreThan1(java.lang.String)!xml	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java6 (92j
+java.util.ListRETURN_TYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java (2u
+java.lang.StringRETURN_TYPE_ARGUMENTK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java (‰
+[com.knubisoft.tasks.algorithm.xml.XMLTasksImpl.getNameWithIdMoreThan1(java.lang.String)!xml	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java6 (9"
+typeString"
+isFinalfalse"
+declarationString
+String xml*xml2e
+java.lang.StringTYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java/ (5÷
+
+scom.knubisoft.tasks.algorithm.xml.XMLTasksImpl.xpath(java.lang.String, java.lang.String, javax.xml.namespace.QName)METHODK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java ("
+isFinalfalse"∂
+declarationString†<mark class="annotation">@SneakyThrows</mark> <br><mark class="modifier">private </mark>Object <mark class="method">xpath</mark>(String xml<mark class="modifier"><mark class="modifier">,</mark></mark> String expression<mark class="modifier"><mark class="modifier">,</mark></mark> QName q)"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typeObject*xpath2—
+wcom.knubisoft.tasks.algorithm.xml.XMLTasksImpl.xpath(java.lang.String, java.lang.String, javax.xml.namespace.QName)!xml	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java  (#2ÿ
+~com.knubisoft.tasks.algorithm.xml.XMLTasksImpl.xpath(java.lang.String, java.lang.String, javax.xml.namespace.QName)!expression	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java, (62œ
+ucom.knubisoft.tasks.algorithm.xml.XMLTasksImpl.xpath(java.lang.String, java.lang.String, javax.xml.namespace.QName)!q	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java> (?2l
+java.lang.ObjectRETURN_TYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java (Ä
+wcom.knubisoft.tasks.algorithm.xml.XMLTasksImpl.xpath(java.lang.String, java.lang.String, javax.xml.namespace.QName)!xml	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java  (#"
+typeString"
+isFinalfalse"
+declarationString
+String xml*xml2e
+java.lang.StringTYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java (ï
+~com.knubisoft.tasks.algorithm.xml.XMLTasksImpl.xpath(java.lang.String, java.lang.String, javax.xml.namespace.QName)!expression	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java, (6"
+typeString"
+isFinalfalse"&
+declarationStringString expression*
+expression2e
+java.lang.StringTYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java% (+Å
+ucom.knubisoft.tasks.algorithm.xml.XMLTasksImpl.xpath(java.lang.String, java.lang.String, javax.xml.namespace.QName)!q	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java> (?"
+typeQName"
+isFinalfalse"
+declarationStringQName q*q2n
+javax.xml.namespace.QNameTYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java8 (=Õ
+|com.knubisoft.tasks.algorithm.xml.XMLTasksImpl.apply(org.w3c.dom.NodeList, java.util.function.Function<org.w3c.dom.Node, T>)METHODK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java" "("
+isFinalfalse"ô
+declarationStringÉ<mark class="modifier">private </mark>List&lt;T&gt; <mark class="method">apply</mark>(NodeList nodeList<mark class="modifier"><mark class="modifier">,</mark></mark> Function&lt;Node<mark class="modifier"><mark class="modifier">,</mark></mark> T&gt; tFunction)"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"
+typeList<T>*apply2‡
+Öcom.knubisoft.tasks.algorithm.xml.XMLTasksImpl.apply(org.w3c.dom.NodeList, java.util.function.Function<org.w3c.dom.Node, T>)!nodeList	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java"' "(/2·
+Ücom.knubisoft.tasks.algorithm.xml.XMLTasksImpl.apply(org.w3c.dom.NodeList, java.util.function.Function<org.w3c.dom.Node, T>)!tFunction	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java"C "(L2j
+java.util.ListRETURN_TYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java" "(2„
+~com.knubisoft.tasks.algorithm.xml.XMLTasksImpl.apply(org.w3c.dom.NodeList, java.util.function.Function<org.w3c.dom.Node, T>).TRETURN_TYPE_ARGUMENTK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java" "(2›
+~com.knubisoft.tasks.algorithm.xml.XMLTasksImpl.apply(org.w3c.dom.NodeList, java.util.function.Function<org.w3c.dom.Node, T>).TTYPE_PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java" "(°
+Öcom.knubisoft.tasks.algorithm.xml.XMLTasksImpl.apply(org.w3c.dom.NodeList, java.util.function.Function<org.w3c.dom.Node, T>)!nodeList	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java"' "(/"
+typeNodeList"
+isFinalfalse"&
+declarationStringNodeList nodeList*nodeList2i
+org.w3c.dom.NodeListTYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java" "(&∞
+Ücom.knubisoft.tasks.algorithm.xml.XMLTasksImpl.apply(org.w3c.dom.NodeList, java.util.function.Function<org.w3c.dom.Node, T>)!tFunction	PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java"C "(L"
+typeFunction<Node, T>"
+isFinalfalse"T
+declarationString?Function<Node, <mark class="type-parameter">T</mark>> tFunction*	tFunction2p
+java.util.function.FunctionTYPEK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java"1 "(92‹
+~com.knubisoft.tasks.algorithm.xml.XMLTasksImpl.apply(org.w3c.dom.NodeList, java.util.function.Function<org.w3c.dom.Node, T>).TTYPE_ARGUMENTK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java": "(>2n
+org.w3c.dom.NodeTYPE_ARGUMENTK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java"@ "(A‡
+~com.knubisoft.tasks.algorithm.xml.XMLTasksImpl.apply(org.w3c.dom.NodeList, java.util.function.Function<org.w3c.dom.Node, T>).TTYPE_PARAMETERK
+Asrc/main/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImpl.java" "(*T

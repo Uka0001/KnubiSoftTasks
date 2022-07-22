@@ -1,0 +1,158 @@
+
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java«
+'com.knubisoft.base.queue.QueueTasksImplCLASSD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java ("#
+packagecom.knubisoft.base.queue"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"§
+declarationStringé<mark class="modifier">public </mark><mark class="modifier">class </mark>QueueTasksImpl<mark class="modifier"><br>implements </mark>QueueTasks"
+accesspublic*QueueTasksImpl2ª
+fcom.knubisoft.base.queue.QueueTasksImpl.reverseQueueUsingRecursion(java.util.Queue<java.lang.Integer>)DECLARATIOND
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java (42¬
+mcom.knubisoft.base.queue.QueueTasksImpl.reverseFirstKElementsOfQueue(java.util.Queue<java.lang.Integer>, int)DECLARATIOND
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java (62Ø
+Zcom.knubisoft.base.queue.QueueTasksImpl.sortQueueOfInt(java.util.Queue<java.lang.Integer>)DECLARATIOND
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java ((2ü
+Jcom.knubisoft.base.queue.QueueTasksImpl.validParentheses(java.lang.String)DECLARATIOND
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java (#2◊
+Åcom.knubisoft.base.queue.QueueTasksImpl.implementPriorityQueueThroughComparator(java.util.List<com.knubisoft.base.queue.car.Car>)DECLARATIOND
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java (E2s
+#com.knubisoft.base.queue.QueueTasksEXTENDD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java' (1Ÿ
+fcom.knubisoft.base.queue.QueueTasksImpl.reverseQueueUsingRecursion(java.util.Queue<java.lang.Integer>)METHODD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java (4"
+isFinalfalse"–
+declarationString∫<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Queue&lt;Integer&gt; <mark class="method">reverseQueueUsingRecursion</mark>(Queue&lt;Integer&gt; queue)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeQueue<Integer>*reverseQueueUsingRecursion2¥
+bcom.knubisoft.base.queue.QueueTasks.reverseQueueUsingRecursion(java.util.Queue<java.lang.Integer>)OVERRIDED
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java (42ø
+lcom.knubisoft.base.queue.QueueTasksImpl.reverseQueueUsingRecursion(java.util.Queue<java.lang.Integer>)!queue	PARAMETERD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.javaD (I2d
+java.util.QueueRETURN_TYPED
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java (2o
+java.lang.IntegerRETURN_TYPE_ARGUMENTD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java (‰
+lcom.knubisoft.base.queue.QueueTasksImpl.reverseQueueUsingRecursion(java.util.Queue<java.lang.Integer>)!queue	PARAMETERD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.javaD (I"
+typeQueue<Integer>"
+isFinalfalse")
+declarationStringQueue<Integer> queue*queue2]
+java.util.QueueTYPED
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java5 (:2h
+java.lang.IntegerTYPE_ARGUMENTD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java; (Bò
+mcom.knubisoft.base.queue.QueueTasksImpl.reverseFirstKElementsOfQueue(java.util.Queue<java.lang.Integer>, int)METHODD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java (6"
+isFinalfalse"≥
+declarationStringù<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Queue&lt;Integer&gt; <mark class="method">reverseFirstKElementsOfQueue</mark>(Queue&lt;Integer&gt; queue<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> k)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeQueue<Integer>*reverseFirstKElementsOfQueue2ª
+icom.knubisoft.base.queue.QueueTasks.reverseFirstKElementsOfQueue(java.util.Queue<java.lang.Integer>, int)OVERRIDED
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java (62∆
+scom.knubisoft.base.queue.QueueTasksImpl.reverseFirstKElementsOfQueue(java.util.Queue<java.lang.Integer>, int)!queue	PARAMETERD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.javaF (K2¬
+ocom.knubisoft.base.queue.QueueTasksImpl.reverseFirstKElementsOfQueue(java.util.Queue<java.lang.Integer>, int)!k	PARAMETERD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.javaQ (R2d
+java.util.QueueRETURN_TYPED
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java (2o
+java.lang.IntegerRETURN_TYPE_ARGUMENTD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java (Î
+scom.knubisoft.base.queue.QueueTasksImpl.reverseFirstKElementsOfQueue(java.util.Queue<java.lang.Integer>, int)!queue	PARAMETERD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.javaF (K"
+typeQueue<Integer>"
+isFinalfalse")
+declarationStringQueue<Integer> queue*queue2]
+java.util.QueueTYPED
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java7 (<2h
+java.lang.IntegerTYPE_ARGUMENTD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java= (DÒ
+ocom.knubisoft.base.queue.QueueTasksImpl.reverseFirstKElementsOfQueue(java.util.Queue<java.lang.Integer>, int)!k	PARAMETERD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.javaQ (R"
+typeint"
+isFinalfalse"8
+declarationString#<mark class="modifier">int</mark> k*k2Q
+intTYPED
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.javaM (Pù
+Zcom.knubisoft.base.queue.QueueTasksImpl.sortQueueOfInt(java.util.Queue<java.lang.Integer>)METHODD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java (("
+isFinalfalse"ƒ
+declarationStringÆ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Queue&lt;Integer&gt; <mark class="method">sortQueueOfInt</mark>(Queue&lt;Integer&gt; queue)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeQueue<Integer>*sortQueueOfInt2®
+Vcom.knubisoft.base.queue.QueueTasks.sortQueueOfInt(java.util.Queue<java.lang.Integer>)OVERRIDED
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java ((2≥
+`com.knubisoft.base.queue.QueueTasksImpl.sortQueueOfInt(java.util.Queue<java.lang.Integer>)!queue	PARAMETERD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java8 (=2d
+java.util.QueueRETURN_TYPED
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java (2o
+java.lang.IntegerRETURN_TYPE_ARGUMENTD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java (ÿ
+`com.knubisoft.base.queue.QueueTasksImpl.sortQueueOfInt(java.util.Queue<java.lang.Integer>)!queue	PARAMETERD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java8 (="
+typeQueue<Integer>"
+isFinalfalse")
+declarationStringQueue<Integer> queue*queue2]
+java.util.QueueTYPED
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java) (.2h
+java.lang.IntegerTYPE_ARGUMENTD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java/ (6Ä
+Jcom.knubisoft.base.queue.QueueTasksImpl.validParentheses(java.lang.String)METHODD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java (#"
+isFinalfalse"œ
+declarationStringπ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">validParentheses</mark>(String parentheses)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*validParentheses2ò
+Fcom.knubisoft.base.queue.QueueTasks.validParentheses(java.lang.String)OVERRIDED
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java (#2©
+Vcom.knubisoft.base.queue.QueueTasksImpl.validParentheses(java.lang.String)!parentheses	PARAMETERD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java+ (62\
+booleanRETURN_TYPED
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java (·
+Vcom.knubisoft.base.queue.QueueTasksImpl.validParentheses(java.lang.String)!parentheses	PARAMETERD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java+ (6"
+typeString"
+isFinalfalse"'
+declarationStringString parentheses*parentheses2^
+java.lang.StringTYPED
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java$ (*ﬁ	
+Åcom.knubisoft.base.queue.QueueTasksImpl.implementPriorityQueueThroughComparator(java.util.List<com.knubisoft.base.queue.car.Car>)METHODD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java (E"
+isFinalfalse"€
+declarationString≈<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>PriorityQueue&lt;Car&gt; <mark class="method">implementPriorityQueueThroughComparator</mark>(List&lt;Car&gt; cars)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typePriorityQueue<Car>*'implementPriorityQueueThroughComparator2œ
+}com.knubisoft.base.queue.QueueTasks.implementPriorityQueueThroughComparator(java.util.List<com.knubisoft.base.queue.car.Car>)OVERRIDED
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java (E2⁄
+Ücom.knubisoft.base.queue.QueueTasksImpl.implementPriorityQueueThroughComparator(java.util.List<com.knubisoft.base.queue.car.Car>)!cars	PARAMETERD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.javaP (T2l
+java.util.PriorityQueueRETURN_TYPED
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java (2~
+ com.knubisoft.base.queue.car.CarRETURN_TYPE_ARGUMENTD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.java (Å
+Ücom.knubisoft.base.queue.QueueTasksImpl.implementPriorityQueueThroughComparator(java.util.List<com.knubisoft.base.queue.car.Car>)!cars	PARAMETERD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.javaP (T"
+type	List<Car>"
+isFinalfalse"#
+declarationStringList<Car> cars*cars2\
+java.util.ListTYPED
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.javaF (J2w
+ com.knubisoft.base.queue.car.CarTYPE_ARGUMENTD
+:src/main/java/com/knubisoft/base/queue/QueueTasksImpl.javaK (N

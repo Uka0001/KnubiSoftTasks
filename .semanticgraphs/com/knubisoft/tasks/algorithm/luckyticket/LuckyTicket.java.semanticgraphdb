@@ -1,0 +1,33 @@
+
+Hsrc/main/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicket.javaÓ
+5com.knubisoft.tasks.algorithm.luckyticket.LuckyTicketTRAITR
+Hsrc/main/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicket.java ("4
+package)com.knubisoft.tasks.algorithm.luckyticket"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"m
+declarationStringX<mark class="modifier">public </mark><mark class="modifier">interface </mark>LuckyTicket"
+accesspublic*LuckyTicket2½
+Zcom.knubisoft.tasks.algorithm.luckyticket.LuckyTicket.checkIsLuckyTicket(java.lang.String)DECLARATIONR
+Hsrc/main/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicket.java (þ
+Zcom.knubisoft.tasks.algorithm.luckyticket.LuckyTicket.checkIsLuckyTicket(java.lang.String)METHODR
+Hsrc/main/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicket.java ("
+isFinalfalse"˜
+declarationString‚<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="method">checkIsLuckyTicket</mark>(String ticket)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeboolean*checkIsLuckyTicket2Â
+acom.knubisoft.tasks.algorithm.luckyticket.LuckyTicket.checkIsLuckyTicket(java.lang.String)!ticket	PARAMETERR
+Hsrc/main/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicket.java& (,2j
+booleanRETURN_TYPER
+Hsrc/main/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicket.java (þ
+acom.knubisoft.tasks.algorithm.luckyticket.LuckyTicket.checkIsLuckyTicket(java.lang.String)!ticket	PARAMETERR
+Hsrc/main/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicket.java& (,"
+typeString"
+isFinalfalse""
+declarationStringString ticket*ticket2l
+java.lang.StringTYPER
+Hsrc/main/java/com/knubisoft/tasks/algorithm/luckyticket/LuckyTicket.java (%

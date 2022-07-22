@@ -1,0 +1,46 @@
+
+=src/main/java/com/knubisoft/tasks/algorithm/sorting/Sort.java»
+*com.knubisoft.tasks.algorithm.sorting.SortTRAITG
+=src/main/java/com/knubisoft/tasks/algorithm/sorting/Sort.java ("0
+package%com.knubisoft.tasks.algorithm.sorting"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"f
+declarationStringQ<mark class="modifier">public </mark><mark class="modifier">interface </mark>Sort"
+accesspublic*Sort2⁄
+Åcom.knubisoft.tasks.algorithm.sorting.Sort.sortKeysAndValues(java.util.Map<java.lang.Integer, java.util.List<java.lang.Integer>>)DECLARATIONG
+=src/main/java/com/knubisoft/tasks/algorithm/sorting/Sort.java  (1∂
+
+Åcom.knubisoft.tasks.algorithm.sorting.Sort.sortKeysAndValues(java.util.Map<java.lang.Integer, java.util.List<java.lang.Integer>>)METHODG
+=src/main/java/com/knubisoft/tasks/algorithm/sorting/Sort.java  (1"
+isFinalfalse"∞
+declarationStringö<mark class="modifier"> </mark>Map&lt;Integer<mark class="modifier"><mark class="modifier">,</mark></mark>List&lt;Integer&gt;&gt; <mark class="method">sortKeysAndValues</mark>(Map&lt;Integer<mark class="modifier"><mark class="modifier">,</mark></mark> List&lt;Integer&gt;&gt; input)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"#
+typeMap<Integer, List<Integer>>*sortKeysAndValues2ﬁ
+ácom.knubisoft.tasks.algorithm.sorting.Sort.sortKeysAndValues(java.util.Map<java.lang.Integer, java.util.List<java.lang.Integer>>)!input	PARAMETERG
+=src/main/java/com/knubisoft/tasks/algorithm/sorting/Sort.javaN (S2e
+java.util.MapRETURN_TYPEG
+=src/main/java/com/knubisoft/tasks/algorithm/sorting/Sort.java (2r
+java.lang.IntegerRETURN_TYPE_ARGUMENTG
+=src/main/java/com/knubisoft/tasks/algorithm/sorting/Sort.java (2o
+java.util.ListRETURN_TYPE_ARGUMENTG
+=src/main/java/com/knubisoft/tasks/algorithm/sorting/Sort.java (2r
+java.lang.IntegerRETURN_TYPE_ARGUMENTG
+=src/main/java/com/knubisoft/tasks/algorithm/sorting/Sort.java (¯
+ácom.knubisoft.tasks.algorithm.sorting.Sort.sortKeysAndValues(java.util.Map<java.lang.Integer, java.util.List<java.lang.Integer>>)!input	PARAMETERG
+=src/main/java/com/knubisoft/tasks/algorithm/sorting/Sort.javaN (S"#
+typeMap<Integer, List<Integer>>"
+isFinalfalse"6
+declarationString!Map<Integer, List<Integer>> input*input2^
+java.util.MapTYPEG
+=src/main/java/com/knubisoft/tasks/algorithm/sorting/Sort.java2 (52k
+java.lang.IntegerTYPE_ARGUMENTG
+=src/main/java/com/knubisoft/tasks/algorithm/sorting/Sort.java6 (=2h
+java.util.ListTYPE_ARGUMENTG
+=src/main/java/com/knubisoft/tasks/algorithm/sorting/Sort.java? (C2k
+java.lang.IntegerTYPE_ARGUMENTG
+=src/main/java/com/knubisoft/tasks/algorithm/sorting/Sort.javaD (K

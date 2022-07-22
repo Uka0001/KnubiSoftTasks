@@ -1,0 +1,45 @@
+
+Dsrc/main/java/com/knubisoft/tasks/algorithm/fibonacci/Fibonacci.java¸
+1com.knubisoft.tasks.algorithm.fibonacci.FibonacciTRAITN
+Dsrc/main/java/com/knubisoft/tasks/algorithm/fibonacci/Fibonacci.java ("2
+package'com.knubisoft.tasks.algorithm.fibonacci"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"k
+declarationStringV<mark class="modifier">public </mark><mark class="modifier">interface </mark>Fibonacci"
+accesspublic*	Fibonacci2°
+Qcom.knubisoft.tasks.algorithm.fibonacci.Fibonacci.generateNFibonacciSequence(int)DECLARATIONN
+Dsrc/main/java/com/knubisoft/tasks/algorithm/fibonacci/Fibonacci.java
+ 
+("õ
+Qcom.knubisoft.tasks.algorithm.fibonacci.Fibonacci.generateNFibonacciSequence(int)METHODN
+Dsrc/main/java/com/knubisoft/tasks/algorithm/fibonacci/Fibonacci.java
+ 
+(""
+isFinalfalse"²
+declarationStringœ<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">generateNFibonacciSequence</mark>(<mark class="modifier">int</mark> n)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*generateNFibonacciSequence2°
+Scom.knubisoft.tasks.algorithm.fibonacci.Fibonacci.generateNFibonacciSequence(int)!n	PARAMETERN
+Dsrc/main/java/com/knubisoft/tasks/algorithm/fibonacci/Fibonacci.java
+' 
+((2b
+intRETURN_TYPEN
+Dsrc/main/java/com/knubisoft/tasks/algorithm/fibonacci/Fibonacci.java
+ 
+(é
+Scom.knubisoft.tasks.algorithm.fibonacci.Fibonacci.generateNFibonacciSequence(int)!n	PARAMETERN
+Dsrc/main/java/com/knubisoft/tasks/algorithm/fibonacci/Fibonacci.java
+' 
+(("
+typeint"
+isFinalfalse"8
+declarationString#<mark class="modifier">int</mark> n*n2[
+intTYPEN
+Dsrc/main/java/com/knubisoft/tasks/algorithm/fibonacci/Fibonacci.java
+# 
+(&

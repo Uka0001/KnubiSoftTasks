@@ -1,0 +1,241 @@
+
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java¬
++com.knubisoft.base.numbers.NumbersTasksImplCLASSH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java ("%
+packagecom.knubisoft.base.numbers"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¨
+declarationString’<mark class="modifier">public </mark><mark class="modifier">class </mark>NumbersTasksImpl<mark class="modifier"><br>implements </mark>NumbersTasks"
+accesspublic*NumbersTasksImpl2º
+acom.knubisoft.base.numbers.NumbersTasksImpl.swapTwoNumbersWithoutUsingTemporaryVariable(int, int)DECLARATIONH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java (;2“
+:com.knubisoft.base.numbers.NumbersTasksImpl.isUglyInt(int)DECLARATIONH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java (2“
+:com.knubisoft.base.numbers.NumbersTasksImpl.addDigits(int)DECLARATIONH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java (2™
+@com.knubisoft.base.numbers.NumbersTasksImpl.isHarshadNumber(int)DECLARATIONH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java ("2‘
+8com.knubisoft.base.numbers.NumbersTasksImpl.isPrime(int)DECLARATIONH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java (2›
+Bcom.knubisoft.base.numbers.NumbersTasksImpl.isArmstrongNumber(int)DECLARATIONH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java   ($2“
+:com.knubisoft.base.numbers.NumbersTasksImpl.factorial(int)DECLARATIONH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java% %(2”
+;com.knubisoft.base.numbers.NumbersTasksImpl.palindrome(int)DECLARATIONH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java* *(2—
+>com.knubisoft.base.numbers.NumbersTasksImpl.isAutomorphic(int)DECLARATIONH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java/ /( 2{
+'com.knubisoft.base.numbers.NumbersTasksEXTENDH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java) (5Ñ
+
+acom.knubisoft.base.numbers.NumbersTasksImpl.swapTwoNumbersWithoutUsingTemporaryVariable(int, int)METHODH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java (;"
+isFinalfalse"î
+declarationStringØ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">swapTwoNumbersWithoutUsingTemporaryVariable</mark>(<mark class="modifier">int</mark> firstNumber<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> secondNumber)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*+swapTwoNumbersWithoutUsingTemporaryVariable2³
+]com.knubisoft.base.numbers.NumbersTasks.swapTwoNumbersWithoutUsingTemporaryVariable(int, int)OVERRIDEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java (;2Ä
+mcom.knubisoft.base.numbers.NumbersTasksImpl.swapTwoNumbersWithoutUsingTemporaryVariable(int, int)!firstNumber	PARAMETERH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java@ (K2Å
+ncom.knubisoft.base.numbers.NumbersTasksImpl.swapTwoNumbersWithoutUsingTemporaryVariable(int, int)!secondNumber	PARAMETERH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.javaQ (]2]
+voidRETURN_TYPEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java (‹
+mcom.knubisoft.base.numbers.NumbersTasksImpl.swapTwoNumbersWithoutUsingTemporaryVariable(int, int)!firstNumber	PARAMETERH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java@ (K"
+typeint"
+isFinalfalse"B
+declarationString-<mark class="modifier">int</mark> firstNumber*firstNumber2U
+intTYPEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java< (?Ž
+ncom.knubisoft.base.numbers.NumbersTasksImpl.swapTwoNumbersWithoutUsingTemporaryVariable(int, int)!secondNumber	PARAMETERH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.javaQ (]"
+typeint"
+isFinalfalse"C
+declarationString.<mark class="modifier">int</mark> secondNumber*secondNumber2U
+intTYPEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.javaM (Pã
+:com.knubisoft.base.numbers.NumbersTasksImpl.isUglyInt(int)METHODH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java ("
+isFinalfalse"Þ
+declarationStringÈ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isUglyInt</mark>(<mark class="modifier">int</mark> number)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*	isUglyInt2Œ
+6com.knubisoft.base.numbers.NumbersTasks.isUglyInt(int)OVERRIDEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java (2˜
+Acom.knubisoft.base.numbers.NumbersTasksImpl.isUglyInt(int)!number	PARAMETERH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java! ('2`
+booleanRETURN_TYPEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java (Õ
+Acom.knubisoft.base.numbers.NumbersTasksImpl.isUglyInt(int)!number	PARAMETERH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java! ('"
+typeint"
+isFinalfalse"=
+declarationString(<mark class="modifier">int</mark> number*number2U
+intTYPEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java ( ×
+:com.knubisoft.base.numbers.NumbersTasksImpl.addDigits(int)METHODH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java ("
+isFinalfalse"Ú
+declarationStringÄ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">addDigits</mark>(<mark class="modifier">int</mark> number)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*	addDigits2Œ
+6com.knubisoft.base.numbers.NumbersTasks.addDigits(int)OVERRIDEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java (2˜
+Acom.knubisoft.base.numbers.NumbersTasksImpl.addDigits(int)!number	PARAMETERH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java (#2\
+intRETURN_TYPEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java (Õ
+Acom.knubisoft.base.numbers.NumbersTasksImpl.addDigits(int)!number	PARAMETERH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java (#"
+typeint"
+isFinalfalse"=
+declarationString(<mark class="modifier">int</mark> number*number2U
+intTYPEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java (
+@com.knubisoft.base.numbers.NumbersTasksImpl.isHarshadNumber(int)METHODH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java (""
+isFinalfalse"ä
+declarationStringÎ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isHarshadNumber</mark>(<mark class="modifier">int</mark> number)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isHarshadNumber2’
+<com.knubisoft.base.numbers.NumbersTasks.isHarshadNumber(int)OVERRIDEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java ("2ž
+Gcom.knubisoft.base.numbers.NumbersTasksImpl.isHarshadNumber(int)!number	PARAMETERH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java' (-2`
+booleanRETURN_TYPEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java (Û
+Gcom.knubisoft.base.numbers.NumbersTasksImpl.isHarshadNumber(int)!number	PARAMETERH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java' (-"
+typeint"
+isFinalfalse"=
+declarationString(<mark class="modifier">int</mark> number*number2U
+intTYPEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java# (&Ù
+8com.knubisoft.base.numbers.NumbersTasksImpl.isPrime(int)METHODH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java ("
+isFinalfalse"Ü
+declarationStringÆ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isPrime</mark>(<mark class="modifier">int</mark> number)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isPrime2Š
+4com.knubisoft.base.numbers.NumbersTasks.isPrime(int)OVERRIDEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java (2–
+?com.knubisoft.base.numbers.NumbersTasksImpl.isPrime(int)!number	PARAMETERH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java (%2`
+booleanRETURN_TYPEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java (Ó
+?com.knubisoft.base.numbers.NumbersTasksImpl.isPrime(int)!number	PARAMETERH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java (%"
+typeint"
+isFinalfalse"=
+declarationString(<mark class="modifier">int</mark> number*number2U
+intTYPEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java (‹
+Bcom.knubisoft.base.numbers.NumbersTasksImpl.isArmstrongNumber(int)METHODH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java   ($"
+isFinalfalse"æ
+declarationStringÐ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isArmstrongNumber</mark>(<mark class="modifier">int</mark> number)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isArmstrongNumber2”
+>com.knubisoft.base.numbers.NumbersTasks.isArmstrongNumber(int)OVERRIDEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java   ($2 
+Icom.knubisoft.base.numbers.NumbersTasksImpl.isArmstrongNumber(int)!number	PARAMETERH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java )  (/2`
+booleanRETURN_TYPEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java   (Ý
+Icom.knubisoft.base.numbers.NumbersTasksImpl.isArmstrongNumber(int)!number	PARAMETERH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java )  (/"
+typeint"
+isFinalfalse"=
+declarationString(<mark class="modifier">int</mark> number*number2U
+intTYPEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java %  ((Ø
+:com.knubisoft.base.numbers.NumbersTasksImpl.factorial(int)METHODH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java% %("
+isFinalfalse"Ã
+declarationString­<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>BigInteger <mark class="method">factorial</mark>(<mark class="modifier">int</mark> number)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+type
+BigInteger*	factorial2Œ
+6com.knubisoft.base.numbers.NumbersTasks.factorial(int)OVERRIDEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java% %(2˜
+Acom.knubisoft.base.numbers.NumbersTasksImpl.factorial(int)!number	PARAMETERH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java%$ %(*2m
+java.math.BigIntegerRETURN_TYPEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java% %(Õ
+Acom.knubisoft.base.numbers.NumbersTasksImpl.factorial(int)!number	PARAMETERH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java%$ %(*"
+typeint"
+isFinalfalse"=
+declarationString(<mark class="modifier">int</mark> number*number2U
+intTYPEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java%  %(#è
+;com.knubisoft.base.numbers.NumbersTasksImpl.palindrome(int)METHODH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java* *("
+isFinalfalse"ß
+declarationStringÉ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">palindrome</mark>(<mark class="modifier">int</mark> number)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*
+palindrome2
+7com.knubisoft.base.numbers.NumbersTasks.palindrome(int)OVERRIDEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java* *(2™
+Bcom.knubisoft.base.numbers.NumbersTasksImpl.palindrome(int)!number	PARAMETERH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java*" *((2`
+booleanRETURN_TYPEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java* *(Ö
+Bcom.knubisoft.base.numbers.NumbersTasksImpl.palindrome(int)!number	PARAMETERH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java*" *(("
+typeint"
+isFinalfalse"=
+declarationString(<mark class="modifier">int</mark> number*number2U
+intTYPEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java* *(!÷
+>com.knubisoft.base.numbers.NumbersTasksImpl.isAutomorphic(int)METHODH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java/ /( "
+isFinalfalse"â
+declarationStringÌ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isAutomorphic</mark>(<mark class="modifier">int</mark> number)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isAutomorphic2
+:com.knubisoft.base.numbers.NumbersTasks.isAutomorphic(int)OVERRIDEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java/ /( 2œ
+Ecom.knubisoft.base.numbers.NumbersTasksImpl.isAutomorphic(int)!number	PARAMETERH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java/% /(+2`
+booleanRETURN_TYPEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java/ /(Ù
+Ecom.knubisoft.base.numbers.NumbersTasksImpl.isAutomorphic(int)!number	PARAMETERH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java/% /(+"
+typeint"
+isFinalfalse"=
+declarationString(<mark class="modifier">int</mark> number*number2U
+intTYPEH
+>src/main/java/com/knubisoft/base/numbers/NumbersTasksImpl.java/! /($

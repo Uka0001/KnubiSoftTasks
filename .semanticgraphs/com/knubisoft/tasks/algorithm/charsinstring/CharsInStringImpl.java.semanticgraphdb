@@ -1,0 +1,42 @@
+
+Psrc/main/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImpl.javaØ
+=com.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplCLASSZ
+Psrc/main/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImpl.java ("6
+package+com.knubisoft.tasks.algorithm.charsinstring"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"ª
+declarationString”<mark class="modifier">public </mark><mark class="modifier">class </mark>CharsInStringImpl<mark class="modifier"><br>implements </mark>CharsInString"
+accesspublic*CharsInStringImpl2Ê
+_com.knubisoft.tasks.algorithm.charsinstring.CharsInStringImpl.charactersCount(java.lang.String)DECLARATIONZ
+Psrc/main/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImpl.java# (22Ÿ
+9com.knubisoft.tasks.algorithm.charsinstring.CharsInStringEXTENDZ
+Psrc/main/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImpl.java* (7â
+
+_com.knubisoft.tasks.algorithm.charsinstring.CharsInStringImpl.charactersCount(java.lang.String)METHODZ
+Psrc/main/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImpl.java# (2"
+isFinalfalse"ú
+declarationStringä<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Map&lt;Character<mark class="modifier"><mark class="modifier">,</mark></mark>Integer&gt; <mark class="method">charactersCount</mark>(String text)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeMap<Character, Integer>*charactersCount2Ã
+[com.knubisoft.tasks.algorithm.charsinstring.CharsInString.charactersCount(java.lang.String)OVERRIDEZ
+Psrc/main/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImpl.java# (22Í
+dcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImpl.charactersCount(java.lang.String)!text	PARAMETERZ
+Psrc/main/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImpl.java: (>2x
+java.util.MapRETURN_TYPEZ
+Psrc/main/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImpl.java (2‡
+java.lang.CharacterRETURN_TYPE_ARGUMENTZ
+Psrc/main/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImpl.java (2…
+java.lang.IntegerRETURN_TYPE_ARGUMENTZ
+Psrc/main/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImpl.java (!
+dcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImpl.charactersCount(java.lang.String)!text	PARAMETERZ
+Psrc/main/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImpl.java: (>"
+typeString"
+isFinalfalse" 
+declarationStringString text*text2t
+java.lang.StringTYPEZ
+Psrc/main/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImpl.java3 (9

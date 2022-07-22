@@ -1,0 +1,253 @@
+
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.javaì
+Acom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTestCLASS^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java ("6
+package+com.knubisoft.tasks.algorithm.charsinstring"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"m
+declarationStringX<mark class="modifier"> </mark><mark class="modifier">class </mark>CharsInStringImplTest"
+accesspackage_private*CharsInStringImplTest2¬
+Scom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.charactersCount()DECLARATION^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java	 (2æ
+Ocom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()DECLARATION^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java2 (=2 
+[com.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest?charsInString@13.32:13.45DECLARATION^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java  (-é
+Scom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.charactersCount()METHOD^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java	 ("
+isFinalfalse"Ø
+declarationStringô<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">charactersCount</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*charactersCount2∑
+Ocom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java; (F2…
+acom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.charactersCount()?x@17.17:17.18CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (2…
+acom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.charactersCount()?x@17.17:17.18CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java  (!2Œ
+fcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.charactersCount()?result@18.50:18.56CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (2√
+[com.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest?charsInString@13.32:13.45CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (&2Œ
+fcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.charactersCount()?result@18.50:18.56CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java7 (=2Œ
+fcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.charactersCount()?result@18.50:18.56CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.javaJ (P2–
+acom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.charactersCount()?x@17.17:17.18DECLARATION^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (2’
+fcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.charactersCount()?result@18.50:18.56DECLARATION^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java2 (82s
+voidRETURN_TYPE^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (⁄
+acom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.charactersCount()?x@17.17:17.18VARIABLE^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java ("
+typeint"
+isFinalfalse"|
+declarationStringg<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">x</mark> = 0*x2k
+intTYPE^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (á
+
+fcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.charactersCount()?result@18.50:18.56VARIABLE^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java2 (8"-
+type%Pair<String, Map<Character, Integer>>"
+isFinalfalse"ë
+declarationString|<mark class="modifier"> </mark>Pair<String, Map<Character, Integer>> <mark class="class-field">result</mark> = generateSeq()*result2ã
+#org.apache.commons.lang3.tuple.PairTYPE^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (2Å
+java.lang.StringTYPE_ARGUMENT^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (2~
+java.util.MapTYPE_ARGUMENT^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (2Ñ
+java.lang.CharacterTYPE_ARGUMENT^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (&2Ç
+java.lang.IntegerTYPE_ARGUMENT^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java( (/2∑
+Ocom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java; (Fﬁ?
+Ocom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()METHOD^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java2 (="
+isFinalfalse"ç
+declarationString˜<mark class="modifier">private </mark>Pair&lt;String<mark class="modifier"><mark class="modifier">,</mark></mark>Map&lt;Character<mark class="modifier"><mark class="modifier">,</mark></mark>Integer&gt;&gt; <mark class="method">generateSeq</mark>()"
+isStaticfalse"
+accessprivate"
+
+isAbstractfalse"-
+type%Pair<String, Map<Character, Integer>>*generateSeq2Ñ
+java.lang.String.charAt(int)CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java. (42Ö
+java.util.Random.nextInt(int)CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java< (C2Å
+java.lang.String.length()CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.javaT (Z2ì
++java.util.Map.containsKey(java.lang.Object)CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java   ($2ã
+#java.util.Map.get(java.lang.Object)CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java!% !((2
+java.util.Map.put(K, V)CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java" "(2
+java.util.Map.put(K, V)CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java$ $(2å
+$java.lang.StringBuilder.append(char)CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java' '(2ä
+"java.lang.StringBuilder.toString()CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java) )(!2Å
+java.util.Random.Random()CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java ("2É
+java.util.HashMap.HashMap()CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java/ (82è
+'java.lang.StringBuilder.StringBuilder()CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (+2…
+acom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?index@29.17:29.22CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (!2…
+acom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?index@29.17:29.22CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java( (-2”
+kcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?setOfCharacters@26.15:26.30CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (-2 
+bcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?random@25.15:25.21CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java5 (;2”
+kcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?setOfCharacters@26.15:26.30CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.javaD (S2Ã
+dcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?expected@27.32:27.40CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java   (2Œ
+fcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?randomChar@30.17:30.27CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java %  (/2Ã
+dcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?expected@27.32:27.40CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java! !($2Œ
+fcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?randomChar@30.17:30.27CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java!) !(32Ã
+dcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?expected@27.32:27.40CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java" "(2Œ
+fcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?randomChar@30.17:30.27CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java" "('2≈
+]com.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?v@33.24:33.25CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java") "(*2Ã
+dcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?expected@27.32:27.40CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java$ $(2Œ
+fcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?randomChar@30.17:30.27CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java$ $('2≈
+]com.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?b@28.22:28.23CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java' '(2Œ
+fcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?randomChar@30.17:30.27CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java' '(2≈
+]com.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?b@28.22:28.23CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java) )(2Ã
+dcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?expected@27.32:27.40CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java)% )(-2—
+bcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?random@25.15:25.21DECLARATION^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (2⁄
+kcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?setOfCharacters@26.15:26.30DECLARATION^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (2”
+dcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?expected@27.32:27.40DECLARATION^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java  ((2Ã
+]com.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?b@28.22:28.23DECLARATION^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (2–
+acom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?index@29.17:29.22DECLARATION^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (2’
+fcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?randomChar@30.17:30.27DECLARATION^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (2Ã
+]com.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?v@33.24:33.25DECLARATION^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java! !(2í
+#org.apache.commons.lang3.tuple.PairRETURN_TYPE^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (2à
+java.lang.StringRETURN_TYPE_ARGUMENT^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (2Ö
+java.util.MapRETURN_TYPE_ARGUMENT^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (2ã
+java.lang.CharacterRETURN_TYPE_ARGUMENT^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (&2â
+java.lang.IntegerRETURN_TYPE_ARGUMENT^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java( (/È
+bcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?random@25.15:25.21VARIABLE^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java ("
+typeRandom"
+isFinalfalse"q
+declarationString\<mark class="modifier"> </mark>Random <mark class="class-field">random</mark> = new Random()*random2x
+java.util.RandomTYPE^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (2Å
+java.util.Random.Random()CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java ("≤
+kcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?setOfCharacters@26.15:26.30VARIABLE^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java ("
+typeString"
+isFinalfalse"´
+declarationStringï<mark class="modifier"> </mark>String <mark class="class-field">setOfCharacters</mark> = "abcdefghxyz1234567-/@ansbdjh123uiy1i1290389!@#$%^&*()<>:L "*setOfCharacters2x
+java.lang.StringTYPE^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (†
+dcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?expected@27.32:27.40VARIABLE^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java  (("
+typeMap<Character, Integer>"
+isFinalfalse"á
+declarationStringr<mark class="modifier"> </mark>Map<Character, Integer> <mark class="class-field">expected</mark> = new HashMap<>()*expected2u
+java.util.MapTYPE^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (2Ñ
+java.lang.CharacterTYPE_ARGUMENT^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (2Ç
+java.lang.IntegerTYPE_ARGUMENT^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (2É
+java.util.HashMap.HashMap()CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java/ (8Ñ
+]com.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?b@28.22:28.23VARIABLE^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java ("
+typeStringBuilder"
+isFinalfalse"z
+declarationStringe<mark class="modifier"> </mark>StringBuilder <mark class="class-field">b</mark> = new StringBuilder()*b2
+java.lang.StringBuilderTYPE^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (2è
+'java.lang.StringBuilder.StringBuilder()CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (+„
+acom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?index@29.17:29.22VARIABLE^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java ("
+typeint"
+isFinalfalse"Ä
+declarationStringk<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">index</mark> = 0*index2k
+intTYPE^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (£
+fcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?randomChar@30.17:30.27VARIABLE^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java ("
+typechar"
+isFinalfalse"®
+declarationStringí<mark class="modifier"> </mark>char <mark class="class-field">randomChar</mark> = setOfCharacters.charAt(random.nextInt(setOfCharacters.length()))*
+randomChar2l
+charTYPE^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (2Ñ
+java.lang.String.charAt(int)CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java. (42Ö
+java.util.Random.nextInt(int)CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java< (C2Å
+java.lang.String.length()CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.javaT (Z2”
+kcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?setOfCharacters@26.15:26.30CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (-2 
+bcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?random@25.15:25.21CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java5 (;2”
+kcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?setOfCharacters@26.15:26.30CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.javaD (Sì
+]com.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?v@33.24:33.25VARIABLE^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java! !("
+typeInteger"
+isFinalfalse"y
+declarationStringd<mark class="modifier"> </mark>Integer <mark class="class-field">v</mark> = expected.get(randomChar)*v2y
+java.lang.IntegerTYPE^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java! !(2ã
+#java.util.Map.get(java.lang.Object)CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java!% !((2Ã
+dcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?expected@27.32:27.40CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java! !($2Œ
+fcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest.generateSeq()?randomChar@30.17:30.27CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java!) !(3ª
+[com.knubisoft.tasks.algorithm.charsinstring.CharsInStringImplTest?charsInString@13.32:13.45VALUE^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java  (-"
+isFinaltrue"
+typeCharsInString"∑
+declarationString°<mark class="modifier">private </mark><mark class="modifier">final </mark>CharsInString <mark class="class-field">charsInString</mark> = new CharsInStringImpl();"
+isStaticfalse"
+accessprivate*charsInString2°
+9com.knubisoft.tasks.algorithm.charsinstring.CharsInStringTYPE^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java (2π
+Qcom.knubisoft.tasks.algorithm.charsinstring.CharsInStringImpl.CharsInStringImpl()CALL^
+Tsrc/test/java/com/knubisoft/tasks/algorithm/charsinstring/CharsInStringImplTest.java4 (E

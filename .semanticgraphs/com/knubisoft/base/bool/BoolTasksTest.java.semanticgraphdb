@@ -1,0 +1,398 @@
+
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaï
+%com.knubisoft.base.bool.BoolTasksTestCLASSB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java (""
+packagecom.knubisoft.base.bool"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"k
+declarationStringV<mark class="modifier">public </mark><mark class="modifier">class </mark>BoolTasksTest"
+accesspublic*BoolTasksTest2í
+?com.knubisoft.base.bool.BoolTasksTest.isTrueAutoboxSuccessful()DECLARATIONB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java ('2å
+9com.knubisoft.base.bool.BoolTasksTest.isTrueAutoboxFail()DECLARATIONB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java (!2ì
+@com.knubisoft.base.bool.BoolTasksTest.isFalseAutoboxSuccessful()DECLARATIONB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java ((2ç
+:com.knubisoft.base.bool.BoolTasksTest.isFalseAutoboxFail()DECLARATIONB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java ("2ë
+>com.knubisoft.base.bool.BoolTasksTest.isFalseUnboxSuccessful()DECLARATIONB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java   (&2ã
+8com.knubisoft.base.bool.BoolTasksTest.isFalseUnboxFail()DECLARATIONB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java% %( 2ê
+=com.knubisoft.base.bool.BoolTasksTest.isTrueUnboxSuccessful()DECLARATIONB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java* *(%2ä
+7com.knubisoft.base.bool.BoolTasksTest.isTrueUnboxFail()DECLARATIONB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java/ /(2ê
+=com.knubisoft.base.bool.BoolTasksTest.andFunctionSuccessful()DECLARATIONB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java4 4(%2ä
+7com.knubisoft.base.bool.BoolTasksTest.andFunctionFail()DECLARATIONB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java; ;(2è
+<com.knubisoft.base.bool.BoolTasksTest.orFunctionSuccessful()DECLARATIONB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaC C($2â
+6com.knubisoft.base.bool.BoolTasksTest.orFunctionFail()DECLARATIONB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaJ J(2î
+Acom.knubisoft.base.bool.BoolTasksTest.isSameSizeArraySuccessful()DECLARATIONB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaT T()2é
+;com.knubisoft.base.bool.BoolTasksTest.isSameSizeArrayFail()DECLARATIONB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java[ [(#2ö
+Gcom.knubisoft.base.bool.BoolTasksTest.isSameCharactersCountSuccessful()DECLARATIONB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javae e(/2î
+Acom.knubisoft.base.bool.BoolTasksTest.isSameCharactersCountFail()DECLARATIONB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javak k()2ã
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22DECLARATIONB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java	 	(ß
+?com.knubisoft.base.bool.BoolTasksTest.isTrueAutoboxSuccessful()METHODB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java ('"
+isFinalfalse"Ω
+declarationStringß<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">isTrueAutoboxSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*isTrueAutoboxSuccessful2Ñ
+8com.knubisoft.base.bool.BoolTasks.isTrueAutobox(boolean)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java ()2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java (2W
+voidRETURN_TYPEB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java (ï
+9com.knubisoft.base.bool.BoolTasksTest.isTrueAutoboxFail()METHODB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java (!"
+isFinalfalse"∑
+declarationString°<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">isTrueAutoboxFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*isTrueAutoboxFail2Ñ
+8com.knubisoft.base.bool.BoolTasks.isTrueAutobox(boolean)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java (*2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java (2W
+voidRETURN_TYPEB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java (´
+@com.knubisoft.base.bool.BoolTasksTest.isFalseAutoboxSuccessful()METHODB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java (("
+isFinalfalse"æ
+declarationString®<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">isFalseAutoboxSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*isFalseAutoboxSuccessful2Ö
+9com.knubisoft.base.bool.BoolTasks.isFalseAutobox(boolean)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java (+2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java (2W
+voidRETURN_TYPEB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java (ô
+:com.knubisoft.base.bool.BoolTasksTest.isFalseAutoboxFail()METHODB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java (""
+isFinalfalse"∏
+declarationString¢<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">isFalseAutoboxFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*isFalseAutoboxFail2Ö
+9com.knubisoft.base.bool.BoolTasks.isFalseAutobox(boolean)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java (*2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java (2W
+voidRETURN_TYPEB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java (£
+>com.knubisoft.base.bool.BoolTasksTest.isFalseUnboxSuccessful()METHODB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java   (&"
+isFinalfalse"º
+declarationString¶<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">isFalseUnboxSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*isFalseUnboxSuccessful2É
+7com.knubisoft.base.bool.BoolTasks.isFalseUnbox(boolean)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java! !()2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java! !(2W
+voidRETURN_TYPEB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java   (ë
+8com.knubisoft.base.bool.BoolTasksTest.isFalseUnboxFail()METHODB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java% %( "
+isFinalfalse"∂
+declarationString†<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">isFalseUnboxFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*isFalseUnboxFail2É
+7com.knubisoft.base.bool.BoolTasks.isFalseUnbox(boolean)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java& &((2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java& &(2W
+voidRETURN_TYPEB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java% %(©
+=com.knubisoft.base.bool.BoolTasksTest.isTrueUnboxSuccessful()METHODB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java* *(%"
+isFinalfalse"ª
+declarationString•<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">isTrueUnboxSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*isTrueUnboxSuccessful2å
+@com.knubisoft.base.bool.BoolTasks.isTrueUnbox(java.lang.Boolean)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java+ +('2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java+ +(2W
+voidRETURN_TYPEB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java* *(ó
+7com.knubisoft.base.bool.BoolTasksTest.isTrueUnboxFail()METHODB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java/ /("
+isFinalfalse"µ
+declarationStringü<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">isTrueUnboxFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*isTrueUnboxFail2å
+@com.knubisoft.base.bool.BoolTasks.isTrueUnbox(java.lang.Boolean)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java0 0((2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java0 0(2W
+voidRETURN_TYPEB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java/ /(·
+
+=com.knubisoft.base.bool.BoolTasksTest.andFunctionSuccessful()METHODB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java4 4(%"
+isFinalfalse"ª
+declarationString•<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">andFunctionSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*andFunctionSuccessful2ê
+Dcom.knubisoft.base.bool.BoolTasks.andFunction(int, java.lang.String)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java5 5('2ê
+Dcom.knubisoft.base.bool.BoolTasks.andFunction(int, java.lang.String)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java6 6('2ê
+Dcom.knubisoft.base.bool.BoolTasks.andFunction(int, java.lang.String)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java7 7('2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java5 5(2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java6 6(2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java7 7(2W
+voidRETURN_TYPEB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java4 4(È
+7com.knubisoft.base.bool.BoolTasksTest.andFunctionFail()METHODB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java; ;("
+isFinalfalse"µ
+declarationStringü<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">andFunctionFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*andFunctionFail2ê
+Dcom.knubisoft.base.bool.BoolTasks.andFunction(int, java.lang.String)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java< <((2ê
+Dcom.knubisoft.base.bool.BoolTasks.andFunction(int, java.lang.String)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java= =((2ê
+Dcom.knubisoft.base.bool.BoolTasks.andFunction(int, java.lang.String)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java> >((2ê
+Dcom.knubisoft.base.bool.BoolTasks.andFunction(int, java.lang.String)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java? ?((2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java< <(2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java= =(2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java> >(2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java? ?(2W
+voidRETURN_TYPEB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java; ;(€
+
+<com.knubisoft.base.bool.BoolTasksTest.orFunctionSuccessful()METHODB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaC C($"
+isFinalfalse"∫
+declarationString§<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">orFunctionSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*orFunctionSuccessful2è
+Ccom.knubisoft.base.bool.BoolTasks.orFunction(int, java.lang.String)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaD D(&2è
+Ccom.knubisoft.base.bool.BoolTasks.orFunction(int, java.lang.String)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaE E(&2è
+Ccom.knubisoft.base.bool.BoolTasks.orFunction(int, java.lang.String)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaF F(&2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaD D(2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaE E(2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaF F(2W
+voidRETURN_TYPEB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaC C(î
+6com.knubisoft.base.bool.BoolTasksTest.orFunctionFail()METHODB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaJ J("
+isFinalfalse"¥
+declarationStringû<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">orFunctionFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*orFunctionFail2è
+Ccom.knubisoft.base.bool.BoolTasks.orFunction(int, java.lang.String)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaK K('2è
+Ccom.knubisoft.base.bool.BoolTasks.orFunction(int, java.lang.String)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaL L('2è
+Ccom.knubisoft.base.bool.BoolTasks.orFunction(int, java.lang.String)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaM M('2è
+Ccom.knubisoft.base.bool.BoolTasks.orFunction(int, java.lang.String)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaN N('2è
+Ccom.knubisoft.base.bool.BoolTasks.orFunction(int, java.lang.String)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaO O('2è
+Ccom.knubisoft.base.bool.BoolTasks.orFunction(int, java.lang.String)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaP P('2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaK K(2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaL L(2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaM M(2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaN N(2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaO O(2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaP P(2W
+voidRETURN_TYPEB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaJ J(Ø
+Acom.knubisoft.base.bool.BoolTasksTest.isSameSizeArraySuccessful()METHODB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaT T()"
+isFinalfalse"ø
+declarationString©<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">isSameSizeArraySuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*isSameSizeArraySuccessful2¶
+Zcom.knubisoft.base.bool.BoolTasks.isSameSizeArray(java.lang.Object[], java.lang.Object...)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaU U(+2¶
+Zcom.knubisoft.base.bool.BoolTasks.isSameSizeArray(java.lang.Object[], java.lang.Object...)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaV V(+2¶
+Zcom.knubisoft.base.bool.BoolTasks.isSameSizeArray(java.lang.Object[], java.lang.Object...)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaW W(+2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaU U(2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaV V(2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaW W(2W
+voidRETURN_TYPEB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaT T(≠
+;com.knubisoft.base.bool.BoolTasksTest.isSameSizeArrayFail()METHODB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java[ [(#"
+isFinalfalse"π
+declarationString£<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">isSameSizeArrayFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*isSameSizeArrayFail2¶
+Zcom.knubisoft.base.bool.BoolTasks.isSameSizeArray(java.lang.Object[], java.lang.Object...)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java\ \(,2¶
+Zcom.knubisoft.base.bool.BoolTasks.isSameSizeArray(java.lang.Object[], java.lang.Object...)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java] ](,2¶
+Zcom.knubisoft.base.bool.BoolTasks.isSameSizeArray(java.lang.Object[], java.lang.Object...)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java^ ^(,2¶
+Zcom.knubisoft.base.bool.BoolTasks.isSameSizeArray(java.lang.Object[], java.lang.Object...)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java_ _(,2¶
+Zcom.knubisoft.base.bool.BoolTasks.isSameSizeArray(java.lang.Object[], java.lang.Object...)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java` `(,2¶
+Zcom.knubisoft.base.bool.BoolTasks.isSameSizeArray(java.lang.Object[], java.lang.Object...)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaa a(,2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java\ \(2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java] ](2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java^ ^(2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java_ _(2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java` `(2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaa a(2W
+voidRETURN_TYPEB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java[ [(ù	
+Gcom.knubisoft.base.bool.BoolTasksTest.isSameCharactersCountSuccessful()METHODB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javae e(/"
+isFinalfalse"≈
+declarationStringØ<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">isSameCharactersCountSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*isSameCharactersCountSuccessful2¨
+`com.knubisoft.base.bool.BoolTasks.isSameCharactersCount(java.lang.String, java.lang.String, int)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaf f(12¨
+`com.knubisoft.base.bool.BoolTasks.isSameCharactersCount(java.lang.String, java.lang.String, int)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javag g(12Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaf f(2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javag g(2W
+voidRETURN_TYPEB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javae e(„
+Acom.knubisoft.base.bool.BoolTasksTest.isSameCharactersCountFail()METHODB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javak k()"
+isFinalfalse"ø
+declarationString©<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">isSameCharactersCountFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*isSameCharactersCountFail2¨
+`com.knubisoft.base.bool.BoolTasks.isSameCharactersCount(java.lang.String, java.lang.String, int)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javal l(22¨
+`com.knubisoft.base.bool.BoolTasks.isSameCharactersCount(java.lang.String, java.lang.String, int)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javam m(22¨
+`com.knubisoft.base.bool.BoolTasks.isSameCharactersCount(java.lang.String, java.lang.String, int)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javan n(22¨
+`com.knubisoft.base.bool.BoolTasks.isSameCharactersCount(java.lang.String, java.lang.String, int)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javao o(22¨
+`com.knubisoft.base.bool.BoolTasks.isSameCharactersCount(java.lang.String, java.lang.String, int)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javap p(22¨
+`com.knubisoft.base.bool.BoolTasks.isSameCharactersCount(java.lang.String, java.lang.String, int)CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaq q(22Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javal l(2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javam m(2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javan n(2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javao o(2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javap p(2Ñ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javaq q(2W
+voidRETURN_TYPEB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.javak k(ÿ
+8com.knubisoft.base.bool.BoolTasksTest?instance@9.14:9.22VARIABLEB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java	 	("
+isFinalfalse"
+type	BoolTasks"~
+declarationStringi<mark class="modifier"> </mark>BoolTasks <mark class="class-field">instance</mark> = new BoolTasksImpl();"
+isStaticfalse"
+accesspackage_private*instance2m
+!com.knubisoft.base.bool.BoolTasksTYPEB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java	 	(2Å
+5com.knubisoft.base.bool.BoolTasksImpl.BoolTasksImpl()CALLB
+8src/test/java/com/knubisoft/base/bool/BoolTasksTest.java	 	(*

@@ -1,0 +1,42 @@
+
+>src/main/java/com/knubisoft/tasks/algorithm/search/Search.javaí
++com.knubisoft.tasks.algorithm.search.SearchTRAITH
+>src/main/java/com/knubisoft/tasks/algorithm/search/Search.java ("/
+package$com.knubisoft.tasks.algorithm.search"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"h
+declarationStringS<mark class="modifier">public </mark><mark class="modifier">interface </mark>Search"
+accesspublic*Search2ü
+Fcom.knubisoft.tasks.algorithm.search.Search.binarySearch(long[], long)DECLARATIONH
+>src/main/java/com/knubisoft/tasks/algorithm/search/Search.java (¿
+Fcom.knubisoft.tasks.algorithm.search.Search.binarySearch(long[], long)METHODH
+>src/main/java/com/knubisoft/tasks/algorithm/search/Search.java ("
+isFinalfalse"ç
+declarationString˜<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="method">binarySearch</mark>(<mark class="modifier">long</mark>[] array<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">long</mark> v)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeint*binarySearch2£
+Lcom.knubisoft.tasks.algorithm.search.Search.binarySearch(long[], long)!array	PARAMETERH
+>src/main/java/com/knubisoft/tasks/algorithm/search/Search.java (!2ü
+Hcom.knubisoft.tasks.algorithm.search.Search.binarySearch(long[], long)!v	PARAMETERH
+>src/main/java/com/knubisoft/tasks/algorithm/search/Search.java( ()2\
+intRETURN_TYPEH
+>src/main/java/com/knubisoft/tasks/algorithm/search/Search.java (Á
+Lcom.knubisoft.tasks.algorithm.search.Search.binarySearch(long[], long)!array	PARAMETERH
+>src/main/java/com/knubisoft/tasks/algorithm/search/Search.java (!"
+typelong[]"
+isFinalfalse"?
+declarationString*<mark class="modifier">long</mark>[] array*array2X
+long[]TYPEH
+>src/main/java/com/knubisoft/tasks/algorithm/search/Search.java (’
+Hcom.knubisoft.tasks.algorithm.search.Search.binarySearch(long[], long)!v	PARAMETERH
+>src/main/java/com/knubisoft/tasks/algorithm/search/Search.java( ()"
+typelong"
+isFinalfalse"9
+declarationString$<mark class="modifier">long</mark> v*v2V
+longTYPEH
+>src/main/java/com/knubisoft/tasks/algorithm/search/Search.java# ('

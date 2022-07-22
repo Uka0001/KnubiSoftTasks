@@ -1,0 +1,378 @@
+
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java—
+1com.knubisoft.base.reflection.ReflectionTasksTestCLASSN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java ( "(
+packagecom.knubisoft.base.reflection"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"q
+declarationString\<mark class="modifier">public </mark><mark class="modifier">class </mark>ReflectionTasksTest"
+accesspublic*ReflectionTasksTest2∂
+Wcom.knubisoft.base.reflection.ReflectionTasksTest.createNewInstanceForClassSuccessful()DECLARATIONN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java (32∞
+Qcom.knubisoft.base.reflection.ReflectionTasksTest.createNewInstanceForClassFail()DECLARATIONN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java (-2ª
+\com.knubisoft.base.reflection.ReflectionTasksTest.findImplementationForInterfaceSuccessful()DECLARATIONN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java& &(82µ
+Vcom.knubisoft.base.reflection.ReflectionTasksTest.findImplementationForInterfaceFail()DECLARATIONN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java. .(22≤
+Scom.knubisoft.base.reflection.ReflectionTasksTest.findAllFieldsForClassSuccessful()DECLARATIONN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java9 9(/2¨
+Mcom.knubisoft.base.reflection.ReflectionTasksTest.findAllFieldsForClassFail()DECLARATIONN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaE E()2∑
+Xcom.knubisoft.base.reflection.ReflectionTasksTest.countPrivateMethodsInClassSuccessful()DECLARATIONN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaK K(42±
+Rcom.knubisoft.base.reflection.ReflectionTasksTest.countPrivateMethodsInClassFail()DECLARATIONN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaT T(.2µ
+Vcom.knubisoft.base.reflection.ReflectionTasksTest.evaluateMethodByNameArgsSuccessful()DECLARATIONN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaY Y(22Ø
+Pcom.knubisoft.base.reflection.ReflectionTasksTest.evaluateMethodByNameArgsFail()DECLARATIONN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javae e(,2•
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28DECLARATIONN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java (ô
+Wcom.knubisoft.base.reflection.ReflectionTasksTest.createNewInstanceForClassSuccessful()METHODN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java (3"
+isFinalfalse"÷
+declarationString¿ <br><mark class="annotation">@SneakyThrows</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">createNewInstanceForClassSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*#createNewInstanceForClassSuccessful2Å
+)java.lang.Class.forName(java.lang.String)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java (&2s
+java.lang.Object.getClass()CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaZ (b2≥
+[com.knubisoft.base.reflection.ReflectionTasks.createNewInstanceForClass(java.lang.Class<?>)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java9 (R2s
+java.lang.Object.getClass()CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaN (V2≥
+[com.knubisoft.base.reflection.ReflectionTasks.createNewInstanceForClass(java.lang.Class<?>)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java (22û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java0 (82¡
+icom.knubisoft.base.reflection.ReflectionTasksTest.createNewInstanceForClassSuccessful()?clazz@21.17:21.22CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaS (X2û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java (2»
+icom.knubisoft.base.reflection.ReflectionTasksTest.createNewInstanceForClassSuccessful()?clazz@21.17:21.22DECLARATIONN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java (2c
+voidRETURN_TYPEN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java (è
+icom.knubisoft.base.reflection.ReflectionTasksTest.createNewInstanceForClassSuccessful()?clazz@21.17:21.22VARIABLEN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java ("
+typeClass<?>"
+isFinalfalse"Ø
+declarationStringô<mark class="modifier"> </mark>Class<?> <mark class="class-field">clazz</mark> = Class.forName("com.knubisoft.base.reflection.model.InheritedEntryModel")*clazz2g
+java.lang.ClassTYPEN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java (2Å
+)java.lang.Class.forName(java.lang.String)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java (&Ë
+Qcom.knubisoft.base.reflection.ReflectionTasksTest.createNewInstanceForClassFail()METHODN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java (-"
+isFinalfalse"–
+declarationString∫ <br><mark class="annotation">@SneakyThrows</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">createNewInstanceForClassFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*createNewInstanceForClassFail2Å
+)java.lang.Class.forName(java.lang.String)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java (&2≥
+[com.knubisoft.base.reflection.ReflectionTasks.createNewInstanceForClass(java.lang.Class<?>)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java< (U2≥
+[com.knubisoft.base.reflection.ReflectionTasks.createNewInstanceForClass(java.lang.Class<?>)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java <  (U2≥
+[com.knubisoft.base.reflection.ReflectionTasks.createNewInstanceForClass(java.lang.Class<?>)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java!B !([2û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java3 (;2ª
+ccom.knubisoft.base.reflection.ReflectionTasksTest.createNewInstanceForClassFail()?clazz@30.17:30.22CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaV ([2û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java 3  (;2û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java!9 !(A2¬
+ccom.knubisoft.base.reflection.ReflectionTasksTest.createNewInstanceForClassFail()?clazz@30.17:30.22DECLARATIONN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java (2c
+voidRETURN_TYPEN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java (ˇ
+ccom.knubisoft.base.reflection.ReflectionTasksTest.createNewInstanceForClassFail()?clazz@30.17:30.22VARIABLEN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java ("
+typeClass<?>"
+isFinalfalse"•
+declarationStringè<mark class="modifier"> </mark>Class<?> <mark class="class-field">clazz</mark> = Class.forName("com.knubisoft.base.reflection.ReflectionTasks")*clazz2g
+java.lang.ClassTYPEN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java (2Å
+)java.lang.Class.forName(java.lang.String)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java (&“
+\com.knubisoft.base.reflection.ReflectionTasksTest.findImplementationForInterfaceSuccessful()METHODN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java& &(8"
+isFinalfalse"€
+declarationString≈ <br><mark class="annotation">@SneakyThrows</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">findImplementationForInterfaceSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*(findImplementationForInterfaceSuccessful2Å
+)java.lang.Class.forName(java.lang.String)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java' '(&2∏
+`com.knubisoft.base.reflection.ReflectionTasks.findImplementationForInterface(java.lang.Class<T>)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java(9 ((W2∏
+`com.knubisoft.base.reflection.ReflectionTasks.findImplementationForInterface(java.lang.Class<T>)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java)9 )(W2û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java(0 ((82∆
+ncom.knubisoft.base.reflection.ReflectionTasksTest.findImplementationForInterfaceSuccessful()?clazz@39.17:39.22CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java(X ((]2û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java)0 )(82Õ
+ncom.knubisoft.base.reflection.ReflectionTasksTest.findImplementationForInterfaceSuccessful()?clazz@39.17:39.22DECLARATIONN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java' '(2c
+voidRETURN_TYPEN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java& &(ã
+ncom.knubisoft.base.reflection.ReflectionTasksTest.findImplementationForInterfaceSuccessful()?clazz@39.17:39.22VARIABLEN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java' '("
+typeClass<?>"
+isFinalfalse"¶
+declarationStringê<mark class="modifier"> </mark>Class<?> <mark class="class-field">clazz</mark> = Class.forName("com.knubisoft.base.reflection.model.EntryModel")*clazz2g
+java.lang.ClassTYPEN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java' '(2Å
+)java.lang.Class.forName(java.lang.String)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java' '(&ê
+Vcom.knubisoft.base.reflection.ReflectionTasksTest.findImplementationForInterfaceFail()METHODN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java. .(2"
+isFinalfalse"’
+declarationStringø <br><mark class="annotation">@SneakyThrows</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">findImplementationForInterfaceFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*"findImplementationForInterfaceFail2Å
+)java.lang.Class.forName(java.lang.String)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java/ /(&2∏
+`com.knubisoft.base.reflection.ReflectionTasks.findImplementationForInterface(java.lang.Class<T>)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java1 1(=2∏
+`com.knubisoft.base.reflection.ReflectionTasks.findImplementationForInterface(java.lang.Class<T>)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java3 3(=2∏
+`com.knubisoft.base.reflection.ReflectionTasks.findImplementationForInterface(java.lang.Class<T>)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java4B 4(`2û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java1 1(2¿
+hcom.knubisoft.base.reflection.ReflectionTasksTest.findImplementationForInterfaceFail()?clazz@47.17:47.22CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java1> 1(C2û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java3 3(2û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java49 4(A2«
+hcom.knubisoft.base.reflection.ReflectionTasksTest.findImplementationForInterfaceFail()?clazz@47.17:47.22DECLARATIONN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java/ /(2c
+voidRETURN_TYPEN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java. .(Ñ
+hcom.knubisoft.base.reflection.ReflectionTasksTest.findImplementationForInterfaceFail()?clazz@47.17:47.22VARIABLEN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java/ /("
+typeClass<?>"
+isFinalfalse"•
+declarationStringè<mark class="modifier"> </mark>Class<?> <mark class="class-field">clazz</mark> = Class.forName("com.knubisoft.base.reflection.ReflectionTasks")*clazz2g
+java.lang.ClassTYPEN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java/ /(2Å
+)java.lang.Class.forName(java.lang.String)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java/ /(&Û
+Scom.knubisoft.base.reflection.ReflectionTasksTest.findAllFieldsForClassSuccessful()METHODN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java9 9(/"
+isFinalfalse"“
+declarationStringº <br><mark class="annotation">@SneakyThrows</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">findAllFieldsForClassSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*findAllFieldsForClassSuccessful2Å
+)java.lang.Class.forName(java.lang.String)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java: :(&2l
+java.util.Map.size()CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java;> ;(B2Ø
+Wcom.knubisoft.base.reflection.ReflectionTasks.findAllFieldsForClass(java.lang.Class<?>)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java;! ;(62l
+java.util.Map.size()CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java<N <(R2Ø
+Wcom.knubisoft.base.reflection.ReflectionTasks.findAllFieldsForClass(java.lang.Class<?>)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java<! <(62l
+java.util.Map.size()CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java=R =(V2Ø
+Wcom.knubisoft.base.reflection.ReflectionTasks.findAllFieldsForClass(java.lang.Class<?>)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java=! =(62l
+java.util.Map.size()CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java>J >(N2Ø
+Wcom.knubisoft.base.reflection.ReflectionTasks.findAllFieldsForClass(java.lang.Class<?>)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java>! >(62l
+java.util.Map.size()CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java?N ?(R2Ø
+Wcom.knubisoft.base.reflection.ReflectionTasks.findAllFieldsForClass(java.lang.Class<?>)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java?! ?(62l
+java.util.Map.size()CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java@R @(V2Ø
+Wcom.knubisoft.base.reflection.ReflectionTasks.findAllFieldsForClass(java.lang.Class<?>)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java@! @(62û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java; ;( 2Ω
+ecom.knubisoft.base.reflection.ReflectionTasksTest.findAllFieldsForClassSuccessful()?clazz@58.17:58.22CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java;7 ;(<2û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java< <( 2û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java= =( 2û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java> >( 2û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java? ?( 2û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java@ @( 2ƒ
+ecom.knubisoft.base.reflection.ReflectionTasksTest.findAllFieldsForClassSuccessful()?clazz@58.17:58.22DECLARATIONN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java: :(2c
+voidRETURN_TYPEN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java9 9(ã
+ecom.knubisoft.base.reflection.ReflectionTasksTest.findAllFieldsForClassSuccessful()?clazz@58.17:58.22VARIABLEN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java: :("
+typeClass<?>"
+isFinalfalse"Ø
+declarationStringô<mark class="modifier"> </mark>Class<?> <mark class="class-field">clazz</mark> = Class.forName("com.knubisoft.base.reflection.model.InheritedEntryModel")*clazz2g
+java.lang.ClassTYPEN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java: :(2Å
+)java.lang.Class.forName(java.lang.String)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java: :(&£
+Mcom.knubisoft.base.reflection.ReflectionTasksTest.findAllFieldsForClassFail()METHODN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaE E()"
+isFinalfalse"Ã
+declarationString∂ <br><mark class="annotation">@SneakyThrows</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">findAllFieldsForClassFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*findAllFieldsForClassFail2Ø
+Wcom.knubisoft.base.reflection.ReflectionTasks.findAllFieldsForClass(java.lang.Class<?>)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaFB F(W2û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaF9 F(A2c
+voidRETURN_TYPEN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaE E(é
+Xcom.knubisoft.base.reflection.ReflectionTasksTest.countPrivateMethodsInClassSuccessful()METHODN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaK K(4"
+isFinalfalse"◊
+declarationString¡ <br><mark class="annotation">@SneakyThrows</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">countPrivateMethodsInClassSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*$countPrivateMethodsInClassSuccessful2Å
+)java.lang.Class.forName(java.lang.String)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaL L(&2¥
+\com.knubisoft.base.reflection.ReflectionTasks.countPrivateMethodsInClass(java.lang.Class<?>)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaM! M(;2¥
+\com.knubisoft.base.reflection.ReflectionTasks.countPrivateMethodsInClass(java.lang.Class<?>)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaN! N(;2¥
+\com.knubisoft.base.reflection.ReflectionTasks.countPrivateMethodsInClass(java.lang.Class<?>)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaO! O(;2û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaM M( 2¬
+jcom.knubisoft.base.reflection.ReflectionTasksTest.countPrivateMethodsInClassSuccessful()?clazz@76.17:76.22CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaM< M(A2û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaN N( 2û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaO O( 2…
+jcom.knubisoft.base.reflection.ReflectionTasksTest.countPrivateMethodsInClassSuccessful()?clazz@76.17:76.22DECLARATIONN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaL L(2c
+voidRETURN_TYPEN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaK K(á
+jcom.knubisoft.base.reflection.ReflectionTasksTest.countPrivateMethodsInClassSuccessful()?clazz@76.17:76.22VARIABLEN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaL L("
+typeClass<?>"
+isFinalfalse"¶
+declarationStringê<mark class="modifier"> </mark>Class<?> <mark class="class-field">clazz</mark> = Class.forName("com.knubisoft.base.reflection.model.EntryModel")*clazz2g
+java.lang.ClassTYPEN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaL L(2Å
+)java.lang.Class.forName(java.lang.String)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaL L(&∑
+Rcom.knubisoft.base.reflection.ReflectionTasksTest.countPrivateMethodsInClassFail()METHODN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaT T(."
+isFinalfalse"—
+declarationStringª <br><mark class="annotation">@SneakyThrows</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">countPrivateMethodsInClassFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*countPrivateMethodsInClassFail2¥
+\com.knubisoft.base.reflection.ReflectionTasks.countPrivateMethodsInClass(java.lang.Class<?>)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaUB U(\2û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaU9 U(A2c
+voidRETURN_TYPEN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaT T(†
+Vcom.knubisoft.base.reflection.ReflectionTasksTest.evaluateMethodByNameArgsSuccessful()METHODN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaY Y(2"
+isFinalfalse"»
+declarationString≤<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">evaluateMethodByNameArgsSuccessful</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*"evaluateMethodByNameArgsSuccessful2‹
+Écom.knubisoft.base.reflection.ReflectionTasks.evaluateMethodWithArgsByName(java.lang.Object, java.lang.String, java.lang.Object...)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java[ [(52‹
+Écom.knubisoft.base.reflection.ReflectionTasks.evaluateMethodWithArgsByName(java.lang.Object, java.lang.String, java.lang.Object...)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java] ](52‹
+Écom.knubisoft.base.reflection.ReflectionTasks.evaluateMethodWithArgsByName(java.lang.Object, java.lang.String, java.lang.Object...)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java` `(52ì
+;com.knubisoft.base.string.StringTasksImpl.StringTasksImpl()CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java[: [(I2ì
+;com.knubisoft.base.string.StringTasksImpl.StringTasksImpl()CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java]: ](I2ì
+;com.knubisoft.base.string.StringTasksImpl.StringTasksImpl()CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java`: `(I2û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java[ [(2û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java] ](2û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java` `(2c
+voidRETURN_TYPEN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javaY Y(¯
+Pcom.knubisoft.base.reflection.ReflectionTasksTest.evaluateMethodByNameArgsFail()METHODN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javae e(,"
+isFinalfalse"¬
+declarationString¨<mark class="annotation">@Test</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">evaluateMethodByNameArgsFail</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*evaluateMethodByNameArgsFail2‹
+Écom.knubisoft.base.reflection.ReflectionTasks.evaluateMethodWithArgsByName(java.lang.Object, java.lang.String, java.lang.Object...)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javag g(;2‹
+Écom.knubisoft.base.reflection.ReflectionTasks.evaluateMethodWithArgsByName(java.lang.Object, java.lang.String, java.lang.Object...)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javai i(;2‹
+Écom.knubisoft.base.reflection.ReflectionTasks.evaluateMethodWithArgsByName(java.lang.Object, java.lang.String, java.lang.Object...)CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javak k(;2ì
+;com.knubisoft.base.string.StringTasksImpl.StringTasksImpl()CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javai@ i(O2ì
+;com.knubisoft.base.string.StringTasksImpl.StringTasksImpl()CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javak@ k(O2û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javag g(2û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javai i(2û
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javak k(2c
+voidRETURN_TYPEN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.javae e(º
+Fcom.knubisoft.base.reflection.ReflectionTasksTest?instance@16.20:16.28VARIABLEN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java ("
+isFinalfalse"
+typeReflectionTasks"ä
+declarationStringu<mark class="modifier"> </mark>ReflectionTasks <mark class="class-field">instance</mark> = new ReflectionTasksImpl();"
+isStaticfalse"
+accesspackage_private*instance2Ö
+-com.knubisoft.base.reflection.ReflectionTasksTYPEN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java (2ü
+Gcom.knubisoft.base.reflection.ReflectionTasksImpl.ReflectionTasksImpl()CALLN
+Dsrc/test/java/com/knubisoft/base/reflection/ReflectionTasksTest.java# (6

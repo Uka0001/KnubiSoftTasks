@@ -1,0 +1,199 @@
+
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.javaÂ	
+9com.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTestCLASSV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java
+ 
+("2
+package'com.knubisoft.tasks.algorithm.fibonacci"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"i
+declarationStringT<mark class="modifier"> </mark><mark class="modifier">class </mark>FibonacciImplTest"
+accesspackage_private*FibonacciImplTest2½
+Vcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.generateNFibonacciSequence()DECLARATIONV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java	 (#2Á
+Zcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.generateNFibonacciSequence1000()DECLARATIONV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java	 ('2Þ
+wcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.fib(int, java.util.Map<java.lang.Integer, java.lang.Integer>)DECLARATIONV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java" "(2¶
+Ocom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest?fibonacci@12.28:12.37DECLARATIONV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java (%»
+Vcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.generateNFibonacciSequence()METHODV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java	 (#"
+isFinalfalse"º
+declarationString¤<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">generateNFibonacciSequence</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*generateNFibonacciSequence2±
+Qcom.knubisoft.tasks.algorithm.fibonacci.Fibonacci.generateNFibonacciSequence(int)CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java# (=2×
+wcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.fib(int, java.util.Map<java.lang.Integer, java.lang.Integer>)CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.javaF (I2{
+java.util.HashMap.HashMap()CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java+ (42È
+hcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.generateNFibonacciSequence()?index@18.17:18.22CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java (!2È
+hcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.generateNFibonacciSequence()?index@18.17:18.22CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java( (-2¯
+Ocom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest?fibonacci@12.28:12.37CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java ("2È
+hcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.generateNFibonacciSequence()?index@18.17:18.22CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java> (C2È
+hcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.generateNFibonacciSequence()?index@18.17:18.22CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.javaJ (O2É
+icom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.generateNFibonacciSequence()?lookup@16.30:16.36CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.javaQ (W2Ð
+icom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.generateNFibonacciSequence()?lookup@16.30:16.36DECLARATIONV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java ($2Ï
+hcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.generateNFibonacciSequence()?index@18.17:18.22DECLARATIONV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java (2k
+voidRETURN_TYPEV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java (ð
+icom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.generateNFibonacciSequence()?lookup@16.30:16.36VARIABLEV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java ($"
+typeMap<Integer, Integer>"
+isFinalfalse"ƒ
+declarationStringn<mark class="modifier"> </mark>Map<Integer, Integer> <mark class="class-field">lookup</mark> = new HashMap<>()*lookup2m
+java.util.MapTYPEV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java (2z
+java.lang.IntegerTYPE_ARGUMENTV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java (2z
+java.lang.IntegerTYPE_ARGUMENTV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java (2{
+java.util.HashMap.HashMap()CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java+ (4Ú
+hcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.generateNFibonacciSequence()?index@18.17:18.22VARIABLEV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java ("
+typeint"
+isFinalfalse"€
+declarationStringk<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">index</mark> = 0*index2c
+intTYPEV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java (ñ
+Zcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.generateNFibonacciSequence1000()METHODV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java	 ('"
+isFinalfalse"Ì
+declarationString¶ fix me") <br><mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">generateNFibonacciSequence1000</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*generateNFibonacciSequence10002±
+Qcom.knubisoft.tasks.algorithm.fibonacci.Fibonacci.generateNFibonacciSequence(int)CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java# (=2×
+wcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.fib(int, java.util.Map<java.lang.Integer, java.lang.Integer>)CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.javaF (I2{
+java.util.HashMap.HashMap()CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java+ (42Ì
+lcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.generateNFibonacciSequence1000()?index@28.17:28.22CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java (!2Ì
+lcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.generateNFibonacciSequence1000()?index@28.17:28.22CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java* (/2¯
+Ocom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest?fibonacci@12.28:12.37CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java ("2Ì
+lcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.generateNFibonacciSequence1000()?index@28.17:28.22CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java> (C2Ì
+lcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.generateNFibonacciSequence1000()?index@28.17:28.22CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.javaJ (O2Í
+mcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.generateNFibonacciSequence1000()?lookup@26.30:26.36CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.javaQ (W2Ô
+mcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.generateNFibonacciSequence1000()?lookup@26.30:26.36DECLARATIONV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java ($2Ó
+lcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.generateNFibonacciSequence1000()?index@28.17:28.22DECLARATIONV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java (2k
+voidRETURN_TYPEV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java (ô
+mcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.generateNFibonacciSequence1000()?lookup@26.30:26.36VARIABLEV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java ($"
+typeMap<Integer, Integer>"
+isFinalfalse"ƒ
+declarationStringn<mark class="modifier"> </mark>Map<Integer, Integer> <mark class="class-field">lookup</mark> = new HashMap<>()*lookup2m
+java.util.MapTYPEV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java (2z
+java.lang.IntegerTYPE_ARGUMENTV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java (2z
+java.lang.IntegerTYPE_ARGUMENTV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java (2{
+java.util.HashMap.HashMap()CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java+ (4Þ
+lcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.generateNFibonacciSequence1000()?index@28.17:28.22VARIABLEV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java ("
+typeint"
+isFinalfalse"€
+declarationStringk<mark class="modifier"> </mark><mark class="modifier">int</mark> <mark class="class-field">index</mark> = 0*index2c
+intTYPEV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java (µ 
+wcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.fib(int, java.util.Map<java.lang.Integer, java.lang.Integer>)METHODV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java" "("
+isFinalfalse"â
+declarationStringÌ<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">int</mark> <mark class="method">fib</mark>(<mark class="modifier">int</mark> n<mark class="modifier"><mark class="modifier">,</mark></mark> Map&lt;Integer<mark class="modifier"><mark class="modifier">,</mark></mark> Integer&gt; lookup)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typeint*fib2
+java.util.Map.putIfAbsent(K, V)CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java& &(2×
+wcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.fib(int, java.util.Map<java.lang.Integer, java.lang.Integer>)CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java& &(!2×
+wcom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.fib(int, java.util.Map<java.lang.Integer, java.lang.Integer>)CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java&3 &(62ƒ
+#java.util.Map.get(java.lang.Object)CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java' '(2Ù
+ycom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.fib(int, java.util.Map<java.lang.Integer, java.lang.Integer>)!nCALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java# #(2Ù
+ycom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.fib(int, java.util.Map<java.lang.Integer, java.lang.Integer>)!nCALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java$ $(2Þ
+~com.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.fib(int, java.util.Map<java.lang.Integer, java.lang.Integer>)!lookupCALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java& &(2Ù
+ycom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.fib(int, java.util.Map<java.lang.Integer, java.lang.Integer>)!nCALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java& &(2Ù
+ycom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.fib(int, java.util.Map<java.lang.Integer, java.lang.Integer>)!nCALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java&" &(#2Þ
+~com.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.fib(int, java.util.Map<java.lang.Integer, java.lang.Integer>)!lookupCALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java&) &(/2Ù
+ycom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.fib(int, java.util.Map<java.lang.Integer, java.lang.Integer>)!nCALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java&7 &(82Þ
+~com.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.fib(int, java.util.Map<java.lang.Integer, java.lang.Integer>)!lookupCALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java&> &(D2Þ
+~com.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.fib(int, java.util.Map<java.lang.Integer, java.lang.Integer>)!lookupCALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java' '(2Ù
+ycom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.fib(int, java.util.Map<java.lang.Integer, java.lang.Integer>)!nCALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java' '(2Þ
+ycom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.fib(int, java.util.Map<java.lang.Integer, java.lang.Integer>)!n	PARAMETERV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java" "(2ã
+~com.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.fib(int, java.util.Map<java.lang.Integer, java.lang.Integer>)!lookup	PARAMETERV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java"7 "(=2j
+intRETURN_TYPEV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java" "(Ÿ
+ycom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.fib(int, java.util.Map<java.lang.Integer, java.lang.Integer>)!n	PARAMETERV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java" "("
+typeint"
+isFinalfalse"8
+declarationString#<mark class="modifier">int</mark> n*n2c
+intTYPEV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java" "(¶
+~com.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest.fib(int, java.util.Map<java.lang.Integer, java.lang.Integer>)!lookup	PARAMETERV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java"7 "(="
+typeMap<Integer, Integer>"
+isFinalfalse"1
+declarationStringMap<Integer, Integer> lookup*lookup2m
+java.util.MapTYPEV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java"! "($2z
+java.lang.IntegerTYPE_ARGUMENTV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java"% "(,2z
+java.lang.IntegerTYPE_ARGUMENTV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java". "(5ï
+Ocom.knubisoft.tasks.algorithm.fibonacci.FibonacciImplTest?fibonacci@12.28:12.37VALUEV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java (%"
+isFinaltrue"
+type	Fibonacci"«
+declarationString•<mark class="modifier">private </mark><mark class="modifier">final </mark>Fibonacci <mark class="class-field">fibonacci</mark> = new FibonacciImpl();"
+isStaticfalse"
+accessprivate*	fibonacci2‘
+1com.knubisoft.tasks.algorithm.fibonacci.FibonacciTYPEV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java (2¥
+Ecom.knubisoft.tasks.algorithm.fibonacci.FibonacciImpl.FibonacciImpl()CALLV
+Lsrc/test/java/com/knubisoft/tasks/algorithm/fibonacci/FibonacciImplTest.java, (9

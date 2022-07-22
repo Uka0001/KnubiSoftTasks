@@ -1,0 +1,90 @@
+
+Dsrc/main/java/com/knubisoft/base/validation/ValidationTasksImpl.java˙	
+1com.knubisoft.base.validation.ValidationTasksImplCLASSN
+Dsrc/main/java/com/knubisoft/base/validation/ValidationTasksImpl.java ( "(
+packagecom.knubisoft.base.validation"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Æ
+declarationStringò<mark class="modifier">public </mark><mark class="modifier">class </mark>ValidationTasksImpl<mark class="modifier"><br>implements </mark>ValidationTasks"
+accesspublic*ValidationTasksImpl2´
+Lcom.knubisoft.base.validation.ValidationTasksImpl.validate(java.lang.Object)DECLARATIONN
+Dsrc/main/java/com/knubisoft/base/validation/ValidationTasksImpl.java (2ú
+=com.knubisoft.base.validation.ValidationTasksImpl.buildUser()DECLARATIONN
+Dsrc/main/java/com/knubisoft/base/validation/ValidationTasksImpl.java
+ 
+(2™
+Kcom.knubisoft.base.validation.ValidationTasksImpl.buildUserGeneralDetails()DECLARATIONN
+Dsrc/main/java/com/knubisoft/base/validation/ValidationTasksImpl.java (52™
+Kcom.knubisoft.base.validation.ValidationTasksImpl.buildUserAddressDetails()DECLARATIONN
+Dsrc/main/java/com/knubisoft/base/validation/ValidationTasksImpl.java (52á
+-com.knubisoft.base.validation.ValidationTasksEXTENDN
+Dsrc/main/java/com/knubisoft/base/validation/ValidationTasksImpl.java, (;è
+Lcom.knubisoft.base.validation.ValidationTasksImpl.validate(java.lang.Object)METHODN
+Dsrc/main/java/com/knubisoft/base/validation/ValidationTasksImpl.java ("
+isFinalfalse"¡
+declarationString´<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">validate</mark>(Object instance)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*validate2§
+Hcom.knubisoft.base.validation.ValidationTasks.validate(java.lang.Object)OVERRIDEN
+Dsrc/main/java/com/knubisoft/base/validation/ValidationTasksImpl.java (2≤
+Ucom.knubisoft.base.validation.ValidationTasksImpl.validate(java.lang.Object)!instance	PARAMETERN
+Dsrc/main/java/com/knubisoft/base/validation/ValidationTasksImpl.java  ((2c
+voidRETURN_TYPEN
+Dsrc/main/java/com/knubisoft/base/validation/ValidationTasksImpl.java (Ó
+Ucom.knubisoft.base.validation.ValidationTasksImpl.validate(java.lang.Object)!instance	PARAMETERN
+Dsrc/main/java/com/knubisoft/base/validation/ValidationTasksImpl.java  (("
+typeObject"
+isFinalfalse"$
+declarationStringObject instance*instance2h
+java.lang.ObjectTYPEN
+Dsrc/main/java/com/knubisoft/base/validation/ValidationTasksImpl.java (ø
+=com.knubisoft.base.validation.ValidationTasksImpl.buildUser()METHODN
+Dsrc/main/java/com/knubisoft/base/validation/ValidationTasksImpl.java
+ 
+("
+isFinalfalse"î
+declarationString<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>User <mark class="method">buildUser</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeUser*	buildUser2ï
+9com.knubisoft.base.validation.ValidationTasks.buildUser()OVERRIDEN
+Dsrc/main/java/com/knubisoft/base/validation/ValidationTasksImpl.java
+ 
+(2ë
+2com.knubisoft.base.validation.ValidationTasks.UserRETURN_TYPEN
+Dsrc/main/java/com/knubisoft/base/validation/ValidationTasksImpl.java
+ 
+(¢
+Kcom.knubisoft.base.validation.ValidationTasksImpl.buildUserGeneralDetails()METHODN
+Dsrc/main/java/com/knubisoft/base/validation/ValidationTasksImpl.java (5"
+isFinalfalse"±
+declarationStringõ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>UserGeneralDetails <mark class="method">buildUserGeneralDetails</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeUserGeneralDetails*buildUserGeneralDetails2£
+Gcom.knubisoft.base.validation.ValidationTasks.buildUserGeneralDetails()OVERRIDEN
+Dsrc/main/java/com/knubisoft/base/validation/ValidationTasksImpl.java (52ü
+@com.knubisoft.base.validation.ValidationTasks.UserGeneralDetailsRETURN_TYPEN
+Dsrc/main/java/com/knubisoft/base/validation/ValidationTasksImpl.java (¢
+Kcom.knubisoft.base.validation.ValidationTasksImpl.buildUserAddressDetails()METHODN
+Dsrc/main/java/com/knubisoft/base/validation/ValidationTasksImpl.java (5"
+isFinalfalse"±
+declarationStringõ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>UserAddressDetails <mark class="method">buildUserAddressDetails</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeUserAddressDetails*buildUserAddressDetails2£
+Gcom.knubisoft.base.validation.ValidationTasks.buildUserAddressDetails()OVERRIDEN
+Dsrc/main/java/com/knubisoft/base/validation/ValidationTasksImpl.java (52ü
+@com.knubisoft.base.validation.ValidationTasks.UserAddressDetailsRETURN_TYPEN
+Dsrc/main/java/com/knubisoft/base/validation/ValidationTasksImpl.java (

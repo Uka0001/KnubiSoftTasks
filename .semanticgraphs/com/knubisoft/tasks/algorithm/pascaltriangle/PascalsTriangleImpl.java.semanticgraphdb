@@ -1,0 +1,40 @@
+
+Ssrc/main/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImpl.javaó
+@com.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangleImplCLASS]
+Ssrc/main/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImpl.java ( "7
+package,com.knubisoft.tasks.algorithm.pascaltriangle"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"®
+declarationString˜<mark class="modifier">public </mark><mark class="modifier">class </mark>PascalsTriangleImpl<mark class="modifier"><br>implements </mark>PascalsTriangle"
+accesspublic*PascalsTriangleImpl2Ò
+dcom.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangleImpl.calculateLineOfPascalsTriangle(int)DECLARATION]
+Ssrc/main/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImpl.java (72¥
+<com.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangleEXTEND]
+Ssrc/main/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImpl.java, (;í	
+dcom.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangleImpl.calculateLineOfPascalsTriangle(int)METHOD]
+Ssrc/main/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImpl.java (7"
+isFinalfalse"å
+declarationStringÏ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>List&lt;Integer&gt; <mark class="method">calculateLineOfPascalsTriangle</mark>(<mark class="modifier">int</mark> lineNumber)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<Integer>*calculateLineOfPascalsTriangle2Ë
+`com.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangle.calculateLineOfPascalsTriangle(int)OVERRIDE]
+Ssrc/main/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImpl.java (72Û
+ocom.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangleImpl.calculateLineOfPascalsTriangle(int)!lineNumber	PARAMETER]
+Ssrc/main/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImpl.java< (F2|
+java.util.ListRETURN_TYPE]
+Ssrc/main/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImpl.java (2ˆ
+java.lang.IntegerRETURN_TYPE_ARGUMENT]
+Ssrc/main/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImpl.java (µ
+ocom.knubisoft.tasks.algorithm.pascaltriangle.PascalsTriangleImpl.calculateLineOfPascalsTriangle(int)!lineNumber	PARAMETER]
+Ssrc/main/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImpl.java< (F"
+typeint"
+isFinalfalse"A
+declarationString,<mark class="modifier">int</mark> lineNumber*
+lineNumber2j
+intTYPE]
+Ssrc/main/java/com/knubisoft/tasks/algorithm/pascaltriangle/PascalsTriangleImpl.java8 (;

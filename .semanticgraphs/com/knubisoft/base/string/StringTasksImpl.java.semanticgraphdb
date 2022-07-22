@@ -1,0 +1,349 @@
+
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.javaˆ
+)com.knubisoft.base.string.StringTasksImplCLASSF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java ("$
+packagecom.knubisoft.base.string"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¦
+declarationString<mark class="modifier">public </mark><mark class="modifier">class </mark>StringTasksImpl<mark class="modifier"><br>implements </mark>StringTasks"
+accesspublic*StringTasksImpl2 
+Icom.knubisoft.base.string.StringTasksImpl.reverseString(java.lang.String)DECLARATIONF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java (2¹
+bcom.knubisoft.base.string.StringTasksImpl.insertStringInMiddle(java.lang.String, java.lang.String)DECLARATIONF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java
+ 
+(&2²
+[com.knubisoft.base.string.StringTasksImpl.insertSymbolInString(java.lang.String, char, int)DECLARATIONF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java (&2º
+ccom.knubisoft.base.string.StringTasksImpl.appendToString(java.lang.StringBuilder, java.lang.String)DECLARATIONF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java ( 2Ÿ
+Hcom.knubisoft.base.string.StringTasksImpl.isPalindrome(java.lang.String)DECLARATIONF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java (2Ÿ
+Hcom.knubisoft.base.string.StringTasksImpl.hasLowerCase(java.lang.String)DECLARATIONF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java (2£
+Lcom.knubisoft.base.string.StringTasksImpl.uniqueCharacters(java.lang.String)DECLARATIONF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java# #("2¬
+Ucom.knubisoft.base.string.StringTasksImpl.removeAllCharacters(java.lang.String, char)DECLARATIONF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java( ((%2ž
+Gcom.knubisoft.base.string.StringTasksImpl.toCamelCase(java.lang.String)DECLARATIONF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java- -(2«
+Tcom.knubisoft.base.string.StringTasksImpl.getCountRepeatableString(java.lang.String)DECLARATIONF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java2 2(*2ª
+Scom.knubisoft.base.string.StringTasksImpl.sortStringCharactersAsc(java.lang.String)DECLARATIONF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java7 7()2w
+%com.knubisoft.base.string.StringTasksEXTENDF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java( (3â
+Icom.knubisoft.base.string.StringTasksImpl.reverseString(java.lang.String)METHODF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java ("
+isFinalfalse"ª
+declarationString”<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">reverseString</mark>(String original)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*reverseString2™
+Ecom.knubisoft.base.string.StringTasks.reverseString(java.lang.String)OVERRIDEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java (2§
+Rcom.knubisoft.base.string.StringTasksImpl.reverseString(java.lang.String)!original	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java' (/2g
+java.lang.StringRETURN_TYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java (Û
+Rcom.knubisoft.base.string.StringTasksImpl.reverseString(java.lang.String)!original	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java' (/"
+typeString"
+isFinalfalse"$
+declarationStringString original*original2`
+java.lang.StringTYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java  (&Ë	
+bcom.knubisoft.base.string.StringTasksImpl.insertStringInMiddle(java.lang.String, java.lang.String)METHODF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java
+ 
+(&"
+isFinalfalse"þ
+declarationStringè<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">insertStringInMiddle</mark>(String original<mark class="modifier"><mark class="modifier">,</mark></mark> String toInsert)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*insertStringInMiddle2²
+^com.knubisoft.base.string.StringTasks.insertStringInMiddle(java.lang.String, java.lang.String)OVERRIDEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java
+ 
+(&2À
+kcom.knubisoft.base.string.StringTasksImpl.insertStringInMiddle(java.lang.String, java.lang.String)!original	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java
+. 
+(62À
+kcom.knubisoft.base.string.StringTasksImpl.insertStringInMiddle(java.lang.String, java.lang.String)!toInsert	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java
+? 
+(G2g
+java.lang.StringRETURN_TYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java
+ 
+(ô
+kcom.knubisoft.base.string.StringTasksImpl.insertStringInMiddle(java.lang.String, java.lang.String)!original	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java
+. 
+(6"
+typeString"
+isFinalfalse"$
+declarationStringString original*original2`
+java.lang.StringTYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java
+' 
+(-ô
+kcom.knubisoft.base.string.StringTasksImpl.insertStringInMiddle(java.lang.String, java.lang.String)!toInsert	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java
+? 
+(G"
+typeString"
+isFinalfalse"$
+declarationStringString toInsert*toInsert2`
+java.lang.StringTYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java
+8 
+(>Ñ
+[com.knubisoft.base.string.StringTasksImpl.insertSymbolInString(java.lang.String, char, int)METHODF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java (&"
+isFinalfalse"ä
+declarationStringÎ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">insertSymbolInString</mark>(String original<mark class="modifier"><mark class="modifier">,</mark></mark> char toInsert<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">int</mark> position)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*insertSymbolInString2«
+Wcom.knubisoft.base.string.StringTasks.insertSymbolInString(java.lang.String, char, int)OVERRIDEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java (&2¹
+dcom.knubisoft.base.string.StringTasksImpl.insertSymbolInString(java.lang.String, char, int)!original	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java. (62¹
+dcom.knubisoft.base.string.StringTasksImpl.insertSymbolInString(java.lang.String, char, int)!toInsert	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java= (E2¹
+dcom.knubisoft.base.string.StringTasksImpl.insertSymbolInString(java.lang.String, char, int)!position	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.javaK (S2g
+java.lang.StringRETURN_TYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java (í
+dcom.knubisoft.base.string.StringTasksImpl.insertSymbolInString(java.lang.String, char, int)!original	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java. (6"
+typeString"
+isFinalfalse"$
+declarationStringString original*original2`
+java.lang.StringTYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java' (-Ý
+dcom.knubisoft.base.string.StringTasksImpl.insertSymbolInString(java.lang.String, char, int)!toInsert	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java= (E"
+typechar"
+isFinalfalse""
+declarationStringchar toInsert*toInsert2T
+charTYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java8 (<ø
+dcom.knubisoft.base.string.StringTasksImpl.insertSymbolInString(java.lang.String, char, int)!position	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.javaK (S"
+typeint"
+isFinalfalse"?
+declarationString*<mark class="modifier">int</mark> position*position2S
+intTYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.javaG (JÊ	
+ccom.knubisoft.base.string.StringTasksImpl.appendToString(java.lang.StringBuilder, java.lang.String)METHODF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java ( "
+isFinalfalse"ÿ
+declarationStringé<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">appendToString</mark>(StringBuilder original<mark class="modifier"><mark class="modifier">,</mark></mark> String toAppend)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*appendToString2³
+_com.knubisoft.base.string.StringTasks.appendToString(java.lang.StringBuilder, java.lang.String)OVERRIDEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java ( 2Á
+lcom.knubisoft.base.string.StringTasksImpl.appendToString(java.lang.StringBuilder, java.lang.String)!original	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java/ (72Á
+lcom.knubisoft.base.string.StringTasksImpl.appendToString(java.lang.StringBuilder, java.lang.String)!toAppend	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java@ (H2g
+java.lang.StringRETURN_TYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java (Š
+lcom.knubisoft.base.string.StringTasksImpl.appendToString(java.lang.StringBuilder, java.lang.String)!original	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java/ (7"
+typeStringBuilder"
+isFinalfalse"+
+declarationStringStringBuilder original*original2g
+java.lang.StringBuilderTYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java! (.õ
+lcom.knubisoft.base.string.StringTasksImpl.appendToString(java.lang.StringBuilder, java.lang.String)!toAppend	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java@ (H"
+typeString"
+isFinalfalse"$
+declarationStringString toAppend*toAppend2`
+java.lang.StringTYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java9 (?ø
+Hcom.knubisoft.base.string.StringTasksImpl.isPalindrome(java.lang.String)METHODF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java ("
+isFinalfalse"Ê
+declarationString´<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">isPalindrome</mark>(String palindrome)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*isPalindrome2˜
+Dcom.knubisoft.base.string.StringTasks.isPalindrome(java.lang.String)OVERRIDEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java (2¨
+Scom.knubisoft.base.string.StringTasksImpl.isPalindrome(java.lang.String)!palindrome	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java' (12^
+booleanRETURN_TYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java (à
+Scom.knubisoft.base.string.StringTasksImpl.isPalindrome(java.lang.String)!palindrome	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java' (1"
+typeString"
+isFinalfalse"&
+declarationStringString palindrome*
+palindrome2`
+java.lang.StringTYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java  (&ê
+Hcom.knubisoft.base.string.StringTasksImpl.hasLowerCase(java.lang.String)METHODF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java ("
+isFinalfalse"Ã
+declarationString­<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">hasLowerCase</mark>(String str)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*hasLowerCase2˜
+Dcom.knubisoft.base.string.StringTasks.hasLowerCase(java.lang.String)OVERRIDEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java (2¡
+Lcom.knubisoft.base.string.StringTasksImpl.hasLowerCase(java.lang.String)!str	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java' (*2^
+booleanRETURN_TYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java (Ë
+Lcom.knubisoft.base.string.StringTasksImpl.hasLowerCase(java.lang.String)!str	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java' (*"
+typeString"
+isFinalfalse"
+declarationString
+String str*str2`
+java.lang.StringTYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java  (&ç
+Lcom.knubisoft.base.string.StringTasksImpl.uniqueCharacters(java.lang.String)METHODF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java# #(""
+isFinalfalse"¨
+declarationString’<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">uniqueCharacters</mark>(String str)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*uniqueCharacters2œ
+Hcom.knubisoft.base.string.StringTasks.uniqueCharacters(java.lang.String)OVERRIDEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java# #("2¥
+Pcom.knubisoft.base.string.StringTasksImpl.uniqueCharacters(java.lang.String)!str	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java#* #(-2g
+java.lang.StringRETURN_TYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java# #(Ï
+Pcom.knubisoft.base.string.StringTasksImpl.uniqueCharacters(java.lang.String)!str	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java#* #(-"
+typeString"
+isFinalfalse"
+declarationString
+String str*str2`
+java.lang.StringTYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java## #()‘	
+Ucom.knubisoft.base.string.StringTasksImpl.removeAllCharacters(java.lang.String, char)METHODF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java( ((%"
+isFinalfalse"ú
+declarationStringä<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">removeAllCharacters</mark>(String str<mark class="modifier"><mark class="modifier">,</mark></mark> char charToRemove)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*removeAllCharacters2¥
+Qcom.knubisoft.base.string.StringTasks.removeAllCharacters(java.lang.String, char)OVERRIDEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java( ((%2®
+Ycom.knubisoft.base.string.StringTasksImpl.removeAllCharacters(java.lang.String, char)!str	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java(- ((02·
+bcom.knubisoft.base.string.StringTasksImpl.removeAllCharacters(java.lang.String, char)!charToRemove	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java(7 ((C2g
+java.lang.StringRETURN_TYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java( ((Ø
+Ycom.knubisoft.base.string.StringTasksImpl.removeAllCharacters(java.lang.String, char)!str	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java(- ((0"
+typeString"
+isFinalfalse"
+declarationString
+String str*str2`
+java.lang.StringTYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java(& ((,ã
+bcom.knubisoft.base.string.StringTasksImpl.removeAllCharacters(java.lang.String, char)!charToRemove	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java(7 ((C"
+typechar"
+isFinalfalse"&
+declarationStringchar charToRemove*charToRemove2T
+charTYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java(2 ((6Î
+Gcom.knubisoft.base.string.StringTasksImpl.toCamelCase(java.lang.String)METHODF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java- -("
+isFinalfalse"£
+declarationString<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">toCamelCase</mark>(String str)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*toCamelCase2—
+Ccom.knubisoft.base.string.StringTasks.toCamelCase(java.lang.String)OVERRIDEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java- -(2 
+Kcom.knubisoft.base.string.StringTasksImpl.toCamelCase(java.lang.String)!str	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java-% -((2g
+java.lang.StringRETURN_TYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java- -(Ê
+Kcom.knubisoft.base.string.StringTasksImpl.toCamelCase(java.lang.String)!str	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java-% -(("
+typeString"
+isFinalfalse"
+declarationString
+String str*str2`
+java.lang.StringTYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java- -($
+Tcom.knubisoft.base.string.StringTasksImpl.getCountRepeatableString(java.lang.String)METHODF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java2 2(*"
+isFinalfalse"°
+declarationStringš<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">getCountRepeatableString</mark>(String str)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getCountRepeatableString2¤
+Pcom.knubisoft.base.string.StringTasks.getCountRepeatableString(java.lang.String)OVERRIDEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java2 2(*2­
+Xcom.knubisoft.base.string.StringTasksImpl.getCountRepeatableString(java.lang.String)!str	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java22 2(52g
+java.lang.StringRETURN_TYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java2 2(×
+Xcom.knubisoft.base.string.StringTasksImpl.getCountRepeatableString(java.lang.String)!str	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java22 2(5"
+typeString"
+isFinalfalse"
+declarationString
+String str*str2`
+java.lang.StringTYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java2+ 2(1Š
+Scom.knubisoft.base.string.StringTasksImpl.sortStringCharactersAsc(java.lang.String)METHODF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java7 7()"
+isFinalfalse"¯
+declarationString™<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>String <mark class="method">sortStringCharactersAsc</mark>(String str)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*sortStringCharactersAsc2£
+Ocom.knubisoft.base.string.StringTasks.sortStringCharactersAsc(java.lang.String)OVERRIDEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java7 7()2¬
+Wcom.knubisoft.base.string.StringTasksImpl.sortStringCharactersAsc(java.lang.String)!str	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java71 7(42g
+java.lang.StringRETURN_TYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java7 7(Ö
+Wcom.knubisoft.base.string.StringTasksImpl.sortStringCharactersAsc(java.lang.String)!str	PARAMETERF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java71 7(4"
+typeString"
+isFinalfalse"
+declarationString
+String str*str2`
+java.lang.StringTYPEF
+<src/main/java/com/knubisoft/base/string/StringTasksImpl.java7* 7(0

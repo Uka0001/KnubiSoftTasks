@@ -1,0 +1,174 @@
+
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java§
+3com.knubisoft.tasks.algorithm.reflection.FieldUtilsTRAITP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java ("3
+package(com.knubisoft.tasks.algorithm.reflection"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"l
+declarationStringW<mark class="modifier">public </mark><mark class="modifier">interface </mark>FieldUtils"
+accesspublic*
+FieldUtils2Ã
+bcom.knubisoft.tasks.algorithm.reflection.FieldUtils.getField(java.lang.Class<?>, java.lang.String)DECLARATIONP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java
+ (2Ì
+kcom.knubisoft.tasks.algorithm.reflection.FieldUtils.getField(java.lang.Class<?>, java.lang.String, boolean)DECLARATIONP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java
+ (2Ë
+jcom.knubisoft.tasks.algorithm.reflection.FieldUtils.getDeclaredField(java.lang.Class<?>, java.lang.String)DECLARATIONP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java
+ (2µ
+Tcom.knubisoft.tasks.algorithm.reflection.FieldUtils.getAllFields(java.lang.Class<?>)DECLARATIONP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java (2ý
+›com.knubisoft.tasks.algorithm.reflection.FieldUtils.getFieldsWithAnnotation(java.lang.Class<?>, java.lang.Class<? extends java.lang.annotation.Annotation>)DECLARATIONP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java (#€
+bcom.knubisoft.tasks.algorithm.reflection.FieldUtils.getField(java.lang.Class<?>, java.lang.String)METHODP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java
+ ("
+isFinalfalse"Á
+declarationString«<mark class="modifier"> </mark>Field <mark class="method">getField</mark>(Class&lt;?&gt; cls<mark class="modifier"><mark class="modifier">,</mark></mark> String fieldName)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeField*getField2Å
+fcom.knubisoft.tasks.algorithm.reflection.FieldUtils.getField(java.lang.Class<?>, java.lang.String)!cls	PARAMETERP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java (2Ë
+lcom.knubisoft.tasks.algorithm.reflection.FieldUtils.getField(java.lang.Class<?>, java.lang.String)!fieldName	PARAMETERP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java( (12x
+java.lang.reflect.FieldRETURN_TYPEP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java (	ü
+fcom.knubisoft.tasks.algorithm.reflection.FieldUtils.getField(java.lang.Class<?>, java.lang.String)!cls	PARAMETERP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java ("
+typeClass<?>"
+isFinalfalse"!
+declarationStringClass<?> cls*cls2i
+java.lang.ClassTYPEP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java (‹
+lcom.knubisoft.tasks.algorithm.reflection.FieldUtils.getField(java.lang.Class<?>, java.lang.String)!fieldName	PARAMETERP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java( (1"
+typeString"
+isFinalfalse"%
+declarationStringString fieldName*	fieldName2j
+java.lang.StringTYPEP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java! ('ã
+
+kcom.knubisoft.tasks.algorithm.reflection.FieldUtils.getField(java.lang.Class<?>, java.lang.String, boolean)METHODP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java
+ ("
+isFinalfalse"°
+declarationStringš<mark class="modifier"> </mark>Field <mark class="method">getField</mark>(Class&lt;?&gt; cls<mark class="modifier"><mark class="modifier">,</mark></mark> String fieldName<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="modifier">boolean</mark> forceAccess)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeField*getField2Î
+ocom.knubisoft.tasks.algorithm.reflection.FieldUtils.getField(java.lang.Class<?>, java.lang.String, boolean)!cls	PARAMETERP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java (2Ô
+ucom.knubisoft.tasks.algorithm.reflection.FieldUtils.getField(java.lang.Class<?>, java.lang.String, boolean)!fieldName	PARAMETERP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java( (12Ö
+wcom.knubisoft.tasks.algorithm.reflection.FieldUtils.getField(java.lang.Class<?>, java.lang.String, boolean)!forceAccess	PARAMETERP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java; (F2x
+java.lang.reflect.FieldRETURN_TYPEP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java (	…
+ocom.knubisoft.tasks.algorithm.reflection.FieldUtils.getField(java.lang.Class<?>, java.lang.String, boolean)!cls	PARAMETERP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java ("
+typeClass<?>"
+isFinalfalse"!
+declarationStringClass<?> cls*cls2i
+java.lang.ClassTYPEP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java (”
+ucom.knubisoft.tasks.algorithm.reflection.FieldUtils.getField(java.lang.Class<?>, java.lang.String, boolean)!fieldName	PARAMETERP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java( (1"
+typeString"
+isFinalfalse"%
+declarationStringString fieldName*	fieldName2j
+java.lang.StringTYPEP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java! ('±
+wcom.knubisoft.tasks.algorithm.reflection.FieldUtils.getField(java.lang.Class<?>, java.lang.String, boolean)!forceAccess	PARAMETERP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java; (F"
+typeboolean"
+isFinalfalse"F
+declarationString1<mark class="modifier">boolean</mark> forceAccess*forceAccess2a
+booleanTYPEP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java3 (:¨
+jcom.knubisoft.tasks.algorithm.reflection.FieldUtils.getDeclaredField(java.lang.Class<?>, java.lang.String)METHODP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java
+ ("
+isFinalfalse"É
+declarationString³<mark class="modifier"> </mark>Field <mark class="method">getDeclaredField</mark>(Class&lt;?&gt; cls<mark class="modifier"><mark class="modifier">,</mark></mark> String fieldName)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeField*getDeclaredField2Í
+ncom.knubisoft.tasks.algorithm.reflection.FieldUtils.getDeclaredField(java.lang.Class<?>, java.lang.String)!cls	PARAMETERP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java$ ('2Ó
+tcom.knubisoft.tasks.algorithm.reflection.FieldUtils.getDeclaredField(java.lang.Class<?>, java.lang.String)!fieldName	PARAMETERP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java0 (92x
+java.lang.reflect.FieldRETURN_TYPEP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java (	„
+ncom.knubisoft.tasks.algorithm.reflection.FieldUtils.getDeclaredField(java.lang.Class<?>, java.lang.String)!cls	PARAMETERP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java$ ('"
+typeClass<?>"
+isFinalfalse"!
+declarationStringClass<?> cls*cls2i
+java.lang.ClassTYPEP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java ( “
+tcom.knubisoft.tasks.algorithm.reflection.FieldUtils.getDeclaredField(java.lang.Class<?>, java.lang.String)!fieldName	PARAMETERP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java0 (9"
+typeString"
+isFinalfalse"%
+declarationStringString fieldName*	fieldName2j
+java.lang.StringTYPEP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java) (/Ô
+Tcom.knubisoft.tasks.algorithm.reflection.FieldUtils.getAllFields(java.lang.Class<?>)METHODP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java ("
+isFinalfalse"x
+declarationStringc<mark class="modifier"> </mark>Field[] <mark class="method">getAllFields</mark>(Class&lt;?&gt; cls)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeField[]*getAllFields2·
+Xcom.knubisoft.tasks.algorithm.reflection.FieldUtils.getAllFields(java.lang.Class<?>)!cls	PARAMETERP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java" (%2z
+java.lang.reflect.Field[]RETURN_TYPEP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java (î
+Xcom.knubisoft.tasks.algorithm.reflection.FieldUtils.getAllFields(java.lang.Class<?>)!cls	PARAMETERP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java" (%"
+typeClass<?>"
+isFinalfalse"!
+declarationStringClass<?> cls*cls2i
+java.lang.ClassTYPEP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java (õ	
+›com.knubisoft.tasks.algorithm.reflection.FieldUtils.getFieldsWithAnnotation(java.lang.Class<?>, java.lang.Class<? extends java.lang.annotation.Annotation>)METHODP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java (#"
+isFinalfalse"ñ
+declarationStringÛ<mark class="modifier"> </mark>Field[] <mark class="method">getFieldsWithAnnotation</mark>(Class&lt;?&gt; cls<mark class="modifier"><mark class="modifier">,</mark></mark> Class&lt;? extends Annotation&gt; annotationCls)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typeField[]*getFieldsWithAnnotation2ÿ
+Ÿcom.knubisoft.tasks.algorithm.reflection.FieldUtils.getFieldsWithAnnotation(java.lang.Class<?>, java.lang.Class<? extends java.lang.annotation.Annotation>)!cls	PARAMETERP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java- (02‰
+©com.knubisoft.tasks.algorithm.reflection.FieldUtils.getFieldsWithAnnotation(java.lang.Class<?>, java.lang.Class<? extends java.lang.annotation.Annotation>)!annotationCls	PARAMETERP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.javaN ([2z
+java.lang.reflect.Field[]RETURN_TYPEP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java (¶
+Ÿcom.knubisoft.tasks.algorithm.reflection.FieldUtils.getFieldsWithAnnotation(java.lang.Class<?>, java.lang.Class<? extends java.lang.annotation.Annotation>)!cls	PARAMETERP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java- (0"
+typeClass<?>"
+isFinalfalse"!
+declarationStringClass<?> cls*cls2i
+java.lang.ClassTYPEP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java$ ()ú
+©com.knubisoft.tasks.algorithm.reflection.FieldUtils.getFieldsWithAnnotation(java.lang.Class<?>, java.lang.Class<? extends java.lang.annotation.Annotation>)!annotationCls	PARAMETERP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.javaN (["#
+typeClass<? extends Annotation>"
+isFinalfalse">
+declarationString)Class<? extends Annotation> annotationCls*annotationCls2i
+java.lang.ClassTYPEP
+Fsrc/main/java/com/knubisoft/tasks/algorithm/reflection/FieldUtils.java2 (7

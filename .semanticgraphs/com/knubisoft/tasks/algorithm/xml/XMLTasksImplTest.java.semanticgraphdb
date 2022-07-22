@@ -1,0 +1,171 @@
+
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.javaö
+
+2com.knubisoft.tasks.algorithm.xml.XMLTasksImplTestCLASSO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java (",
+package!com.knubisoft.tasks.algorithm.xml"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"h
+declarationStringS<mark class="modifier"> </mark><mark class="modifier">class </mark>XMLTasksImplTest"
+accesspackage_private*XMLTasksImplTest2¥
+Ecom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest.XMLTasksImplTest()DECLARATIONO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java (2
+=com.knubisoft.tasks.algorithm.xml.XMLTasksImplTest.parseXML()DECLARATIONO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java	 (2ž
+>com.knubisoft.tasks.algorithm.xml.XMLTasksImplTest.getAllIds()DECLARATIONO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java#	 #(2«
+Kcom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest.getNameWithIdMoreThan1()DECLARATIONO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java*	 *(2¥
+Ecom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest?object@16.27:16.33DECLARATIONO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java (!2¦
+Fcom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest?content@17.25:17.32DECLARATIONO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java ( ¯	
+Ecom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest.XMLTasksImplTest()CONSTRUCTORO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java ("¸
+declarationString¢<mark class="modifier">public </mark><mark class="method">XMLTasksImplTest</mark>()<mark class="modifier"> <mark class="modifier">throws</mark> </mark>IOException*XMLTasksImplTest2|
+#java.util.Objects.requireNonNull(T)CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java+ (92”
+;java.lang.ClassLoader.getResourceAsStream(java.lang.String)CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java, (?2y
+ java.lang.Class.getClassLoader()CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java ()2t
+java.lang.Object.getClass()CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java (2Ÿ
+Fcom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest?content@17.25:17.32CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java (2’
+2com.knubisoft.tasks.algorithm.xml.XMLTasksImplTestRETURN_TYPEO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java% (0É
+=com.knubisoft.tasks.algorithm.xml.XMLTasksImplTest.parseXML()METHODO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java	 ("
+isFinalfalse"¨
+declarationString’<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">parseXML</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*parseXML2ž
+Ecom.knubisoft.tasks.algorithm.xml.XMLTasks.parseXML(java.lang.String)CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java" (*2n
+java.util.List.size()CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java% ()2ž
+Ecom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest?object@16.27:16.33CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java (!2Ÿ
+Fcom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest?content@17.25:17.32CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java+ (22©
+Pcom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest.parseXML()?result@26.18:26.24CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java (2°
+Pcom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest.parseXML()?result@26.18:26.24DECLARATIONO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java (2d
+voidRETURN_TYPEO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java (Ä
+Pcom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest.parseXML()?result@26.18:26.24VARIABLEO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java ("
+type	ModelRoot"
+isFinalfalse"€
+declarationStringk<mark class="modifier"> </mark>ModelRoot <mark class="class-field">result</mark> = object.parseXML(content)*result2€
+'com.knubisoft.tasks.algorithm.ModelRootTYPEO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java (2ž
+Ecom.knubisoft.tasks.algorithm.xml.XMLTasks.parseXML(java.lang.String)CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java" (*2ž
+Ecom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest?object@16.27:16.33CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java (!2Ÿ
+Fcom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest?content@17.25:17.32CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java+ (2×
+>com.knubisoft.tasks.algorithm.xml.XMLTasksImplTest.getAllIds()METHODO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java#	 #("
+isFinalfalse"©
+declarationString“<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">getAllIds</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*	getAllIds2Ÿ
+Fcom.knubisoft.tasks.algorithm.xml.XMLTasks.getAllIds(java.lang.String)CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java$& $(/2v
+java.util.Arrays.asList(T...)CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java& &("2ž
+Ecom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest?object@16.27:16.33CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java$ $(%2Ÿ
+Fcom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest?content@17.25:17.32CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java$0 $(72ª
+Qcom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest.getAllIds()?result@36.22:36.28CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java&+ &(12±
+Qcom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest.getAllIds()?result@36.22:36.28DECLARATIONO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java$ $(2d
+voidRETURN_TYPEO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java# #(ª
+Qcom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest.getAllIds()?result@36.22:36.28VARIABLEO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java$ $("
+typeList<Integer>"
+isFinalfalse"…
+declarationStringp<mark class="modifier"> </mark>List<Integer> <mark class="class-field">result</mark> = object.getAllIds(content)*result2g
+java.util.ListTYPEO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java$ $(2s
+java.lang.IntegerTYPE_ARGUMENTO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java$ $(2Ÿ
+Fcom.knubisoft.tasks.algorithm.xml.XMLTasks.getAllIds(java.lang.String)CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java$& $(/2ž
+Ecom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest?object@16.27:16.33CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java$ $(%2Ÿ
+Fcom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest?content@17.25:17.32CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java$0 $(7¥
+Kcom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest.getNameWithIdMoreThan1()METHODO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java*	 *("
+isFinalfalse"¶
+declarationString <mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">getNameWithIdMoreThan1</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*getNameWithIdMoreThan12¬
+Scom.knubisoft.tasks.algorithm.xml.XMLTasks.getNameWithIdMoreThan1(java.lang.String)CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java+% +(;2v
+java.util.Arrays.asList(T...)CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java, ,("2ž
+Ecom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest?object@16.27:16.33CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java+ +($2Ÿ
+Fcom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest?content@17.25:17.32CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java+< +(C2·
+^com.knubisoft.tasks.algorithm.xml.XMLTasksImplTest.getNameWithIdMoreThan1()?result@43.21:43.27CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java,5 ,(;2¾
+^com.knubisoft.tasks.algorithm.xml.XMLTasksImplTest.getNameWithIdMoreThan1()?result@43.21:43.27DECLARATIONO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java+ +(2d
+voidRETURN_TYPEO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java* *(Î
+^com.knubisoft.tasks.algorithm.xml.XMLTasksImplTest.getNameWithIdMoreThan1()?result@43.21:43.27VARIABLEO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java+ +("
+typeList<String>"
+isFinalfalse"‘
+declarationString|<mark class="modifier"> </mark>List<String> <mark class="class-field">result</mark> = object.getNameWithIdMoreThan1(content)*result2g
+java.util.ListTYPEO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java+ +(2r
+java.lang.StringTYPE_ARGUMENTO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java+ +(2¬
+Scom.knubisoft.tasks.algorithm.xml.XMLTasks.getNameWithIdMoreThan1(java.lang.String)CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java+% +(;2ž
+Ecom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest?object@16.27:16.33CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java+ +($2Ÿ
+Fcom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest?content@17.25:17.32CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java+< +(C¸
+Ecom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest?object@16.27:16.33VALUEO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java (!"
+isFinaltrue"
+typeXMLTasks"¦
+declarationString<mark class="modifier">private </mark><mark class="modifier">final </mark>XMLTasks <mark class="class-field">object</mark> = new XMLTasksImpl();"
+isStaticfalse"
+accessprivate*object2ƒ
+*com.knubisoft.tasks.algorithm.xml.XMLTasksTYPEO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java (2–
+=com.knubisoft.tasks.algorithm.xml.XMLTasksImpl.XMLTasksImpl()CALLO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java( (4ì
+Fcom.knubisoft.tasks.algorithm.xml.XMLTasksImplTest?content@17.25:17.32VALUEO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java ( "
+isFinaltrue"
+typeString"Ž
+declarationStringy<mark class="modifier">private </mark><mark class="modifier">final </mark>String <mark class="class-field">content</mark>"
+isStaticfalse"
+accessprivate*content2i
+java.lang.StringTYPEO
+Esrc/test/java/com/knubisoft/tasks/algorithm/xml/XMLTasksImplTest.java (

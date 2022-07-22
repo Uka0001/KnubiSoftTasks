@@ -1,0 +1,611 @@
+
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaˆ
+)com.knubisoft.base.arrays.ArraysTasksTestCLASSF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java ("$
+packagecom.knubisoft.base.arrays"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"g
+declarationStringR<mark class="modifier"> </mark><mark class="modifier">class </mark>ArraysTasksTest"
+accesspackage_private*ArraysTasksTest2ä
+3com.knubisoft.base.arrays.ArraysTasksTest.reverse()DECLARATIONF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java	 (2é
+7com.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()DECLARATIONF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java	 (2í
+;com.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()DECLARATIONF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java0	 0(2¨
+Ucom.knubisoft.base.arrays.ArraysTasksTest.findLongestIncreasingContinuesSubsequence()DECLARATIONF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaF	 F(22ô
+Bcom.knubisoft.base.arrays.ArraysTasksTest.sumOfAllUniqueElements()DECLARATIONF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaY	 Y(2ç
+6com.knubisoft.base.arrays.ArraysTasksTest.moveZeroes()DECLARATIONF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javah	 h(2ë
+:com.knubisoft.base.arrays.ArraysTasksTest.findFinalValue()DECLARATIONF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javax	 x(2ò
+?com.knubisoft.base.arrays.ArraysTasksTest.longestCommonPrefix()DECLARATIONH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaá	 á(2í
+9com.knubisoft.base.arrays.ArraysTasksTest.missingNumber()DECLARATIONH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaó	 ó(2ñ
+=com.knubisoft.base.arrays.ArraysTasksTest.containsDuplicate()DECLARATIONH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java¶	 ¶(2ñ
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35DECLARATIONF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java (#æ
+3com.knubisoft.base.arrays.ArraysTasksTest.reverse()METHODF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java	 ("
+isFinalfalse"ß
+declarationStringë<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">reverse</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*reverse2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java4 (?2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java5 (@2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java9 (D2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java; (F2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java> (I2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaB (M2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java< (G2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java3 (>2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java( (32è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java8 (C2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java& (12[
+voidRETURN_TYPEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java (≠&
+7com.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()METHODF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java	 ("
+isFinalfalse"´
+declarationStringï<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">mergeArrays</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*mergeArrays2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java! (,2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java" (-2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java! (,2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java" (-2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java! (,2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java !  (,2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java!# !(.2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java"" "(-2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java#! #(,2§
+Tcom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?firstMergedArray@27.14:27.30CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java$D $(T2•
+Ucom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?secondMergedArray@28.14:28.31CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java%G %(X2§
+Tcom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?thirdMergedArray@29.14:29.30CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java&A &(Q2•
+Ucom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?fourthMergedArray@30.14:30.31CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java'+ '(<2§
+Tcom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?fifthMergedArray@31.14:31.30CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java(& ((62§
+Tcom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?sixthMergedArray@32.14:32.30CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java)- )(=2¶
+Vcom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?seventhMergedArray@33.14:33.32CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java*/ *(A2•
+Ucom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?eighthMergedArray@34.14:34.31CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java+A +(R2§
+Tcom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?ninthMergedArray@35.14:35.30CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java,K ,([2´
+Tcom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?firstMergedArray@27.14:27.30DECLARATIONF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java (2¨
+Ucom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?secondMergedArray@28.14:28.31DECLARATIONF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java (2´
+Tcom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?thirdMergedArray@29.14:29.30DECLARATIONF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java (2¨
+Ucom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?fourthMergedArray@30.14:30.31DECLARATIONF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java (2´
+Tcom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?fifthMergedArray@31.14:31.30DECLARATIONF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java (2´
+Tcom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?sixthMergedArray@32.14:32.30DECLARATIONF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java   (2≠
+Vcom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?seventhMergedArray@33.14:33.32DECLARATIONF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java! !( 2¨
+Ucom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?eighthMergedArray@34.14:34.31DECLARATIONF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java" "(2´
+Tcom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?ninthMergedArray@35.14:35.30DECLARATIONF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java# #(2[
+voidRETURN_TYPEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java (˛
+Tcom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?firstMergedArray@27.14:27.30VARIABLEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java ("
+typeint"
+isFinalfalse"π
+declarationString£<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">firstMergedArray</mark> = arraysTasks.mergeArrays(new <mark class="modifier">int</mark>[] { 1, 2, 3, 4, 5 }<mark class="modifier">,</mark> new <mark class="modifier">int</mark>[] { 6, 7, 8, 9, 10 })*firstMergedArray2U
+int[]TYPEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java (2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java! (,Ñ
+Ucom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?secondMergedArray@28.14:28.31VARIABLEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java ("
+typeint"
+isFinalfalse"Ω
+declarationStringß<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">secondMergedArray</mark> = arraysTasks.mergeArrays(new <mark class="modifier">int</mark>[] { 23, 456, 222, 22 }<mark class="modifier">,</mark> new <mark class="modifier">int</mark>[] { 1234, 543, 221 })*secondMergedArray2U
+int[]TYPEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java (2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java" (-˚
+Tcom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?thirdMergedArray@29.14:29.30VARIABLEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java ("
+typeint"
+isFinalfalse"∂
+declarationString†<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">thirdMergedArray</mark> = arraysTasks.mergeArrays(new <mark class="modifier">int</mark>[] { 17 }<mark class="modifier">,</mark> new <mark class="modifier">int</mark>[] { 12345, 6789, 101112, 2 })*thirdMergedArray2U
+int[]TYPEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java (2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java! (,Ë
+Ucom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?fourthMergedArray@30.14:30.31VARIABLEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java ("
+typeint"
+isFinalfalse"°
+declarationStringã<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">fourthMergedArray</mark> = arraysTasks.mergeArrays(new <mark class="modifier">int</mark>[] { 1 }<mark class="modifier">,</mark> new <mark class="modifier">int</mark>[] { 1 })*fourthMergedArray2U
+int[]TYPEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java (2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java" (-€
+Tcom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?fifthMergedArray@31.14:31.30VARIABLEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java ("
+typeint"
+isFinalfalse"ñ
+declarationStringÄ<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">fifthMergedArray</mark> = arraysTasks.mergeArrays(new <mark class="modifier">int</mark>[0]<mark class="modifier">,</mark> new <mark class="modifier">int</mark>[0])*fifthMergedArray2U
+int[]TYPEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java (2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java! (,Â
+Tcom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?sixthMergedArray@32.14:32.30VARIABLEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java   ("
+typeint"
+isFinalfalse"†
+declarationStringä<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">sixthMergedArray</mark> = arraysTasks.mergeArrays(new <mark class="modifier">int</mark>[0]<mark class="modifier">,</mark> new <mark class="modifier">int</mark>[] { 27, 11 })*sixthMergedArray2U
+int[]TYPEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java   (2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java !  (,Ì
+Vcom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?seventhMergedArray@33.14:33.32VARIABLEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java! !( "
+typeint"
+isFinalfalse"§
+declarationStringé<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">seventhMergedArray</mark> = arraysTasks.mergeArrays(new <mark class="modifier">int</mark>[] { 4567, 11 }<mark class="modifier">,</mark> new <mark class="modifier">int</mark>[0])*seventhMergedArray2U
+int[]TYPEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java! !(2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java!# !(.˛
+Ucom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?eighthMergedArray@34.14:34.31VARIABLEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java" "("
+typeint"
+isFinalfalse"∑
+declarationString°<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">eighthMergedArray</mark> = arraysTasks.mergeArrays(new <mark class="modifier">int</mark>[] { -1, -2, -3, -4 }<mark class="modifier">,</mark> new <mark class="modifier">int</mark>[] { 5, 6, 7, 8 })*eighthMergedArray2U
+int[]TYPEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java" "(2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java"" "(-Ö
+Tcom.knubisoft.base.arrays.ArraysTasksTest.mergeArrays()?ninthMergedArray@35.14:35.30VARIABLEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java# #("
+typeint"
+isFinalfalse"¿
+declarationString™<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">ninthMergedArray</mark> = arraysTasks.mergeArrays(new <mark class="modifier">int</mark>[] { Integer.MIN_VALUE }<mark class="modifier">,</mark> new <mark class="modifier">int</mark>[] { Integer.MAX_VALUE })*ninthMergedArray2U
+int[]TYPEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java# #(2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java#! #(,À&
+;com.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()METHODF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java0	 0("
+isFinalfalse"Ø
+declarationStringô<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">findMax3InArray</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*findMax3InArray2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java1 1()2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java2 2(*2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java3 3()2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java4 4(*2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java5 5()2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java6 6()2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java7  7(+2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java8 8(*2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java9 9()2•
+Ucom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?first3MaxInts@49.14:49.27CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java:. :(;2¶
+Vcom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?second3MaxInts@50.14:50.28CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java;2 ;(@2•
+Ucom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?third3MaxInts@51.14:51.27CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java<1 <(>2¶
+Vcom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?fourth3MaxInts@52.14:52.28CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java=4 =(B2•
+Ucom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?fifth3MaxInts@53.14:53.27CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java>/ >(<2•
+Ucom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?sixth3MaxInts@54.14:54.27CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java?F ?(S2ß
+Wcom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?seventh3MaxInts@55.14:55.29CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java@+ @(:2¶
+Vcom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?eighth3MaxInts@56.14:56.28CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaA8 A(F2•
+Ucom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?ninth3MaxInts@57.14:57.27CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaB& B(32¨
+Ucom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?first3MaxInts@49.14:49.27DECLARATIONF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java1 1(2≠
+Vcom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?second3MaxInts@50.14:50.28DECLARATIONF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java2 2(2¨
+Ucom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?third3MaxInts@51.14:51.27DECLARATIONF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java3 3(2≠
+Vcom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?fourth3MaxInts@52.14:52.28DECLARATIONF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java4 4(2¨
+Ucom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?fifth3MaxInts@53.14:53.27DECLARATIONF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java5 5(2¨
+Ucom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?sixth3MaxInts@54.14:54.27DECLARATIONF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java6 6(2Æ
+Wcom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?seventh3MaxInts@55.14:55.29DECLARATIONF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java7 7(2≠
+Vcom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?eighth3MaxInts@56.14:56.28DECLARATIONF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java8 8(2¨
+Ucom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?ninth3MaxInts@57.14:57.27DECLARATIONF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java9 9(2[
+voidRETURN_TYPEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java0 0(¶
+Ucom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?first3MaxInts@49.14:49.27VARIABLEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java1 1("
+typeint"
+isFinalfalse"„
+declarationStringÕ<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">first3MaxInts</mark> = arraysTasks.findMax3InArray(new <mark class="modifier">int</mark>[] { 1, 2, 3, 4, 5, 6 })*first3MaxInts2U
+int[]TYPEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java1 1(2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java1 1()™
+Vcom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?second3MaxInts@50.14:50.28VARIABLEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java2 2("
+typeint"
+isFinalfalse"Â
+declarationStringœ<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">second3MaxInts</mark> = arraysTasks.findMax3InArray(new <mark class="modifier">int</mark>[] { 255, 20, 22, 1, 2 })*second3MaxInts2U
+int[]TYPEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java2 2(2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java2 2(*†
+Ucom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?third3MaxInts@51.14:51.27VARIABLEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java3 3("
+typeint"
+isFinalfalse"›
+declarationString«<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">third3MaxInts</mark> = arraysTasks.findMax3InArray(new <mark class="modifier">int</mark>[] { 0, 219, 17 })*third3MaxInts2U
+int[]TYPEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java3 3(2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java3 3()≥
+Vcom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?fourth3MaxInts@52.14:52.28VARIABLEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java4 4("
+typeint"
+isFinalfalse"Ó
+declarationStringÿ<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">fourth3MaxInts</mark> = arraysTasks.findMax3InArray(new <mark class="modifier">int</mark>[] { 456, 789, 22, 234, 21, 678 })*fourth3MaxInts2U
+int[]TYPEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java4 4(2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java4 4(*ß
+Ucom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?fifth3MaxInts@53.14:53.27VARIABLEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java5 5("
+typeint"
+isFinalfalse"‰
+declarationStringŒ<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">fifth3MaxInts</mark> = arraysTasks.findMax3InArray(new <mark class="modifier">int</mark>[] { 10, 9, 8, 7, 6, 5 })*fifth3MaxInts2U
+int[]TYPEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java5 5(2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java5 5()…
+Ucom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?sixth3MaxInts@54.14:54.27VARIABLEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java6 6("
+typeint"
+isFinalfalse"Ü
+declarationString<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">sixth3MaxInts</mark> = arraysTasks.findMax3InArray(new <mark class="modifier">int</mark>[] { 123452222, 485757377, 133343221, 567654, 1112335, 1 })*sixth3MaxInts2U
+int[]TYPEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java6 6(2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java6 6()†
+Wcom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?seventh3MaxInts@55.14:55.29VARIABLEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java7 7("
+typeint"
+isFinalfalse"Ÿ
+declarationString√<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">seventh3MaxInts</mark> = arraysTasks.findMax3InArray(new <mark class="modifier">int</mark>[] { 1, 2 })*seventh3MaxInts2U
+int[]TYPEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java7 7(2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java7  7(+™
+Vcom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?eighth3MaxInts@56.14:56.28VARIABLEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java8 8("
+typeint"
+isFinalfalse"Â
+declarationStringœ<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">eighth3MaxInts</mark> = arraysTasks.findMax3InArray(new <mark class="modifier">int</mark>[] { Integer.MAX_VALUE })*eighth3MaxInts2U
+int[]TYPEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java8 8(2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java8 8(*í
+Ucom.knubisoft.base.arrays.ArraysTasksTest.findMax3InArray()?ninth3MaxInts@57.14:57.27VARIABLEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java9 9("
+typeint"
+isFinalfalse"œ
+declarationStringπ<mark class="modifier"> </mark><mark class="modifier">int</mark>[] <mark class="class-field">ninth3MaxInts</mark> = arraysTasks.findMax3InArray(new <mark class="modifier">int</mark>[0])*ninth3MaxInts2U
+int[]TYPEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java9 9(2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java9 9()Ï
+Ucom.knubisoft.base.arrays.ArraysTasksTest.findLongestIncreasingContinuesSubsequence()METHODF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaF	 F(2"
+isFinalfalse"…
+declarationString≥<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">findLongestIncreasingContinuesSubsequence</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*)findLongestIncreasingContinuesSubsequence2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaG G(#2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaH H(#2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaI I(#2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaJ J(#2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaK K(#2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaL L(#2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaM M(#2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaN N(#2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaO O(#2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaP P(#2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaQ Q(#2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaR R(#2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaS S(#2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaT T(#2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaU U(#2[
+voidRETURN_TYPEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaF F(Î
+Bcom.knubisoft.base.arrays.ArraysTasksTest.sumOfAllUniqueElements()METHODF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaY	 Y("
+isFinalfalse"∂
+declarationString†<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">sumOfAllUniqueElements</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*sumOfAllUniqueElements2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaZ Z(%2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java[ [($2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java\ \(%2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java] ](%2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java^ ^(#2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java_ _(%2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java` `(%2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaa a(%2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javab b(%2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javac c(%2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javad d(%2[
+voidRETURN_TYPEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaY Y(Ÿ
+6com.knubisoft.base.arrays.ArraysTasksTest.moveZeroes()METHODF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javah	 h("
+isFinalfalse"™
+declarationStringî<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">moveZeroes</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*
+moveZeroes2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javai> i(I2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javajB j(M2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javak1 k(<2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javalB l(M2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javam4 m(?2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javanC n(N2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaoF o(Q2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javap7 p(B2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaqK q(V2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javar5 r(@2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javasD s(O2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javatC t(N2[
+voidRETURN_TYPEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javah h(€
+:com.knubisoft.base.arrays.ArraysTasksTest.findFinalValue()METHODF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javax	 x("
+isFinalfalse"Æ
+declarationStringò<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">findFinalValue</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*findFinalValue2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javay y($2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaz z(#2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java{ {(%2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java| |(%2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java} }($2è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java~( ~(32è
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java (&2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaÄ Ä($2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaÅ Å($2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaÇ Ç(%2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaÉ É('2[
+voidRETURN_TYPEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javax x(ê
+?com.knubisoft.base.arrays.ArraysTasksTest.longestCommonPrefix()METHODH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaá	 á("
+isFinalfalse"≥
+declarationStringù<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">longestCommonPrefix</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*longestCommonPrefix2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaà à((2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaâ â((2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaä ä(%2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaã ã('2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaå å($2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaç ç()2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaé é($2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaè è('2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaê ê(*2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaë ë($2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaí í()2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaì ì(&2]
+voidRETURN_TYPEH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaá á(Í
+9com.knubisoft.base.arrays.ArraysTasksTest.missingNumber()METHODH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaó	 ó("
+isFinalfalse"≠
+declarationStringó<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">missingNumber</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*missingNumber2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaò ò(#2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaô ô(#2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaö ö(#2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaõ õ(#2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaú ú(#2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaù ù($2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaû û(#2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaü ü(#2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java† †($2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java° °(#2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java¢ ¢(#2]
+voidRETURN_TYPEH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaó ó(‚
+=com.knubisoft.base.arrays.ArraysTasksTest.containsDuplicate()METHODH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java¶	 ¶("
+isFinalfalse"±
+declarationStringõ<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">containsDuplicate</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*containsDuplicate2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaß ß(2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java® ®(2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java© ©(2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java™ ™(2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java´ ´(2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java¨ ¨(2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java≠ ≠(2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaÆ Æ(2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.javaØ Ø(2ë
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35CALLH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java∞ ∞(2]
+voidRETURN_TYPEH
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java¶ ¶(Å
+?com.knubisoft.base.arrays.ArraysTasksTest?arraysTasks@8.24:8.35VARIABLEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java (#"
+isFinalfalse"
+typeArraysTasks"å
+declarationStringw<mark class="modifier">private </mark>ArraysTasks <mark class="class-field">arraysTasks</mark> = new ArraysTasksImpl();"
+isStaticfalse"
+accessprivate*arraysTasks2u
+%com.knubisoft.base.arrays.ArraysTasksTYPEF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java (2ã
+;com.knubisoft.base.arrays.ArraysTasksImpl.ArraysTasksImpl()CALLF
+<src/test/java/com/knubisoft/base/arrays/ArraysTasksTest.java* (9

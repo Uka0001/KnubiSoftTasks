@@ -72,6 +72,44 @@ public class ListTasksImpl implements ListTasks {
         Stream<Long> list= (Stream<Long>) Stream.concat(list1, list2, streamInt);
         return list.collect(Collectors.toList());*/
 
+        /*List<Integer> listIntegers = new ArrayList<Integer>(third.size());
+        for(String current:third){
+            listIntegers.add(Integer.parseInt(current));
+        }
+        Stream<Integer> list1 = first.stream();
+        Stream<Long> list2 = second.stream();
+        Stream<Long> list= (Stream<Long>) Stream.concat(list1, list2, listIntegers);
+        return list.collect(Collectors.toList());*/
+
+       /* first.stream()
+                .map(Long::valueOf)
+                .collect(Collectors.toList());
+        third.stream()
+                .map(Long::parseLong)
+                .collect(Collectors.toList());
+        Stream<Long> list= (Stream<Long>) Stream.concat(first.stream(), second.stream(), third.stream());
+*/
+        /*List<Long>list1= (List<Long>) Arrays.asList(first.stream().flatMapToLong());
+        List<Long>list2= (List<Long>) Arrays.asList(second);
+        List<Long>list3= (List<Long>) Arrays.asList(third);
+        List<Long> newList = Stream.of(list1, list2, list3)
+                .flatMap(Collection::stream)
+                .collect(Collectors.toList());
+        return newList;*/
+
+        /*Stream<Integer> list1 = first.stream();
+        Stream<Long> list2 = second.stream();
+        Stream<String> list3 = third.stream();
+        first.stream()
+                .map(Long::valueOf)
+                .collect(Collectors.toList());
+        third.stream()
+                .map(Long::parseLong)
+                .collect(Collectors.toList());
+        List<Long> newList = Stream.of(list1, list2, list3)
+                .flatMap(Collection::stream)
+                .collect(Collectors.toList());
+        return newList;*/
         return second;
     }
 
