@@ -39,12 +39,29 @@ public class NumbersTasksImpl implements NumbersTasks {
 
     @Override
     public int addDigits(int number) {
-        return -1;
+        int sum = 0;
+        while (number > 0 || sum > 9)
+        {
+            if (number == 0) {
+                number = sum;
+                sum = 0;
+            }
+            sum += number % 10;
+            number /= 10;
+        }
+        return sum;
     }
 
     @Override
     public boolean isHarshadNumber(int number) {
-        return false;
+        int sum = 0;
+        if (number == 0) {
+            return false;
+        } else {
+            for (int temp = number; temp > 0; temp /= 10)
+                sum += temp % 10;
+            return (number % sum == 0);
+        }
     }
 
     @Override
