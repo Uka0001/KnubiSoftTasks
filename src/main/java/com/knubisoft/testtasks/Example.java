@@ -9,6 +9,22 @@ import java.util.function.Consumer;
         /*String test = "abc";
         test = test + test;
         System.out.println(test);*/
+
+      // output 2
+        /*  int[][] x = {{3,1,4},{1,5,9}};
+
+        int[] y = {2,6,7};
+
+        y = x[1];
+
+        y[1] = 1;
+
+        System.out.println(x[0][1] + x[1][1]);*/
+
+        //output -1
+        /*Integer x = 5;
+        Integer y = 10;
+        System.out.println(x.compareTo(y));*/
     }
 
     public void modify(){
