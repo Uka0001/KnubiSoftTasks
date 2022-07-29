@@ -1,5 +1,4 @@
-package com.knubisoft.booktasks;
-import java.io.*;
+package com.knubisoft.booktasks_shildt_forBegginers_7th_2019;
 
 //java CompFile FIRST.TXT SECOND.TXT
 public class CompFiles {

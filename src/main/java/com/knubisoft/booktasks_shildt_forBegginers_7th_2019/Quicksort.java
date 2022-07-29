@@ -1,4 +1,4 @@
-package com.knubisoft.booktasks;
+package com.knubisoft.booktasks_shildt_forBegginers_7th_2019;
 
 // Упражнение 6 . 3 . Простая версия класса 1 1 реализующего быструю сортировку
 class Quicksort {

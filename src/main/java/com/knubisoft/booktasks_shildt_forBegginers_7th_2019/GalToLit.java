@@ -1,4 +1,4 @@
-package com.knubisoft.booktasks;
+package com.knubisoft.booktasks_shildt_forBegginers_7th_2019;
 
 public class GalToLit {
     public static void main(String[] args) {
