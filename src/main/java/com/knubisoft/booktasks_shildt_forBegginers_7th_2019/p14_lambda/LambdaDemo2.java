@@ -7,9 +7,9 @@ public class LambdaDemo2 {
         //StringTest isIn = (a, b) -> a.contains(b); //Idea refactoring code
         //StringTest isIn = String::contains; //Idea refactoring code second time :)
 
-        String str = "This is test";
+        String str = "'This is test'";
 
-        System.out.println("Test string" + str);
+        System.out.println("Test string " + str);
 
         if (isIn.test(str, "This"))
             System.out.println("'This' is found");
