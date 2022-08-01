@@ -11,13 +11,33 @@ You have to write a function printer_error which given a string will return the 
 The string has a length greater or equal to one and contains only letters from ato z.
 */
 public class Printer {
+    //1st variant
     public static String printerError(String s) {
         int numberS = 0;
         for(int i=0; i<s.length(); i++){
-            if (s.charAt(i) >= 'a' && s.charAt(i) <= 'm' && !(s.charAt(i)==s.charAt(i+1))) {
+            if (s.charAt(i) > 'm') {
                 numberS++;
             }
         }
         return String.format("%d/%d", numberS, s.length());
     }
+    //2nd variant
+    /*public static String printerError(String s) {
+        int numberS = 0;
+        for (char currentChar : s.toCharArray()) {
+            if (currentChar > 'm') {
+                numberS++;
+            }
+        }
+        return String.format("%d/%d", numberS, s.length());
+    }*/
+    //not mine clever 1 variant
+    /*public static String printerError(String s) {
+        return s.replaceAll("[a-m]", "").length() + "/" + s.length();
+    }*/
+    //not mine clever 2 variant
+    /*public static String printerError(String s) {
+        long errs = s.chars().filter( ch -> ch > 'm').count();
+        return errs+"/"+s.length();
+    }*/
 }
