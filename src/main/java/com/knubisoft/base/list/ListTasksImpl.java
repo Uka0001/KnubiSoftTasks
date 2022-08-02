@@ -64,6 +64,17 @@ public class ListTasksImpl implements ListTasks {
     @Override
     public List<Long> merge(List<Integer> first, List<Long> second, List<String> third) {
 
+        List<Long> newList = new ArrayList<Long>();
+        List<Long> long1 = first.stream()
+                .mapToLong(Integer::longValue)
+                .boxed().toList();
+        List<Long> long3 = third.stream()
+                .map(Long::parseLong)
+                .collect(Collectors.toList());
+        newList.addAll(long1);
+        newList.addAll(second);
+        newList.addAll(long3);
+
         /*Stream<Integer> list1 = first.stream();
         Stream<Long> list2 = second.stream();
         List<Integer> list3Int = third.stream()
@@ -110,7 +121,7 @@ public class ListTasksImpl implements ListTasks {
                 .flatMap(Collection::stream)
                 .collect(Collectors.toList());
         return newList;*/
-        return second;
+        return newList;
     }
 
     @Override
