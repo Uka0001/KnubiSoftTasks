@@ -221,10 +221,10 @@ public class ListTasksTest {
     public void mergeFail() {
         List<Long> longs = Arrays.asList(3l, 4l);
         List<Integer> integers = Arrays.asList(5, 6);
-//        assertThrows(IllegalArgumentException.class, () -> instance.merge(integers, longs,
-//                new ArrayList<>(Arrays.asList("1a", "2"))));
-//        assertThrows(IllegalArgumentException.class, () -> instance.merge(integers, longs,
-//                new ArrayList<>(Arrays.asList("1", "2asfsd"))));
+        assertThrows(IllegalArgumentException.class, () -> instance.merge(integers, longs,
+                new ArrayList<>(Arrays.asList("1a", "2"))));
+        assertThrows(IllegalArgumentException.class, () -> instance.merge(integers, longs,
+                new ArrayList<>(Arrays.asList("1", "2asfsd"))));
         assertThrows(NullPointerException.class, () -> instance.merge(integers, longs,
                 new ArrayList<>(Arrays.asList(null, "2"))));
         assertThrows(NullPointerException.class, () -> instance.merge(integers, longs,

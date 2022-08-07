@@ -84,6 +84,7 @@ public class ListTasksImpl implements ListTasks {
             throw new RuntimeException("RuntimeException");
         }
 
+        //not right
         /*Stream<Integer> list1 = first.stream();
         Stream<Long> list2 = second.stream();
         List<Integer> list3Int = third.stream()
