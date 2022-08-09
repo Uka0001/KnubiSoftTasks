@@ -89,6 +89,11 @@
             <artifactId>json-path</artifactId>
             <version>2.7.0</version>
         </dependency>
+        <dependency>
+            <groupId>jakarta.activation</groupId>
+            <artifactId>jakarta.activation-api</artifactId>
+            <version>1.2.1</version>
+        </dependency>
     </dependencies>
 
     <build>
