@@ -1,5 +1,7 @@
 package com.knubisoft.codewars;
-    import lombok.*;
+
+import lombok.*;
+
 /*DESCRIPTION:
 In Java, we have a very powerful library named Lombok.
  It helps to reduce the boilerplate code.
@@ -17,9 +19,11 @@ provide an empty constructor to support Java Beans specification
 Add a constructor that can receive parameters for all of the fields
 Note: make sure if you don't use Lombok to enforce proper naming conventions.
 If you want a harder version please try: Lombok Encapsulation II*/
-    @Data @AllArgsConstructor @NoArgsConstructor
-    public class EncapsulationDemo{
-        private int number;
-        private String stringValue;
-        private Object anObject;
-    }
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class EncapsulationDemo {
+    private int number;
+    private String stringValue;
+    private Object anObject;
+}

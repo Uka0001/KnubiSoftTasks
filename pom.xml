@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.knubisoft</groupId>
     <artifactId>JavaTests</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <version>1.0</version>
     <name>Java Tests for Trainee Centre</name>
 

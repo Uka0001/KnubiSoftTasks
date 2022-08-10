@@ -7,7 +7,7 @@ Can you help her?*/
 
 public class Greeter {
     public static String greet(String name) {
-        if (name.equals("Johnny")){
+        if (name.equals("Johnny")) {
             return String.format("Hello, my love!");
         } else {
             return String.format("Hello, %s!", name);

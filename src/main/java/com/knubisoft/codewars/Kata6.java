@@ -1,7 +1,8 @@
 package com.knubisoft.codewars;
+
 /*Code as fast as you can! You need to double the integer and return it.*/
 public class Kata6 {
-    public int multiply (int x, int y) {
+    public int multiply(int x, int y) {
         int sum = x * y;
         return sum;
     }

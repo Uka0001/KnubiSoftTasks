@@ -1,4 +1,5 @@
 package com.knubisoft.codewars;
+
 /*
 In a factory a printer prints labels for boxes. For one kind of boxes the printer has to use colors which, for the sake of simplicity, are named with letters from a to m.
 
@@ -14,7 +15,7 @@ public class Printer {
     //1st variant
     public static String printerError(String s) {
         int numberS = 0;
-        for(int i=0; i<s.length(); i++){
+        for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) > 'm') {
                 numberS++;
             }

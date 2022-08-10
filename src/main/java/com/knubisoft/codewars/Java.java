@@ -1,4 +1,5 @@
 package com.knubisoft.codewars;
+
 /*Welcome. In this kata, you are asked to square every
  digit of a number and concatenate them.
 For example, if we run 9119 through the function,
@@ -7,6 +8,6 @@ Note: The function accepts an integer and returns an integer*/
 class Java {
     public static int doubleInteger(int i) {
         // Double the integer and return it!
-        return i*2;
+        return i * 2;
     }
 }

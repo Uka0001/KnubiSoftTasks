@@ -12,20 +12,18 @@ You should floor all your answers so that an integer
  is given instead of a float (which doesn't represent age).
  Return your answer in the form [min]-[max]*/
 
-public class Kata1{
+public class Kata1 {
     public static String datingRange(int age) {
         int min;
         int max;
-        if(age<=14){
-            min=(int)(age*0.9);
+        if (age <= 14) {
+            min = (int) (age * 0.9);
 
-            max=(int)(age*1.1);
+            max = (int) (age * 1.1);
+        } else {
+            min = age / 2 + 7;
+            max = (age - 7) * 2;
         }
-        else
-        {
-            min=age/2+7;
-            max=(age-7)*2;
-        }
-        return min +"-"+ max;
+        return min + "-" + max;
     }
 }
