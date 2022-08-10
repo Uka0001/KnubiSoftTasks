@@ -1,5 +1,7 @@
-package com.knubisoft.tasks.practical;
+package com.knubisoft.tasks.practical.ORM.Release10;
 
+import com.knubisoft.Person;
+import com.knubisoft.Person2;
 import org.apache.commons.io.IOUtils;
 
 import java.io.IOException;
@@ -10,7 +12,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        InputStream stream = Main.class.getClassLoader().getResourceAsStream("/Users/oleksii/Documents/GitHub/KnubiSoftTasks/src/main/resources/sample.txt");
+        InputStream stream = Main.class.getClassLoader().getResourceAsStream("sample.csv");
         List<String> lines = IOUtils.readLines(stream, StandardCharsets.UTF_8);
 
 

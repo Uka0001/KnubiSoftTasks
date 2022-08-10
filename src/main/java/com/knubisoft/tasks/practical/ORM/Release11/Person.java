@@ -1,4 +1,4 @@
-package com.knubisoft.tasks.practical;
+package com.knubisoft.tasks.practical.ORM.Release11;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
