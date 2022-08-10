@@ -1,7 +1,7 @@
 package com.knubisoft.tasks.practical.ORM.Release10;
 
-import com.knubisoft.Person;
-import com.knubisoft.Person2;
+import com.knubisoft.tasks.practical.ORM.Release10.Person;
+import com.knubisoft.tasks.practical.ORM.Release10.Person2;
 import org.apache.commons.io.IOUtils;
 
 import java.io.IOException;

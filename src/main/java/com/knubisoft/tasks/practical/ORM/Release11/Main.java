@@ -1,7 +1,7 @@
 package com.knubisoft.tasks.practical.ORM.Release11;
 
-import com.knubisoft.ORM;
-import com.knubisoft.Person2;
+import com.knubisoft.tasks.practical.ORM.Release11.ORM;
+import com.knubisoft.tasks.practical.ORM.Release11.Person2;
 
 import java.io.File;
 import java.net.URL;
