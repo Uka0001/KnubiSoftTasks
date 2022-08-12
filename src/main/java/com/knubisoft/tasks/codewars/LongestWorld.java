@@ -25,7 +25,7 @@ public class LongestWorld {
     public static void main(String[] args) {
         findLongest(""); //== 0
         findLongest(null); //== 0
-        findLongest("mate"); //== 4
-        findLongest("Mate Academy"); //== 7
+        findLongest("cate"); //== 4
+        findLongest("Academy"); //== 7
     }
 }
