@@ -11,23 +11,17 @@ package com.knubisoft.tasks.codewars;
 public class SumAfterNumber {
     public static int getSum(int[] values, int startValue) {
         // WRITE YOUR CODE BELOW THIS LINE
+        boolean startValueFound = false;
         int sum = 0;
-        int count = 0;
-        if (values.length == 1 && values[0] == startValue) {
-            return 0;
-        } else if (values.length > 1) {
-            for (int i = 0; i < values.length; i++) {
-                if (values[i] == startValue) {
-                    count = i;
-                }
+        for (int element : values) {
+            if (startValueFound) {
+                sum += element;
             }
-            for (int j = count; j < values.length; j++) {
-                sum += values[j];
+            if (element == startValue) {
+                startValueFound = true;
             }
-            return sum;
-        } else {
-            return 0;
         }
+        return sum;
         // WRITE YOUR CODE ABOVE THIS LINE
     }
 
