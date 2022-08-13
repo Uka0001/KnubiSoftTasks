@@ -136,17 +136,39 @@ public class ListTasksImpl implements ListTasks {
 
     @Override
     public int findMaxValue(List<Integer> first, List<Integer> second, List<Integer> third) {
-        return -1;
+        List<Integer> newList = Stream.of(first, second, third)
+                .flatMap(Collection::stream).toList();
+        return Collections.max(newList);
+        // 1й варіант можна було б відсортувати список та знайти необхідний елемент
+        // 2й варіант пройтись for each через весь лист та знайти необх. елемент
+        // 3й вар. не обєднувати список, а за доп перечислених раніше мет. знайти
+        // елем в кожному списку, а потім або за допомогою if порівняти їх між собою,
+        // або загнати ще в ерей або список та знову застосувати попередні методи щоб знайти вже
+        // потрібний елемент - ПС: код, мабуть, на строчок 50 точно буде :)
     }
 
     @Override
     public int findMinValue(List<Integer> first, List<Integer> second, List<Integer> third) {
-        return -1;
+        List<Integer> newList = Stream.of(first, second, third)
+                .flatMap(Collection::stream).toList();
+        return Collections.min(newList);
+        // 1й варіант можна було б відсортувати список та знайти необхідний елемент
+        // 2й варіант пройтись for each через весь лист та знайти необх. елемент
+        // 3й вар. не обєднувати список, а за доп перечислених раніше мет. знайти
+        // елем в кожному списку, а потім або за допомогою if порівняти їх між собою,
+        // або загнати ще в ерей або список та знову застосувати попередні методи щоб знайти вже
+        // потрібний елемент - ПС: код, мабуть, на строчок 50 точно буде :)
     }
 
     @Override
     public int multiplyMax2Elements(List<Integer> first, List<Integer> second, List<Integer> third) {
-        return -1;
+        List<Integer> newList = Stream.of(first, second, third)
+                .flatMap(Collection::stream).toList();
+        Collections.sort(newList);
+        int length = newList.size();
+        int max1 = newList.get(length);
+        int max2 = newList.get(length-1);
+        return max1 * max2;
     }
 
     @Override
