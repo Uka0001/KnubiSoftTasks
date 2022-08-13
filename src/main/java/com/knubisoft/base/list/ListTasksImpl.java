@@ -162,12 +162,23 @@ public class ListTasksImpl implements ListTasks {
 
     @Override
     public int multiplyMax2Elements(List<Integer> first, List<Integer> second, List<Integer> third) {
+//        Решение через арей лист - работает без ексепшина.
+//        List<Integer> newList = new ArrayList<>(Stream.of(first, second, third)
+//                .flatMap(Collection::stream).toList());
+//        int max1 = 0;
+//        int max2 = 0;
+//        Collections.sort(newList);
+//        int length = newList.size();
+//        max1 = newList.get(length-1);
+//        max2 = newList.get(length-2);
+//        return max1 * max2;
+
+        // решение через лист, список сразу сортируем!
         List<Integer> newList = Stream.of(first, second, third)
-                .flatMap(Collection::stream).toList();
-        Collections.sort(newList);
-        int length = newList.size();
-        int max1 = newList.get(length);
-        int max2 = newList.get(length-1);
+                .flatMap(Collection::stream).sorted().toList();
+            int length = newList.size();
+            int max1 = newList.get(length-1);
+            int max2 = newList.get(length-2);
         return max1 * max2;
     }
 
