@@ -84,7 +84,28 @@ public class ListTasksImpl implements ListTasks {
             throw new RuntimeException("RuntimeException");
         }
 
-        //not right
+        //Рішення Полі через іфи
+        /*if (first == null || second == null || third == null) {
+            throw new RuntimeException();
+        }
+        List<Long> res = new ArrayList<>();
+        for (Integer integer : first) {
+            if (integer == null) {
+                throw new NullPointerException();
+            }
+            res.add(Long.valueOf(integer));
+        }
+        res.addAll(second);
+        for (String s : third) {
+            if (s == null) {
+                throw new NullPointerException();
+            }
+            res.add(Long.parseLong(s));
+        }
+        System.out.println(res);
+        return res;*/
+
+        //not right рішення, нід фікс
         /*Stream<Integer> list1 = first.stream();
         Stream<Long> list2 = second.stream();
         List<Integer> list3Int = third.stream()
@@ -145,6 +166,11 @@ public class ListTasksImpl implements ListTasks {
         // елем в кожному списку, а потім або за допомогою if порівняти їх між собою,
         // або загнати ще в ерей або список та знову застосувати попередні методи щоб знайти вже
         // потрібний елемент - ПС: код, мабуть, на строчок 50 точно буде :)
+        // ще варіант додати все в один список через аддолл, а потім вже шукати
+//        List<Integer> array = new ArrayList<>();
+//        array.addAll(first);
+//        array.addAll(second);
+//        array.addAll(third);
     }
 
     @Override
@@ -184,11 +210,25 @@ public class ListTasksImpl implements ListTasks {
 
     @Override
     public List<String> removeNulls(List<String> list) {
-        return null;
+        List<String> newList = new ArrayList<>();
+        for(String each: list){
+            if( each != null && each.length() > 0){
+                newList.add(each);
+            }
+        }
+        return newList;
     }
 
     @Override
     public List<Integer> flatMapWithoutNulls(List<List<Integer>> list) {
+        /*List<List> newList = new ArrayList<>();
+        for(List each: list){
+            if( each == null){
+                list.remove(each);
+            } else {
+               newList.add(each);
+            }
+        }*/
         return null;
     }
 
