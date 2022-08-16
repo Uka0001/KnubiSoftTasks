@@ -1,29 +1,26 @@
-package com.knubisoft.tasks.practical.ORM.Release11;
+package com.knubisoft.tasks.practical.orm.release1v2;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
-import org.apache.commons.io.FileUtils;
 
-import java.io.File;
 import java.lang.reflect.Field;
 import java.math.BigInteger;
-import java.nio.charset.StandardCharsets;
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.*;
 import java.util.function.Function;
 
-public class ORM {
+public class ORM implements ORMInterface {
 
+    @Override
     @SneakyThrows
-    public <T> List<T> transform(File file, Class<T> cls) {
-        String content = FileUtils.readFileToString(file, StandardCharsets.UTF_8);
-        ContentType contentType = guessContentTypeByContent(content);
-        ParsingStrategy parsingStrategy = createStrategyByContentType(contentType);
-
-        Table table = parsingStrategy.parseToTable(content);
+    public <T> List<T> transform(DataInputSource inputSource, Class<T> cls) {
+        Table table = convertToTable(inputSource);
         return convertTableToListOfClasses(table, cls);
     }
 
@@ -40,7 +37,7 @@ public class ORM {
     @SneakyThrows
     private <T> T reflectTableRowToClass(Map<String, String> row, Class<T> cls) {
         T instance = cls.getDeclaredConstructor().newInstance();
-        for (Field each: cls.getDeclaredFields()) {
+        for (Field each : cls.getDeclaredFields()) {
             each.setAccessible(true);
             String value = row.get(each.getName());
             if (value != null) {
@@ -65,55 +62,53 @@ public class ORM {
         }).apply(value);
     }
 
-    private ParsingStrategy createStrategyByContentType(ContentType contentType) {
-        switch (contentType) {
-            case JSON:
-                return new JSONParsingStrategy();
-            case XML:
-                return new XMLParsingStrategy();
-            case CSV:
-                return new CSVParsingStrategy();
-            default:
-                throw new UnsupportedOperationException("Unknown strategy " + contentType);
+    private Table convertToTable(DataInputSource dataInputSource) {
+        if (dataInputSource instanceof DatabaseInputSource) {
+            return new DatabaseParsingStrategy().
+                    parseToTable((DatabaseInputSource) dataInputSource);
+        } else if (dataInputSource instanceof StringInputSource) {
+            return getStringParsingStrategy((StringInputSource) dataInputSource).
+                    parseToTable((StringInputSource) dataInputSource);
+        } else {
+            throw new UnsupportedOperationException("Unknown DataInputSource " + dataInputSource);
         }
     }
 
-    private ContentType guessContentTypeByContent(String content) {
+    private ParsingStrategy<StringInputSource> getStringParsingStrategy(StringInputSource inputSource) {
+        String content = inputSource.getContent();
         char firstChar = content.charAt(0);
         switch (firstChar) {
             case '{':
             case '[':
-                return ContentType.JSON;
+                return new JSONParsingStrategy();
             case '<':
-                return ContentType.XML;
+                return new XMLParsingStrategy();
             default:
-                return ContentType.CSV;
+                return new CSVParsingStrategy();
         }
     }
 
-    enum ContentType {
-        CSV, XML, JSON
+    interface ParsingStrategy<T extends DataInputSource> {
+        Table parseToTable(T content);
     }
 
-    interface ParsingStrategy {
-        Table parseToTable(String content);
-    }
-
-    static class XMLParsingStrategy implements ParsingStrategy {
+    static class XMLParsingStrategy implements ParsingStrategy<StringInputSource> {
+        @SneakyThrows
         @Override
-        public Table parseToTable(String content) {
-            // TODO
+        public Table parseToTable(StringInputSource content) {
+            XmlMapper mapper = new XmlMapper();
+            JsonNode result = mapper.readTree(content.getContent());
             return null;
         }
     }
 
-    static class JSONParsingStrategy implements ParsingStrategy {
+    static class JSONParsingStrategy implements ParsingStrategy<StringInputSource> {
 
         @SneakyThrows
         @Override
-        public Table parseToTable(String content) {
+        public Table parseToTable(StringInputSource content) {
             ObjectMapper mapper = new ObjectMapper();
-            JsonNode tree = mapper.readTree(content);
+            JsonNode tree = mapper.readTree(content.getContent());
             Map<Integer, Map<String, String>> result = buildTable(tree);
             return new Table(result);
         }
@@ -141,14 +136,14 @@ public class ORM {
 
     }
 
-    static class CSVParsingStrategy implements ParsingStrategy {
+    static class CSVParsingStrategy implements ParsingStrategy<StringInputSource> {
 
         public static final String DELIMITER = ",";
         public static final String COMMENT = "--";
 
         @Override
-        public Table parseToTable(String content) {
-            List<String> lines = Arrays.asList(content.split(System.lineSeparator()));
+        public Table parseToTable(StringInputSource content) {
+            List<String> lines = Arrays.asList(content.getContent().split(System.lineSeparator()));
             Map<Integer, String> mapping = buildMapping(lines.get(0));
             Map<Integer, Map<String, String>> result = buildTable(lines.subList(1, lines.size()), mapping);
             return new Table(result);
@@ -191,16 +186,38 @@ public class ORM {
         }
     }
 
+    static class DatabaseParsingStrategy implements ParsingStrategy<DatabaseInputSource> {
+
+        @Override
+        public Table parseToTable(DatabaseInputSource content) {
+            ResultSet rs = content.getResultSet();
+            Map<Integer, Map<String, String>> result = buildTable(rs);
+            return new Table(result);
+        }
+
+        @SneakyThrows
+        private Map<Integer, Map<String, String>> buildTable(ResultSet rs) {
+            ResultSetMetaData metadata = rs.getMetaData();
+
+            Map<Integer, Map<String, String>> result = new LinkedHashMap<>();
+            int rowId = 0;
+            while (rs.next()) {
+                Map<String, String> row = new LinkedHashMap<>();
+                for (int index = 0; index < metadata.getColumnCount(); index++) {
+                    row.put(metadata.getColumnName(index), rs.getString(index));
+                }
+                result.put(rowId, row);
+                rowId++;
+            }
+
+            return result;
+        }
+    }
 
     @RequiredArgsConstructor
     static class Table {
 
         private final Map<Integer, Map<String, String>> table;
-
-        // X Y Z
-        // 1 2 3
-        // 4 5 6
-        // 7 8 9
 
         public String getCell(int row, String columnName) {
             Map<String, String> nameToCell = table.get(row);
@@ -214,11 +231,12 @@ public class ORM {
             return table.size();
         }
 
-        Map<String, String> getTableRowByIndex(int row){
+        Map<String, String> getTableRowByIndex(int row) {
             Map<String, String> result = table.get(row);
             return result == null ? null : new LinkedHashMap<>(result);
         }
 
     }
+
 
 }

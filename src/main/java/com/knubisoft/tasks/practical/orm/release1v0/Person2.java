@@ -1,4 +1,4 @@
-package com.knubisoft.tasks.practical.ORM.Release10;
+package com.knubisoft.tasks.practical.orm.release1v0;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -10,13 +10,9 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @Getter
 @Setter
-public class Person {
+public class Person2 {
 
     private String name;
     private BigInteger age;
-    private BigInteger salary;
-    private String position;
-    private LocalDate dateOfBirth;
-    private Float xxx;
 
 }

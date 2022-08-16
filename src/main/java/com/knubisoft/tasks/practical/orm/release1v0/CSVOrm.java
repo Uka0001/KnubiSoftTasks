@@ -1,4 +1,4 @@
-package com.knubisoft.tasks.practical.ORM.Release10;
+package com.knubisoft.tasks.practical.orm.release1v0;
 
 import lombok.SneakyThrows;
 
