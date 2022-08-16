@@ -221,34 +221,66 @@ public class ListTasksImpl implements ListTasks {
 
     @Override
     public List<Integer> flatMapWithoutNulls(List<List<Integer>> list) {
-        /*List<List> newList = new ArrayList<>();
-        for(List each: list){
-            if( each == null){
-                list.remove(each);
-            } else {
-               newList.add(each);
-            }
-        }*/
-        return null;
+        if (list == null) {
+            throw new NoSuchElementException();
+        }
+        List<Integer> result = new ArrayList<>();
+        for (List<Integer> l : list) {
+            result.addAll(l.stream().filter(Objects::nonNull).toList());
+        }
+        return result;
     }
 
     @Override
     public List<Integer> cloneIds(List<Integer> originalIds) {
-        return null;
+        try {
+            List<Integer> cloneIds = new ArrayList<>();
+            for(Integer each: originalIds){
+                if (each != null){
+                    cloneIds.add(each);
+                }
+            }
+            return cloneIds;
+        } catch (Exception e){
+            throw new NoSuchElementException(e);
+        }
     }
 
     @Override
     public List<String> shuffle(List<String> originalStrings) {
-        return null;
+        LinkedList<String> result = new LinkedList<>(originalStrings);
+        Collections.shuffle(result);
+        return result;
     }
 
     @Override
     public String getLastElement(LinkedList<String> list) {
-        return null;
+        if (list == null) {
+            throw new NoSuchElementException();
+        }
+        if (list.isEmpty()) {
+            return "";
+        }
+        if (list.getLast() == null) {
+            throw new NoSuchElementException();
+        } else {
+            return list.getLast();
+        }
     }
 
     @Override
     public List<String> compareElements(LinkedList<String> originalCollection, LinkedList<String> additionalCollection) {
-        return null;
+        if (originalCollection == null || additionalCollection == null) {
+            throw new IllegalArgumentException();
+        }
+        List<String> result = new ArrayList<>();
+        for (String value : originalCollection) {
+            for (String s : additionalCollection) {
+                if (value.equals(s)) {
+                    result.add(value);
+                }
+            }
+        }
+        return result;
     }
 }

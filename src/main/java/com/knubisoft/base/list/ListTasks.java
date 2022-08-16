@@ -105,7 +105,8 @@ public interface ListTasks {
     List<String> removeNulls(List<String> list);
 
     /**
-     * You have to write a java program to find all nulls and remove their from the list. Try to use Stream API.
+     * You have to write a java program to find all
+     * nulls and remove their from the list. Try to use Stream API.
      * Example 1:
      * input: {{null,1,4,6,null,123,null}}
      * output: {1,4,6,123}
@@ -118,7 +119,8 @@ public interface ListTasks {
     List<Integer> flatMapWithoutNulls(List<List<Integer>> list);
 
     /**
-     * Write a Java program to clone an array list to another array list without nulls.
+     * Write a Java program to clone an array list to
+     * another array list without nulls.
      * Example 1:
      * input: {null,1,4,6,null,123,null}
      * output: {1,4,6,123}
