@@ -1,0 +1,10 @@
+insert into MOCK_DATA (name, age, salary, position, dateOfBirth) values ('Griff', 1, 1, 'developer', '1982-05-13');
+insert into MOCK_DATA (name, age, salary, position, dateOfBirth) values ('Gratia', 2, 2, 'hr', '1981-07-02');
+insert into MOCK_DATA (name, age, salary, position, dateOfBirth) values ('Bastian', 3, 3, 'trainee', '1981-01-11');
+insert into MOCK_DATA (name, age, salary, position, dateOfBirth) values ('Pepe', 4, 4, 'trainee', '1981-07-22');
+insert into MOCK_DATA (name, age, salary, position, dateOfBirth) values ('Granger', 5, 5, 'trainee', '2016-02-01');
+insert into MOCK_DATA (name, age, salary, position, dateOfBirth) values ('Thurston', 6, 6, 'hr', '1993-11-06');
+insert into MOCK_DATA (name, age, salary, position, dateOfBirth) values ('Kathlin', 7, 7, 'recruiter', '1987-10-02');
+insert into MOCK_DATA (name, age, salary, position, dateOfBirth) values ('Craig', 8, 8, 'hr', '1989-06-25');
+insert into MOCK_DATA (name, age, salary, position, dateOfBirth) values ('Meggy', 9, 9, 'hr', '1988-12-06');
+insert into MOCK_DATA (name, age, salary, position, dateOfBirth) values ('Tracey', 10, 10, 'developer', '1982-04-12');

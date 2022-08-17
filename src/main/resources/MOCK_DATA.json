@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Karim",
+    "age": 1,
+    "salary": 1,
+    "position": "developer",
+    "dateOfBirth": "2003-06-17"
+  },
+  {
+    "name": "Oliy",
+    "age": 2,
+    "salary": 2,
+    "position": "trainee",
+    "dateOfBirth": "2009-01-16"
+  },
+  {
+    "name": "Caryl",
+    "age": 3,
+    "salary": 3,
+    "position": "developer",
+    "dateOfBirth": "1998-11-17"
+  },
+  {
+    "name": "Antonia",
+    "age": 4,
+    "salary": 4,
+    "position": "developer",
+    "dateOfBirth": "2007-07-11"
+  },
+  {
+    "name": "Kris",
+    "age": 5,
+    "salary": 5,
+    "position": "trainee",
+    "dateOfBirth": "2000-08-19"
+  },
+  {
+    "name": "Skyler",
+    "age": 6,
+    "salary": 6,
+    "position": "recruiter",
+    "dateOfBirth": "2000-08-13"
+  },
+  {
+    "name": "Laurianne",
+    "age": 7,
+    "salary": 7,
+    "position": "recruiter",
+    "dateOfBirth": "1994-02-20"
+  },
+  {
+    "name": "Barb",
+    "age": 8,
+    "salary": 8,
+    "position": "hr",
+    "dateOfBirth": "2008-05-25"
+  },
+  {
+    "name": "Candide",
+    "age": 9,
+    "salary": 9,
+    "position": "developer",
+    "dateOfBirth": "2006-07-06"
+  },
+  {
+    "name": "Flynn",
+    "age": 10,
+    "salary": 10,
+    "position": "hr",
+    "dateOfBirth": "2015-09-04"
+  }
+]
