@@ -68,7 +68,7 @@ public class ListTasksImpl implements ListTasks {
             newList = new ArrayList<Long>();
             List<Long> long1 = first.stream()
                     .mapToLong(Integer::longValue)
-                    .boxed().toList();
+                    .boxed().collect(Collectors.toList());
             List<Long> long3 = third.stream()
                     .map(Long::parseLong)
                     .collect(Collectors.toList());
@@ -158,7 +158,7 @@ public class ListTasksImpl implements ListTasks {
     @Override
     public int findMaxValue(List<Integer> first, List<Integer> second, List<Integer> third) {
         List<Integer> newList = Stream.of(first, second, third)
-                .flatMap(Collection::stream).toList();
+                .flatMap(Collection::stream).collect(Collectors.toList());
         return Collections.max(newList);
         // 1й варіант можна було б відсортувати список та знайти необхідний елемент
         // 2й варіант пройтись for each через весь лист та знайти необх. елемент
@@ -176,7 +176,7 @@ public class ListTasksImpl implements ListTasks {
     @Override
     public int findMinValue(List<Integer> first, List<Integer> second, List<Integer> third) {
         List<Integer> newList = Stream.of(first, second, third)
-                .flatMap(Collection::stream).toList();
+                .flatMap(Collection::stream).collect(Collectors.toList());
         return Collections.min(newList);
         // 1й варіант можна було б відсортувати список та знайти необхідний елемент
         // 2й варіант пройтись for each через весь лист та знайти необх. елемент
@@ -201,7 +201,7 @@ public class ListTasksImpl implements ListTasks {
 
         // решение через лист, список сразу сортируем!
         List<Integer> newList = Stream.of(first, second, third)
-                .flatMap(Collection::stream).sorted().toList();
+                .flatMap(Collection::stream).sorted().collect(Collectors.toList());
             int length = newList.size();
             int max1 = newList.get(length-1);
             int max2 = newList.get(length-2);
@@ -226,7 +226,7 @@ public class ListTasksImpl implements ListTasks {
         }
         List<Integer> result = new ArrayList<>();
         for (List<Integer> l : list) {
-            result.addAll(l.stream().filter(Objects::nonNull).toList());
+            result.addAll(l.stream().filter(Objects::nonNull).collect(Collectors.toList()));
         }
         return result;
     }
@@ -242,7 +242,7 @@ public class ListTasksImpl implements ListTasks {
             }
             return cloneIds;
         } catch (Exception e){
-            throw new NoSuchElementException(e);
+            throw new NoSuchElementException();
         }
     }
 
