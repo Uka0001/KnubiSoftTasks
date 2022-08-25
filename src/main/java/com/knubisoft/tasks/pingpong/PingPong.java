@@ -23,10 +23,14 @@ public class PingPong implements Runnable {
                     throw new RuntimeException(e);
                 }
             }
-            /*if (Thread.currentThread().isInterrupted()) {
-                // cleanup and stop execution
-                // for example a break in a loop
-            }*/
         }
     }
 }
+
+/*if (Thread.currentThread().isInterrupted()) {
+// cleanup and stop execution
+// for example a break in a loop
+}*/
+
+/* Thread.currentThread().interrupt();
+System.out.println("Thread has stopped.");*/

@@ -12,5 +12,9 @@ public class Main {
         Thread t2 = new Thread(p2);
         t2.setName("Pong thread");
         t2.start();
+
+        /*if (?)
+            t1.stop();t2.stop();
+        System.out.println("Thread has stopped.");*/
     }
 }
