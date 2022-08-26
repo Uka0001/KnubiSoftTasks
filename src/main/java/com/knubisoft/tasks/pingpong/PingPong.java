@@ -1,5 +1,4 @@
 package com.knubisoft.tasks.pingpong;
-//lombock
 
 import lombok.AllArgsConstructor;
 
