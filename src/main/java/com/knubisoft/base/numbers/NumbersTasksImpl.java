@@ -8,6 +8,8 @@ public class NumbersTasksImpl implements NumbersTasks {
     public void swapTwoNumbersWithoutUsingTemporaryVariable(int firstNumber, int secondNumber) {
         int x = firstNumber;
         int y = secondNumber;
+        x = secondNumber;
+        y = firstNumber;
         x = x + y;
         y = x - y;
         x = x - y;
@@ -40,8 +42,7 @@ public class NumbersTasksImpl implements NumbersTasks {
     @Override
     public int addDigits(int number) {
         int sum = 0;
-        while (number > 0 || sum > 9)
-        {
+        while (number > 0 || sum > 9) {
             if (number == 0) {
                 number = sum;
                 sum = 0;
