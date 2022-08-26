@@ -1,36 +1,29 @@
 package com.knubisoft.tasks.pingpong;
+//lombock
 
+import lombok.AllArgsConstructor;
+
+@AllArgsConstructor
 public class PingPong implements Runnable {
-    String word;
-    Object a;
-
-
-    public PingPong(String word, Object a) {
-        this.word = word;
-        this.a = a;
-    }
-
+    private final String word;
+    private final Object monitor;
 
     @Override
     public void run() {
-        synchronized (a) {
-            for (int i = 0; i < 10; i++) {
-                System.out.println(word + i);
-                try {
-                    a.notifyAll();
-                    a.wait();
-                } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
-                }
+        for (int i = 0; i < 10; i++) {
+            synchronizedPrint(i);
+        }
+    }
+
+    private void synchronizedPrint(int i) {
+        synchronized (monitor) {
+            System.out.println(word + i);
+            try {
+                monitor.notifyAll();
+                monitor.wait(500);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
             }
         }
     }
 }
-
-/*if (Thread.currentThread().isInterrupted()) {
-// cleanup and stop execution
-// for example a break in a loop
-}*/
-
-/* Thread.currentThread().interrupt();
-System.out.println("Thread has stopped.");*/
