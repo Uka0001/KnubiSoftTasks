@@ -4,7 +4,15 @@ public class PatternTasksImpl implements PatternTasks {
 
     @Override
     public boolean haveSetOfCharacters(String text) {
-        return false;
+        try {
+            if (text.equals("") | text.equals(" "))
+                throw new IllegalArgumentException();
+            else
+                return text.matches("^[\\w]+$");
+        } catch (NullPointerException e){
+            throw new IllegalArgumentException();
+        }
+
     }
 
     @Override
