@@ -1,6 +1,7 @@
 package com.knubisoft.base.numbers;
 
 import java.math.BigInteger;
+import java.util.Collections;
 
 public class NumbersTasksImpl implements NumbersTasks {
 
@@ -67,26 +68,52 @@ public class NumbersTasksImpl implements NumbersTasks {
 
     @Override
     public boolean isPrime(int number) {
-        return false;
+        for (int i = 2; i <= number / 2; i++) {
+            if (number % i == 0)
+                return false;
+        }
+        return true;
     }
 
     @Override
     public boolean isArmstrongNumber(int number) {
-        return false;
+        String [] array = Integer.toString(number).split("");
+        int result = 0;
+        for (String each: array)
+            result += Math.pow(Integer.parseInt(each), array.length);
+        return number == result;
     }
 
     @Override
     public BigInteger factorial(int number) {
-        return BigInteger.ZERO;
+        BigInteger bigInteger = BigInteger.valueOf(1);
+        for (int i = 2; i <= number; i++) {
+            bigInteger = bigInteger.multiply(BigInteger.valueOf(i));
+        }
+        return bigInteger;
     }
 
     @Override
     public boolean palindrome(int number) {
-        return false;
+        String original = Integer.toString(number);;
+        String reverse = "";
+        for (int i = original.length()-1; i >= 0; i--){
+            reverse += original.charAt(i);
+        }
+        return original.equals(reverse);
     }
 
     @Override
     public boolean isAutomorphic(int number) {
-        return false;
+        long pow = (long) Math.pow(number, 2);
+        long tmp = number;
+        StringBuilder stringBuilder = new StringBuilder();
+        while (number != 0) {
+            stringBuilder.append(pow % 10);
+            number /= 10;
+            pow /= 10;
+        }
+        int num = Integer.parseInt(stringBuilder.reverse().toString());
+        return tmp == num;
     }
 }
