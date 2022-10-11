@@ -1,7 +1,6 @@
 package com.knubisoft.base.numbers;
 
 import java.math.BigInteger;
-import java.util.Collections;
 
 public class NumbersTasksImpl implements NumbersTasks {
 
@@ -77,9 +76,9 @@ public class NumbersTasksImpl implements NumbersTasks {
 
     @Override
     public boolean isArmstrongNumber(int number) {
-        String [] array = Integer.toString(number).split("");
+        String[] array = Integer.toString(number).split("");
         int result = 0;
-        for (String each: array)
+        for (String each : array)
             result += Math.pow(Integer.parseInt(each), array.length);
         return number == result;
     }
@@ -95,9 +94,10 @@ public class NumbersTasksImpl implements NumbersTasks {
 
     @Override
     public boolean palindrome(int number) {
-        String original = Integer.toString(number);;
+        String original = Integer.toString(number);
+        ;
         String reverse = "";
-        for (int i = original.length()-1; i >= 0; i--){
+        for (int i = original.length() - 1; i >= 0; i--) {
             reverse += original.charAt(i);
         }
         return original.equals(reverse);

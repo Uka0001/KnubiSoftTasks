@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  * TODO rewrite tests to JUnit 5
- *
+ * <p>
  * parametrized tests
  */
 class LuckyTicketTest {
@@ -45,5 +45,4 @@ class LuckyTicketTest {
         assertTrue(instance.checkIsLuckyTicket("23455432"));
         assertTrue(instance.checkIsLuckyTicket("0000000"));
     }
-
 }

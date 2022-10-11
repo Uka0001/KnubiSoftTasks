@@ -30,7 +30,7 @@ class CharsInStringImplTest {
         for (int index = 0; index < 50; index++) {
             char randomChar = setOfCharacters.charAt(random.nextInt(setOfCharacters.length()));
 
-            if (expected.containsKey(randomChar)){
+            if (expected.containsKey(randomChar)) {
                 Integer v = expected.get(randomChar);
                 expected.put(randomChar, v + 1);
             } else {

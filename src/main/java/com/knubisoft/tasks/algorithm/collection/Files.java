@@ -28,8 +28,8 @@ public interface Files {
      * @param file2 the second file
      * @return true if the content of the files are equal or they both don't exist, false otherwise
      * @throws IllegalArgumentException when an input is not a file.
-     * @throws IOException If an I/O error occurs.
-     * @see org.apache.commons.io.file.PathUtils#fileContentEquals(Path,Path,java.nio.file.LinkOption[],java.nio.file.OpenOption...)
+     * @throws IOException              If an I/O error occurs.
+     * @see org.apache.commons.io.file.PathUtils#fileContentEquals(Path, Path, java.nio.file.LinkOption[], java.nio.file.OpenOption...)
      */
     boolean contentEquals(final File file1, final File file2) throws IOException;
 
@@ -49,12 +49,12 @@ public interface Files {
      * modification operation fails, the methods throws IOException.
      * </p>
      *
-     * @param sourceDir an existing directory to copy, must not be {@code null}.
+     * @param sourceDir      an existing directory to copy, must not be {@code null}.
      * @param destinationDir the directory to place the copy in, must not be {@code null}.
-     * @throws NullPointerException if any of the given {@code File}s are {@code null}.
+     * @throws NullPointerException     if any of the given {@code File}s are {@code null}.
      * @throws IllegalArgumentException if the source or destination is invalid.
-     * @throws FileNotFoundException if the source does not exist.
-     * @throws IOException if an error occurs or setting the last-modified time didn't succeeded.
+     * @throws FileNotFoundException    if the source does not exist.
+     * @throws IOException              if an error occurs or setting the last-modified time didn't succeeded.
      */
     void copyDirectoryToDirectory(final File sourceDir, final File destinationDir) throws IOException;
 
@@ -62,7 +62,7 @@ public interface Files {
     /**
      * Gets the contents at the given URL.
      *
-     * @param url The URL source.
+     * @param url      The URL source.
      * @param encoding The encoding name for the URL contents.
      * @return The contents of the URL as a String.
      * @throws IOException if an I/O exception occurs.
@@ -77,7 +77,7 @@ public interface Files {
      * {@code BufferedInputStream}.
      * </p>
      *
-     * @param input the {@code InputStream} to read from
+     * @param input   the {@code InputStream} to read from
      * @param charset the charset to use, null means platform default
      * @return the requested String
      * @throws NullPointerException if the input is null
@@ -97,7 +97,6 @@ public interface Files {
      * @since 2.4
      */
     byte[] toByteArray(final URL url) throws IOException;
-
 
 
     /**
@@ -137,7 +136,7 @@ public interface Files {
      * </pre>
      * (Note the file separator returned will be correct for Windows/Unix)
      *
-     * @param fileName  the fileName to normalize, null returns null
+     * @param fileName the fileName to normalize, null returns null
      * @return the normalized fileName, or null if invalid. Null bytes inside string will be removed
      */
     String normalize(final String fileName);
@@ -147,13 +146,13 @@ public interface Files {
      * Reads the contents of a file line by line to a List of Strings.
      * The file is always closed.
      *
-     * @param file     the file to read, must not be {@code null}
+     * @param file    the file to read, must not be {@code null}
      * @param charset the charset to use, {@code null} means platform default
      * @return the list of Strings representing each line in the file, never {@code null}
-     * @throws NullPointerException if file is {@code null}.
+     * @throws NullPointerException  if file is {@code null}.
      * @throws FileNotFoundException if the file does not exist, is a directory rather than a regular file, or for some
-     *         other reason cannot be opened for reading.
-     * @throws IOException if an I/O error occurs.
+     *                               other reason cannot be opened for reading.
+     * @throws IOException           if an I/O error occurs.
      */
     List<String> readLines(final File file, final Charset charset) throws IOException;
 
@@ -163,7 +162,7 @@ public interface Files {
      *
      * @param directory the directory to query.
      * @return whether the directory is empty.
-     * @throws IOException if an I/O error occurs.
+     * @throws IOException           if an I/O error occurs.
      * @throws NotDirectoryException if the file could not otherwise be opened because it is not a directory
      *                               <i>(optional specific exception)</i>.
      */

@@ -89,7 +89,7 @@ public class ReflectionTasksTest {
     @Test
     public void evaluateMethodByNameArgsSuccessful() {
         assertEquals("dlroW ,olleH",
-                instance.evaluateMethodWithArgsByName(new StringTasksImpl(), "reverseString","Hello, World"));
+                instance.evaluateMethodWithArgsByName(new StringTasksImpl(), "reverseString", "Hello, World"));
         assertEquals("He, Worldllo",
                 instance.evaluateMethodWithArgsByName(new StringTasksImpl(), "insertStringInMiddle",
                         "Hello", ", World"));

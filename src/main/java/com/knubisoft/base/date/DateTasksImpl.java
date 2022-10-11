@@ -1,11 +1,12 @@
 package com.knubisoft.base.date;
 
-import java.sql.Time;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.time.*;
+import java.time.DayOfWeek;
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.Period;
 import java.time.format.DateTimeFormatter;
-import java.time.temporal.ChronoUnit;
 import java.time.temporal.TemporalAdjusters;
 import java.util.*;
 
@@ -20,7 +21,7 @@ public class DateTasksImpl implements DateTasks {
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
         Date date1 = null;
         try {
-        date1 = formatter.parse(date);
+            date1 = formatter.parse(date);
         } catch (ParseException e) {
             e.printStackTrace();
         }
@@ -44,7 +45,7 @@ public class DateTasksImpl implements DateTasks {
         Calendar calendar = Calendar.getInstance();
         calendar.setTime(parseDate);
         month = calendar.get(Calendar.MONTH);
-        return month+1;
+        return month + 1;
     }
 
     @Override
@@ -68,7 +69,7 @@ public class DateTasksImpl implements DateTasks {
     @Override
     public String getLastDayOfTheMonth(String date) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-        formatter = formatter.withLocale(Locale.ENGLISH );
+        formatter = formatter.withLocale(Locale.ENGLISH);
         LocalDate date1 = LocalDate.parse(date, formatter);
         LocalDate start = date1.with(firstDayOfMonth());
         LocalDate end = date1.with(lastDayOfMonth());
@@ -86,7 +87,7 @@ public class DateTasksImpl implements DateTasks {
     @Override
     public String getDateAfter2Weeks(String date) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-        formatter = formatter.withLocale(Locale.ENGLISH );
+        formatter = formatter.withLocale(Locale.ENGLISH);
         LocalDate date1 = LocalDate.parse(date, formatter);
         return date1.plusWeeks(2).toString();
     }
@@ -94,7 +95,7 @@ public class DateTasksImpl implements DateTasks {
     @Override
     public long getNumberOfDaysBetweenTwoDates(String date1, String date2) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-        formatter = formatter.withLocale(Locale.ENGLISH );
+        formatter = formatter.withLocale(Locale.ENGLISH);
         LocalDate dateStart = LocalDate.parse(date1, formatter);
         LocalDate dateFinish = LocalDate.parse(date2, formatter);
         long daysBetween = DAYS.between(dateStart, dateFinish);
@@ -104,18 +105,18 @@ public class DateTasksImpl implements DateTasks {
     @Override
     public String[] getTheNextAndPreviousFriday(String date) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-        formatter = formatter.withLocale(Locale.ENGLISH );
+        formatter = formatter.withLocale(Locale.ENGLISH);
         LocalDate dateStart = LocalDate.parse(date, formatter);
         LocalDate fridayNext = dateStart.with(TemporalAdjusters.next(DayOfWeek.FRIDAY));
         LocalDate fridayPrevious = dateStart.with(TemporalAdjusters.previous(DayOfWeek.FRIDAY));
-        String [] arr = {fridayPrevious.toString(), fridayNext.toString()};
+        String[] arr = {fridayPrevious.toString(), fridayNext.toString()};
         return arr;
     }
 
     @Override
     public int getNumberOfMonthsRemainingInTheYear(String date) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-        formatter = formatter.withLocale(Locale.ENGLISH );
+        formatter = formatter.withLocale(Locale.ENGLISH);
         LocalDate dateStart = LocalDate.parse(date, formatter);
         LocalDate lastDayOfYear = dateStart.with(TemporalAdjusters.lastDayOfYear());
         Period period = dateStart.until(lastDayOfYear);

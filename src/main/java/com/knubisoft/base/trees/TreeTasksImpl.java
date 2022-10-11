@@ -27,38 +27,36 @@ public class TreeTasksImpl implements TreeTasks {
     @Override
     public List<Integer> inorderTraversal(TreeNode node) {
         List<Integer> ans = new ArrayList<>();
-        if(node==null){
+        if (node == null) {
             return ans;
-        }
-        else if(node.right==null && node.left==null){
+        } else if (node.right == null && node.left == null) {
             ans.add(node.val);
             return ans;
-        }
-        else{
-            return inOrder(node,ans);
+        } else {
+            return inOrder(node, ans);
         }
     }
 
-    private List<Integer> inOrder(TreeNode point, List<Integer> ref){
-        if(point==null){
+    private List<Integer> inOrder(TreeNode point, List<Integer> ref) {
+        if (point == null) {
             return ref;
         }
-        inOrder(point.left,ref);
+        inOrder(point.left, ref);
         ref.add(point.val);
-        inOrder(point.right,ref);
+        inOrder(point.right, ref);
         return ref;
     }
 
     @Override
     public boolean isSymmetric(TreeNode node) {
-        if(node == null) return true;
+        if (node == null) return true;
         return validateTrees(node.left, node.right);
     }
 
     private boolean validateTrees(TreeNode left, TreeNode right) {
-        if(left == null && right == null) return true;
-        if((left == null && right != null) || (left != null && right == null)) return false;
-        if(left.val != right.val) return false;
+        if (left == null && right == null) return true;
+        if ((left == null && right != null) || (left != null && right == null)) return false;
+        if (left.val != right.val) return false;
 
         return validateTrees(left.left, right.right) && validateTrees(left.right, right.left);
     }
@@ -73,23 +71,21 @@ public class TreeTasksImpl implements TreeTasks {
 
     @Override
     public boolean hasPathSum(TreeNode node, int targetSum) {
-        if(node == null){
+        if (node == null) {
             return false;
-        }
-        else if(node.left == null && node.right == null && targetSum - node.val == 0){
+        } else if (node.left == null && node.right == null && targetSum - node.val == 0) {
             return true;
-        }
-        else{
+        } else {
             return hasPathSum(node.left, targetSum - node.val) || hasPathSum(node.right, targetSum - node.val);
         }
     }
 
     @Override
     public TreeNode invertTree(TreeNode node) {
-        if ( null == node ) return node;
-        TreeNode left  = invertTree( node.left );
+        if (null == node) return node;
+        TreeNode left = invertTree(node.left);
 
-        node.left = invertTree( node.right );
+        node.left = invertTree(node.right);
         node.right = left;
         return node;
     }

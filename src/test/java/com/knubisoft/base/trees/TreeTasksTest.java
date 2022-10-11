@@ -143,7 +143,7 @@ class TreeTasksTest {
                 new TreeTasks.TreeNode(3,
                         new TreeTasks.TreeNode(6),
                         new TreeTasks.TreeNode(7)));
-        assertEquals(Arrays.asList(4,2,5,1,6,3,7), treeTasks.inorderTraversal(tree1));
+        assertEquals(Arrays.asList(4, 2, 5, 1, 6, 3, 7), treeTasks.inorderTraversal(tree1));
 
         TreeTasks.TreeNode tree2 = new TreeTasks.TreeNode(1,
                 new TreeTasks.TreeNode(2,
@@ -154,12 +154,12 @@ class TreeTasksTest {
                 new TreeTasks.TreeNode(3,
                         new TreeTasks.TreeNode(6),
                         new TreeTasks.TreeNode(7)));
-        assertEquals(Arrays.asList(8,4,9,2,5,1,6,3,7), treeTasks.inorderTraversal(tree2));
+        assertEquals(Arrays.asList(8, 4, 9, 2, 5, 1, 6, 3, 7), treeTasks.inorderTraversal(tree2));
 
         TreeTasks.TreeNode tree3 = new TreeTasks.TreeNode(1,
                 null,
                 new TreeTasks.TreeNode(2, new TreeTasks.TreeNode(3), null));
-        assertEquals(Arrays.asList(1,3,2), treeTasks.inorderTraversal(tree3));
+        assertEquals(Arrays.asList(1, 3, 2), treeTasks.inorderTraversal(tree3));
 
         TreeTasks.TreeNode tree4 = new TreeTasks.TreeNode(23,
                 new TreeTasks.TreeNode(134),
@@ -168,7 +168,7 @@ class TreeTasksTest {
                         new TreeTasks.TreeNode(99,
                                 null,
                                 new TreeTasks.TreeNode(200))));
-        assertEquals(Arrays.asList(134,23,77,259,99,200), treeTasks.inorderTraversal(tree4));
+        assertEquals(Arrays.asList(134, 23, 77, 259, 99, 200), treeTasks.inorderTraversal(tree4));
 
         TreeTasks.TreeNode tree5 = new TreeTasks.TreeNode(100,
                 new TreeTasks.TreeNode(-100,

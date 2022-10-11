@@ -3,7 +3,6 @@ package com.knubisoft.base.arrays;
 import org.apache.commons.lang3.ArrayUtils;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 

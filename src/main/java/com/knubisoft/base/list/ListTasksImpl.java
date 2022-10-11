@@ -21,7 +21,7 @@ public class ListTasksImpl implements ListTasks {
                 elements.add(elements.get(index));
             }
             return elements;
-        } catch (NullPointerException | IndexOutOfBoundsException e){
+        } catch (NullPointerException | IndexOutOfBoundsException e) {
             throw new IllegalArgumentException("IllegalArgumentException");
         }
     }
@@ -33,7 +33,7 @@ public class ListTasksImpl implements ListTasks {
                 elements.add(index, elements.get(index));
             }
             return elements;
-        } catch (NullPointerException | IndexOutOfBoundsException e){
+        } catch (NullPointerException | IndexOutOfBoundsException e) {
             throw new IllegalArgumentException("IllegalArgumentException");
         }
     }
@@ -45,16 +45,16 @@ public class ListTasksImpl implements ListTasks {
                 elements.set(index, elements.get(index));
             }
             return elements;
-        } catch (NullPointerException | IndexOutOfBoundsException e){
+        } catch (NullPointerException | IndexOutOfBoundsException e) {
             throw new IllegalArgumentException("IllegalArgumentException");
         }
     }
 
     @Override
     public int getListSize(List<String> list) {
-        if (list == null){
+        if (list == null) {
             return 0;
-        } else if (list.isEmpty()){
+        } else if (list.isEmpty()) {
             return 0;
         } else {
             return list.size();
@@ -79,7 +79,7 @@ public class ListTasksImpl implements ListTasks {
             if (third.contains(null) || first.contains(null) || second.contains(null))
                 throw new NullPointerException("NullPointerException");
             else
-                throw new  IllegalArgumentException("IllegalArgumentException");
+                throw new IllegalArgumentException("IllegalArgumentException");
         } catch (RuntimeException e) {
             throw new RuntimeException("RuntimeException");
         }
@@ -202,17 +202,17 @@ public class ListTasksImpl implements ListTasks {
         // решение через лист, список сразу сортируем!
         List<Integer> newList = Stream.of(first, second, third)
                 .flatMap(Collection::stream).sorted().collect(Collectors.toList());
-            int length = newList.size();
-            int max1 = newList.get(length-1);
-            int max2 = newList.get(length-2);
+        int length = newList.size();
+        int max1 = newList.get(length - 1);
+        int max2 = newList.get(length - 2);
         return max1 * max2;
     }
 
     @Override
     public List<String> removeNulls(List<String> list) {
         List<String> newList = new ArrayList<>();
-        for(String each: list){
-            if( each != null && each.length() > 0){
+        for (String each : list) {
+            if (each != null && each.length() > 0) {
                 newList.add(each);
             }
         }
@@ -235,13 +235,13 @@ public class ListTasksImpl implements ListTasks {
     public List<Integer> cloneIds(List<Integer> originalIds) {
         try {
             List<Integer> cloneIds = new ArrayList<>();
-            for(Integer each: originalIds){
-                if (each != null){
+            for (Integer each : originalIds) {
+                if (each != null) {
                     cloneIds.add(each);
                 }
             }
             return cloneIds;
-        } catch (Exception e){
+        } catch (Exception e) {
             throw new NoSuchElementException();
         }
     }

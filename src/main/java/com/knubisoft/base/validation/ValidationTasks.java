@@ -14,28 +14,29 @@ import lombok.Setter;
  * 1. @PrimaryKey - You can store only unique id in your database.
  * 2. @MaxLength - Max length of a string have constraint. YOu have to validate by that number.
  * 3. @ReferClass - It's a pointer on another instance which have already created.
- *      Example: User.fkUserLocationDetails with value 6 have to refer on existed UserLocationDetails.id with value 6.
+ * Example: User.fkUserLocationDetails with value 6 have to refer on existed UserLocationDetails.id with value 6.
  * 4. @NotNull - The field can't be null.
  * 5. @Entity - Validate you instance only if the class marked by the @Entity annotation
- * */
+ */
 public interface ValidationTasks {
     /**
      * Validate your instance (p.1 - p.5)
-     * */
+     */
     void validate(Object instance);
+
     /**
      * Builder to create User
-     * */
+     */
     User buildUser();
 
     /**
      * Builder to create UserGeneralDetails
-     * */
+     */
     UserGeneralDetails buildUserGeneralDetails();
 
     /**
      * Builder to create UserGeneralDetails
-     * */
+     */
     UserAddressDetails buildUserAddressDetails();
 
     @Entity

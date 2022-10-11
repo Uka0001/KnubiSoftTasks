@@ -21,9 +21,9 @@ public interface Utils {
      * different keys, the returned map will map one of those keys to the
      * value, but the exact key which will be mapped is undefined.
      *
-     * @param <K>  the key type
-     * @param <V>  the value type
-     * @param map  the map to invert, may not be null
+     * @param <K> the key type
+     * @param <V> the value type
+     * @param map the map to invert, may not be null
      * @return a new HashMap containing the inverted data
      * @throws NullPointerException if the map is null
      */
@@ -34,9 +34,9 @@ public interface Utils {
      * first list.  The {@link List#addAll(Collection)} operation is
      * used to append the two given lists into a new list.
      *
-     * @param <E> the element type
-     * @param list1  the first list
-     * @param list2  the second list
+     * @param <E>   the element type
+     * @param list1 the first list
+     * @param list2 the second list
      * @return a new list containing the union of those lists
      * @throws NullPointerException if either list is null
      */
@@ -66,10 +66,10 @@ public interface Utils {
      * <b>Note:</b> The behaviour of this method is undefined if the lists are
      * modified during the equals comparison.
      *
-     * @see java.util.List
-     * @param list1  the first list, may be null
-     * @param list2  the second list, may be null
+     * @param list1 the first list, may be null
+     * @param list2 the second list, may be null
      * @return whether the lists are equal by value comparison
+     * @see java.util.List
      */
     boolean isEqualList(final Collection<?> list1, final Collection<?> list2);
 
@@ -91,9 +91,9 @@ public interface Utils {
      * }
      * </pre>
      *
-     * @param <K>  the key type
-     * @param <V>  the value type
-     * @param map  the map to synchronize, must not be null
+     * @param <K> the key type
+     * @param <V> the value type
+     * @param map the map to synchronize, must not be null
      * @return a synchronized map backed by the given map
      */
     <K, V> Map<K, V> synchronizedMap(final Map<K, V> map);
@@ -114,10 +114,10 @@ public interface Utils {
      * {@code {@link #union union}({@link #subtract subtract(a,b)},{@link #subtract subtract(b,a)})}.
      * </p>
      *
-     * @param a the first collection, must not be null
-     * @param b the second collection, must not be null
+     * @param a   the first collection, must not be null
+     * @param b   the second collection, must not be null
      * @param <O> the generic type that is able to represent the types contained
-     *        in both input collections.
+     *            in both input collections.
      * @return the symmetric difference of the two collections
      */
     <O> Collection<O> disjunction(final Iterable<? extends O> a, final Iterable<? extends O> b);
@@ -128,10 +128,10 @@ public interface Utils {
      * will be the cardinality of <i>e</i> in <i>a</i> minus the cardinality
      * of <i>e</i> in <i>b</i>, or zero, whichever is greater.
      *
-     * @param a  the collection to subtract from, must not be null
-     * @param b  the collection to subtract, must not be null
+     * @param a   the collection to subtract from, must not be null
+     * @param b   the collection to subtract, must not be null
      * @param <O> the generic type that is able to represent the types contained
-     *        in both input collections.
+     *            in both input collections.
      * @return a new collection with the results
      * @see Collection#removeAll
      */
@@ -141,8 +141,8 @@ public interface Utils {
      * Gets a comparator that compares using an array of {@link Comparator}s, applied
      * in sequence until one returns not equal or the array is exhausted.
      *
-     * @param <E>  the object type to compare
-     * @param comparators  the comparators to use, not null or empty or containing nulls
+     * @param <E>         the object type to compare
+     * @param comparators the comparators to use, not null or empty or containing nulls
      * @return a {@link ComparatorChain} formed from the input comparators
      * @throws NullPointerException if comparators array is null or contains a null
      * @see ComparatorChain

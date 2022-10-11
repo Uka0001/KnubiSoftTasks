@@ -15,7 +15,7 @@ class QueueTasksTest {
     QueueTasks queueTasks = new QueueTasksImpl();
 
     @Test
-    void reverseQueueUsingRecursion(){
+    void reverseQueueUsingRecursion() {
         Queue<Integer> queue1 = new LinkedList<>();
         queue1.add(1);
         queue1.add(2);

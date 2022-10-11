@@ -1,6 +1,5 @@
 package com.knubisoft.base.pattern;
 
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class PatternTasksImpl implements PatternTasks {
@@ -12,7 +11,7 @@ public class PatternTasksImpl implements PatternTasks {
                 throw new IllegalArgumentException();
             else
                 return text.matches("^\\w+$");
-        } catch (NullPointerException e){
+        } catch (NullPointerException e) {
             throw new IllegalArgumentException();
         }
 
@@ -26,7 +25,7 @@ public class PatternTasksImpl implements PatternTasks {
         String result = "";
         Pattern pattern = Pattern.compile("^pq*$");
 
-        if (pattern.matcher(text).find()){
+        if (pattern.matcher(text).find()) {
             result = "Found a match!";
         } else {
             result = "Not matched!";
@@ -42,7 +41,7 @@ public class PatternTasksImpl implements PatternTasks {
         String result = "";
         Pattern pattern = Pattern.compile("\\Bg\\B");
 
-        if (pattern.matcher(text).find()){
+        if (pattern.matcher(text).find()) {
             result = "Found a match!";
         } else {
             result = "Not matched!";
@@ -55,7 +54,7 @@ public class PatternTasksImpl implements PatternTasks {
         if (text == null || text.length() == 0 || text.equals(" ")) {
             throw new IllegalArgumentException();
         } else
-            return text.replaceAll("(?<=^|\\.)0+(?!\\.|$)","");
+            return text.replaceAll("(?<=^|\\.)0+(?!\\.|$)", "");
     }
 
     @Override
@@ -70,7 +69,7 @@ public class PatternTasksImpl implements PatternTasks {
     public boolean validatePIN(String text) {
         if (text == null || text.length() == 0 || text.equals(" ")) {
             throw new IllegalArgumentException();
-        }else if (text.length() % 2 != 0) {
+        } else if (text.length() % 2 != 0) {
             return false;
         }
         Pattern p = Pattern.compile("^\\d{4}|\\d{6}\\d{8}$");
@@ -106,11 +105,11 @@ public class PatternTasksImpl implements PatternTasks {
         if (text == null || text.length() == 0 || text.equals(" ") || n <= 0 | n > text.length()) {
             throw new RuntimeException();
         }
-        text = text.replaceAll("[^qeyuoia]","");
-        if (text.length() == n){
+        text = text.replaceAll("[^qeyuoia]", "");
+        if (text.length() == n) {
             return text;
         }
-        return text.substring(text.length()-n);
+        return text.substring(text.length() - n);
     }
 
     @Override
@@ -126,7 +125,7 @@ public class PatternTasksImpl implements PatternTasks {
 
     @Override
     public String insertDash(String text) {
-        if (text==null){
+        if (text == null) {
             throw new RuntimeException();
         }
         String[] arr = text.split(" ");

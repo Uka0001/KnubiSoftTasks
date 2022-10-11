@@ -1,22 +1,23 @@
 package com.knubisoft.tasks.algorithm.search;
 
-public class SearchImpl implements Search{
+public class SearchImpl implements Search {
     @Override
     public int binarySearch(long[] array, long v) {
-            int low = 0;
-            int high = array.length - 1;
-            return recursive(array, low, high, v);
-        }
-        public int recursive(long[] array, int low, int high, long v) {
-            if(low > high) return -1;
-            int mid = (low + high) / 2;
+        int low = 0;
+        int high = array.length - 1;
+        return recursive(array, low, high, v);
+    }
 
-            if(array[mid] == v) return mid;
+    public int recursive(long[] array, int low, int high, long v) {
+        if (low > high) return -1;
+        int mid = (low + high) / 2;
 
-            if(v > array[mid]) return recursive(array, mid + 1, high, v);
-            else return recursive(array, low, mid - 1, v);
-        }
-        //alternative decision
+        if (array[mid] == v) return mid;
+
+        if (v > array[mid]) return recursive(array, mid + 1, high, v);
+        else return recursive(array, low, mid - 1, v);
+    }
+    //alternative decision
     /*int n = array.length;
         int low = 0;
         int high = n-1;

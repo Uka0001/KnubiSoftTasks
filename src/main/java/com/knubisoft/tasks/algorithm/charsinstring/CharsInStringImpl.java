@@ -2,7 +2,6 @@ package com.knubisoft.tasks.algorithm.charsinstring;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.stream.IntStream;
 
 public class CharsInStringImpl implements CharsInString {
     @Override

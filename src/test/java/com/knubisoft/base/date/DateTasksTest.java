@@ -13,12 +13,12 @@ class DateTasksTest {
 
     @Test
     void add1Day() {
-        assertEquals("2022-01-28",dateTasks.add1Day("2022-01-27"));
-        assertEquals("1993-01-01",dateTasks.add1Day("1992-12-31"));
-        assertEquals("2012-02-29",dateTasks.add1Day("2012-02-28"));
-        assertEquals("1949-03-16",dateTasks.add1Day("1949-03-15"));
-        assertEquals("2020-07-31",dateTasks.add1Day("2020-07-30"));
-        assertEquals("2000-03-16",dateTasks.add1Day("2000-03-15"));
+        assertEquals("2022-01-28", dateTasks.add1Day("2022-01-27"));
+        assertEquals("1993-01-01", dateTasks.add1Day("1992-12-31"));
+        assertEquals("2012-02-29", dateTasks.add1Day("2012-02-28"));
+        assertEquals("1949-03-16", dateTasks.add1Day("1949-03-15"));
+        assertEquals("2020-07-31", dateTasks.add1Day("2020-07-30"));
+        assertEquals("2000-03-16", dateTasks.add1Day("2000-03-15"));
     }
 
     @Test
@@ -78,22 +78,22 @@ class DateTasksTest {
 
     @Test
     void getNumberOfDaysBetweenTwoDates() {
-        assertEquals(3652, dateTasks.getNumberOfDaysBetweenTwoDates("2012-09-21","2022-09-21"));
-        assertEquals(0, dateTasks.getNumberOfDaysBetweenTwoDates("2022-09-21","2022-09-21"));
-        assertEquals(38, dateTasks.getNumberOfDaysBetweenTwoDates("2021-11-23","2021-12-31"));
-        assertEquals(8036, dateTasks.getNumberOfDaysBetweenTwoDates("2000-01-01","2022-01-01"));
-        assertEquals(1, dateTasks.getNumberOfDaysBetweenTwoDates("1999-12-12","1999-12-13"));
-        assertEquals(70, dateTasks.getNumberOfDaysBetweenTwoDates("2015-04-29","2015-07-08"));
+        assertEquals(3652, dateTasks.getNumberOfDaysBetweenTwoDates("2012-09-21", "2022-09-21"));
+        assertEquals(0, dateTasks.getNumberOfDaysBetweenTwoDates("2022-09-21", "2022-09-21"));
+        assertEquals(38, dateTasks.getNumberOfDaysBetweenTwoDates("2021-11-23", "2021-12-31"));
+        assertEquals(8036, dateTasks.getNumberOfDaysBetweenTwoDates("2000-01-01", "2022-01-01"));
+        assertEquals(1, dateTasks.getNumberOfDaysBetweenTwoDates("1999-12-12", "1999-12-13"));
+        assertEquals(70, dateTasks.getNumberOfDaysBetweenTwoDates("2015-04-29", "2015-07-08"));
     }
 
     @Test
     void getTheNextAndPreviousFriday() {
-        assertArrayEquals(new String[] {"2021-07-23", "2021-07-30"}, dateTasks.getTheNextAndPreviousFriday("2021-07-27"));
-        assertArrayEquals(new String[] {"2015-11-06", "2015-11-20"}, dateTasks.getTheNextAndPreviousFriday("2015-11-13"));
-        assertArrayEquals(new String[] {"2017-10-27", "2017-11-03"}, dateTasks.getTheNextAndPreviousFriday("2017-11-01"));
-        assertArrayEquals(new String[] {"1999-01-01", "1999-01-15"}, dateTasks.getTheNextAndPreviousFriday("1999-01-08"));
-        assertArrayEquals(new String[] {"1995-03-10", "1995-03-17"}, dateTasks.getTheNextAndPreviousFriday("1995-03-16"));
-        assertArrayEquals(new String[] {"2006-04-28", "2006-05-12"}, dateTasks.getTheNextAndPreviousFriday("2006-05-05"));
+        assertArrayEquals(new String[]{"2021-07-23", "2021-07-30"}, dateTasks.getTheNextAndPreviousFriday("2021-07-27"));
+        assertArrayEquals(new String[]{"2015-11-06", "2015-11-20"}, dateTasks.getTheNextAndPreviousFriday("2015-11-13"));
+        assertArrayEquals(new String[]{"2017-10-27", "2017-11-03"}, dateTasks.getTheNextAndPreviousFriday("2017-11-01"));
+        assertArrayEquals(new String[]{"1999-01-01", "1999-01-15"}, dateTasks.getTheNextAndPreviousFriday("1999-01-08"));
+        assertArrayEquals(new String[]{"1995-03-10", "1995-03-17"}, dateTasks.getTheNextAndPreviousFriday("1995-03-16"));
+        assertArrayEquals(new String[]{"2006-04-28", "2006-05-12"}, dateTasks.getTheNextAndPreviousFriday("2006-05-05"));
     }
 
     @Test

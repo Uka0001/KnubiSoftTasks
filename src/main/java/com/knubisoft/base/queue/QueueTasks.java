@@ -10,21 +10,21 @@ public interface QueueTasks {
 
     /**
      * Given a queue, write a recursive function to reverse it.
-     *
+     * <p>
      * Standard operations allowed :
      * enqueue(x) : Add an item x to rear of queue.
      * dequeue() : Remove an item from front of queue.
      * empty() : Checks if a queue is empty or not.
-     *
+     * <p>
      * Example 1:
-     *
-     *     input: [5, 24, 9, 6, 8, 4, 1, 8, 3, 6]
-     *     output: [6, 3, 8, 1, 4, 8, 6, 9, 24, 5]
-     *
+     * <p>
+     * input: [5, 24, 9, 6, 8, 4, 1, 8, 3, 6]
+     * output: [6, 3, 8, 1, 4, 8, 6, 9, 24, 5]
+     * <p>
      * Example 2:
-     *
-     *     input: [8, 7, 2, 5, 1]
-     *     output: [1, 5, 2, 7, 8]
+     * <p>
+     * input: [8, 7, 2, 5, 1]
+     * output: [1, 5, 2, 7, 8]
      *
      * @param queue Queue of integers.
      * @return Reversed queue.
@@ -34,32 +34,32 @@ public interface QueueTasks {
     /**
      * Given an integer K and a queue of integers, we need to reverse the order of the first K elements of the queue,
      * leaving the other elements in the same relative order.
-     *
+     * <p>
      * Example 1:
-     *
-     *     input: queue - [1,2,3,4,5], k - 3
-     *     output: [3,2,1,4,5]
-     *     explanation: After reversing the given input from the 3rd position the resultan output will be 3 2 1 4 5.
-     *
+     * <p>
+     * input: queue - [1,2,3,4,5], k - 3
+     * output: [3,2,1,4,5]
+     * explanation: After reversing the given input from the 3rd position the resultan output will be 3 2 1 4 5.
+     * <p>
      * Example 2:
-     *
-     *     input: queue - [4,3,2,1], k-4
-     *     output: [1,2,3,4]
-     *     explanation: After reversing the give input from the 4th position the resultant output will be 1 2 3 4.
+     * <p>
+     * input: queue - [4,3,2,1], k-4
+     * output: [1,2,3,4]
+     * explanation: After reversing the give input from the 4th position the resultant output will be 1 2 3 4.
      *
      * @param queue Queue of integers.
-     * @param k Number of first elements to reverse.
+     * @param k     Number of first elements to reverse.
      * @return Modified queue.
      */
     Queue<Integer> reverseFirstKElementsOfQueue(Queue<Integer> queue, int k);
 
     /**
      * Given a queue with integer values in a random sequence, your task is to sort the values in ascending order.
-     *
+     * <p>
      * Example:
-     *
-     *     input: [45,12,89,22,11,23]
-     *     output: [11,12,22,23,45,89]
+     * <p>
+     * input: [45,12,89,22,11,23]
+     * output: [11,12,22,23,45,89]
      *
      * @param queue Queue of integers.
      * @return Sorted queue.
@@ -70,33 +70,33 @@ public interface QueueTasks {
     /**
      * Given a string parentheses containing just the characters '(', ')', '{', '}', '[' and ']',
      * determine if the input string is valid.
-     *
+     * <p>
      * An input string is valid if:
-     *
-     *     1.Open brackets must be closed by the same type of brackets.
-     *     2.Open brackets must be closed in the correct order.
-     *
+     * <p>
+     * 1.Open brackets must be closed by the same type of brackets.
+     * 2.Open brackets must be closed in the correct order.
+     * <p>
      * Note: to solve this task, you must use the Deque or Queue data structure.
-     *
+     * <p>
      * Example 1:
-     *
-     *     input: "()"
-     *     output: true
-     *
+     * <p>
+     * input: "()"
+     * output: true
+     * <p>
      * Example 2:
-     *
-     *     input: "()[]{}"
-     *     output: true
-     *
+     * <p>
+     * input: "()[]{}"
+     * output: true
+     * <p>
      * Example 3:
-     *
-     *     input: "({[]})"
-     *     output: true
-     *
+     * <p>
+     * input: "({[]})"
+     * output: true
+     * <p>
      * Example 4:
-     *
-     *     input: "{)"
-     *     output: false
+     * <p>
+     * input: "{)"
+     * output: false
      *
      * @param parentheses String containing parentheses.
      */
@@ -106,9 +106,9 @@ public interface QueueTasks {
      * Your task is to implement a comparator (com.knubisoft.base.queue.car.CarComparator)
      * for the Car class (com.knubisoft.base.queue.car.Car), then implement a method whose result will return
      * a PriorityQueue that stores all the cars from the list (List<Car> cars) and uses your implemented comparator.
-     *
+     * <p>
      * Note: Comparator must compare car prices in ascending order.
-     *
+     * <p>
      * (Priority Queue is like a regular queue, but each element has a “priority” associated with it.
      * In a priority queue, an element with high priority is served before an element with low priority.
      * For this, it uses a comparison function which imposes a total ordering of the elements.

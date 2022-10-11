@@ -2,7 +2,6 @@ package com.knubisoft.base.queue;
 
 import com.knubisoft.base.queue.car.Car;
 import com.knubisoft.base.queue.car.CarComparator;
-import lombok.SneakyThrows;
 
 import java.util.*;
 
@@ -73,16 +72,16 @@ public class QueueTasksImpl implements QueueTasks {
 
     @Override
     public boolean validParentheses(String parentheses) {
-        Map<Character,Character> brackets = new HashMap<>();
+        Map<Character, Character> brackets = new HashMap<>();
         brackets.put(')', '(');
         brackets.put(']', '[');
         brackets.put('}', '{');
         Deque<Character> stack = new LinkedList<>();
-        for (char c : parentheses.toCharArray()){
-            if (brackets.containsValue(c)){
+        for (char c : parentheses.toCharArray()) {
+            if (brackets.containsValue(c)) {
                 stack.push(c);
-            }else if(brackets.containsKey(c)){
-                if (stack.isEmpty() || stack.pop() != brackets.get(c)){
+            } else if (brackets.containsKey(c)) {
+                if (stack.isEmpty() || stack.pop() != brackets.get(c)) {
                     return false;
                 }
             }

@@ -79,16 +79,16 @@ public class ListTasksTest {
                 () -> instance.getElementsByIndexes(new ArrayList<>(Arrays.asList("Alex", "Bob", "Alica")), null));
         assertThrows(IllegalArgumentException.class,
                 () -> instance.getElementsByIndexes(new ArrayList<>(Arrays.asList("Alex", "Bob", "Alica")),
-                        new int[] {2, Integer.MIN_VALUE}));
+                        new int[]{2, Integer.MIN_VALUE}));
         assertThrows(IllegalArgumentException.class,
                 () -> instance.getElementsByIndexes(new ArrayList<>(Arrays.asList("Alex", "Bob", "Alica")),
-                        new int[] {Integer.MAX_VALUE, -1}));
+                        new int[]{Integer.MAX_VALUE, -1}));
         assertThrows(IllegalArgumentException.class,
                 () -> instance.getElementsByIndexes(new ArrayList<>(Arrays.asList("Alex", "Bob", "Alica")),
-                        new int[] {0, Integer.MAX_VALUE}));
+                        new int[]{0, Integer.MAX_VALUE}));
         assertThrows(IllegalArgumentException.class,
                 () -> instance.getElementsByIndexes(new ArrayList<>(Arrays.asList("Alex", "Bob", "Alica")),
-                        new int[] {Integer.MIN_VALUE, Integer.MAX_VALUE}));
+                        new int[]{Integer.MIN_VALUE, Integer.MAX_VALUE}));
     }
 
     @Test
@@ -134,16 +134,16 @@ public class ListTasksTest {
                 () -> instance.addElementsByIndexes(new ArrayList<>(Arrays.asList("Alex", "Bob", "Alica")), null));
         assertThrows(IllegalArgumentException.class,
                 () -> instance.addElementsByIndexes(new ArrayList<>(Arrays.asList("Alex", "Bob", "Alica")),
-                        new int[] {2, Integer.MIN_VALUE}));
+                        new int[]{2, Integer.MIN_VALUE}));
         assertThrows(IllegalArgumentException.class,
                 () -> instance.addElementsByIndexes(new ArrayList<>(Arrays.asList("Alex", "Bob", "Alica")),
-                        new int[] {Integer.MAX_VALUE, -1}));
+                        new int[]{Integer.MAX_VALUE, -1}));
         assertThrows(IllegalArgumentException.class,
                 () -> instance.addElementsByIndexes(new ArrayList<>(Arrays.asList("Alex", "Bob", "Alica")),
-                        new int[] {0, Integer.MAX_VALUE}));
+                        new int[]{0, Integer.MAX_VALUE}));
         assertThrows(IllegalArgumentException.class,
                 () -> instance.addElementsByIndexes(new ArrayList<>(Arrays.asList("Alex", "Bob", "Alica")),
-                        new int[] {Integer.MIN_VALUE, Integer.MAX_VALUE}));
+                        new int[]{Integer.MIN_VALUE, Integer.MAX_VALUE}));
     }
 
     @Test
@@ -179,16 +179,16 @@ public class ListTasksTest {
                 () -> instance.addElementsByIndexes(new ArrayList<>(Arrays.asList("Alex", "Bob", "Alica")), null));
         assertThrows(IllegalArgumentException.class,
                 () -> instance.addElementsByIndexes(new ArrayList<>(Arrays.asList("Alex", "Bob", "Alica")),
-                        new int[] {2, Integer.MIN_VALUE}));
+                        new int[]{2, Integer.MIN_VALUE}));
         assertThrows(IllegalArgumentException.class,
                 () -> instance.addElementsByIndexes(new ArrayList<>(Arrays.asList("Alex", "Bob", "Alica")),
-                        new int[] {Integer.MAX_VALUE, -1}));
+                        new int[]{Integer.MAX_VALUE, -1}));
         assertThrows(IllegalArgumentException.class,
                 () -> instance.addElementsByIndexes(new ArrayList<>(Arrays.asList("Alex", "Bob", "Alica")),
-                        new int[] {0, Integer.MAX_VALUE}));
+                        new int[]{0, Integer.MAX_VALUE}));
         assertThrows(IllegalArgumentException.class,
                 () -> instance.addElementsByIndexes(new ArrayList<>(Arrays.asList("Alex", "Bob", "Alica")),
-                        new int[] {Integer.MIN_VALUE, Integer.MAX_VALUE}));
+                        new int[]{Integer.MIN_VALUE, Integer.MAX_VALUE}));
     }
 
     @Test
@@ -429,7 +429,7 @@ public class ListTasksTest {
 
     @Test
     public void getLastElementSuccessful() {
-        LinkedList <String> list = new LinkedList<>();
+        LinkedList<String> list = new LinkedList<>();
         list.add("Red");
         list.add("Green");
         list.add("Black");
@@ -444,7 +444,7 @@ public class ListTasksTest {
 
     @Test
     public void getLastElementFail() {
-        LinkedList <String> list = new LinkedList<>();
+        LinkedList<String> list = new LinkedList<>();
         assertEquals("", instance.getLastElement(list));
         assertThrows(NoSuchElementException.class, () -> instance.getLastElement(null));
     }

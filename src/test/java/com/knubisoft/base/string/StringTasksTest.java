@@ -134,13 +134,13 @@ public class StringTasksTest {
     public void removeAllCharactersSuccessful() {
         assertEquals("Lorem ipsum door sit amet, consectetur adipiscing eit, sed do",
                 instance.removeAllCharacters("Lorem ipsum dolor sit amet, consectetur "
-                + "adipiscing elit, sed do", 'l'));
+                        + "adipiscing elit, sed do", 'l'));
         assertEquals("Lorm ipsum dolor sit amt, conscttur adipiscing lit, sd do",
                 instance.removeAllCharacters("Lorem ipsum dolor sit amet, consectetur "
-                + "adipiscing elit, sed do", 'e'));
+                        + "adipiscing elit, sed do", 'e'));
         assertEquals("Loremipsumdolorsitamet,consecteturadipiscingelit,seddo",
                 instance.removeAllCharacters("Lorem ipsum dolor sit amet, consectetur "
-                + "adipiscing elit, sed do", ' '));
+                        + "adipiscing elit, sed do", ' '));
     }
 
     @Test

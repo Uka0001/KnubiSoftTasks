@@ -52,7 +52,7 @@ public class PatternTasksTest {
 
     @Test
     public void matchStartAndEndFail() {
-        assertThrows(IllegalArgumentException.class,() -> instance.matchStartAndEnd(null));
+        assertThrows(IllegalArgumentException.class, () -> instance.matchStartAndEnd(null));
     }
 
     @Test

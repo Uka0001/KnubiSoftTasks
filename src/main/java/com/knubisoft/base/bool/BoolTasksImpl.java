@@ -18,7 +18,7 @@ public class BoolTasksImpl implements BoolTasks {
 
     @Override
     public boolean isTrueUnbox(Boolean value) {
-        if (value.booleanValue()){
+        if (value.booleanValue()) {
             value = true;
         }
         return value;
@@ -26,7 +26,7 @@ public class BoolTasksImpl implements BoolTasks {
 
     @Override
     public Boolean isFalseUnbox(boolean value) {
-        if (!Boolean.getBoolean(String.valueOf(value))){
+        if (!Boolean.getBoolean(String.valueOf(value))) {
         }
         return value;
     }
@@ -37,15 +37,14 @@ public class BoolTasksImpl implements BoolTasks {
             return false;
         } else if (string.isEmpty()) {
             return false;
-        }else {
-            try{
-                if(digit == Integer.parseInt(string)){
+        } else {
+            try {
+                if (digit == Integer.parseInt(string)) {
                     return true;
                 } else {
                     return false;
                 }
-            }
-            catch (NumberFormatException ex){
+            } catch (NumberFormatException ex) {
                 ex.printStackTrace();
             }
         }
@@ -57,12 +56,11 @@ public class BoolTasksImpl implements BoolTasks {
         if (string == null || string.isEmpty() /*string.equals(" ") || string.equals("")*/) {
             return false;
         } else {
-            try{
-                if(digit == Integer.parseInt(string)){
+            try {
+                if (digit == Integer.parseInt(string)) {
                     return true;
                 }
-            }
-            catch (NumberFormatException ex){
+            } catch (NumberFormatException ex) {
                 ex.printStackTrace();
             }
         }
@@ -76,12 +74,12 @@ public class BoolTasksImpl implements BoolTasks {
 
     @Override
     public boolean orComplexFunction(int generatedFirstDigit, double generatedSecondDigit, int generatedThirdDigit, int range) {
-        return generatedFirstDigit == generatedSecondDigit || generatedFirstDigit == generatedThirdDigit || generatedThirdDigit== generatedSecondDigit;
+        return generatedFirstDigit == generatedSecondDigit || generatedFirstDigit == generatedThirdDigit || generatedThirdDigit == generatedSecondDigit;
     }
 
     @Override
     public boolean isSameSizeArray(Object[] firstArray, Object... secondArray) {
-        if (firstArray == null || secondArray == null){
+        if (firstArray == null || secondArray == null) {
             return false;
         } else if (firstArray.length == secondArray.length) {
             return true;
